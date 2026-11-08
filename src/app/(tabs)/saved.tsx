@@ -1,9 +1,9 @@
 import { StyleSheet, Text, View } from "react-native";
 
-export default function Index() {
+export default function Saved() {
   return (
     <View style={styles.container}>
-      <Text>Edit src/app/index.tsx to edit this screen. EDITTED</Text>
+      <Text>Saved TODO</Text>
     </View>
   );
 }
