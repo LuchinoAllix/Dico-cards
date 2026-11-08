@@ -43,4 +43,4 @@ example
 /android
 
 # vscode
-/.vscode
+.vscode/*
