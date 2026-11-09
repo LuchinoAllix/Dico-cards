@@ -1,12 +1,25 @@
+import { Stack, useLocalSearchParams } from "expo-router";
 import { useEffect, useState } from "react";
 import { Pressable, ScrollView, StyleSheet, Text, View } from "react-native";
-import { Stack, useLocalSearchParams } from "expo-router";
+import { isSaved, saveWord, unsaveWord } from "../../db/saved";
 import { getEntry } from "../../db/search";
 import type { DictionaryEntry } from "../../types/dictionary";
 
 export default function WordScreen() {
   const { id } = useLocalSearchParams<{ id: string }>();
   const [entry, setEntry] = useState<DictionaryEntry | undefined>();
+  const [saved, setSaved] = useState(false);
+
+  useEffect(() => {
+    if (id) isSaved(id).then(setSaved);
+  }, [id]);
+
+  async function toggleSaved() {
+    if (!entry) return;
+    if (saved) await unsaveWord(entry.id);
+    else await saveWord(entry);
+    setSaved(!saved);
+  }
 
   useEffect(() => {
     if (id) getEntry(id).then(setEntry);
@@ -25,8 +38,8 @@ export default function WordScreen() {
           <Text style={styles.headword}>{entry.headword}</Text>
           {entry.pronunciation && <Text style={styles.pron}>{entry.pronunciation}</Text>}
         </View>
-        <Pressable style={styles.saveButton} onPress={() => console.log("save", entry.id)}>
-          <Text style={styles.saveText}>Save</Text>
+        <Pressable style={[styles.saveButton, saved && styles.savedButton]} onPress={toggleSaved}>
+          <Text style={styles.saveText}>{saved ? "Saved ✓" : "Save"}</Text>
         </Pressable>
       </View>
 
@@ -61,4 +74,5 @@ const styles = StyleSheet.create({
   definition: { fontSize: 16, marginTop: 6 },
   example: { fontSize: 15, fontStyle: "italic", color: "#555", marginTop: 6 },
   hint: { textAlign: "center", marginTop: 24, color: "#888" },
+  savedButton: { backgroundColor: "#16a34a" },
 });
