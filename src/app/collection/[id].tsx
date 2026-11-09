@@ -3,9 +3,10 @@ import { FlatList, Pressable, StyleSheet, Text } from "react-native";
 import { Stack, useFocusEffect, useLocalSearchParams, useRouter } from "expo-router";
 import { getRecentWords, getSavedWords, type SavedWord } from "../../db/saved";
 import { getCollection, getWordsInCollection } from "../../db/collections";
+import { getRecentDays } from "../../db/settings";
 
 async function load(id: string): Promise<{ title: string; words: SavedWord[] }> {
-  if (id === "recent") return { title: "Recent", words: await getRecentWords(7) }; // step 5 replaces the 7
+  if (id === "recent") return { title: "Recent", words: await getRecentWords(await getRecentDays()) };
   if (id === "all") return { title: "All saved words", words: await getSavedWords() };
   const collectionId = Number(id);
   const collection = await getCollection(collectionId);
