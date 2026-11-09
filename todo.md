@@ -7,3 +7,4 @@
 - add english dict
 - add italian dict
 - home page setup
+- readme and organise the repo
