@@ -44,3 +44,6 @@ example
 
 # vscode
 .vscode/*
+
+# raw dictionaries
+raw/*

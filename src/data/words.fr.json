@@ -1,0 +1,2893 @@
+[
+  {
+    "id": "fr:accueil",
+    "headword": "accueil",
+    "language": "fr",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "Cérémonie ou prestation réservée à un nouvel arrivant, consistant généralement à lui souhaiter la bienvenue et à l’aider dans son intégration ou ses démarches.",
+          "Lieu où sont accueillies les personnes.",
+          "Fait d’accueillir ou héberger.",
+          "Page d’accès ou d’accueil (lieu ci-dessus) à un site web.",
+          "Manière dont une œuvre a été acceptée lors de sa sortie par le public et les critiques."
+        ],
+        "examples": [
+          "Nous réservâmes aux nouveaux venus un accueil qui fut cordial et empressé, mais le temps n’était pas aux effusions et d’un commun avis, il fallait agir vite.",
+          "Partout elle avait trouvé bon accueil, prompt assentiment, mais elle se propose d’aller plus outre.",
+          "Notre hôte, absent au moment de notre arrivée, ne tarde pas à paraître et me fait l’accueil auquel je m'attendais de sa part."
+        ]
+      }
+    ],
+    "pronunciation": "\\a.kœj\\"
+  },
+  {
+    "id": "fr:lire",
+    "headword": "lire",
+    "language": "fr",
+    "meanings": [
+      {
+        "partOfSpeech": "verb",
+        "definitions": [
+          "Interpréter des informations écrites sous forme de mots ou de dessins sur un support.",
+          "Suivre des yeux ce qui est écrit ou imprimé, avec la connaissance des sons que les lettres figurent ; soit en ne proférant pas les mots, soit en les proférant à haute voix.",
+          "Prendre connaissance et comprendre un texte écrit.",
+          "Comprendre ce qui est écrit ou imprimé dans une langue étrangère.",
+          "Parcourir des yeux une musique notée, avec la connaissance des sons que les notes figurent et des diverses modifications que ces sons doivent recevoir.",
+          "Prononcer à haute voix, avec l’intonation voulue, ce qui est écrit ou imprimé.",
+          "S’instruire, s’amuser, s’informer, etc. par la lecture.",
+          "Se dit encore en parlant de quelque livre qu’un professeur explique ou fait expliquer à ses auditeurs et qu’il prend pour sujet des leçons qu’il leur donne.",
+          "Comprendre par l'observation un sens caché qui est au-delà des apparences.",
+          "Lancer un fichier vidéo ou audio pour le regarder ou l’écouter."
+        ],
+        "examples": [
+          "On lit ce livre absolument comme au bord de la cascade on entendrait, rêveur, le gazouillement des eaux.",
+          "Ceux qui ne savent pas lire connaissent au moins certaines lettres qui les guident, ou, s’ils ne les connaissent pas, ils en remarquent la forme et l’arrangement avec la sûreté d’observation qui aide le sauvage à retrouver sa direction dans la forêt vierge.",
+          "[…] ; je me souviens d’avoir lu autrefois, dans un manuel de Paul Bert, que le principe fondamental de la morale s’appuie sur les enseignements de Zoroastre et sur la Constitution de l’an III ; […]."
+        ]
+      },
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "Monnaie utilisée en Italie avant l’usage de l’euro. Son symbole est ₤ (Unicode U+20A4).",
+          "Monnaie de la Turquie."
+        ],
+        "examples": [
+          "Un euro vaut environ 1936 lires."
+        ]
+      }
+    ],
+    "pronunciation": "\\liʁ\\"
+  },
+  {
+    "id": "fr:encyclopédie",
+    "headword": "encyclopédie",
+    "language": "fr",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "Ensemble, enchaînement de toutes les connaissances.",
+          "Ouvrage où l'on tente de traiter exhaustivement de l’ensemble du savoir.",
+          "Ouvrage qui traite systématiquement d’un ou plusieurs domaines des connaissances.",
+          "Personne semblant posséder un savoir universel, adepte du savoir encyclopédique."
+        ],
+        "examples": [
+          "L’Encyclopédie aristotélicienne apparut comme la somme de connaissances humaines auxquelles l’esprit humain peut accéder par ses propres forces.",
+          "Il est impossible qu’un seul homme possède l’encyclopédie du savoir humain.",
+          "ENCYCLOPÉDIE, s.f. (Philosophie). Ce mot signifie « enchaînement de connaissances »."
+        ]
+      }
+    ],
+    "pronunciation": "\\ɑ̃.si.klɔ.pe.di\\"
+  },
+  {
+    "id": "fr:manga",
+    "headword": "manga",
+    "language": "fr",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "Bande dessinée japonaise, souvent en noir et blanc.",
+          "Style, stéréotypes et règles implicites de la bande dessinée japonaise.",
+          "Dessin animé japonais ; anime."
+        ],
+        "examples": [
+          "Les illustrateurs de l’atelier rémois 510 TTC choisis par l’agence de publicité se sont fait connaître en travaillant notamment sur les aventures du jeune héros Akira, de Katsuhiro Otomo, l’un des premiers mangas (avec Dragon Ball) à entrer en Europe en 1989.",
+          "Certaines caractéristiques du manga proviennent de l’influence des films de Walt Disney sur Osamu Tezuka.",
+          "En ce moment, je lis des mangas de Taniguchi, un génie qui m’apprend beaucoup de choses sur les hommes."
+        ]
+      }
+    ],
+    "pronunciation": "\\mɑ̃.ɡa\\"
+  },
+  {
+    "id": "fr:ouvrage",
+    "headword": "ouvrage",
+    "language": "fr",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "Travail ; action de travailler.",
+          "Résultat d’un travail, comme ce qui est produit par l’ouvrier.",
+          "Résultat, généralement d'une action.",
+          "Objet auquel les femmes travaillent à l’aiguille.",
+          "Production de l’esprit.",
+          "Recueil, livre qui contient ces productions de l’esprit.",
+          "Toute sorte de travaux avancés au-dehors d’une place et destinés à la fortifier.",
+          "Construction."
+        ],
+        "examples": [
+          "Le sophisme que je combats dans cet écrit est d’autant plus dangereux, appliqué aux travaux publics, qu’il sert à justifier les entreprises et les prodigalités les plus folles. Quand un chemin de fer ou un pont ont une utilité réelle, il suffit d’invoquer cette utilité. Mais si on ne le peut, que fait-on ? On a recours à cette mystification : « Il faut procurer de l’ouvrage aux ouvriers. »",
+          "Deux ouvrages quotidiens désagréables sont déjà en train de disparaître.",
+          "Ça donne de l’ouvrage\nÀ tous les ouvriers\nEt chacun envisage\nDe fonder un foyer"
+        ]
+      }
+    ],
+    "pronunciation": "\\u.vʁaʒ\\"
+  },
+  {
+    "id": "fr:siège",
+    "headword": "siège",
+    "language": "fr",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "Meuble utilisé pour s’asseoir.",
+          "Partie du corps sur laquelle on s’assied.",
+          "Place où le juge s’assied pour rendre la justice.",
+          "Lieu où l’on rendait la justice, dans les juridictions subalternes.",
+          "Corps et juridiction des juges subalternes.",
+          "Décision de justice.",
+          "Place (position) pour un représentant, obtenant généralement son mandat suite à une élection.",
+          "Endroit où est établi quelqu’un ou quelque chose.",
+          "Lieu où se réunit la direction d’un gouvernement, d’une administration, d’une entreprise, etc.",
+          "Un évêché et sa juridiction. — → voir Saint-Siège.",
+          "Lieu où certaines choses résident principalement ; lieu où elles dominent.",
+          "Action consistant à bloquer son adversaire dans son propre camp et attendre qu’il manque de ressources."
+        ],
+        "examples": [
+          "Sur deux sièges contigus sont assis Fulk Ephrinell et miss Horatia Bluett. Ils causent en crayonnant des chiffres.",
+          "Il prit un siège, alluma une cigarette et accepta sans se faire prier un verre de vin de messe.",
+          "Bain de siège."
+        ]
+      }
+    ],
+    "pronunciation": "\\sjɛʒ\\"
+  },
+  {
+    "id": "fr:chaise",
+    "headword": "chaise",
+    "language": "fr",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "Siège avec dossier, sans accoudoirs.",
+          "Chaise percée.",
+          "Stalle, fauteuil, etc.",
+          "Fonction.",
+          "Assemblage de quatre fortes pièces de charpente sur lequel on établit la cage d’un clocher, d’un campanile, d’un moulin à vent.",
+          "Dispositif en bois servant à exhausser une chèvre, une grue.",
+          "Support métallique scellé, fixé dans la maçonnerie et destiné à recevoir des câbles, des tuyaux ou des gaines.",
+          "Voiture petite et légère, tirée par des chevaux ou portée par des porteurs.",
+          "Exercice consistant à s'adosser contre un mur, les jambes fléchies à 90°, pendant plusieurs secondes."
+        ],
+        "examples": [
+          "Elle s’assit sur une chaise, lourdement.",
+          "Autour de ce poêle se trouvaient un vieillard sur une chaise et, sur des escabeaux, trois individus pensifs et mal vêtus.",
+          "Puis, il se renversa sur sa chaise, épanoui, les prunelles chargées de jubilation, le ventre ballotté de remous."
+        ]
+      }
+    ],
+    "pronunciation": "\\ʃɛz\\"
+  },
+  {
+    "id": "fr:fauteuil",
+    "headword": "fauteuil",
+    "language": "fr",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "Siège comportant des accotoirs, et un dossier.",
+          "Siège pour permettre le déplacement de malades ou de personnes handicapées.",
+          "Place à l’Académie française.",
+          "Le siège du président dans une assemblée ou, figurément, la présidence."
+        ],
+        "examples": [
+          "Un fauteuil est là ; j’y tombe ; tout devient plus tranquille et plus doux.",
+          "Et quand je m'approchai du fauteuil de grand’mère pour lui baiser la main, elle se détourna et cacha sa main sous son mantelet.",
+          "L’ameublement était sommaire : un bureau, un fauteuil de cuir, des classeurs métalliques, deux petites tables dont l’une supportait une presse à copier."
+        ]
+      }
+    ],
+    "pronunciation": "\\fo.tœj\\"
+  },
+  {
+    "id": "fr:meuble",
+    "headword": "meuble",
+    "language": "fr",
+    "meanings": [
+      {
+        "partOfSpeech": "adj",
+        "definitions": [
+          "Mobile, que l’on peut déplacer, mouvoir.",
+          "Qui est mou, malléable."
+        ],
+        "examples": [
+          "Biens meubles, ceux qui peuvent se transporter d'un lieu dans un autre sans détérioration.",
+          "Le titre I. du Livre II. du Code Civil traite de la distinction entre les biens meubles et immeubles.",
+          "L’argent comptant, les bijoux, les pierreries, la vaisselle d’argent sont regardés comme des biens meubles."
+        ]
+      },
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "Objet qui garnit, qui orne une chambre, un appartement, une maison; surtout un objet d'une taille assez importante qui sert une fonction, tel un lit, un canapé, une table, etc.",
+          "Toute la garniture d’un appartement, d’une chambre, d’un cabinet, etc., comme tapisseries, lits, sièges, etc., principalement lorsqu’elle est assortie pour les formes et pour les couleurs.",
+          "Bien qui n'est pas immobilier.",
+          "Figure diverse (objet, végétal, animal, humain, monstre…) ajoutée sur les émaux et les métaux du champ de l’écu, s’opposant aux pièces (figures géométriques).",
+          "Figure diverse ajoutée sur le fond d’un drapeau."
+        ],
+        "examples": [
+          "Le Curé, en mourant, devait laisser à son successeur, un lit garni, un pot de cuivre, un crémail, quelques petits meubles de bois et une poêle à frire.",
+          "Sa maison était propre, bien tenue ; elle tranchait avec la blancheur gaie de sa façade et le luisant de ses meubles, sur les taudis immondes où, d’ordinaire, croupissent dans la fange et dans la vermine, les marins bretons.",
+          "Les meubles étaient les gardiens de la mémoire, nos dieux lares sculptés, nos anges gardiens chantournés.\nIls enfermaient nos draps, où subsistait la forme de notre corps. Ils rassemblaient les objets, témoins de notre vie."
+        ]
+      }
+    ],
+    "pronunciation": "\\mœbl\\"
+  },
+  {
+    "id": "fr:mardi",
+    "headword": "mardi",
+    "language": "fr",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "Deuxième jour de la semaine, qui suit le lundi et précède le mercredi."
+        ],
+        "examples": [
+          "Avant-hier, j’ai fait un grand voyage. Je suis parti à trente kilomètres de Vézelay – où je passe le plus clair de mon temps cet été – dans la ville de Corbigny (Nièvre). On m’avait dit que tous les deuxième mardi du mois se tenait une foire aux bestiaux."
+        ]
+      },
+      {
+        "partOfSpeech": "adv",
+        "definitions": [
+          "Le jour du mardi. Note d’usage : Peut être suivi de matin, soir ou une date sans article."
+        ],
+        "examples": [
+          "Je pars mardi."
+        ]
+      }
+    ],
+    "pronunciation": "\\maʁ.di\\"
+  },
+  {
+    "id": "fr:lundi",
+    "headword": "lundi",
+    "language": "fr",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "Premier jour de la semaine de travail. Suit le dimanche et précède le mardi."
+        ],
+        "examples": [
+          "Le lundi, dix-huitième jour du mois d’août 1572, il y avait grande fête au Louvre.",
+          "Invité de BFMTV, Geoffroy Roux de Bézieux a dénoncé une « explosion des arrêts de travail de courte durée, notamment les vendredis et les lundis ».",
+          "Le lundi vint, le lundi timide, qui s’excuse en montrant derrière lui les jours innombrables qui le poussent."
+        ]
+      },
+      {
+        "partOfSpeech": "adv",
+        "definitions": [
+          "Le jour du lundi. Note d’usage : Peut être suivi de matin, soir ou une date sans article."
+        ],
+        "examples": [
+          "Lundi, je vais à la pêche."
+        ]
+      }
+    ],
+    "pronunciation": "\\lœ̃.di\\"
+  },
+  {
+    "id": "fr:semaine",
+    "headword": "semaine",
+    "language": "fr",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "Séquence constituée des sept jours : lundi, mardi, mercredi, jeudi, vendredi, samedi et dimanche. Chaque date a un seul jour de la semaine dans cet ordre, mais le commencement de la semaine dépend de la tradition locale.",
+          "Une tranche de sept jours à partir de la date courante (semaine flottante).",
+          "Période de cinq jours travaillés (du lundi au vendredi) au sein des sept jours de la semaine, par opposition à la fin de semaine (ou week-end).",
+          "Temps légal de travail pendant une semaine.",
+          "Salaire obtenu au bout d’une semaine de travail.",
+          "Durée d’une campagne publicitaire.",
+          "Ensemble de sept objets de même nature.",
+          "Période de menstruation, règles.",
+          "Espèce de conciergerie assurée par une permanence à tour de rôle des sous-officiers et des hommes de troupe et qui dure une semaine."
+        ],
+        "examples": [
+          "Selon la Bible, la semaine commence le dimanche et se termine le jour du sabbat.",
+          "Une année comporte cinquante-deux semaines et un jour.",
+          "« Ils arrivent le lundi chez nous et ils restent jusqu'au fond de la semaine. »"
+        ]
+      }
+    ],
+    "pronunciation": "\\sə.mɛn\\"
+  },
+  {
+    "id": "fr:militaire",
+    "headword": "militaire",
+    "language": "fr",
+    "meanings": [
+      {
+        "partOfSpeech": "adj",
+        "definitions": [
+          "Qui concerne la guerre ou les armées.",
+          "Destiné à l’usage des troupes.",
+          "Autoritaire ; discipliné."
+        ],
+        "examples": [
+          "La dernière grande guerre qu’avait soutenue l’Angleterre, la guerre contre les Boers, était oubliée, et le public avait perdu l’habitude de la critique militaire experte.",
+          "Acceptons que le courage militaire demeure l’apanage d’une caste enfantine et bruyante, et ne se répande pas, comme l’a fait la Légion d’honneur, son insigne, parmi les professeurs, les contrôleurs, les peintres...",
+          "Un adolescent est retiré de la file. Juste avant qu’une forte détonation venue d’une tour militaire l’envoie bouler sur l’asphalte, la tête broyée par une balle de mitrailleuse."
+        ]
+      },
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "Personne membre d’une armée."
+        ],
+        "examples": [
+          "Je connais les militaires, ma Julie ; j’ai vécu aux armées. Il est rare que le cœur de ces gens-là puisse triompher des habitudes produites ou par les malheurs au sein desquels ils vivent, ou par les hasards de leur vie aventurière.",
+          "Après l’armée des incendiaires, l’armée des voleurs ! Il n’y a pas ici de corps spéciaux. Tout le monde, par le fait qu’il est militaire, fait partie de la grande organisation de pillage.",
+          "Les charmes quelque peu fanés de la descendante des Pignon-Mouillet n’étaient plus tels qu’ils attirassent encore irrésistiblement le mâle impétueux qu’était resté le vieux militaire."
+        ]
+      }
+    ],
+    "pronunciation": "\\mi.li.tɛʁ\\"
+  },
+  {
+    "id": "fr:barbe à papa",
+    "headword": "barbe à papa",
+    "language": "fr",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "Confiserie que l’on trouve en général dans les fêtes foraines, composée de sucre chauffé et étiré jusqu’à former des fils, enroulés ensuite autour d’une baguette."
+        ],
+        "examples": [
+          "Manèges à sensations, chenille, tir à la carabine, et autres pêches aux canards se côtoient pour le plus grand bonheur de milliers de visiteurs venus en masse participer à cette fabuleuse fête où les cris de joie et de peur se mêlent aux odeurs alléchantes des barbes à papa et pommes d'amour.",
+          "Au Luxembourg, elle s’écœura de barbe à papa.",
+          "Je me souviens que l’un d’eux a souri, il trouvait amusant qu’un clown soit allergique à la barbe à papa."
+        ]
+      }
+    ],
+    "pronunciation": "\\baʁ.b‿a pa.pa\\"
+  },
+  {
+    "id": "fr:manchot",
+    "headword": "manchot",
+    "language": "fr",
+    "meanings": [
+      {
+        "partOfSpeech": "adj",
+        "definitions": [
+          "Qui est estropié ou privé de la main ou du bras.",
+          "Se dit de quelqu’un qui est maladroit."
+        ],
+        "examples": [
+          "Il est manchot de la main droite.",
+          "Qu’on me rende impotent,\nCul-de-jatte, goutteux, manchot, pourvu qu’en somme\nJe vive, c’est assez, je suis plus que content.",
+          "Marcelle. — Qu’est-ce que vous voulez ?… on ne peut pas demander à un manchot de jouer du violon."
+        ]
+      },
+      {
+        "partOfSpeech": "adj",
+        "definitions": [
+          "Relatif au département de la Manche ou à ses habitants."
+        ],
+        "examples": [
+          "En cette curieuse région du Cotentin, toute bruissante des verdoyantes ramées, où chaque chaumière se tapit mystérieusement au détour d’une cache, où chaque lopin s’embroussaille de genêt, de houx et d’épine, ou se clôt de murets de pierres sèches, symboles du droit de possession — et du goût du repli — les vieilles légendes s’étaient fidèlement transmises au coin de l’âtre, hiver après hiver. Les goubelins, ces farfadets manchots, l’y disputaient aux fées bénéfiques, comme celle du bois du Rabey."
+        ]
+      },
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "Personne à qui il manque un ou les deux bras.",
+          "Nom donné par les amateurs de rugby aux footballeurs et aux supporters de football."
+        ],
+        "examples": [
+          "Nous connaissons sur le pont de Stamboul toutes les échoppes, tous les passants, même tous les mendiants, la collection complète des estropiés, aveugles, manchots, becs-de-lièvre et culs-de-jatte.",
+          "Ils se sont tous regroupés là […]. Un manchot, en blouson de cuir, narre son tour du monde à cheval sur le dos d'une fourmi.",
+          "Tout le monde me montre au doigt\nSauf les manchots, ça va de soi."
+        ]
+      },
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "Oiseau palmipède marin de l’hémisphère sud, notamment de l’Antarctique, très bon nageur, aux petites pattes et aux ailes atrophiées mais de forme hydrodynamique leur conférant les propriétés de nageoires puissantes, appartenant, avec les gorfous, à l'ordre des sphénisciformes.",
+          "Pingouin."
+        ],
+        "examples": [
+          "Les habitants passent souvent plusieurs mois sans recevoir aucune nouvelle de l'Islande […] Ils ont pour unique ressource la pêche et la chasse aux manchots ; ces singuliers palmipèdes nichent par myriades dans les fentes des rochers ; les insulaires troquent leurs plumes contre les objets de première nécessité , et ils se nourrissent de leur chair."
+        ]
+      }
+    ],
+    "pronunciation": "\\mɑ̃.ʃo\\"
+  },
+  {
+    "id": "fr:pingouin",
+    "headword": "pingouin",
+    "language": "fr",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "Oiseau palmipède piscivore membre de la famille des alcidés des océans de l’hémisphère nord.",
+          "Manchot.",
+          "Individu qu’on ne prend pas au sérieux, zigoto.",
+          "Individu habillé en costume-cravate noir et blanc, l'uniforme type de l'employé de bureau."
+        ],
+        "examples": [
+          "Le pingouin utilise ses ailes comme des nageoires pour pêcher sa nourriture. Contrairement au manchot, le pingouin est capable de voler.",
+          "En utilisant des numériseurs au laser pour réaliser la reconstitution de ces animaux, les chercheurs estiment que le poids de ces pingouins pouvait atteindre 154 kilogrammes.",
+          "Sinon, tous les jours sauf le dimanche, il s'habillait en pingouin, chemise blanche, costard et tout. Ça montre que son métier était extrêmement impressionnant, je veux dire, le type de boulot où vous partez en tenue de pingouin tous les matins et personne ne pige ce que vous foutez, forcément c'est un métier du tonnerre avec vachement de pain sur la banquise."
+        ]
+      }
+    ],
+    "pronunciation": "\\pɛ̃.ɡwɛ̃\\"
+  },
+  {
+    "id": "fr:mercredi",
+    "headword": "mercredi",
+    "language": "fr",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "Troisième jour de la semaine. Suit le mardi et précède le jeudi"
+        ],
+        "examples": [
+          "Solar Project aux mercredis saujonnais",
+          "Hier matin, vous n'êtes pas allé marcher avec le club, comme tous les mercredis. Comme par hasard, c'est le jour où votre voisin se fait assassiner. Il insista lourdement sur ce dernier mot.",
+          "La travailleuse a dû être transportée à l’hôpital de Kelowna, où elle se trouvait toujours mercredi."
+        ]
+      },
+      {
+        "partOfSpeech": "adv",
+        "definitions": [
+          "Le jour du mercredi. Note d’usage : Peut être suivi de matin, soir ou une date sans article."
+        ],
+        "examples": [
+          "Je pars mercredi."
+        ]
+      },
+      {
+        "partOfSpeech": "intj",
+        "definitions": [
+          "Se dit parfois afin de ne pas dire le juron merde."
+        ],
+        "examples": [
+          "Mer…credi !",
+          "Je ne savais pas que dans un autre langage cette joie de vivre se nomme brutalité, éducation vulgaire. Que la bonne, pour les petites filles, consiste à ne pas hurler comme une marchande de poisson, à dire zut ou mercredi, à ne pas traîner dans la rue."
+        ]
+      }
+    ],
+    "pronunciation": "\\mɛʁ.kʁə.di\\"
+  },
+  {
+    "id": "fr:bande dessinée",
+    "headword": "bande dessinée",
+    "language": "fr",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "Œuvre utilisant des images fixes non purement photographiques, généralement des dessins, articulées dans une visée narrative.",
+          "L’album contenant une bande dessinée."
+        ],
+        "examples": [
+          "C'est sous la forme d'une bande dessinée de Jean-Louis Tripp que la ville de Moissy-Cramayel a choisi de faire connaître au public les nouveaux locaux de sa médiathèque.",
+          "Quand tu l’auras finie, tu pourras me prêter ta bande dessinée ?",
+          "Le monde de la bande dessinée est bien plus cruel qu'il n'y paraît : un nombre hallucinant d'albums afflue dans les bouclards chaque mois, et bien rares sont les titres qui parviennent à s'imposer."
+        ]
+      }
+    ],
+    "pronunciation": "\\bɑ̃d dɛ.si.ne\\"
+  },
+  {
+    "id": "fr:oiseau",
+    "headword": "oiseau",
+    "language": "fr",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "Animal vertébré théropode, à deux pattes et deux ailes, ovipare, homéotherme, au corps couvert de plumes et qui possède un bec corné dépourvu de dents.",
+          "Oiseau de proie.",
+          "Individu extravagant.",
+          "Exercice de tir où l’on abat d’un coup de fusil ou d’un coup de flèche la figure d’un oiseau attachée au haut d’une perche.",
+          "Avion.",
+          "Organe sexuel mâle, pénis",
+          "Sorte de hotte dont les manœuvres se servent pour porter le mortier sur leurs épaules.",
+          "Oiseau de Limousin : Assemblage de planches à angle droit, munies de deux manches que l’on passe sur les épaules, et qui servait autrefois aux maçons à porter des matériaux."
+        ],
+        "examples": [
+          "Après une autre étape de quatre heures, atteignons Souk El-Arbâ (le marché du mercredi), dans un cirque rocheux où les pluies ont formé de nombreux étangs regorgeant d’oiseaux aquatiques : canards, poules d'eau, bécassines, hérons, etc.",
+          "Un ramier s’échappait des cimes, de petits oiseaux gazouillaient une timide chanson d’automne.",
+          "Aristophane fait des oiseaux un monde à part et indifférent, mais supérieur à l’humanité."
+        ]
+      }
+    ],
+    "pronunciation": "\\wa.zo\\"
+  },
+  {
+    "id": "fr:allemand",
+    "headword": "allemand",
+    "language": "fr",
+    "meanings": [
+      {
+        "partOfSpeech": "adj",
+        "definitions": [
+          "Relatif à l’Allemagne ; originaire d’Allemagne.",
+          "Relatif à l’allemand, la langue allemande."
+        ],
+        "examples": [
+          "On entendait vers Noisseville des hourras et des accents lointains d’une musique allemande.",
+          "Ne sont éligibles que les personnes de nationalité allemande et qui sont majeures.",
+          "En septembre de la même année, Ange avait intégré l’équipe spéciale interrégionale basée à Montpellier, une unité chargée — entre autres — d’éliminer officiers allemands et collaborateurs français."
+        ]
+      },
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "Langue parlée en Allemagne, en Autriche, en Suisse, au Liechtenstein, au Luxembourg et en Belgique (Cantons de l’Est)."
+        ],
+        "examples": [
+          "Othon crut que sa vue le trompait, il avait sous les yeux des personnages qui semblaient par leurs habitudes avoir appartenu à une génération disparue depuis plus d’un siècle, et qui parlaient l’allemand du temps de Karl le Chauve.",
+          "La nécessité de pousser aussi loin que possible mes études d’exégèse et de philologie sémitique m’obligea d’apprendre l’allemand. Je n’avais à cet égard aucune préparation ; à Saint-Nicolas, mon éducation avait été toute latine et française. Je ne m’en plains pas.",
+          "Je me décide à leur parler allemand : pour qu’ils comprennent mieux, j’emploie mon haut allemand le plus clair, la langue officielle des théâtres de Meiningen et de Weimar, le hanovrien saccadé des auteurs juifs qui déclament les traductions de Verlaine."
+        ]
+      }
+    ],
+    "pronunciation": "\\al.mɑ̃\\"
+  },
+  {
+    "id": "fr:Allemande",
+    "headword": "Allemande",
+    "language": "fr",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "Habitante de l’Allemagne."
+        ],
+        "examples": [
+          "Madame Théodora-Marguerite-Wilhemine Adolphus (de la maison Adolphus et compagnie de Mannheim), veuve du baron d’Aldriger, n’était pas une bonne grosse Allemande, compacte et réfléchie, blanche à visage doré comme la mousse d’un pot de bière, enrichie de toutes les vertus patriarcales que la Germanie possède, romancièrement parlant.",
+          "Je n’ai pas de vêtements d’hiver, ils sont à Paris, dont les Prussiens ont maintenant la clef. Je me commande ici une robe qui fera peut-être son temps sur les épaules d’une Allemande, car ils volent aussi des vêtements et des chaussures pour leurs femmes, ces parfaits militaires !",
+          "Donc la petite Allemande avait des liaisons multiples, et plus encore, elle partouzait."
+        ]
+      }
+    ],
+    "pronunciation": "\\al.mɑ̃d\\"
+  },
+  {
+    "id": "fr:jeudi",
+    "headword": "jeudi",
+    "language": "fr",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "Quatrième jour de la semaine. Suit le mercredi et précède le vendredi."
+        ],
+        "examples": [
+          "C’était jeudi. C’était un jour amorphe et neutre, glissé entre les deux parties de la semaine comme un État tampon entre deux nations jalouses. On y peut rire et médire sans châtiment. C’était aussi le jour où Dieu créa les animaux, et tous, fiers de leur anniversaire, s’amusaient à confondre, ainsi qu’au Paradis, leurs habitudes.",
+          "Il n'y avait plus qu'a faucher le blé noir, arracher les pommes de terre et gauler noix et châtaignes ; de ceci les gamins se chargeaient le jeudi et le dimanche, pour se distraire.",
+          "Lors d’un point presse jeudi, Météo-France a reconnu avoir été « surprise par les valeurs des rafales », « tout à fait exceptionnelles ». Les plus fortes ont été enregistrées à Marignana (225 km/h), à L’Île-Rousse (206 km/h) et à Calvi (197 km/h)"
+        ]
+      },
+      {
+        "partOfSpeech": "adv",
+        "definitions": [
+          "Le jour du jeudi. Note d’usage : Peut être suivi de matin, soir ou une date sans article."
+        ],
+        "examples": [
+          "Je pars jeudi."
+        ]
+      }
+    ],
+    "pronunciation": "\\ʒø.di\\"
+  },
+  {
+    "id": "fr:vendredi",
+    "headword": "vendredi",
+    "language": "fr",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "Cinquième jour (selon la norme norme internationale ISO 8601) de la semaine ; qui suit le jeudi et précède le samedi."
+        ],
+        "examples": [
+          "C'était un vendredi soir. « Vendredi, bon commencement », dit le proverbe polonais; mon cocher allemand, un colon du village de Mariahilf, prétendait au contraire que le vendredi était un jour de malheur, Notre-Seigneur étant mort ce jour-là sur la croix.",
+          "Les études révèlent un risque d’écrêtement du trafic ferroviaire dès 2025, lorsque la demande est la plus critique, c’est à dire le vendredi soir à l’heure de pointe.",
+          "Privé de fête durant deux ans en raison de la crise sanitaire, hélas encore bien présente aujourd’hui, l’Ehpad Les Jardins d’Iroise de Cozes organisait vendredi 1ᵉʳ juillet dernier, sa traditionnelle garden-party, en plein air dans les jardins de l’établissement."
+        ]
+      },
+      {
+        "partOfSpeech": "adv",
+        "definitions": [
+          "Le jour du vendredi. Note d’usage : Peut être suivi de matin, soir ou une date sans article."
+        ],
+        "examples": [
+          "Je pars vendredi."
+        ]
+      }
+    ],
+    "pronunciation": "\\vɑ̃.dʁə.di\\"
+  },
+  {
+    "id": "fr:ailé",
+    "headword": "ailé",
+    "language": "fr",
+    "meanings": [
+      {
+        "partOfSpeech": "adj",
+        "definitions": [
+          "Qui possède des ailes.",
+          "Se dit d’un organe d’une plante qui porte des appendices ayant la forme d’ailes.",
+          "Léger, rapide, comme s’il volait.",
+          "Se dit d’un meuble auquel on a ajouté des ailes ordinairement absentes ou dont on souhaite préciser l’émail"
+        ],
+        "examples": [
+          "J’ai vu des poissons ailés lors de mon voyage.",
+          "Des fourmis ailées nous volent autour.",
+          "Suivant les poètes, Pégase est un cheval ailé."
+        ]
+      }
+    ],
+    "pronunciation": "\\ɛ.le\\"
+  },
+  {
+    "id": "fr:voler",
+    "headword": "voler",
+    "language": "fr",
+    "meanings": [
+      {
+        "partOfSpeech": "verb",
+        "definitions": [
+          "Se maintenir dans les airs en battant des ailes.",
+          "Se mouvoir dans l’air, en parlant des aéronefs.",
+          "Piloter un avion.",
+          "Se mouvoir dans l’air avec une grande vitesse.",
+          "Envoyer en l’air.",
+          "Courir avec une grande vitesse."
+        ],
+        "examples": [
+          "Il est vrai que les hannetons et les chauves-souris, par exemple, ont une façon de voler qui nous semble déraisonnable ; mais elle ne le semble ainsi qu’à nous autres dont ce n’est pas la fonction de voler.",
+          "En avril 1872, les mouches de la Saint-Marc envahirent Paris et sa région. Elles volaient en abondance et venaient s’abattre sur les passants.",
+          "Ils virent d’étranges aéronats qui volaient vers l’est, dans la direction des Açores."
+        ]
+      },
+      {
+        "partOfSpeech": "verb",
+        "definitions": [
+          "S’approprier le bien d’autrui ; prendre quelque chose à quelqu’un sans son accord ; dérober.",
+          "Prendre à l’improviste, sans que la personne concernée donne son consentement à l’action effectuée.",
+          "Plagier.",
+          "Usurper.",
+          "Ne pas mériter un désagrément qui survient, une sanction infligée ou, au contraire, une récompense reçue. Généralement en négation.",
+          "Léser sciemment une personne dans ses intérêts pécuniaires, en prenant un bénéfice excessif ou en ne lui donnant pas tout ce qui lui est dû, escroquer ; gruger ; tondre.",
+          "Poursuivre en volant, chasser d’autres oiseaux ou du gibier."
+        ],
+        "examples": [
+          "Sans rien dire, je découvris ma boîte de biscuit, et je constatai la disparition de plusieurs galettes… Mon factotum n'avait pu résister à la tentation et m'en avait volé cinq ou six.",
+          "Il s’en alla ; puis il rouvrit la porte, et dit encore d’une voix impérieuse :\n— Surtout, défiez-vous d’Aristide, c’est un brouillon qui gâterait tout. Je l’ai assez étudié pour être certain qu’il retombera toujours sur ses pieds. Ne vous apitoyez pas ; car, si nous faisons fortune, il saura nous voler sa part.",
+          "Surprenant un homme qui volait la ration d’un camarade, il l’invectiva et le frappa à la face."
+        ]
+      }
+    ],
+    "pronunciation": "\\vɔ.le\\"
+  },
+  {
+    "id": "fr:fly",
+    "headword": "fly",
+    "language": "fr",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "Braguette.",
+          "Apocope de flycase, mallette ou valise rigide à l'intérieur rembourré permettant de transporter du matériel fragile en sécurité."
+        ],
+        "examples": [
+          "Ta fly est dézippée, tu dois trente sous au curé !"
+        ]
+      }
+    ],
+    "pronunciation": "\\flaj\\"
+  },
+  {
+    "id": "fr:ovipare",
+    "headword": "ovipare",
+    "language": "fr",
+    "meanings": [
+      {
+        "partOfSpeech": "adj",
+        "definitions": [
+          "Qui pond des œufs."
+        ],
+        "examples": [
+          "La poule est un animal ovipare.",
+          "La plupart des poissons sont ovipares."
+        ]
+      },
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "Animal ovipare."
+        ],
+        "examples": [
+          "Plus un ovipare fait d’œufs, meilleures sont ses chances de se reproduire.",
+          "Et, téméraires que vous êtes, vous venez nous parler des femmes, absolument comme vous pourriez parler, si la faim vous avait faits naturalistes, de testacés, de mammifères, d’ovipares ou de fossiles !"
+        ]
+      }
+    ],
+    "pronunciation": "\\ɔ.vi.paʁ\\"
+  },
+  {
+    "id": "fr:poisson",
+    "headword": "poisson",
+    "language": "fr",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "Animal possédant un squelette, généralement ovipare (mais parfois ovovivipare ou vivipare), vivant dans l’eau, et respirant généralement par des branchies (bien que certaines espèces aient des systèmes de respiration aérienne complémentaire, comme les poumons des dipneustes ou le labyrinthe des anabantidés).",
+          "Chair de cet animal destinée à la consommation.",
+          "Ces animaux considérés comme une ressource halieutique.",
+          "Tout animal aquatique.",
+          "Posture du yoga où le corps repose sur les fesses et le sommet de la tête, le tronc étant relevé.",
+          "Meuble représentant un animal marin dont l’espèce n’est pas clairement identifiable dans les armoiries. Il est représenté en fasce, la tête à dextre, la gueule fermée. Toutefois certains poissons ont des dispositions différentes. Voir baleine, bar, chabot et dauphin.",
+          "Ellipse de poisson d’avril."
+        ],
+        "examples": [
+          "C’est chez la veuve Thorsdal que j’appris à savourer les délices de la cuisine islandaise. Le dîner se composait invariablement de poisson bouilli.",
+          "Par contraste, le côté du lagon était étrangement calme, une eau merveilleusement tranquille, à peine ridée par les alizés, où passaient des poissons aux couleurs éblouissantes.",
+          "Puis elle saisit une paire de baguettes et s'empara d'un sashimi qu'elle noya dans la sauce soja avant de l'engloutir. Elle ferma les yeux pour mieux savourer le goût du poisson cru."
+        ]
+      },
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "Ancienne mesure utilisée pour les liquides et valant la moitié d’un demi-setier, soit environ 11,9 centilitres."
+        ],
+        "examples": [
+          "… ensuite vous broyerez la civette & la gomme ensemble, y ajoutant de l’eau peu à peu jusqu’à la quantité d’un poisson, & vous en chargerez vos peaux ou gants avec une éponge & vous les mettrez sécher, & étant secs vous les frotterez & les ouvrirez, puis vous ferez ce qui suit.",
+          "Ce qui fait voir clairement nᵒ 1 Que la Roquille étoit la moitié du demi-Poisson, le quart du Poisson, le huitième du demi-Setier, le seizième de la Chopine. le trente-deuxième de l'ancienne Pinte de Paris et la deux-cents-cinquantesixième partie de l'ancienne Velte de Paris."
+        ]
+      }
+    ],
+    "pronunciation": "\\pwa.sɔ̃\\"
+  },
+  {
+    "id": "fr:travail",
+    "headword": "travail",
+    "language": "fr",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "Labeur, application à une tâche, effort soutenu pour faire quelque chose, en parlant de l’esprit comme du corps.",
+          "Activité professionnelle ; emploi.",
+          "Manière dont on travaille habituellement.",
+          "Ouvrage même, de quelque nature qu’il soit, qui est produit par le labeur.",
+          "Ouvrage de l’esprit, étude historique, philosophique ou scientifique.",
+          "Manière dont l’ouvrage est fait.",
+          "Ouvrage qui est à faire ou auquel on travaille présentement.",
+          "Action des forces de la nature.",
+          "Première période de l’accouchement caractérisée par l’apparition de contractions douloureuses de l’utérus et l’effacement du col de l’utérus. Les douleurs de l’enfantement.",
+          "Produit d’une force appliquée sur une distance. L’unité SI de travail (d’énergie) est le joule.",
+          "Labeur humain considéré comme facteur essentiel de la production.",
+          "Labeur humain considéré sous le rapport des conflits qu’il soulève et des règlements qu’il y faut apporter.",
+          "Ensemble des exercices que l’on fait faire à un cheval, entraînement."
+        ],
+        "examples": [
+          "L’homme qui vendait son travail, qui recevait un salaire, se dégradait au rang des esclaves, il se vendait comme esclave, il perdait sa dignité d’homme libre. Cette action dégradante est commise quotidiennement par les hommes libres de la société capitaliste. Les prolétaires de la main comme ceux de l’intelligence, n'ont qu’une unique préoccupation : se vendre, vendre leur travail manuel, vendre leur travail intellectuel, vendre la pensée, cette chose sacrée.",
+          "L’Écosse l’attendait bouche bée. Il arriva à Glasgow vers une heure, et l’on raconte que le travail ne fut pas repris avant deux heures et demie dans les docks et les manufactures de cette ruche industrielle.",
+          "Il s’acharnera au travail, il ne ménagera ni son temps, ni ses forces, à une époque où le radium et la radiothérapie profonde était encore inconnue."
+        ]
+      },
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "Bâti servant à la contention des chevaux et des bovins, durant la pose des fers, ou pour des opérations chirurgicales."
+        ],
+        "examples": [
+          "Tous les amoureux des équidés trouveront dans ce lieu de charme matière à assouvir leur passion, que ce soit par la collection d'attelages, par les travails à ferrer des maréchaux-ferrants ou par les selleries."
+        ]
+      }
+    ],
+    "pronunciation": "\\tʁa.vaj\\"
+  },
+  {
+    "id": "fr:armée",
+    "headword": "armée",
+    "language": "fr",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "Ensemble structuré de soldats, avec leur équipement et leurs infrastructures.",
+          "Formation supérieure à un corps d’armée mais inférieure à un groupe d’armées, comprenant généralement deux corps d’armée ou davantage (définition normalisée par l’OTAN AAP-6 depuis 1983).",
+          "La composante terrestre des forces armées.",
+          "L’ensemble des forces armées.",
+          "Grande quantité de personnes, d’animaux, d’objets similaires.",
+          "Vaurien, vagabond."
+        ],
+        "examples": [
+          "La fin de tout, pour lui, était que la nation en armes n’était pas une armée.",
+          "Son armée, mal recrutée, mal équipée, mal disciplinée, absolument démoralisée par ses défaites récentes, est réduite à fort peu de chose par les licenciements forcés et les désertions.",
+          "L’armée est la manifestation la plus claire, la plus tangible et la plus solidement rattachée aux origines que l’on puisse avoir de l’État."
+        ]
+      }
+    ],
+    "pronunciation": "\\aʁ.me\\"
+  },
+  {
+    "id": "fr:nouveau",
+    "headword": "nouveau",
+    "language": "fr",
+    "meanings": [
+      {
+        "partOfSpeech": "adj",
+        "definitions": [
+          "Qui n’existait pas auparavant, avant telle date donnée, avec rien de pareil ni de comparable.",
+          "Que l’on n’avait jamais vu auparavant.",
+          "Qui tire de son caractère récent une valeur de création, d’invention, un sentiment de nouveauté intrinsèque.",
+          "Nouveau pour quelqu’un ; qui était jusqu’ici inconnu de lui ; dont il n’a pas l’habitude.",
+          "En parlant d’un vin : ayant subi une très courte vinification, et consommé moins d’un an après la récolte.",
+          "Qui n’a pas d’expérience ou d’habitude ; sans ancienneté.",
+          "Autre, qui succède à un moment donné à un être ou à une chose de même ordre.",
+          "Ressemblant, semblable, en conformité, dans une suite temporelle, avec une autre personne ou une autre chose.",
+          "De plus, supplémentaire."
+        ],
+        "examples": [
+          "Le nouveau campement est établi à une douzaine de kilomètres de l’ancien, dans une plaine ondulée et verdoyante.",
+          "Ces personnes nouvelles, que les jeunes gens trouvaient fort anciennes, et que d’ailleurs certains vieillards qui n’avaient pas été que dans le grand monde croyaient bien reconnaître pour ne pas être si nouvelles que cela, n’offraient pas seulement à la société les divertissements de conversation politique et de musique dans l’intimité qui lui convenaient ; il fallait encore que ce fussent elles qui les offrissent, car pour que les choses paraissent nouvelles si elles sont anciennes, et même si elles sont nouvelles, il faut en art, comme en médecine, comme en mondanité, des noms nouveaux.",
+          "Car les propos que Schnitzler tient par ailleurs sur la psychanalyse freudienne sont dans l’ensemble nettement critiques et se résument assez bien dans telle de ses formules : « Ce n’est pas la psychanalyse qui est nouvelle, c’est seulement Freud » — la nouveauté elle-même n’étant apparemment considérée comme une valeur en soi."
+        ]
+      },
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "(Une personne) Celui qui vient d’arriver au collège, dans un atelier, dans une compagnie.",
+          "Neuf.",
+          "Changement."
+        ],
+        "examples": [
+          "Le nouveau, la nouvelle.",
+          "Quiconque voudra se représenter l’isolement de ce grand collège (…) au milieu d’une petite ville (…) aura certes une idée de l’intérêt que devait nous offrir l’arrivée d’un nouveau, véritable passager survenu dans un navire. Jamais jeune duchesse présentée à la cour n’y fut aussi malicieusement critiquée que l’était le nouveau débarqué par tous les écoliers de sa Division (…) « Vous aurez demain un Nouveau ! » Tout à coup ce cri : « Un Nouveau ! un Nouveau ! » retentissait dans les cours.",
+          "Quoi de nouveau ?"
+        ]
+      }
+    ],
+    "pronunciation": "\\nu.vo\\"
+  },
+  {
+    "id": "fr:pinyin",
+    "headword": "pinyin",
+    "language": "fr",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "Systèmes de transcription de différentes langues, permettant de romaniser les sons des sinogrammes, et d’indiquer le ton utilisé lors de la prononciation. Le hanyu pinyin sert à la transcription du mandarin standard."
+        ],
+        "examples": [
+          "Shanghaï s’écrit 上海 en sinogrammes, et shànghǎi en hanyu pinyin.",
+          "Le pinyin fut développé en République populaire de Chine.",
+          "La perception qu’on a du pinyin en Chine a changé ces dernières années depuis que celui-ci est utilisé pour la saisie informatique des textes."
+        ]
+      },
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "Langue bantoïde parlée dans la Région du Nord-Ouest au Cameroun."
+        ]
+      }
+    ],
+    "pronunciation": "\\pin.jin\\"
+  },
+  {
+    "id": "fr:sinogramme",
+    "headword": "sinogramme",
+    "language": "fr",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "Logogramme chinois qui a un son et un ou plusieurs sens, aussi utilisé en japonais et en coréen et autrefois en vietnamien.",
+          "Signal capté sur le détecteur d’un imageur médical tomographique en fonction de l’angle d’incidence des rayons, avant reconstruction de l’image."
+        ],
+        "examples": [
+          "L’écriture japonaise, plus complexe encore, qui combine les sinogrammes avec deux syllabaires phonétiques, avait tout pour combler mon goût pour le décryptage.",
+          "Les hiéroglyphes égyptiens et les sinogrammes chinois se rencontrent également autour de nous ; […]",
+          "You might see sinograms in publications about reconstruction algorithms. […] Its path follows a sine curve."
+        ]
+      }
+    ],
+    "pronunciation": "\\si.nɔ.ɡʁam\\"
+  },
+  {
+    "id": "fr:kanji",
+    "headword": "kanji",
+    "language": "fr",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "Sinogramme utilisé en écriture japonaise."
+        ],
+        "examples": [
+          "Indubitablement, la langue japonaise est d’une très grande difficulté. En premier lieu, elle comporte quatre systèmes d’écriture : les caractères idéographiques chinois (kanji), en nombre pratiquement indéfini (plusieurs milliers pour l’usage courant) ; deux systèmes phonétiques (syllabiques) indigènes, totalement différents, les hiragana et les katakana ; enfin le système alphabétique latin (rômaji), lequel, dans l’usage, a produit au moins trois modes différents de transpositions des sons japonais.",
+          "Les kanji sont classés dans les dictionnaires selon leur clef, et sous une même clef ils sont rangés en fonction du nombre de traits supplémentaires."
+        ]
+      }
+    ],
+    "pronunciation": "\\kan.ʒi\\"
+  },
+  {
+    "id": "fr:chair à canon",
+    "headword": "chair à canon",
+    "language": "fr",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "Militaire faiblement gradé destiné à combattre en première ligne."
+        ],
+        "examples": [
+          "On en était venu à ce point de mépris pour la vie des hommes et pour la France, d’appeler les conscrits la matière première et la chair à canon.",
+          "C’est l’enfant que la destinée,\nForce à jeter ses haillons\nQuand sonne sa vingtième année\nPour entrer dans nos bataillons.\nChair à canon de la bataille\nToujours il succombe sans cris…\nC’est la canaille !\nEh bien ! j’en suis !",
+          "C’est en somme toujours la subordination des classes. Les filles du peuple seront sacrifiées à la sécurité des filles de l’aristocratie, pendant que les fils du peuple iront se faire tuer pour défendre la propriété des capitalistes. Chair à plaisir, chair à canon."
+        ]
+      }
+    ],
+    "pronunciation": "\\ʃɛ.ʁ‿a ka.nɔ̃\\"
+  },
+  {
+    "id": "fr:jour",
+    "headword": "jour",
+    "language": "fr",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "Période de vingt-quatre heures, commençant généralement à minuit ; en certains lieux et à certaines époques, le jour commençait plutôt avec le lever ou le coucher du soleil.",
+          "Cette même période sur d’autres corps célestes.",
+          "Unité de mesure du temps (compatible avec le Système international) dérivée de la seconde. Symbole d (du latin diurnus).",
+          "Date particulière du calendrier.",
+          "Jour de la semaine. Un des sept noms de jour de chaque semaine.",
+          "Étendue de terrain qu’un attelage pouvait labourer en une journée de travail.",
+          "Vie.",
+          "Période durant laquelle le soleil apporte sa lumière, pour une zone donnée de la Terre.",
+          "Source de lumière ; percement par lequel la lumière peut pénétrer.",
+          "Lumière du jour ou parfois d’une autre source lumineuse.",
+          "Trou dans une surface continue ou un tamis.",
+          "Espace ménagé dans l’étoffe d’un vêtement.",
+          "Manière dont un objet est frappé par la lumière.",
+          "Manière de présenter quelqu'un ou quelque chose.",
+          "Imitation de la lumière qui se répand sur les objets représentés dans un tableau.",
+          "L’ensemble des tâches effectuées en dehors de la mine proprement dite.",
+          "Installations situées à l’extérieur d’une mine.",
+          "Jour de la semaine où a lieu la réception des relations d'une personne."
+        ],
+        "examples": [
+          "C’est impossible, car le train va bientôt stopper à Ghéok-Tepé, puis à Askhabad, d’où il repartira aux premières lueurs du jour.",
+          "Le résultat de l’analyse sera connu dans deux jours. — Une semaine comporte sept jours.",
+          "Un mois se compose de 28 à 31 jours. — Une année est constituée de 365 jours (366 pour une année bissextile)."
+        ]
+      },
+      {
+        "partOfSpeech": "intj",
+        "definitions": [
+          "Aphérèse de bonjour, formule de salutation utilisée lorsqu’on rencontre quelqu’un."
+        ],
+        "examples": [
+          "— Bonjour, dit Maillat.\n— ’jour, dit l’homme aux cheveux roux, comme si prononcer deux syllabes avait constitué un effort au-dessus de ses forces."
+        ]
+      }
+    ],
+    "pronunciation": "\\ʒuʁ\\"
+  },
+  {
+    "id": "fr:groupe",
+    "headword": "groupe",
+    "language": "fr",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "Ensemble de personnes, d’animaux.",
+          "Ensemble de musiciens, de chanteurs, faisant habituellement des spectacles ensemble.",
+          "Ensemble plus ou moins considérable des députés, sénateurs, etc., d’une même opinion.",
+          "Plusieurs objets qui forment un tout ou peuvent être classés ensemble.",
+          "Assemblage d’objets rapprochés ou unis que l’œil embrasse à la fois.",
+          "Ensemble de composants, d’appareils servant comme un tout.",
+          "Structure algébrique abstraite munie de certaines propriétés mathématiques.",
+          "Ensemble de verbes qui se conjuguent de manière similaire. En français, on distingue les verbes des premier, deuxième et troisième groupes.",
+          "Syntagme.",
+          "Ensemble de sociétés qui sont reliées entre elles au sein d’une maison mère.",
+          "Groupe du tableau périodique, correspondant à une des 18 colonnes verticales du tableau périodique.",
+          "Sous-chaîne d’une expression rationnelle placée entre parenthèses, dont les éléments sont traités en bloc, comme un tout.",
+          "Ensemble des secteurs constituant une zone logique sur un disque.",
+          "Course de groupe."
+        ],
+        "examples": [
+          "[…] et en passant près de la guillotine, je remarquai sur la plate-forme le bourreau entouré d’un petit groupe de curieux.",
+          "Dans le passé, beaucoup de révolutions furent le résultat de coalitions entre groupes mécontents ; […].",
+          "Chaque contingent du guîch forme une r’ha sous les ordres d’un caïd et est divisée, comme les tabor de l’âsker, en groupes de cent hommes."
+        ]
+      }
+    ],
+    "pronunciation": "\\ɡʁup\\"
+  },
+  {
+    "id": "fr:école",
+    "headword": "école",
+    "language": "fr",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "Lieu dédié à l’apprentissage.",
+          "Établissement où l’on enseigne les savoirs fondamentaux comme la lecture et l’écriture et qui est aussi désigné sous le nom d’école primaire.",
+          "Tous les élèves d’un tel établissement, ou l’ensemble de ses professeurs et de ses employés.",
+          "Ce qui est propre à former, à donner de l’expérience en quelque chose, à instruire.",
+          "Enseignement de la théologie et de la philosophie, suivant la méthode et les principes reçus dans la plupart des anciennes universités.",
+          "Mouvement ou doctrine d’un philosophe ou d’un savant.",
+          "Classe d’artistes qui travaillent ou qui ont travaillé selon les principes, à l’imitation d’un même maître, ou suivant les habitudes propres à certaines époques de l’art, à certains lieux.",
+          "Terme emprunté au jeu de trictrac : Faire une école, oublier de marquer les points que l’on gagne, ou en marquer mal à propos. Souvent employé au sens figuré : commettre une faute par inexpérience, ignorance ou étourderie."
+        ],
+        "examples": [
+          "Comme dans les prépas scientifiques, il est tout à fait possible de la redoubler (on dit « cuber ») en espérant être accepté dans une école plus prestigieuse.",
+          "[…], il semble que l’on assiste à une recrudescence et un « durcissement » des bizutages, en médecine, mais plus encore dans les classes préparatoires, les écoles d’ingénieurs ou de commerce, et les IUT.",
+          "À l’époque dont je parle, il y avait un grand nombre de communes en France qui n’avaient pas d’écoles, et parmi celles qui existaient, il s’en trouvait qui étaient dirigées par des maîtres qui, pour une raison ou pour une autre, parce qu’ils ne savaient rien, ou bien parce qu’ils avaient autre chose à faire, ne donnaient aucun enseignement aux enfants qu’on leur confiait."
+        ]
+      }
+    ],
+    "pronunciation": "\\e.kɔl\\"
+  },
+  {
+    "id": "fr:CD-ROM",
+    "headword": "CD-ROM",
+    "language": "fr",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "Support de données numériques lisible par un système optique laser, disposant d’une capacité mémoire de 650 à 800 mégaoctets et sous forme de disque compact pressé sur lequel on ne peut graver de nouvelles données."
+        ],
+        "examples": [
+          "Ce CD-ROM contient un dictionnaire très complet.",
+          "Lors de son invention, le CD-ROM représentait une formidable évolution dans le système de l’archive numérique."
+        ]
+      }
+    ],
+    "pronunciation": "\\se.de.ʁɔm\\"
+  },
+  {
+    "id": "fr:photographie",
+    "headword": "photographie",
+    "language": "fr",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "Processus de fabrication d’images sur une surface sensible.",
+          "Image sur un support photosensible.",
+          "Portrait réalisé par photographie.",
+          "Art des photographes.",
+          "Résumé ou synthèse d’une situation à un moment donné."
+        ],
+        "examples": [
+          "[…]; tous les instantanés de scènes militaires, quelles qu'elles soient, sont interdits par la préfecture de police, on n'excepte pas même la photographie des édifices atteints par le bombardement.",
+          "Il n’est plus permis aujourd’hui à un photographe quelque peu averti, d’ignorer la sensitométrie. Les méthodes de mesures créées par Hürter et Driffield, perfectionnées par un grand nombre de savants, ont acquis une importance considérable en photographie.",
+          "Toutefois, c’est finalement le recours à la photographie astronomique qui a rendu possible, plusieurs années après le décès de Lowell, le succès de cette entreprise."
+        ]
+      }
+    ],
+    "pronunciation": "\\fɔ.to.ɡʁa.fi\\"
+  },
+  {
+    "id": "fr:ordinateur",
+    "headword": "ordinateur",
+    "language": "fr",
+    "meanings": [
+      {
+        "partOfSpeech": "adj",
+        "definitions": [
+          "Qui ordonne."
+        ],
+        "examples": [
+          "Toutefois l’existence de l’État ordinateur peut donc, si on n’observe pas la réalité, sembler justifié car dans la société capitaliste, et hier société bourgeoise, fourmillent des intérêts antagonistes, des oppositions de toutes sortes…"
+        ]
+      },
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "Appareil électronique capable, en appliquant des instructions prédéfinies (programme), d’effectuer des traitements automatisés de données et d’interagir avec l’environnement grâce à des périphériques (écran, clavier…).",
+          "Celui qui ordonne."
+        ],
+        "examples": [
+          "A l'époque, il ne disposait bien sûr pas d’ordinateur, il faisait les calculs à la main, et c'est pourquoi le nombre de trajectoires calculées était limité.",
+          "Lancé en 1985 par Laurent Fabius, ce plan a fait entrer plus de 100 000 ordinateurs, principalement des MO5 et des TO7, dans les écoles primaires et les collèges. Malgré un déploiement mouvementé, il aura tout de même suscité émerveillement et vocations chez de nombreux enfants.",
+          "Le garçon était assis, le dos à la porte, concentré sur l’écran de son ordinateur, sur lequel on voyait une sorte de guerrier bigorexique anéantissant des squelettes avec une épée disproportionnée. Il ne nous accorda même pas un regard."
+        ]
+      }
+    ],
+    "pronunciation": "\\ɔʁ.di.na.tœʁ\\"
+  },
+  {
+    "id": "fr:janvier",
+    "headword": "janvier",
+    "language": "fr",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "Premier mois de l’année du calendrier grégorien, qui compte 31 jours."
+        ],
+        "examples": [
+          "Soutenus dans le ciel par les avions de la coalition (qui, à partir de la fin septembre, avaient concentré quasiment tous leurs efforts sur Kobané), ultra-déterminés, ultra-organisés, renforcés par leurs bataillons féminins d’une redoutable efficacité, les YPG reconquirent, mètre après mètre, la moitié de la ville que les djihadistes leur avaient prise, avant de les en chasser complètement le 25 janvier.",
+          "Voilà le 1ᵉʳ janvier qui arrive. Vous recevrez beaucoup d’argent à l’occasion des étrennes, et vous serez, alors, en mesure de me régler mon petit arriéré !",
+          "Il est bien évident que les plantes vivent uniquement dans les milieux qui leur conviennent […] : ainsi l’isotherme de 4°5 moyenne du mois de janvier concorde remarquablement avec la répartition de Rubia peregrina en Europe occidentale."
+        ]
+      }
+    ],
+    "pronunciation": "\\ʒɑ̃.vje\\"
+  },
+  {
+    "id": "fr:année",
+    "headword": "année",
+    "language": "fr",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "Subdivision du temps, correspondant à la durée d’une révolution de la Terre autour du Soleil, qui comporte 365 jours (ou 366 jours dans l’année bissextile), 52 semaines environ, 12 mois solaires.",
+          "Temps nécessaire à la révolution d’une planète autour de son étoile.",
+          "Durée de douze mois, sans égard à l’époque où elle commence ni à l’époque où elle finit.",
+          "Ce que l’on doit recevoir ou payer par année ; annuité.",
+          "Niveau de classe.",
+          "Période en rapport au climat ou aux cultures agricoles.",
+          "Décennie commençant en multiple de dix. → voir années",
+          "Les différents âges de la vie."
+        ],
+        "examples": [
+          "Sur ses gonds huilés l’année tourne. La porte se ferme et se rouvre. Telle une étoffe que l’on plie, les jours tombent enfouis dans le coffre moelleux des nuits. Ils entrent d’un côté et ressortent de l’autre, croissant déjà d’un saut de puce, à la Saint-Luce. Par une fente je vois briller le regard de l’an nouveau.",
+          "L’année du crapaud se partage en trois périodes distinctes de longueur inégale.",
+          "Il paraît, nous a-t-on dit un jour, qu'il existe à Châteauneuf-le-Rouge un labyrinthe de buis si vaste que le jardinier a besoin de l’année entière pour le tailler : il commence à un bout, et, lorsqu'il arrive à la fin du tracé, recommence un nouveau circuit et une nouvelle année."
+        ]
+      }
+    ],
+    "pronunciation": "\\a.ne\\"
+  },
+  {
+    "id": "fr:février",
+    "headword": "février",
+    "language": "fr",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "Deuxième mois du calendrier grégorien qui compte normalement vingt-huit jours, sauf dans les années bissextiles où il en compte vingt-neuf."
+        ],
+        "examples": [
+          "Dans le mois de février de la deuxième année, on coupe rez souche les sarments les plus faibles et l'on taille à un ou deux yeux le sarment le plus fort.",
+          "La nuit vient de bonne heure au mois de février, et quand le futur beau-père et le futur gendre, qui étaient sortis ensemble du café, arrivèrent à la Madeleine, on allumait déjà les becs de gaz.",
+          "Un froid vif descendait du ciel gris sur la terre blanche et le vent brûlait la peau, car c’était février, ce qui au pays de Québec veut dire deux pleins mois d’hiver encore."
+        ]
+      }
+    ],
+    "pronunciation": "\\fe.vʁi.je\\"
+  },
+  {
+    "id": "fr:mars",
+    "headword": "mars",
+    "language": "fr",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "Troisième mois de l’année du calendrier grégorien, qui compte 31 jours.",
+          "La guerre.",
+          "Nom collectif dans lequel on rangeait toutes les cultures secondaires semées au printemps, comme l’avoine, l’orge, la vesce, etc."
+        ],
+        "examples": [
+          "Du sang va couler à Hildesheim, alors que de mémoire d'homme n'y ont coulé que la bière de mars et le vin d'octobre.",
+          "Fin février est très beau et le 2 mars nous quittons le cantonnement de Marquigny.",
+          "Dès la fin novembre, les plantations de peupliers peuvent débuter, […]. À l’exception toutefois des stations où la nappe remonte près de la surface en hiver. Dans ces parcelles, mieux vaut attendre mars, voire avril."
+        ]
+      }
+    ],
+    "pronunciation": "\\maʁs\\"
+  },
+  {
+    "id": "fr:avril",
+    "headword": "avril",
+    "language": "fr",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "Quatrième mois de l’année dans le calendrier grégorien, il est placé entre mars et mai et il dure 30 jours.",
+          "La jeunesse de quelqu’un."
+        ],
+        "examples": [
+          "Avril, gracile fille du printemps, pucelette maigrelette, aux yeux charmants, je vois fleurir tes seins menus sur la branche d’abricotier, la branche blanche dont les bourgeons pointus, rosés, sont caressés par le soleil du frais matin, à ma fenêtre, en mon jardin.",
+          "Quand avril est froid, la végétation ne fait aucun progrès, les bourgeons naissent plus tard et n'ont plus à redouter les gelées tardives.",
+          "Il avait pris le maquis un an plus tôt : arrêté par les gendarmes d’Alès, en avril 1943, pour ses activités politiques, il s’était évadé et avait trouvé refuge chez les francs-tireurs et partisans (FTP)."
+        ]
+      }
+    ],
+    "pronunciation": "\\a.vʁil\\"
+  },
+  {
+    "id": "fr:mai",
+    "headword": "mai",
+    "language": "fr",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "Cinquième mois de l’année dans le calendrier grégorien, placé entre avril et juin, et qui dure 31 jours.",
+          "Arbre ou branche qu’on a coupé et qu’on plante, le premier jour de mai, devant la porte de quelqu’un et spécialement d’une jeune fille, en signe d’honneur.",
+          "Espèce de coffre utilisé autrefois pour pétrir le pain. (Utilisé parfois au féminin : maie)",
+          "Espèce de plancher de bois grillagé, sur lequel on mettait égoutter les cordages lorsqu’ils étaient sortis du goudron."
+        ],
+        "examples": [
+          "La moisson de l’orge a lieu aux premiers jours de mai, celle du blé dans la seconde quinzaine de ce mois, celle du maïs au commencement de juin, et celle des légumineuses un peu plus tard.",
+          "C’était un soir de mai. Les marronniers venaient de fleurir devant la mairie. On guettait les asperges dans les jardins.",
+          "La gelée de mai avait compromis la récolte des sorbes et depuis déjà longtemps c’était le souci numéro un des griveleux."
+        ]
+      }
+    ],
+    "pronunciation": "\\mɛ\\"
+  },
+  {
+    "id": "fr:juin",
+    "headword": "juin",
+    "language": "fr",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "Sixième mois de l’année du calendrier grégorien, qui compte 30 jours."
+        ],
+        "examples": [
+          "En juin 1585, il est de nouveau à Croixval; sa santé empire, et en octobre il prévoit qu’il s’en ira avec les feuilles.",
+          "[…], mais l’on n’était qu’en juin et, sauf pour les poires de moisson qui mûrissent en août, il fallait encore attendre longtemps avant de savourer concurremment les pommes du verger et la vengeance désirée.",
+          "La fenaison commence généralement dès les premiers jours de juin, époque à laquelle, dans les années sèches, beaucoup des Graminées sont arrivées à maturité; […]."
+        ]
+      }
+    ],
+    "pronunciation": "\\ʒɥɛ̃\\"
+  },
+  {
+    "id": "fr:juillet",
+    "headword": "juillet",
+    "language": "fr",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "Septième mois de l’année. Il compte trente-et-un jours."
+        ],
+        "examples": [
+          "Au mois de juillet.",
+          "Il est né en juillet.",
+          "Le quatorze juillet, Fête nationale de la France."
+        ]
+      }
+    ],
+    "pronunciation": "\\ʒɥi.jɛ\\"
+  },
+  {
+    "id": "fr:octobre",
+    "headword": "octobre",
+    "language": "fr",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "Dixième mois de l’année du calendrier grégorien qui compte trente et un jours."
+        ],
+        "examples": [
+          "La réforme monétaire du 15 octobre 1923 a assuré la sécurité des échanges en mettant à la disposition du public un instrument de paiement stable.",
+          "Commencée le 14 octobre 1877, la deuxième législature prend constitutionnellement fin le 13 octobre 1881. On n'envisage donc pas les élections générales avant l’automne.",
+          "En juin 1585, il est de nouveau à Croixval ; sa santé empire, et en octobre il prévoit qu'il s'en ira avec les feuilles."
+        ]
+      }
+    ],
+    "pronunciation": "\\ɔk.tɔbʁ\\"
+  },
+  {
+    "id": "fr:novembre",
+    "headword": "novembre",
+    "language": "fr",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "Onzième mois de l’année du calendrier grégorien, constitué de 30 jours."
+        ],
+        "examples": [
+          "Nous étions au mois de novembre. Les journées étaient redevenues froides et courtes. A cinq heures du soir, il faisait nuit close.",
+          "Le géant agroalimentaire Nestlé a annoncé, jeudi, qu’il visait le redémarrage, en novembre, sous réserve du feu vert des autorités, d’une des deux lignes de production de son usine de Caudry (Nord).",
+          "Nous avions mis trois jours à l’œuvre, Varsovie n'eut besoin que d'une nuit, de la nuit du 29 novembre 1830!"
+        ]
+      }
+    ],
+    "pronunciation": "\\nɔ.vɑ̃bʁ\\"
+  },
+  {
+    "id": "fr:décembre",
+    "headword": "décembre",
+    "language": "fr",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "Douzième et dernier mois de l’année du calendrier grégorien, qui compte 31 jours."
+        ],
+        "examples": [
+          "Il avait fortement neigé dès le début de décembre, et il y avait eu de magnifiques batailles à coups de boules de neige […]",
+          "Nous sommes en chemin vers une affirmation paradoxale : plus je suis croyant, moins je devrais le montrer. La laïcité est anticléricale et non antireligieuse, comme l’actera la loi de décembre 1905."
+        ]
+      }
+    ],
+    "pronunciation": "\\de.sɑ̃bʁ\\"
+  },
+  {
+    "id": "fr:computer",
+    "headword": "computer",
+    "language": "fr",
+    "meanings": [
+      {
+        "partOfSpeech": "verb",
+        "definitions": [
+          "Supputer.",
+          "Compter, calculer ; effectuer un comput."
+        ],
+        "examples": [
+          "Supputer les temps relatifs au calendrier. On compute encore par les ères julienne, grégorienne, etc.",
+          "Socrates, pour n’avoir sceu computer les suffrages de sa tribu.",
+          "Il estoit pour lors gouverneur de l’Estat de Milan pour l’empereur, où Ferdinand de Gonzagues ayant mesme charge, cela se peut computer aisement."
+        ]
+      },
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "Ordinateur."
+        ],
+        "examples": [
+          "Seules les poubelles étaient pleines, bourrées de téléphones portables désormais bons à jeter, de computers inutilisables et de tout un bazar électronique qui ne servait plus à rien."
+        ]
+      }
+    ],
+    "pronunciation": "\\kɔ̃.py.te\\"
+  },
+  {
+    "id": "fr:anglais",
+    "headword": "anglais",
+    "language": "fr",
+    "meanings": [
+      {
+        "partOfSpeech": "adj",
+        "definitions": [
+          "Relatif à l’Angleterre ou à ses habitants.",
+          "Relatif à la langue anglaise.",
+          "Relatif à l'écriture cursive dite anglaise."
+        ],
+        "examples": [
+          "Les questions conjugales : « — Où vas-tu ? — À quelle heure te reverra-t-on ? — Reviens vite, » il fallut les refouler au fond de ma poitrine ; car la vie anglaise, — cette mort du cœur, — la vie des clubs et des cercles, l’absorba tout entier.",
+          "C’est là, sans aucun doute, que près de cinquante navires anglais, danois et hollandais furent écrasés par les glaces en 1777.",
+          "Avant la paix d’Amiens, cet Anglais avait résolu le problème de couvrir le buste sans assommer le corps de cet affreux carrick qui finit aujourd’hui sur le dos des vieux cochers de fiacre ; mais comme les fines tailles sont en minorité, la mode du spencer pour homme n’eut en France qu’un succès passager, quoique ce fût une invention anglaise."
+        ]
+      },
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "Langue germanique occidentale parlée au Royaume-Uni de Grande-Bretagne et d’Irlande du Nord, au Canada, aux États-Unis, en Australie et dans un grand nombre d’autres pays du monde."
+        ],
+        "examples": [
+          "Ce ne fut cependant que sous le règne d’Édouard III que le nouvel idiome, auquel est resté le nom d’anglais, fut parlé à la Cour de Londres.",
+          "Lu avec délices les Riders to the sea, de Synge, écrit dans cette langue magnifique et folle qu’est l’anglais parlé par des Irlandais.",
+          "« J'ai même un réchaud pour me chauffer du café : et alors, do not disturb… »\nElle semblait contente de son anglais de portier d’hôtel."
+        ]
+      }
+    ],
+    "pronunciation": "\\ɑ̃.ɡlɛ\\"
+  },
+  {
+    "id": "fr:lieu",
+    "headword": "lieu",
+    "language": "fr",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "Portion de l’espace, soit prise en elle-même, soit considérée par rapport à ce qui l’occupe.",
+          "Il se dit aussi par rapport à la destination.",
+          "Endroit désigné ou indiqué.",
+          "Appartement ; différentes pièces d’un bien immobilier.",
+          "(Au pluriel) Lieu d’aisance, latrines.",
+          "Objet d’étude de la topologie.",
+          "Objet d’étude de la topographie.",
+          "Point du ciel auquel répond une planète, une comète.",
+          "Place, rang.",
+          "En termes de Procédure, Être au lieu et place de quelqu’un, avoir la cession de ses droits et actions.",
+          "Maison ou famille, comme dans ces phrases :",
+          "Endroit, temps convenable pour dire, pour faire quelque chose.",
+          "Moyen, sujet, occasion. → voir avoir lieu et avoir lieu de",
+          "Passage d’un livre."
+        ],
+        "examples": [
+          "D’après une étude réalisée en Côte d’Ivoire, dans les lieux où les éléphants avaient disparu depuis longtemps on ne trouvait plus de plants de certaines espèces forestières qu’ils ont coutume de disséminer (Alexandre, 1978).",
+          "Le criminel était arrivé au lieu du supplice.",
+          "Sale et productif comme le commerce, ce passage, toujours plein d’allants et de venants, de charrettes, de haquets, est d’un aspect repoussant, et la population qui y grouille est en harmonie avec les choses et les lieux."
+        ]
+      },
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "Nom donné à deux genres de poissons osseux de mer (Theragra spp. et Pollachius spp.) de la famille des gadidés, proches des merlans, à trois nageoires dorsales et deux anales."
+        ],
+        "examples": [
+          "Des lieus, des chinchards, des aiguillettes, parfois des maquereaux, des bars…"
+        ]
+      }
+    ],
+    "pronunciation": "\\ljø\\"
+  },
+  {
+    "id": "fr:physique",
+    "headword": "physique",
+    "language": "fr",
+    "meanings": [
+      {
+        "partOfSpeech": "adj",
+        "definitions": [
+          "Qui s’exprime dans le monde matériel sous une forme mesurable.",
+          "Relatif à la science de la physique.",
+          "Qui se rapporte au corps humain.",
+          "Ressenti matériellement dans son propre corps, dans sa chair.",
+          "Sensuel, charnel (par opposition à sentimental) ; sexuel.",
+          "Incontrôlable, qui est de l’ordre du réflexe, viscéral (en parlant d’une réaction de rejet)."
+        ],
+        "examples": [
+          "Phénomènes physiques.",
+          "Propriétés physiques.",
+          "Il y a impossibilité morale et impossibilité physique à ce qu’un pareil événement ait eu lieu."
+        ]
+      },
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "Science qui étudie la nature de la matière, de l’énergie et de leurs interactions.",
+          "Ouvrages qui traitent de cette science.",
+          "Étude de la nature."
+        ],
+        "examples": [
+          "Les lois de la physique ne permettent pas de filer plus vite que la vitesse de la lumière.",
+          "Les recherches sur la constitution de l’atome appartiennent à la fois à la physique et à la chimie.",
+          "Physique expérimentale."
+        ]
+      },
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "Aspect extérieur d’une personne."
+        ],
+        "examples": [
+          "Ces garçons présentaient des physiques avenants.",
+          "Le physique influe beaucoup sur le moral.",
+          "Il a le physique de l’emploi se dit, au théâtre, d’un acteur qui a une figure, un extérieur convenable à son rôle. Il se dit aussi familièrement d’un Homme dont l’extérieur répond bien aux fonctions qu’il exerce."
+        ]
+      }
+    ],
+    "pronunciation": "\\fi.zik\\"
+  },
+  {
+    "id": "fr:concertation",
+    "headword": "concertation",
+    "language": "fr",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "Processus de dialogue ou de consultation entre différent·es acteur·rices, visant à élaborer ou ajuster collectivement des décisions, en particulier dans le cadre de l’action publique."
+        ],
+        "examples": [
+          "Le ministre du Travail, Olivier Dussopt, a annoncé sur France 3 que la concertation sur la réforme de l’assurance-chômage, qui doit faire varier les indemnités versées en fonction de la conjoncture, sera ouverte « dans une dizaine de jours ».",
+          "En 2005-2006, le gouvernement fédéral va poursuivre et intensifier sa politique de concertation avec les interlocuteurs sociaux en-dehors du cadre formel des accords interprofessionnels."
+        ]
+      }
+    ],
+    "pronunciation": "\\kɔ̃.sɛʁ.ta.sjɔ̃\\"
+  },
+  {
+    "id": "fr:interrogation",
+    "headword": "interrogation",
+    "language": "fr",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "Question, action d’interroger.",
+          "Examen permettant de vérifier la connaissance ou la compréhension qu’a un élève ou un étudiant d’un domaine qui lui a été enseigné."
+        ],
+        "examples": [
+          "Il y a un tour de Fiction, au moyen duquel la penſée ne doit pas être entendue littéralement comme elle eſt énoncée, mais qui laiſſe apercevoir le véritable point de vûe en le rendant ſeulement plus ſenſible & plus intéreſſant par la Fiction même. De là naissent l’Hyperbole, la Litote, l’Interrogation, la Dubitation, la Prétérition, la Réticence, l’Interruption, le Dialogiſme, l’Épanorthoſe, l’Épitrope, & l’Ironie ; celle-ci ſe ſoudiviſe, à raison des points de vûe ou des tons, en ſix eſpèces ; ſavoir, la Mimèſe, le Chleuaſme ou Perſifflage, l’Aſtéiſme, le Charientiſme, le Diaſirme, & le Sarcaſme.",
+          "Lui sentait dans les yeux de la jeune fille une imploration muette, l’interrogation de la biche captive et soumise, ne souhaitant que savoir ce qu’on attend d’elle.",
+          "En vérité il ne s’agissait pas aujourd’hui d’une composition régulière. C’était plutôt une interrogation écrite pour habituer les élèves à l’épreuve du bac."
+        ]
+      }
+    ],
+    "pronunciation": "\\ɛ̃.tɛ.ʁɔ.ɡa.sjɔ̃\\"
+  },
+  {
+    "id": "fr:homogène",
+    "headword": "homogène",
+    "language": "fr",
+    "meanings": [
+      {
+        "partOfSpeech": "adj",
+        "definitions": [
+          "Qualifie une distribution uniformément répartie.",
+          "Qui est de même nature.",
+          "Qui est formé de parties de même nature.",
+          "Qualifie un mélange dont on ne peut pas distinguer les composants à l’œil nu.",
+          "Uni, semblable, identique, en parlant d’un peuple, d’une réunion de personnes, en communauté de principes, de sentiments.",
+          "Qualifie un bois dont les veines de printemps sont presque semblables à celles d'été, parfois peu visible."
+        ],
+        "examples": [
+          "La porcelaine, cette matière céramique la plus parfaite, résulte de la liaison à une température très élevée, de l’infusible kaolin et du fusible feldspath, en une masse homogène.",
+          "L’eau était regardée autrefois comme composée de parties homogènes.",
+          "Un tout homogène."
+        ]
+      }
+    ],
+    "pronunciation": "\\o.mo.ʒɛn\\"
+  },
+  {
+    "id": "fr:imprimante",
+    "headword": "imprimante",
+    "language": "fr",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "Périphérique informatique destiné à imprimer du texte ou des éléments graphiques sur du papier."
+        ],
+        "examples": [
+          "Cette imprimante est dotée de cartouches couleur ; elle peut imprimer en couleur.",
+          "Si votre imprimante n’est pas installée sur le bon port, il n’est plus possible d’imprimer."
+        ]
+      }
+    ],
+    "pronunciation": "\\ɛ̃.pʁi.mɑ̃t\\"
+  },
+  {
+    "id": "fr:empirique",
+    "headword": "empirique",
+    "language": "fr",
+    "meanings": [
+      {
+        "partOfSpeech": "adj",
+        "definitions": [
+          "Fondé essentiellement sur l’expérience et l’observation, plutôt que sur l'usage de la raison abstraite (le rationalisme)."
+        ],
+        "examples": [
+          "Pour en revenir aux pratiques empiriques de nos anciennes pharmacopées, qui reposaient sur l'emploi de Matières médicales animales, j'aurai à vous dire, plus tard, certaines ressemblances curieuses que présentaient ces pratiques avec la méthode opothérapique moderne.",
+          "[…] : la critique du dogmatisme naguère dominant n'a, heureusement, pas tué l’intérêt pour des recherches qui dépassent de beaucoup la sociologie empirique.",
+          "Il semble au contraire que, dans l’épistémologie de la physique épicurienne, l'observation du monde, sa connaissance empirique, soit non seulement légitime, mais encore nécessaire."
+        ]
+      },
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "Philosophe partisan du système de l’empirisme.",
+          "Praticien de méthodes empiriques."
+        ],
+        "examples": [
+          "J’envoie un médecin, un empirique qui m’appartient, au glorieux Cardinal, que les plus savants de Paris ont abandonné ; si vous vous entendez avec moi, il lui portera un remède universel et éternel.",
+          "Tout en s’extasiant sur la façon de conduire de notre compagnon, le maître de la voiture nous racontait ses petites affaires, et comme quoi il avait été guéri d’une maladie de foie par un empirique des plus singuliers. Cet empirique était un paysan du village de Lyss. Il demandait aux consultants leur nom, leur âge, et ne leur adressait, du reste, aucune question sur leur maladie.",
+          "L’automobile et les tracteurs sont les ennemis du vétérinaire. Quand le bétail de consommation et les chiens seuls réclameront des soins, l’empirique y pourvoira."
+        ]
+      }
+    ],
+    "pronunciation": "\\ɑ̃.pi.ʁik\\"
+  },
+  {
+    "id": "fr:observation",
+    "headword": "observation",
+    "language": "fr",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "Action d’observer ce qui est prescrit par quelque loi ou ce que l’on a promis à quelqu’un.",
+          "Action de regarder avec attention, de surveiller.",
+          "Ce que l'on aperçoit ainsi.",
+          "Surveillance attentive à laquelle on soumet des personnes ou des animaux en vue d'établir un diagnostic.",
+          "Action de considérer avec attention, avec étude les choses physiques ou morales.",
+          "Résultat de ces études.",
+          "Remarques sur des écrits de quelque auteur.",
+          "Réflexion, considération.",
+          "Remarque nuancée de reproche que l’on fait à quelqu’un sur sa manière d’agir, sur sa conduite."
+        ],
+        "examples": [
+          "L’observation des lois de la République.",
+          "L’observation de sa parole, de sa promesse.",
+          "Voilà un excellent poste d’observation."
+        ]
+      }
+    ],
+    "pronunciation": "\\ɔp.sɛʁ.va.sjɔ̃\\"
+  },
+  {
+    "id": "fr:hypothèse",
+    "headword": "hypothèse",
+    "language": "fr",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "Supposition que l’on fait sans se demander si elle est vraie ou fausse, mais seulement pour en tirer des conséquences à vérifier.",
+          "Proposition que l’on avance soit comme point de départ de la démonstration d’un théorème, soit comme donnée d’un problème.",
+          "Conjecture, ou ensemble de conjectures, qui permettent d’essayer, par une interprétation anticipée, une explication de certains phénomènes de la nature, ou de faits présents ou passés.",
+          "Assemblage de plusieurs suppositions faites pour parvenir plus facilement à l’explication de certains phénomènes; ce qu’on appelle autrement et plus communément : système.",
+          "Proposition particulière comprise sous la thèse générale."
+        ],
+        "examples": [
+          "La compilation de ce Divan, […], est probablement l'œuvre de Iedaïah. Ce qui milite pour cette hypothèse, c'est que le compilateur mentionne une chose intime, qui ne pouvait être connue que de lui seul.",
+          "Cette table donne le moyen d'établir, dans l’hypothèse où la courbe de la marée est une sinusoïde, la hauteur de la marée à un instant quelconque.",
+          "Dans la scène d’accouplement, c'est peut-être un bélier qui flèche (ou un étalon). […]. J'ai une hypothèse pour interpréter cette partie de saute-mouton : dans la Genèse XXX, 10, la vision de Jacob grâce à laquelle il accrut son troupeau aux dépens de Laban, une histoire de béliers noirs en rut…"
+        ]
+      }
+    ],
+    "pronunciation": "\\i.pɔ.tɛz\\"
+  },
+  {
+    "id": "fr:collaboration",
+    "headword": "collaboration",
+    "language": "fr",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "Action de travailler de concert avec un ou plusieurs autres.",
+          "Travaux et soins communs du mari et de la femme.",
+          "Fait de travailler avec l’ennemi."
+        ],
+        "examples": [
+          "En 1873, le bryologue RENAUD publiait, en collaboration avec D. LALOY, un excellent Catalogue des plantes phanérogames et des Mousses observées jusqu'à cette époque dans le département de la Haute-Saône ; […].",
+          "Elles étaient deux sœurs. J’allais les voir de temps à autre dans le coquet appartement de Passy où elles vivaient avec leur mère. Intelligentes, instruites, elles se destinaient à la littérature et préparaient en collaboration leur premier roman.",
+          "Sa santé laissant de plus en plus à désirer il avait refusé le renouvellement de son mandat de T∴ P∴ S∴ G∴ C∴, mais le Sup∴ Cons∴, désireux de lui témoigner sa reconnaissance et de conserver sa précieuse collaboration, lui décerna à l'unanimité le titre de T∴ P∴ S∴ G∴ C∴ d'Honneur."
+        ]
+      }
+    ],
+    "pronunciation": "\\kɔ.la.bɔ.ʁa.sjɔ̃\\"
+  },
+  {
+    "id": "fr:samedi",
+    "headword": "samedi",
+    "language": "fr",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "Sixième jour de la semaine, qui suit le vendredi et précède le dimanche."
+        ],
+        "examples": [
+          "Cette avance du déjeuner donnait d’ailleurs au samedi, pour nous tous, une figure particulière, indulgente, et assez sympathique.",
+          "Le 19 septembre de l’an 1846, la Vierge s’était montrée à deux enfants sur une montagne, un samedi, le jour qui lui était consacré et qui était, cette année, un jour de pénitence, à cause des Quatre-Temps.",
+          "On ne fait plus d’enfants, chez nous, sauf dans les coins pouilleux, dans les milieux de misère, certains samedis de paye, après stations devant les comptoirs des bistrots."
+        ]
+      },
+      {
+        "partOfSpeech": "adv",
+        "definitions": [
+          "Le jour du samedi. Note d’usage : Peut être suivi de matin, soir ou une date sans article."
+        ],
+        "examples": [
+          "Je pars samedi."
+        ]
+      }
+    ],
+    "pronunciation": "\\sam.di\\"
+  },
+  {
+    "id": "fr:dimanche",
+    "headword": "dimanche",
+    "language": "fr",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "Septième ^([1]) jour de la semaine. Suit le samedi et précède le lundi.",
+          "Ce jour en tant que jour saint de la semaine.",
+          "Ce jour comme seul jour de la semaine où l’on peut profiter d’un privilège, d’un plaisir particulier.",
+          "Ce jour comme jour de repos ou de congé de la semaine.",
+          "Somme d’argent que l’on donne généralement à un enfant le dimanche.",
+          "Défaut ou absence d’application de peinture, de goudron, par exemple sur une coque de navire.",
+          "Vêtements portés le dimanche."
+        ],
+        "examples": [
+          "Le Comité des fêtes organise un grand méchoui dimanche 31 juillet à partir de 12 h, place de l’église à Authon.",
+          "De nouveau il crachinait. Le printemps du dimanche n’avait été qu’un faux-semblant et l’aube du lundi avait ramené les nuages.",
+          "Pour Alexis, Gustave et Clotilde, le dimanche ne présentait qu’un intérêt négatif, celui de ne pas aller à l’école. Autrement, c’était un jour de vide et de perfection, une mauvaise copie des autres jours, triste comme les premiers jours de la Bible quand on n’était pas encore abrité du bon Dieu qui vous observait du coin d’un nuage, ou en posant son œil dans un triangle."
+        ]
+      },
+      {
+        "partOfSpeech": "adv",
+        "definitions": [
+          "Le jour du dimanche. Note d’usage : Peut être suivi de matin, soir ou une date sans article."
+        ],
+        "examples": [
+          "Je pars dimanche."
+        ]
+      }
+    ],
+    "pronunciation": "\\di.mɑ̃ʃ\\"
+  },
+  {
+    "id": "fr:prendre",
+    "headword": "prendre",
+    "language": "fr",
+    "meanings": [
+      {
+        "partOfSpeech": "verb",
+        "definitions": [
+          "Saisir, mettre en sa main.",
+          "Saisir une chose, l’enlever, la tirer à soi autrement qu’avec la main.",
+          "Saisir les choses avec leur gueule, leur bec, leurs griffes, etc., en parlant des animaux.",
+          "Mettre sur soi, en parlant des habits, des vêtements.",
+          "Commencer à porter.",
+          "Emporter avec soi certaines choses par besoin ou par précaution.",
+          "Emporter en cachette ou de force, ôter à quelqu’un ce qu’il possède, le lui dérober.",
+          "S’emparer, se saisir par force d’une chose ou d’une personne.",
+          "Dominer sexuellement.",
+          "Enlever à l’adversaire.",
+          "Faire des levées d’hommes.",
+          "Arrêter quelqu’un pour le conduire en prison.",
+          "Butiner à la guerre, y faire des prisonniers.",
+          "Se rendre maître par la force des armes ou autrement, d’une place forte.",
+          "Attraper à la chasse ou à la pêche.",
+          "Poursuivre et saisir un gibier, en parlant des animaux de chasse, des oiseaux de proie, des prédateurs.",
+          "S’emparer de quelqu’un, gagner quelqu’un en s’attaquant à son esprit, à son cœur, à ses sens.",
+          "Surprendre.",
+          "Attaquer ; aborder.",
+          "Manger, boire, avaler, absorber, en parlant des aliments, des boissons, des médicaments solides ou liquides.",
+          "Faire usage pour sa santé, pour son agrément, etc.",
+          "Se faire contaminer par contagion, en parlant des maladies.",
+          "Atteindre par surprise.",
+          "Fixer sur le corps.",
+          "Contracter ; adopter.",
+          "Se donner, employer, en parlant de titres, de qualités, de noms.",
+          "Acquérir, acheter.",
+          "Demander, percevoir un prix pour quelque chose que l’on vend.",
+          "Recevoir ; accepter.",
+          "Bénéficier de.",
+          "Emprunter, tirer de.",
+          "Recevoir des traits psychologiques ou physiques de son ascendance.",
+          "Engager des personnes, ou s’engager avec elles, sous certaines conditions.",
+          "Joindre quelqu’un en quelque endroit, pour se rendre ailleurs avec lui.",
+          "Emmener avec soi.",
+          "Recueillir, donner l’hospitalité.",
+          "Ôter, retirer, retrancher une partie d’un tout.",
+          "Retrancher de quelque chose pour subvenir à autre chose.",
+          "Se charger d’une chose, entrer en possession, en jouissance d’une chose à certaines conditions.",
+          "Charger quelque chose, recevoir quelqu’un, à bord.",
+          "Engager et conduire, en parlant d’une affaire.",
+          "Choisir, préférer ou adopter de préférence ; se décider pour.",
+          "Choisir une route, un chemin, s’y mettre en marche, en parlant particulièrement de ceux qui voyagent, qui cheminent.",
+          "Choisir d’entrer dans un chemin quand on a le choix entre plusieurs.",
+          "Utiliser un mode de locomotion qui se présente au choix.",
+          "Couper, utiliser, façonner, de certaines façons, en parlant des étoffes, des viandes, et plus généralement ce que l’on coupe ou tranche avec art.",
+          "Entendre, comprendre, concevoir, expliquer, interpréter, considérer d’une certaine manière.",
+          "Adopter ou soutenir avec chaleur ou conviction.",
+          "Éprouver, en parlant des sentiments, des passions, des affections et des répugnances.",
+          "Obtenir, recueillir.",
+          "Fixer, en parlant d’une date.",
+          "Déterminer par la mesure, les dimensions, la grandeur d’une chose.",
+          "Rédiger, relever, fixer sur le papier.",
+          "Prendre du temps ; durer.",
+          "S’enraciner, pousser, croître.",
+          "Réussir, trouver son lectorat, son auditoire, en parlant d’un ouvrage de l’esprit, d’une proposition, d’un compliment, etc.",
+          "Adhérer, s’attacher, produire son effet.",
+          "Faire une impression trop forte à la gorge, au nez.",
+          "Se geler ; se coaguler ; s’épaissir ; se solidifier.",
+          "Contribuer à un bon ou à un mauvais résultat. → voir bien en prendre et mal en prendre",
+          "Atteindre une année de plus en âge.",
+          "Être atteint.",
+          "Subir.",
+          "Affecter, entamer, gagner sur quelque chose.",
+          "S’attacher, s’accrocher.",
+          "Concevoir un sentiment pour quelqu’un.",
+          "Provoquer, s’attaquer à quelqu’un.",
+          "Se contracter, en parlant de maladies.",
+          "Se figer, se solidifier.",
+          "Émouvoir, provoquer une émotion."
+        ],
+        "examples": [
+          "[…] Joseph offre un bouquet de roses à son amoureuse, qui étend la main pour le prendre.",
+          "De joyeuse humeur, le mari cause avec force gestes, prend parfois les mains de sa femme, la taille aussi […]",
+          "Vers la tombée du jour, le poète, ayant pris son parapluie, baisa galamment les mains de Mme Mirondeau et lui fit ses adieux."
+        ]
+      }
+    ],
+    "pronunciation": "\\pʁɑ̃dʁ\\"
+  },
+  {
+    "id": "fr:le",
+    "headword": "le",
+    "language": "fr",
+    "meanings": [
+      {
+        "partOfSpeech": "article",
+        "definitions": [
+          "Ce… dont on parle maintenant. Déterminant marquant un nom masculin singulier, référant à une seule entité possible dans un contexte.",
+          "Le seul. Déterminant marquant un nom masculin singulier, référant à une seule entité possible par définition.",
+          "(Sujet d’une proposition) Tout, sans exception.",
+          "(Le + nom propre) Marquant une vaste région comme un pays, un continent, une province ou un État, ou un cours d’eau.",
+          "(Le + nom propre) Marquant un nom propre dont le noyau est issu d’un nom commun.",
+          "(Le + nom commun + nom propre) Attribut du nom propre suivant.",
+          "(Prénom + le + attribut) Surnom du prénom précédent.",
+          "(Le premier, le + numéro de 2 à 31) Le jour du mois, sans jour de la semaine. Note d’usage : Peut fonctionner comme adverbe de temps."
+        ],
+        "examples": [
+          "Le petit chat dort sur le canapé.",
+          "Le drapeau des États-Unis.",
+          "Le chef-lieu de ce canton."
+        ]
+      },
+      {
+        "partOfSpeech": "pron",
+        "definitions": [
+          "Pronom représentant celui (personne ou objet) dont on parle. Utilisé en tant que complément d’objet direct. Devant un son vocalique (voyelle ou h muet), le e est élidé et le pronom se transforme en l’."
+        ],
+        "examples": [
+          "Je ne lui cachai pas que le néo-malthusianisme n'avait rien qui m’emballât par la façon même où nous le présentaient ceux qui le prônaient.",
+          "Il avait de la misère à traverser la rue : chaque fois, je le surveillais par la fenêtre. J'avais peur qu'il se fasse frapper.",
+          "Je l’aime. — Je le veux bien. — Tu veux bien me le prêter ?"
+        ]
+      },
+      {
+        "partOfSpeech": "pron",
+        "definitions": [
+          "Pronom représentant l’attribut précédent, le plus souvent avec le verbe être. Peut être modifié par plus ou moins comme adjectif. Note d’usage : Ne s’accorde ni en genre ni en nombre."
+        ],
+        "examples": [
+          "Je trouve les caprices de la mode, chez les Français, étonnants. Ils ont oublié comment ils étaient habillés cet été. Ils ignorent encore plus comment ils le seront cet hiver.",
+          "Donc, si l’année qui commence n’est pas bonne pour moi, elle le sera pour lui, et réciproquement.",
+          "L’Italie tient à être l’amie de la France ; elle ne peut le rester qu’à la condition que sa position à Rome ne soit pas troublée, et, puisque le catholicisme joue un rôle si considérable en France, il importe que les hommes de bonne foi soient convaincus que leurs croyances ne courent aucun danger par le changement politique qui s’est fait à Rome."
+        ]
+      }
+    ],
+    "pronunciation": "\\lə\\"
+  },
+  {
+    "id": "fr:la",
+    "headword": "la",
+    "language": "fr",
+    "meanings": [
+      {
+        "partOfSpeech": "article",
+        "definitions": [
+          "Féminin singulier de le. Détermine un groupe nominal féminin singulier."
+        ],
+        "examples": [
+          "Vous n’êtes pas une femme, vous êtes la femme ! Et, comme suprême parangon de grâces et de beauté, vous vous devez à l’admiration de tous.",
+          "C'était la Cornuel qui leur avait conseillé cette expédition nocturne et ils n'avaient pas perdu de temps pour l'entreprendre.",
+          "La navette Atlantis fut remisée en 2010."
+        ]
+      },
+      {
+        "partOfSpeech": "pron",
+        "definitions": [
+          "Féminin singulier de le. Représente un groupe nominal féminin singulier complément d’objet direct (pour le pronom féminin complément d’objet indirect, voir lui)."
+        ],
+        "examples": [
+          "Je la reconnais et non pas Je reconnais elle."
+        ]
+      },
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "Sixième note de la gamme de do majeur. Selon la norme ISO 16:1955, le la de référence a une fréquence de 440 hertz, mais la fréquence peut varier selon les lieux et les époques, de 390 à 520 Hz ; les instruments à vent modernes sont en général accordés à 442 Hz et les musiciens baroques jouent souvent à 415 Hz.",
+          "Référence, étalon."
+        ],
+        "examples": [
+          "Donner le la.",
+          "15 août 42 – Mais je me révulse à l’idée de l’amour virtuose, jouant d’un doigt négligent et agile sur mes cordes qui ne savent pas encore où est le la. Je veux faire mes gammes tranquillement, à l’abri d’un regard trop sagace.",
+          "Elles m'ont donné le la pour toute ma vie ; j'ai appris d’elles dès mes onze ans tous les charmes de l’austérité et de la fantaisie à la fois, grâce et grâce."
+        ]
+      },
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "Première lettre de l’alphabet santâlî : ᱚ."
+        ]
+      }
+    ],
+    "pronunciation": "\\la\\"
+  },
+  {
+    "id": "fr:les",
+    "headword": "les",
+    "language": "fr",
+    "meanings": [
+      {
+        "partOfSpeech": "article",
+        "definitions": [
+          "Pluriel de le ou la.",
+          ". Singulier ou pluriel de le ou la."
+        ],
+        "examples": [
+          "Afin de démonopoliser, de désexpertiser le droit, l’enseignement doit être donné par les éducateurs réguliers et non pas par des policiers ou des juristes comme l’on tend à le pratiquer car, en premier lieu ceux-ci ne possèdent aucune formation pédagogique et d’autre part l’entraînement du policier est basé avant tout sur la répression : les échecs répétés dans la mise en application de l’enseignement juridique par les policiers sont dus avant tout au besoin inné d’inquisition de la personnalité policière.",
+          "Avec lui aussi disparaît l’inventeur de cette politique desséchante et funeste de l’opportunisme, qu'il appelait la politique de la sagesse et de la raison, qu'il considérait comme la politique des résultats et qui allait devenir, avec les Jules Ferry, les Rouvier, les Constans, les Méline, une politique de stagnation, d'impuissance, d'opposition à tout progrès démocratique et à toute réforme sociale […].",
+          "— Il paraît que ça va faire dans les un degré par jour..."
+        ]
+      },
+      {
+        "partOfSpeech": "pron",
+        "definitions": [
+          "Pronom personnel de la troisième personne du pluriel accusatif."
+        ],
+        "examples": [
+          "Les chevaux islandais se vendaient pour rien autrefois, et la coutume était de les acheter pour les revendre au retour ; […].",
+          "Je me les gèle. (de « se geler les couilles ») ; tu me les casses. (de « casser les pieds », « casser les oreilles », et « casser les couilles »)."
+        ]
+      }
+    ],
+    "pronunciation": "\\le\\"
+  },
+  {
+    "id": "fr:fin",
+    "headword": "fin",
+    "language": "fr",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "Ce qui termine une chose, en marque la limite, en est l'extrémité.",
+          "Terme, point ultime de ce qui a une durée, une étendue.",
+          "Cessation, interruption ; moment où quelque chose s'achève.",
+          "Mort.",
+          "Objectif ; finalité."
+        ],
+        "examples": [
+          "Ce butoir marque la fin de la voie ferrée.",
+          "Je vous verrai avant la fin de l'année.",
+          "La rangée d'arbres qui marque la fin de la propriété."
+        ]
+      },
+      {
+        "partOfSpeech": "adj",
+        "definitions": [
+          "Délié, menu, mince ou étroit.",
+          "Élégant, délicat, gracieux.",
+          "Raffiné, qui n’est pas commun, qui est excellent en son genre.",
+          "Dernier, plus éloigné.",
+          "Véritable.",
+          "Aiguisé, exact, en parlant des sens.",
+          "Subtil ; sagace.",
+          "Spirituel.",
+          "Habile, avisé, rusé.",
+          "Qui est fait avec adresse, rusé.",
+          "Gentil, serviable, attentionné."
+        ],
+        "examples": [
+          "La pointe de ce crayon est trop fine.",
+          "L’aiguille était si fine qu’elle passait entre les mailles du tricot sans effort.",
+          "Une écriture extrêmement fine."
+        ]
+      },
+      {
+        "partOfSpeech": "adv",
+        "definitions": [
+          "Finement ; d’une manière fine, menue.",
+          "Complètement."
+        ],
+        "examples": [
+          "Il pleuvait fin et il faisait froid. Nous brûlions des pins entiers en de grands bûchers, autour desquels chacun épluchait son linge.",
+          "La pluie tombe sans bruit, tout fin.",
+          "Pour celui-là, en un clin d’œil, j’avais vu l’affaire fin clair : pas de fille, donc mauvaises nouvelles."
+        ]
+      },
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "Summum, quintessence, ce qu’il y a de plus subtil dans un sentiment, dans une pensée.",
+          "Personne rusée.",
+          "Or ou argent qui se trouve dans un alliage, surtout lorsqu’on parle de monnaies.",
+          "Linge délicat."
+        ],
+        "examples": [
+          "Il rappela avec une douleur qui trouvait de l’écho chez moi l’heureux temps où un étranger vêtu à la française aurait été hué dans les rues et criblé de pelures d’oranges, où les toreadores portaient des vestes brodées de fin qui valait plus de cinq cents piécettes, […]",
+          "Le fin du fin.",
+          "Jouer au plus fin, rivaliser d’adresse et de ruse pour venir à bout de ses desseins."
+        ]
+      }
+    ],
+    "pronunciation": "\\fɛ̃\\"
+  },
+  {
+    "id": "fr:abréviation",
+    "headword": "abréviation",
+    "language": "fr",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "Action d’abréger ; résultat de cette action.",
+          "Procédé graphique consistant généralement à retrancher des lettres d’un mot ou d’un syntagme afin de le raccourcir pour écrire plus vite ou économiser de l’espace.",
+          "Forme raccourcie du mot ou syntagme ayant subi ce procédé.",
+          "Abrègement. — Voir la note.",
+          "Signe destiné à représenter sous une forme abrégée plusieurs notes de musique."
+        ],
+        "examples": [
+          "Le marin payé au voyage […] ne subit aucune réduction de salaires en cas d’abréviation du voyage, quelle qu’en soit la cause.",
+          "Les abréviations, à la différence des abrègements, sont un phénomène strictement graphique permettant de gagner du temps et de l’espace à l’écrit. Ce sont des groupes de lettres auxquels ne correspond aucune forme oralisée. Ainsi, pr (pour), tt (tout), ds (dans), qd (quand), bcp (beaucoup), stp ou svp (s’il te plaît ou s’il vous plaît), pcq (parce que), ss (sans, suis ou sous), rdv (rendez-vous), etc., comptent parmi les abréviations les plus fréquentes du corpus.",
+          "Si bien que, gavé d'informations tant sur le patois taafien constitué d’abréviations reposantes, d’apocopes imprévisibles, d’aphérèses inattendues et de métonymies subtiles - OP pour opération portuaire, DZ pour drop zone, bib pour médecin, bout de bois pour menuisier, pimponker pour pompier, etc., j'en passe et des meilleures - que sur le décor de mon futur séjour, j'ai fini par me demander pourquoi diable me donner le mal (de mer) d'y aller, […]."
+        ]
+      }
+    ],
+    "pronunciation": "\\a.bʁe.vja.sjɔ̃\\"
+  },
+  {
+    "id": "fr:essai",
+    "headword": "essai",
+    "language": "fr",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "Test, examen, épreuve de solidité, de pérennité, d’adéquation, de potabilité, de comestibilité, etc.",
+          "Opération par laquelle on s’assure de la pureté d’un métal ou de la nature de celui qui est contenu dans une mine.",
+          "Tentative.",
+          "Premières productions de l’esprit ou de l’art qui se font sur quelque sujet, sur quelque matière, pour voir si l’on y réussira.",
+          "Ouvrage littéraire explorant un domaine donné selon le point de vue de l’auteur. Il est intitulé ainsi, soit par modestie, soit parce que l’auteur ne se propose pas d’approfondir la matière de son traité.",
+          "Points marqués (cinq points) par une équipe de rugby lorsqu’un de ses joueurs plaque le ballon au sol dans l’enbut adverse et permettant d'essayer une transformation (deux points supplémentaires)."
+        ],
+        "examples": [
+          "Les obus sont chargés avec une poudre spéciale appelée lydite, dont les essais ont donné des résultats terrifiants.",
+          "La durée de l’essai de 90 minutes, […], a été choisie parce qu'elle correspond au temps mis par le bol alimentaire pour parcourir le tube digestif de l'insecte.",
+          "Embaucher quelqu’un à l’essai."
+        ]
+      }
+    ],
+    "pronunciation": "\\e.sɛ\\"
+  },
+  {
+    "id": "fr:take",
+    "headword": "take",
+    "language": "fr",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "Prise de position publique."
+        ],
+        "examples": [
+          "Ma take c’est que je trouve ça triste qu’on puisse avoir un rapport de consommation à ces milieux, même si je peux le comprendre.",
+          "Je veux pas rentrer dans la discussion de « animation VS effets visuels » je m’y connais pas assez ; ma take c’est que mes yeux disent que c’était ouf."
+        ]
+      }
+    ],
+    "pronunciation": "\\tɛk\\"
+  },
+  {
+    "id": "fr:chinois",
+    "headword": "chinois",
+    "language": "fr",
+    "meanings": [
+      {
+        "partOfSpeech": "adj",
+        "definitions": [
+          "Qui se rapporte aux Chinois, à la Chine.",
+          "Relatif à la langue parlée et écrite par les sinophones.",
+          "Compliqué, très difficile."
+        ],
+        "examples": [
+          "À l’égard de la population des autres parties de l’empire chinois, nous croyons que l’on pourrait la porter tout au plus à 20 millions.",
+          "La forme de l’esclavage était celle de l’esclavage domestique et le sort des esclaves était certainement moins dur que celui des nègres qui travaillaient dans les plantations d’Amérique ou même les coolies chinois ou canaques qui les ont remplacés.",
+          "C’est ce qui explique à la fois le caractère rachitique du secteur commercial créé par les petits colporteurs et boutiquiers chinois, et son développement à pas de tortue."
+        ]
+      },
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "Langue sinitique principalement parlée par les Hans et correspondant à un système d’écriture à base de sinogrammes.",
+          "Chinois classique.",
+          "Mandarin, langue officielle de la Chine, de Taïwan et de Singapour.",
+          "Langage incompréhensible et mystérieux, comme le sont de prime abord pour des personnes occidentales les langues chinoises en raison de leur fonctionnement, de leur système d’écriture et de leur phonologie qui divergent radicalement des conventions et habitudes culturelles européennes.",
+          "Passoire de forme conique, utilisée en art culinaire.",
+          "Restaurant chinois.",
+          "Plat préparé dont la recette est d’origine chinoise.",
+          "Autre nom du schneckenkuchen, viennoiserie d’origine allemande, composée de plusieurs petites brioches enroulées et garnies de crème pâtissière parfumée à la cannelle et au kirsch.",
+          "Sorte de petit agrume qu’on utilise en confiserie."
+        ],
+        "examples": [
+          "Parler chinois.",
+          "5000 caractères sont couramment employés, représentant chacun un élément du chinois.",
+          "Comme les temps ne sont pas marqués en chinois, c’est à l’imagination de reconstituer cette succession de moments distincts."
+        ]
+      }
+    ],
+    "pronunciation": "\\ʃi.nwa\\"
+  },
+  {
+    "id": "fr:procrastiner",
+    "headword": "procrastiner",
+    "language": "fr",
+    "meanings": [
+      {
+        "partOfSpeech": "verb",
+        "definitions": [
+          "Reporter au lendemain, remettre à plus tard quelque chose"
+        ],
+        "examples": [
+          "Si vous croyez que Dieu tarde trop, attendez le, & asseurez vous qu’il viendra, & qu’il n’arrestera pas. Il vous est advis qu’il procrastine, mais en vérité non fait.",
+          "Sa difficulté à choisir, à se décider, le fait parfois attendre jusqu’au dernier moment : il procrastine, selon le mot de Proust (= repousse au lendemain).",
+          "Chacun porte en lui un nombre variable mais toujours excessif de sujets délicats : décisions procrastinées, projets auxquels on n’a pas consacré assez de temps, interrogations métaphysiques auxquelles on n’a jamais eu le courage de répondre."
+        ]
+      }
+    ],
+    "pronunciation": "\\pʁɔ.kʁas.ti.ne\\"
+  },
+  {
+    "id": "fr:week",
+    "headword": "week",
+    "language": "fr",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "Week-end."
+        ],
+        "examples": [
+          "Bon week et à lundi !",
+          "Ce week, à la vente aux enchères organisée à l'occasion du Rétromobile, à Paris (notre édition du 2 février), le prix d'une Facel Vega HK II A s'est envolé."
+        ]
+      }
+    ],
+    "pronunciation": "\\wik\\"
+  },
+  {
+    "id": "fr:espagnol",
+    "headword": "espagnol",
+    "language": "fr",
+    "meanings": [
+      {
+        "partOfSpeech": "adj",
+        "definitions": [
+          "Relatif à l’Espagne, ses habitants, sa culture, sa langue.",
+          "Relatif à Montigny-le-Guesdier, commune française située dans le département de la Seine-et-Marne."
+        ],
+        "examples": [
+          "Voilà pourquoi la Haute-Saintonge a toujours attiré des populations venues d’ailleurs, défricheurs poitevins, tâcherons auvergnats, éleveurs vendéens, résiniers landoux ou réfugiés espagnols.",
+          "Je trouvais que cette Athalie de Cuba était trop emphatique, qu’elle manquait d’expression, et parlait le français comme une… fauvette espagnole.",
+          "Habitué de la Maison d'Or, du Café Anglais, le comte Ferdinand d'Osunar devait à son teint basané, à ses yeux ardents, révélateurs, comme son nom, d'une origine espagnole, ce prestige accordé par la société du Second Empire aux nouveaux venus pour peu qu'ils eussent le louis facile et la manière de traiter les femmes."
+        ]
+      },
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "Une des langues officielles de l’Espagne et de nombreux pays du continent américain. Ses codes ISO 639-2 et -3 sont es et spa, respectivement."
+        ],
+        "examples": [
+          "J’ai pris espagnol en seconde langue au collège.",
+          "Il parle couramment l’espagnol.",
+          "Ainsi, l’espagnol nerveux, accidenté (épuisant et fondant tous les registres) où la voix se fraie un passage au prix, semble-t-il, d’une rage mais aussi d’une dangereuse douceur (douceur toujours armée), est la langue de la fascination."
+        ]
+      }
+    ],
+    "pronunciation": "\\ɛs.pa.ɲɔl\\"
+  },
+  {
+    "id": "fr:Espagnols",
+    "headword": "Espagnols",
+    "language": "fr",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "Le peuple espagnol."
+        ]
+      }
+    ],
+    "pronunciation": "\\ɛs.pa.ɲɔl\\"
+  },
+  {
+    "id": "fr:neuf",
+    "headword": "neuf",
+    "language": "fr",
+    "meanings": [
+      {
+        "partOfSpeech": "adj",
+        "definitions": [
+          "Huit plus un, adjectif numéral cardinal correspondant au nombre 9.",
+          "Neuvième."
+        ],
+        "examples": [
+          "J’avais neuf ans et j’attrapais avec mon frère des sauterelles que nous faisions griller dans le jardin pour les manger.",
+          "Page neuf.",
+          "Tome neuf."
+        ]
+      },
+      {
+        "partOfSpeech": "adj",
+        "definitions": [
+          "Qui est fait depuis peu.",
+          "Qui n’a pas encore servi.",
+          "Se dit aussi de certaines choses à l’égard d’autres qui sont plus anciennes.",
+          "Qui est novice, qui n’a point encore d’expérience en quelque chose.",
+          "Renouvelé, qui s’est transformé au point d’être considéré comme nouveau.",
+          "Qui n’a pas encore été dit, traité, produit, employé."
+        ],
+        "examples": [
+          "Il rejetait délibérément toutes préoccupations étrangères à sa neuve situation.",
+          "Ce sont toutes des autos neuves.",
+          "Tout beau tout neuf !"
+        ]
+      },
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "Nombre 9, entier naturel après huit.",
+          "9, chiffre utilisé dans la numérotation.",
+          "Chose portant le numéro neuf.",
+          "Neuvième jour du mois."
+        ],
+        "examples": [
+          "Neuf est précédé par huit et précède dix.",
+          "Quatre-vingt-dix-neuf s’écrit avec deux neuf.",
+          "Un neuf de carreau."
+        ]
+      },
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "Ce qui est nouveau."
+        ],
+        "examples": [
+          "Sylvie avait fini, le matin, par aider Adèle en trouvant qu’elle ne savait pas nettoyer les meubles, les brosser et les maintenir dans leur neuf.",
+          "Dès lors Pierrette devint extrêmement nécessaire à l’existence de ses cousins. Depuis son arrivée, les Rogron avaient été très-occupés par le trousseau, puis retenus par le neuf de la commensalité.",
+          "Alors, c'était du neuf, à part un lot d’outils de jardin et quelques meubles en plastique que j'avais récupérés dans une vente de garage."
+        ]
+      }
+    ],
+    "pronunciation": "\\nœf\\"
+  },
+  {
+    "id": "fr:et",
+    "headword": "et",
+    "language": "fr",
+    "meanings": [
+      {
+        "partOfSpeech": "conj",
+        "definitions": [
+          "Concatène plusieurs concepts dans une même relation. Plusieurs adjectifs peuvent partager le même nom, et plusieurs préfixes peuvent partager le même radical.",
+          "Indique une simultanéité de caractéristiques. Énonce la véracité de tous les éléments qu’il relie, indépendamment de l’ordre dans lequel ils sont énoncés.",
+          "À la suite de quoi, après quoi.",
+          "Il est quelquefois emphatique, au commencement des phrases.",
+          "A souvent le sens de mais."
+        ],
+        "examples": [
+          "Pierre et Paul vont au marché.",
+          "Les conquérants français, en adoptant les expressions celtes et latines, les avaient marquées chacune à son coin : […]",
+          "C’est en comparant les systèmes de parenté patri- et matrilinéaire des Bamiléké et des Trobriandais de Papouasie-Nouvelle-Guinée que je trouvai des réponses à ces questions."
+        ]
+      },
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "Nom de la lettre additionnelle de l’alphabet latin Ꝫ (minuscule : ꝫ) utilisée comme abréviation dans l’écriture du latin et du vieux norrois au Moyen Âge ^([5])."
+        ]
+      }
+    ],
+    "pronunciation": "\\e\\"
+  },
+  {
+    "id": "fr:un",
+    "headword": "un",
+    "language": "fr",
+    "meanings": [
+      {
+        "partOfSpeech": "adj",
+        "definitions": [
+          "Marque l’unité, le fait qu’une personne ou une chose est seule, unique en son espèce.",
+          "Un très petit nombre indéterminé.",
+          "Ordinal pour premier."
+        ],
+        "examples": [
+          "Quatre femmes et un homme.",
+          "Un mètre.",
+          "Une tonne."
+        ]
+      },
+      {
+        "partOfSpeech": "adj",
+        "definitions": [
+          "Qui est seul, unique, qui n’admet point de pluralité.",
+          "Où règne l’unité, dont les parties sont liées entre elles de manière à former un tout."
+        ],
+        "examples": [
+          "Dieu est un.",
+          "Le moi est un.",
+          "La vérité est toujours une, elle n’est jamais contraire à elle-même."
+        ]
+      },
+      {
+        "partOfSpeech": "article",
+        "definitions": [
+          "Déterminant placé devant un nom représentant un objet animé ou inanimé que l’on ne connaît pas avec précision. L’article indéfini a souvent le sens de « un (1) parmi d’autres ».",
+          "Tout.",
+          "Devant un nom propre, sert à annoncer qu'on désignera un aspect de la personne dont il est question."
+        ],
+        "examples": [
+          "Il y a un chien devant la maison.",
+          "Je cherche un livre sur tel sujet.",
+          "C’est un César, un Cicéron, etc. : c’est un homme aussi intrépide que César, aussi éloquent que Cicéron, etc."
+        ]
+      },
+      {
+        "partOfSpeech": "pron",
+        "definitions": [
+          "Une personne ou une chose parmi plusieurs autres."
+        ],
+        "examples": [
+          "[…] l’inspection de monsieur Phallet s'était assez bien passée. Il avait obtenu une bonne participation des élèves et l’un d’eux avait employé, comme ça, spontanément, un verbe défectif sans faute !"
+        ]
+      },
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "Le nombre 1.",
+          "Chiffre utilisé dans la numérotation décimale écrit 1."
+        ],
+        "examples": [
+          "Un précède deux et suit zéro.",
+          "Le un de telle rue, La maison qui porte le numéro 1.",
+          "Le nombre 11 est écrit avec deux uns."
+        ]
+      },
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "Une chose portant le numéro 1."
+        ],
+        "examples": [
+          "Il habite au un."
+        ]
+      },
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "Vingtième lettre de l’alphabet géorgien, ka."
+        ]
+      }
+    ],
+    "pronunciation": "\\œ̃\\"
+  },
+  {
+    "id": "fr:nord",
+    "headword": "nord",
+    "language": "fr",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "Celui des quatre points cardinaux opposé au sud et qui correspond à la direction de l’étoile polaire ; direction du pôle de l'hémisphère boréal et correspondant à l'azimut 360°.",
+          "Partie de la terre qui est opposée au midi.",
+          "Région d’un pays ou partie du monde la plus rapprochée du nord.",
+          "Pays du Nord. Pays développé.",
+          "Vent soufflant vers le midi.",
+          "Nord : en parler marseillais, tout ce qui s'étend au nord d'Aix-en-Provence."
+        ],
+        "examples": [
+          "Ils sont embaumés de menthe et de thym, et le mistral, venu du nord, commence à souffler sur la vallée.",
+          "Pendant la première semaine, la brise fut très légère et excessivement variable, tournant constamment du Nord au Suroit, en passant par l’Est.",
+          "La ville de Dunkerque se trouve au nord de Paris."
+        ]
+      },
+      {
+        "partOfSpeech": "adj",
+        "definitions": [
+          "Dans la direction du nord."
+        ],
+        "examples": [
+          "C’est ici que ça se passe, 30°50’ de latitude nord, 30°50’ de longitude ouest… à une journée de distance pour nous, et ils filent sud-sud-ouest à toute vapeur. À ce train-là nous ne verrons rien […]",
+          "L’hémisphère nord.",
+          "La côte nord."
+        ]
+      }
+    ],
+    "pronunciation": "\\nɔʁ\\"
+  },
+  {
+    "id": "fr:sud",
+    "headword": "sud",
+    "language": "fr",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "Point cardinal opposé au nord ; direction du pôle de l’hémisphère austral et correspondant à l’azimut 180°.",
+          "Partie de la terre qui est opposée au Nord.",
+          "Région d’un pays la plus rapprochée du Sud.",
+          "Région de la Terre située au midi.",
+          "Pays du Sud. Pays sous-développé.",
+          "Vent soufflant depuis le midi."
+        ],
+        "examples": [
+          "Bourges est situé au sud de Paris.",
+          "Le terrain ardoisier montre une succession de schistes et de quartzites des nuances les plus diverses, dont l’inclinaison générale est vers le sud de la boussole.",
+          "La colonne descend dans la vallée au Sud du camp et suit le cours du ruisseau d’Aïn El-Fert à l’Ouest, puis au Nord-Ouest."
+        ]
+      },
+      {
+        "partOfSpeech": "adj",
+        "definitions": [
+          "Dans la direction du sud."
+        ],
+        "examples": [
+          "La côte sud.",
+          "Le pôle sud de l’aimant.",
+          "Degrés de latitude sud. : Ceux qui vont de l’équateur au pôle Sud."
+        ]
+      }
+    ],
+    "pronunciation": "\\syd\\"
+  },
+  {
+    "id": "fr:localisation",
+    "headword": "localisation",
+    "language": "fr",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "Action de localiser, de se localiser.",
+          "Propriété liée à un endroit, un lieu.",
+          "Endroit, un lieu.",
+          "Action de régionaliser (« localiser »), c’est-à-dire adapter au contexte local (langue, culture). Elle est abrégée avec le numéronyme L10n."
+        ],
+        "examples": [
+          "La localisation est un facteur capital dans l’analyse et l’estimation des prix immobiliers.",
+          "La localisation des logiciels."
+        ]
+      }
+    ],
+    "pronunciation": "\\lɔ.ka.li.za.sjɔ̃\\"
+  },
+  {
+    "id": "fr:terre",
+    "headword": "terre",
+    "language": "fr",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "Sol sur lequel nous marchons, sur lequel les maisons sont construites, qui produit et nourrit les végétaux.",
+          "Sol où l’on inhume les morts.",
+          "Se dit du sol considéré par rapport à la culture, des diverses natures, des divers aspects qu’il peut avoir.",
+          "Argile dont les potiers se servent pour faire leurs ouvrages, et qu’on emploie aussi à quelques autres usages.",
+          "Ce qui compose le sol considéré comme une matière ou substance particulière.",
+          "Domaine, fonds rural.",
+          "Partie solide de la surface du globe, par opposition à la mer.",
+          "Étendue d’un pays.",
+          "Profondeurs d’un continent, d’une région.",
+          "Grandes étendues de pays ; parties importantes de la surface du globe.",
+          "Une planète habitable au sens général, hormis la nôtre, qui s’écrit alors la Terre.",
+          "Tout le globe terrestre ; ensemble de la planète que nous habitons.",
+          "Le monde dans lequel nous vivons, par opposition au ciel.",
+          "L’ensemble de l’humanité.",
+          "Grand nombre de personnes, par rapport au lieu et aux circonstances où l’on se trouve.",
+          "Les biens et des plaisirs de la vie présente.",
+          "Un des quatre éléments.",
+          "Oxyde non réductible par combustion.",
+          "Tout conducteur de potentiel 0 V ; prise de terre."
+        ],
+        "examples": [
+          "Que de crimes, de guerres, de meurtres, que de misères et d’horreurs n’eût point épargnés au genre humain celui qui, arrachant les pieux ou comblant le fossé, eût crié à ses semblables : Gardez-vous d’écouter cet imposteur ; vous êtes perdus, si vous oubliez que les fruits sont à tous, et que la terre n’est à personne !",
+          "Derrière, auprès des étables à porcs, entourée d’une portée grouillante, une truie noire fouillait la terre.",
+          "Il y a huit jours que le pauvre homme est en terre, qu’on l’a mis, qu’on l’a porté en terre."
+        ]
+      }
+    ],
+    "pronunciation": "\\tɛʁ\\"
+  },
+  {
+    "id": "fr:dico",
+    "headword": "dico",
+    "language": "fr",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "Dictionnaire."
+        ],
+        "examples": [
+          "Je ne trouve pas ce mot dans le dico.",
+          "— Après, dit Berbillat, j’ai eu un dictionnaire Larousse. Pas le petit, t’sais… Le gros…\n— Ça, dit Simon, ça m’aurait plu vachement. C’est chouette, un dico. Çui qu’on a à l’École il est rien moche, rien sale. Et c’est toujours la bagarre puisqu’on n’en a qu’un pour trois…",
+          "Je dois décortiquer, prendre mon dico, c’est copieux la bafouille."
+        ]
+      }
+    ],
+    "pronunciation": "\\di.ko\\"
+  },
+  {
+    "id": "fr:je",
+    "headword": "je",
+    "language": "fr",
+    "meanings": [
+      {
+        "partOfSpeech": "pron",
+        "definitions": [
+          "Pronom de la première personne du singulier. Peut aussi bien être masculin que féminin. Utilisé exclusivement en tant que sujet. Devant une voyelle ou un h muet, il s’élide en j’."
+        ],
+        "examples": [
+          "Je suis en France.",
+          "Je m’appelle « Isabelle ».",
+          "J’habite à Paris."
+        ]
+      },
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "(souvent entre guillemets) Entité perçue par le sujet comme le cœur et l’essence même de son existence en tant qu’individu.",
+          "(souvent entre guillemets) Narrateur, dans un récit (généralement écrit)."
+        ],
+        "examples": [
+          "C’est la personne, le « je », qui opère la synthèse et l’unité des forces vitales. Nous disons d'une façon imagée que celles-ci doivent être toutes « prises en mains » dans les grands bras du « je ».",
+          "Quand est-ce que je deviendrai un « je » et un « moi » véritable, un « je » et un « moi » personnel, un « je » et un « moi » unique?",
+          "Aussi l'identité de ce « je » s'exprimant d'une page à l'autre semble incertaine et flottante. Est-ce la voix de cette narratrice apparaissant au début du récit, toujours la même, qui raconte ou est-ce plutôt celle des enfants de la famille qui s'échangent alternativement la parole?"
+        ]
+      }
+    ],
+    "pronunciation": "\\ʒə\\"
+  },
+  {
+    "id": "fr:mot",
+    "headword": "mot",
+    "language": "fr",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "Succession de sons dans les langues parlées, ou de signes dans les langues des signes ou écrites, qui a un sens propre.",
+          "Groupement de lettres de l’alphabet juxtaposées, et séparés des autres tels groupements par des espaces, des signes de ponctuation ou d’autres caractères hors de l’alphabet.",
+          "Partie discernable constituant une parole ; un discours.",
+          "(Par métonymie) Message écrit.",
+          "Trait d’esprit.",
+          "Échange verbal dans une querelle ; menaces, paroles offensantes.",
+          "Parole vaine, par opposition au sérieux d’une idée ou à la réalité d’un fait.",
+          "Raison profonde ; sens caché de quelque chose.",
+          "Devise.",
+          "Séquence de bits ou d’octets comme unité de base manipulée par un processeur.",
+          "Sentence, apophtegme, parole mémorable."
+        ],
+        "examples": [
+          "Il fit une seconde halte pour lire ces mots : À la Belle-Étoile, écrits en légende sous une peinture qui représentait le simulacre le plus flatteur pour un voyageur affamé : c’était une volaille rôtissant au milieu d’un ciel noir.",
+          "On n’a pas évoqué une chose quand on l’a appelée par son nom. Les mots, les mots, on a beau les connaître depuis son enfance, on ne sait pas ce que c’est.",
+          "Et sa voix alors prenait une intonation dolente et uniforme, enflant les mots, appuyant indéfiniment sur les syllabes. Cela m’agaçait beaucoup."
+        ]
+      }
+    ],
+    "pronunciation": "\\mo\\"
+  },
+  {
+    "id": "fr:une",
+    "headword": "une",
+    "language": "fr",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "Chose portant le numéro 1.",
+          "Titre principal de la première page d’un journal contenant les grands titres."
+        ],
+        "examples": [
+          "Je vous ai réservé la une, votre place préférée.",
+          "Le titreur de Paris-Jour, ce matin, ne s'est pas embarrassé de nuances. Il a annoncé sur la largeur de la « une » : « Peyrefitte va interdire les minijupes. »"
+        ]
+      }
+    ],
+    "pronunciation": "\\yn\\"
+  },
+  {
+    "id": "fr:personne",
+    "headword": "personne",
+    "language": "fr",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "Être humain considéré en tant qu’individu.",
+          "Individu ou entité consciente d'elle-même et à laquelle on reconnaît des droits.",
+          "Rôle que tient la personne ou la chose en cause dans l’acte d’énonciation.",
+          "Précédé d’un adjectif possessif, se dit de la vie, du corps, du physique de celui qui parle, à qui l’on parle, ou dont on parle.",
+          "Personnage.",
+          "Se dit, dans certaines locutions, des femmes seulement.",
+          "Se dit quelquefois d’un homme ou d’une femme, considérés en eux-mêmes.",
+          "Sert, dans certaines expressions, à donner plus de force, d’ampleur, de solennité à ce que l’on dit.",
+          "Sujet de droits, doué de capacité et responsable.",
+          "Hypostase divine, dans la théologie chrétienne."
+        ],
+        "examples": [
+          "[…] ; le respect de la personne humaine, la fidélité sexuelle et le dévouement pour les faibles constituent les éléments de moralité dont sont fiers tous les hommes d’un cœur élevé; – c’est même très souvent à cela que l’on réduit la morale.",
+          "Dis-donc, Rosalie, s’écrie-t-il en s’adressant à sa femme, grosse personne blonde, molle et tavelée.",
+          "[…] je vis toute la famille de mon hôte, une vingtaine de personnes, dont une dizaine d’enfants, qui dormaient, serrés les uns contre les autres, sur des nattes de pandanus."
+        ]
+      },
+      {
+        "partOfSpeech": "pron",
+        "definitions": [
+          "Quelqu’un.",
+          "Nul ; quiconque ; qui que ce soit."
+        ],
+        "examples": [
+          "Le fragile édifice du crédit, – qui avait des proportions que nul n’avait prévues, et qui avait tenu dans une dépendance réciproque des centaines de millions d’hommes, sans que personne s’en rendît clairement compte, – s’effondra dans la panique.",
+          "Y a-t-il personne d’assez hardi ?",
+          "Je doute que personne y réussisse."
+        ]
+      }
+    ],
+    "pronunciation": "\\pɛʁ.sɔn\\"
+  },
+  {
+    "id": "fr:green",
+    "headword": "green",
+    "language": "fr",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "Zone d’un parcours de golf, où se trouve le trou."
+        ],
+        "examples": [
+          "Sa balle est tombée dans le green.",
+          "La vie, au fond, c’est un green de golf avec plein de trous sur le parcours. D’ailleurs, c’est par un trou qu’elle finit : la grande gueule noire et vorace de la terre, qui bouffe tout."
+        ]
+      }
+    ],
+    "pronunciation": "\\ɡʁin\\"
+  },
+  {
+    "id": "fr:plage",
+    "headword": "plage",
+    "language": "fr",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "Étendue de sable ou de galets bordant un plan d’eau.",
+          "Chacun des morceaux enregistrés sur un disque vinyle ou un CD.",
+          "Partie plane située à l’arrière d’une voiture et couvrant la malle arrière.",
+          "Zone sur un circuit dédiée aux contacts et aux autres types d’interconnexion électrique (brasure, câblage filaire, etc.).",
+          "Partie d’un tout constituant un sous-ensemble cohérent et contigu.",
+          "Groupe d’adresses IP consécutives.",
+          "Dans un tableur, objet correspondant à un ensemble de cellules, formant une zone rectangulaire d’une feuille de calcul."
+        ],
+        "examples": [
+          "Sur une plage de sable noir volcanique, des brisants déferlaient avec bruit.",
+          "À partir du mois de juin, la plage, aujourd’hui disparue, se couvrait de tentes pour la saison des bains de mer.",
+          "La plage microtidale d’Agay, située sur la commune de Saint-Raphaël (83), présente une forme en arc de cercle sur un kilomètre."
+        ]
+      }
+    ],
+    "pronunciation": "\\plaʒ\\"
+  },
+  {
+    "id": "fr:lès",
+    "headword": "lès",
+    "language": "fr",
+    "meanings": [
+      {
+        "partOfSpeech": "prep",
+        "definitions": [
+          "Près de"
+        ],
+        "examples": [
+          "Rouvroy-lès-Pothées et Remilly-lès-Pothées , malgré leur nom, ne faisaient pas non plus partie de la baronnie des Potées. L'expression lès ou lez indique seulement que ces villages en étaient voisins."
+        ]
+      }
+    ],
+    "pronunciation": "\\lɛ\\"
+  },
+  {
+    "id": "fr:nom commun",
+    "headword": "nom commun",
+    "language": "fr",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "Mot qui peut être un sujet ou un complément d’un verbe, représentant un concept, non pas un seul référent."
+        ],
+        "examples": [
+          "La caractéristique du langage schtroumpf est que les noms propres et les noms communs, les verbes et les adverbes y sont remplacés, et chaque fois que possible, par des conjugaisons et déclinaisons du mot schtroumpf."
+        ]
+      }
+    ],
+    "pronunciation": "\\nɔ̃ kɔ.mœ̃\\"
+  },
+  {
+    "id": "fr:des",
+    "headword": "des",
+    "language": "fr",
+    "meanings": [
+      {
+        "partOfSpeech": "article",
+        "definitions": [
+          "Article indéfini du pluriel. C’est ainsi le pluriel de un ou une."
+        ],
+        "examples": [
+          "Afin de démonopoliser, de désexpertiser le droit, l’enseignement doit être donné par les éducateurs réguliers et non pas par des policiers ou des juristes comme l’on tend à le pratiquer car, en premier lieu ceux-ci ne possèdent aucune formation pédagogique et d’autre part l’entraînement du policier est basé avant tout sur la répression : les échecs répétés dans la mise en application de l’enseignement juridique par les policiers sont dus avant tout au besoin inné d’inquisition de la personnalité policière."
+        ]
+      },
+      {
+        "partOfSpeech": "article",
+        "definitions": [
+          "(Mot + des + mot répété au pluriel) Le plus, le plus typique."
+        ],
+        "examples": [
+          "C’est à Paris que l’on sent vivre l’Europe. Paris est la ville des villes.",
+          "Seuls les grands artistes sentent, et savent, et règlent à leur gré ces mystérieuses combinaisons. Hugo, en cet art, est le maître des maîtres.",
+          "Car M. de Charlus était momentanément devenu, pour Mᵐᵉ Verdurin, le fidèle des fidèles, une seconde princesse Sherbatoff."
+        ]
+      },
+      {
+        "partOfSpeech": "pron",
+        "definitions": [
+          "Certains ou certaines."
+        ],
+        "examples": [
+          "— Elles sont longues à venir cette année, les vendanges. J'en connais « des » qui aurons le temps de faire du « vin de lune », dit Chantègue.\nLe « vin de lune », comme son nom l'indique, se fait avec le raisin volé la nuit, dans la vigne du voisin.",
+          "Bon, on s'y met ? se dit-il pour s'encourager. […]. Puisqu’il y en avait des qui cherchaient à cuisiner Paul, la piste se prolongeait... chez Lucien Vansand."
+        ]
+      }
+    ],
+    "pronunciation": "\\de\\"
+  },
+  {
+    "id": "fr:ou",
+    "headword": "ou",
+    "language": "fr",
+    "meanings": [
+      {
+        "partOfSpeech": "conj",
+        "definitions": [
+          "Indique une disjonction inclusive sur plusieurs concepts quand la cohabitation des concepts est envisageable : un ou plus dans la liste sont envisageables à la fois.",
+          "Indique une disjonction exclusive : un seul dans la liste est envisageable à la fois. Quand le sujet comprend un ou de ce sens, le verbe s’accorde en nombre avec la dernière option. La première option peut être précédée par soit ou ou.",
+          "Indique une expression alternative de la même chose.",
+          "Indique le sous-titre d’un livre."
+        ],
+        "examples": [
+          "L’enclouure sera grave, si le pus, après avoir long-temps séjourné dans le pied, a carié l'os, ou si, après avoir fusé dessous la chair de la couronne, il a gâté, ou le tendon extenseur, ou le cartilage latéral, ou l'articulation.",
+          "Vous ou moi, nous ferons telle chose.",
+          "J’irais à la piscine lundi ou mercredi. (ambigu : voir ci-dessous)"
+        ]
+      },
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "Vingt-et-unième lettre de l’alphabet cyrillique, у."
+        ]
+      }
+    ],
+    "pronunciation": "\\u\\"
+  },
+  {
+    "id": "fr:cérémonie",
+    "headword": "cérémonie",
+    "language": "fr",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "Ensemble des formes extérieures et régulières du culte religieux, des célébrations mystiques.",
+          "Formalités qu’on observe dans les actions solennelles pour les rendre plus éclatantes.",
+          "Actes de civilité, témoignages convenus de déférence que les particuliers se donnent les uns aux autres.",
+          "Forme, pharisianisme.",
+          "Civilité gênante, importune."
+        ],
+        "examples": [
+          "L’encens, qui était une gomme résineuse, était exclusivement réservé aux cérémonies religieuses.",
+          "Le rihan (Myrtus communis) produit des baies comestibles; ses feuilles servent en médecine et dans les cérémonies religieuses juives.",
+          "L’ordre des cérémonies."
+        ]
+      }
+    ],
+    "pronunciation": "\\se.ʁe.mɔ.ni\\"
+  },
+  {
+    "id": "fr:on",
+    "headword": "on",
+    "language": "fr",
+    "meanings": [
+      {
+        "partOfSpeech": "pron",
+        "definitions": [
+          "Pronom de la troisième personne du singulier. — Note d’usage : S’utilise pour désigner une ou des personnes indéfinies, en remplacement d’une forme passive."
+        ],
+        "examples": [
+          "Ainsi donc on nous a mariés sans que nous nous connussions, sans que nous nous aimassions ; on nous a mariés sans nous consulter, nous qu’on mariait.",
+          "On fait aussi du pain, mais d'une digestion assez difficile, avec du seigle, de l’orge et même de l’avoine ; […].",
+          "Ce qui est certain, c'est qu’en Extrême-Orient on meurt beaucoup plus par la fièvre typhoïde que par le choléra."
+        ]
+      },
+      {
+        "partOfSpeech": "pron",
+        "definitions": [
+          "Nous.",
+          "Je. Note d’usage : pour indiquer que le locuteur ne s’engage que peu.",
+          "Tu, vous ou n’importe quelle personne autre que moi."
+        ],
+        "examples": [
+          "Tout s'est déroulé comme d'habitude : on a récupéré le fric, on l'a laissé à l'hôtel, et on est sortis fêter le succès, tu sais, le truc typique, d'abord en allant dîner, et puis boire des coups jusqu'à pas d'heure. Comme toujours.",
+          "Moi et ma fille, on essaye de se transmettre la culture de plein de façons.",
+          "On chiale parce qu’on est tannés de regarder Netflix, tannés de pitonner sur nos cellulaires, tannés de lire, d’écouter de la musique, tannés des jeux de société, tannés de travailler de la maison."
+        ]
+      },
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "Dix-septième lettre de l’alphabet glagolitique, Ⱁ."
+        ]
+      },
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "Quatorzième lettre de l’alphabet géorgien, ka."
+        ]
+      }
+    ],
+    "pronunciation": "\\ɔ̃\\"
+  },
+  {
+    "id": "fr:O",
+    "headword": "O",
+    "language": "fr",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "Abréviation de ouest."
+        ],
+        "examples": [
+          "Houle petite et courte d’O."
+        ]
+      }
+    ],
+    "pronunciation": "\\wɛst\\"
+  }
+]
