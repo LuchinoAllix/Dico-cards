@@ -1,9 +1,10 @@
-import { Stack, useLocalSearchParams } from "expo-router";
+import { Stack, useLocalSearchParams  } from "expo-router";
 import { useEffect, useState } from "react";
-import { Pressable, ScrollView, StyleSheet, Text, View } from "react-native";
+import { Pressable, ScrollView, StyleSheet, Text, View, FlatList } from "react-native";
 import { isSaved, saveWord, unsaveWord } from "../../db/saved";
 import { getEntry } from "../../db/search";
 import type { DictionaryEntry } from "../../types/dictionary";
+
 
 export default function WordScreen() {
   const { id } = useLocalSearchParams<{ id: string }>();
