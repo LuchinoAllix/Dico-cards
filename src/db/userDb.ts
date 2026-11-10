@@ -43,5 +43,14 @@ async function migrate(db: SQLite.SQLiteDatabase) {
     });
   }
 
-  // Later: if (version < 2) { ...ALTER TABLE...; PRAGMA user_version = 2; }
+  if (version < 2) {
+    await db.withTransactionAsync(async () => {
+    await db.execAsync(`
+      ALTER TABLE saved_words ADD COLUMN due_at INTEGER;
+      ALTER TABLE saved_words ADD COLUMN card TEXT;
+      CREATE INDEX idx_saved_words_due ON saved_words(due_at);
+      PRAGMA user_version = 2;
+      `);
+    });
+  }
 }
