@@ -1,12 +1,23 @@
 import Storage from "expo-sqlite/kv-store";
 
-const DEFAULT_RECENT_DAYS = 7;
+export const RECENT_DAYS_OPTIONS = [1, 3, 7, 14, 30];
+export const RETENTION_OPTIONS = [0.8, 0.85, 0.9, 0.95];
+export const SESSION_SIZE_OPTIONS = [10, 20, 30, 50];
 
-export async function getRecentDays(): Promise<number> {
-  const value = Number(await Storage.getItem("recentDays"));
-  return Number.isFinite(value) && value > 0 ? value : DEFAULT_RECENT_DAYS;
+async function getNumber(key: string, fallback: number): Promise<number> {
+  const value = Number(await Storage.getItem(key));
+  return Number.isFinite(value) && value > 0 ? value : fallback;
 }
 
-export async function setRecentDays(days: number): Promise<void> {
-  await Storage.setItem("recentDays", String(days));
+async function setNumber(key: string, value: number): Promise<void> {
+  await Storage.setItem(key, String(value));
 }
+
+export const getRecentDays = () => getNumber("recentDays", 7);
+export const setRecentDays = (n: number) => setNumber("recentDays", n);
+
+export const getRetention = () => getNumber("retention", 0.9);
+export const setRetention = (n: number) => setNumber("retention", n);
+
+export const getSessionSize = () => getNumber("sessionSize", 20);
+export const setSessionSize = (n: number) => setNumber("sessionSize", n);

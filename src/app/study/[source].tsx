@@ -4,8 +4,9 @@ import { Stack, useLocalSearchParams, useRouter } from "expo-router";
 import { Rating } from "ts-fsrs";
 import { getEntry } from "../../db/search";
 import { getDueWords, type QuizSource } from "../../db/quiz";
-import { reviewWord, type Grade } from "../../db/srs";
+import { previewIntervals, reviewWord, type Grade } from "../../db/srs";
 import type { SavedWord } from "../../db/saved";
+import { getSessionSize } from "../../db/settings";
 import type { DictionaryEntry } from "../../types/dictionary";
 import MeaningList from "../../components/MeaningList";
 
@@ -32,17 +33,20 @@ export default function StudyScreen() {
   const [entry, setEntry] = useState<DictionaryEntry | undefined>();
   const [revealed, setRevealed] = useState(false);
   const [busy, setBusy] = useState(false);
+  const [intervals, setIntervals] = useState<Record<Grade, string> | null>(null);
 
   const current = queue?.[0];
 
   // 1. Load the words that are due, once.
   useEffect(() => {
     let cancelled = false;
-    getDueWords(parseSource(source)).then((words) => {
-      if (cancelled) return;
-      setQueue(words);
-      setTotal(words.length);
-    });
+    getSessionSize()
+      .then((size) => getDueWords(parseSource(source), size))
+      .then((words) => {
+          if (cancelled) return;
+          setQueue(words);
+          setTotal(words.length);
+      });
     return () => {
       cancelled = true;
     };
@@ -69,6 +73,18 @@ export default function StudyScreen() {
       cancelled = true;
     };
   }, [current?.id]);
+
+  // When the answer is shown, compute what each button would do.
+    useEffect(() => {
+    if (!revealed || !current) return;
+    let cancelled = false;
+    previewIntervals(current.id).then((result) => {
+      if (!cancelled) setIntervals(result);
+    });
+    return () => {
+      cancelled = true;
+    };
+    }, [revealed, current?.id]);
 
   async function answer(grade: Grade) {
     if (!current || busy) return;
@@ -139,6 +155,7 @@ export default function StudyScreen() {
                 onPress={() => answer(g.grade)}
               >
                 <Text style={styles.gradeText}>{g.label}</Text>
+                <Text style={styles.intervalText}>{intervals?.[g.grade] ?? " "}</Text>
               </Pressable>
             ))}
           </View>
@@ -169,4 +186,5 @@ const styles = StyleSheet.create({
   center: { flex: 1, justifyContent: "center", alignItems: "center", padding: 24, gap: 16 },
   doneTitle: { fontSize: 26, fontWeight: "700" },
   hint: { textAlign: "center", color: "#888", marginTop: 24 },
+  intervalText: { color: "rgba(255,255,255,0.85)", fontSize: 12, marginTop: 2 },
 });
