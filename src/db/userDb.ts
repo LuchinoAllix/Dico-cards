@@ -53,4 +53,23 @@ async function migrate(db: SQLite.SQLiteDatabase) {
       `);
     });
   }
+
+  if (version < 3) {
+    await db.withTransactionAsync(async () => {
+      await db.execAsync(`
+        CREATE TABLE card_states (
+            word_id TEXT NOT NULL REFERENCES saved_words(id) ON DELETE CASCADE,
+            mode TEXT NOT NULL,
+            card TEXT NOT NULL,
+            due_at INTEGER NOT NULL,
+            PRIMARY KEY (word_id, mode)
+        );
+        CREATE INDEX idx_card_states_due ON card_states(mode, due_at);
+        INSERT INTO card_states (word_id, mode, card, due_at)
+            SELECT id, 'flashcard', card, due_at FROM saved_words
+            WHERE card IS NOT NULL AND due_at IS NOT NULL;
+        PRAGMA user_version = 3;
+        `);
+      });
+    }
 }

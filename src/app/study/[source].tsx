@@ -5,10 +5,10 @@ import { Rating } from "ts-fsrs";
 import { getEntry } from "../../db/search";
 import { getDueWords, type QuizSource } from "../../db/quiz";
 import { previewIntervals, reviewWord, type Grade } from "../../db/srs";
-import type { SavedWord } from "../../db/saved";
 import { getSessionSize } from "../../db/settings";
+import { getMode } from "../../quiz/modes";
+import type { SavedWord } from "../../db/saved";
 import type { DictionaryEntry } from "../../types/dictionary";
-import MeaningList from "../../components/MeaningList";
 
 function parseSource(param: string): QuizSource {
   if (param === "recent") return { kind: "recent" };
@@ -24,10 +24,12 @@ const GRADES: { label: string; grade: Grade; color: string }[] = [
 ];
 
 export default function StudyScreen() {
-  const { source } = useLocalSearchParams<{ source: string }>();
+  const { source, mode } = useLocalSearchParams<{ source: string; mode?: string }>();
   const router = useRouter();
+  const quizMode = getMode(mode);
+  const ModeCard = quizMode.Card;
 
-  const [queue, setQueue] = useState<SavedWord[] | null>(null); // null = still loading
+  const [queue, setQueue] = useState<SavedWord[] | null>(null);
   const [total, setTotal] = useState(0);
   const [reviewed, setReviewed] = useState(0);
   const [entry, setEntry] = useState<DictionaryEntry | undefined>();
@@ -41,21 +43,22 @@ export default function StudyScreen() {
   useEffect(() => {
     let cancelled = false;
     getSessionSize()
-      .then((size) => getDueWords(parseSource(source), size))
+      .then((size) => getDueWords(parseSource(source), quizMode.id, size))
       .then((words) => {
-          if (cancelled) return;
-          setQueue(words);
-          setTotal(words.length);
+        if (cancelled) return;
+        setQueue(words);
+        setTotal(words.length);
       });
     return () => {
       cancelled = true;
     };
-  }, [source]);
+  }, [source, quizMode.id]);
 
   // 2. Each time the current word changes, load its dictionary entry.
   useEffect(() => {
     setEntry(undefined);
     setRevealed(false);
+    setIntervals(null);
     if (!current) return;
 
     let cancelled = false;
@@ -74,37 +77,36 @@ export default function StudyScreen() {
     };
   }, [current?.id]);
 
-  // When the answer is shown, compute what each button would do.
-    useEffect(() => {
+  // 3. When the answer is shown, compute what each button would do.
+  useEffect(() => {
     if (!revealed || !current) return;
     let cancelled = false;
-    previewIntervals(current.id).then((result) => {
+    previewIntervals(current.id, quizMode.id).then((result) => {
       if (!cancelled) setIntervals(result);
     });
     return () => {
       cancelled = true;
     };
-    }, [revealed, current?.id]);
+  }, [revealed, current?.id, quizMode.id]);
 
   async function answer(grade: Grade) {
     if (!current || busy) return;
     setBusy(true);
     try {
-      await reviewWord(current.id, grade);
+      await reviewWord(current.id, quizMode.id, grade);
       setQueue((q) => {
         if (!q) return q;
         const [first, ...rest] = q;
-        // "Again" sends the word to the back of the queue, so you see it again.
         return grade === Rating.Again ? [...rest, first] : rest;
       });
       if (grade !== Rating.Again) setReviewed((n) => n + 1);
       setRevealed(false);
+      setIntervals(null);
     } finally {
       setBusy(false);
     }
   }
 
-  // ---------- what to display ----------
   if (queue === null) {
     return <Text style={styles.hint}>Loading...</Text>;
   }
@@ -131,9 +133,11 @@ export default function StudyScreen() {
       <Stack.Screen options={{ title: `${reviewed} / ${total}` }} />
 
       <ScrollView contentContainerStyle={styles.card}>
-        <Text style={styles.headword}>{current.headword}</Text>
-        {entry?.pronunciation && <Text style={styles.pron}>{entry.pronunciation}</Text>}
-        {revealed && entry && <MeaningList meanings={entry.meanings} />}
+        {entry ? (
+          <ModeCard entry={entry} revealed={revealed} />
+        ) : (
+          <Text style={styles.hint}>Loading...</Text>
+        )}
       </ScrollView>
 
       <View style={styles.footer}>
@@ -168,8 +172,6 @@ export default function StudyScreen() {
 const styles = StyleSheet.create({
   container: { flex: 1 },
   card: { padding: 24, paddingTop: 40 },
-  headword: { fontSize: 34, fontWeight: "700", textAlign: "center" },
-  pron: { fontSize: 16, color: "#666", textAlign: "center", marginTop: 4 },
   footer: { padding: 16 },
   primaryButton: {
     backgroundColor: "#2563eb",
@@ -180,11 +182,11 @@ const styles = StyleSheet.create({
   },
   primaryText: { color: "white", fontSize: 17, fontWeight: "600" },
   gradeRow: { flexDirection: "row", gap: 8 },
-  gradeButton: { flex: 1, paddingVertical: 16, borderRadius: 10, alignItems: "center" },
+  gradeButton: { flex: 1, paddingVertical: 14, borderRadius: 10, alignItems: "center" },
   gradeText: { color: "white", fontWeight: "600", fontSize: 15 },
+  intervalText: { color: "rgba(255,255,255,0.85)", fontSize: 12, marginTop: 2 },
   disabled: { opacity: 0.5 },
   center: { flex: 1, justifyContent: "center", alignItems: "center", padding: 24, gap: 16 },
   doneTitle: { fontSize: 26, fontWeight: "700" },
   hint: { textAlign: "center", color: "#888", marginTop: 24 },
-  intervalText: { color: "rgba(255,255,255,0.85)", fontSize: 12, marginTop: 2 },
 });

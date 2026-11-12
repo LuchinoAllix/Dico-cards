@@ -3,15 +3,17 @@ import { FlatList, Pressable, StyleSheet, Text, View } from "react-native";
 import { useFocusEffect, useRouter } from "expo-router";
 import { getCollections } from "../../db/collections";
 import { getDueWords, type QuizSource } from "../../db/quiz";
+import { MODES, getMode } from "../../quiz/modes";
+import type { QuizModeId } from "../../quiz/types";
 
 interface SourceRow {
-  key: string; // goes in the URL: "recent", "all" or the collection id
+  key: string;
   title: string;
   source: QuizSource;
   due: number;
 }
 
-async function loadRows(): Promise<SourceRow[]> {
+async function loadRows(mode: QuizModeId): Promise<SourceRow[]> {
   const collections = await getCollections();
 
   const defs = [
@@ -24,32 +26,46 @@ async function loadRows(): Promise<SourceRow[]> {
     })),
   ];
 
-  // Count what's due in each source (the limit is just a high cap for counting).
   return Promise.all(
-    defs.map(async (d) => ({ ...d, due: (await getDueWords(d.source, 1000)).length }))
+    defs.map(async (d) => ({ ...d, due: (await getDueWords(d.source, mode, 1000)).length }))
   );
 }
 
 export default function QuizScreen() {
   const router = useRouter();
+  const [mode, setMode] = useState<QuizModeId>("flashcard");
   const [rows, setRows] = useState<SourceRow[]>([]);
 
-  // Re-run every time the tab is shown, so counts are fresh after a session.
+  // Re-runs when the tab is shown and when the mode changes.
   useFocusEffect(
     useCallback(() => {
       let cancelled = false;
-      loadRows().then((result) => {
+      loadRows(mode).then((result) => {
         if (!cancelled) setRows(result);
       });
       return () => {
         cancelled = true;
       };
-    }, [])
+    }, [mode])
   );
 
   return (
     <View style={styles.container}>
-      <Text style={styles.intro}>Choose what to study</Text>
+      <Text style={styles.intro}>Mode</Text>
+      <View style={styles.modeRow}>
+        {MODES.map((m) => (
+          <Pressable
+            key={m.id}
+            style={[styles.modeButton, m.id === mode && styles.modeButtonActive]}
+            onPress={() => setMode(m.id)}
+          >
+            <Text style={[styles.modeText, m.id === mode && styles.modeTextActive]}>{m.label}</Text>
+          </Pressable>
+        ))}
+      </View>
+      <Text style={styles.description}>{getMode(mode).description}</Text>
+
+      <Text style={[styles.intro, { marginTop: 20 }]}>Choose what to study</Text>
       <FlatList
         data={rows}
         keyExtractor={(item) => item.key}
@@ -59,7 +75,7 @@ export default function QuizScreen() {
             <Pressable
               style={[styles.row, disabled && styles.rowDisabled]}
               disabled={disabled}
-              onPress={() => router.push(`/study/${item.key}`)}
+              onPress={() => router.push(`/study/${item.key}?mode=${mode}`)}
             >
               <Text style={styles.title}>{item.title}</Text>
               <Text style={styles.count}>{disabled ? "Nothing due" : `${item.due} due`}</Text>
@@ -75,6 +91,19 @@ export default function QuizScreen() {
 const styles = StyleSheet.create({
   container: { flex: 1, padding: 16 },
   intro: { fontSize: 14, color: "#666", textTransform: "uppercase", marginBottom: 8 },
+  modeRow: { flexDirection: "row", gap: 8 },
+  modeButton: {
+    flex: 1,
+    paddingVertical: 10,
+    borderRadius: 8,
+    borderWidth: 1,
+    borderColor: "#ccc",
+    alignItems: "center",
+  },
+  modeButtonActive: { backgroundColor: "#2563eb", borderColor: "#2563eb" },
+  modeText: { fontSize: 14, fontWeight: "600", color: "#333" },
+  modeTextActive: { color: "white" },
+  description: { fontSize: 14, color: "#666", marginTop: 8 },
   row: {
     flexDirection: "row",
     justifyContent: "space-between",
