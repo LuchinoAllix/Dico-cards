@@ -1,0 +1,2204 @@
+[
+  {
+    "id": "it:casa",
+    "headword": "casa",
+    "language": "it",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "casa ( approfondimento) f sing",
+          "casa ( citazioni)"
+        ]
+      }
+    ],
+    "pronunciation": "/ˈkaza/"
+  },
+  {
+    "id": "it:informatica",
+    "headword": "informatica",
+    "language": "it",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "disciplina scientifica e tecnica che studia, con l'aiuto di concetti logici, statistici e matematici, le operazioni per predisporre lo sviluppo di informazioni e dati con sistemi elettronici di calcolo e le loro applicazioni pratiche",
+          "ingegneria informatica: ramo dell'ingegneria che progetta e realizza sistemi e soluzioni per elaborare, mandare e ricevere informazioni e dati",
+          "sicurezza informatica: ramo dell'informatica che si occupa delle operazioni per difendere reti e sistemi di computer da rischi e violazioni di dati",
+          "informatica umanistica: è un campo di studi, ricerca, insegnamento che nasce dall'unione di discipline umanistiche e informatiche"
+        ],
+        "examples": [
+          "Visto il costo contenuto di un personal computer, oggi l'informatica è entrata in quasi tutte le case"
+        ]
+      }
+    ],
+    "pronunciation": "/inforˈmatika/"
+  },
+  {
+    "id": "it:libero",
+    "headword": "libero",
+    "language": "it",
+    "meanings": [
+      {
+        "partOfSpeech": "adj",
+        "definitions": [
+          "non imprigionato o in schiavitù",
+          "con possibilità di scelta arbitraria o personale",
+          "non bloccato",
+          "relativo al telefono, quando è possibile effettuare una chiamata o quando segnala, in genere con segnale acustico, che il ricevente non è impegnato in una conversazione",
+          "privo, senza qualche cosa",
+          "nel gioco della pallavolo, il giocatore che può sostituire un difensore per un numero arbitrario di volte durante la partita"
+        ],
+        "examples": [
+          "dopo due anni di galera sono tornato libero",
+          "oggi scriveremo un testo libero",
+          "il cane è libero dal guinzaglio"
+        ]
+      },
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "nel gioco del calcio, difensore a cui sono affidate operazioni sia d'attacco che di difesa, poi sostituito dal mediano difensivo"
+        ]
+      }
+    ],
+    "pronunciation": "/ˈlibero/"
+  },
+  {
+    "id": "it:inventore",
+    "headword": "inventore",
+    "language": "it",
+    "meanings": [
+      {
+        "partOfSpeech": "adj",
+        "definitions": [
+          "che è capace di inventare"
+        ]
+      },
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "persona che ha prodotto qualcosa di innovativo, sia un'idea o un oggetto"
+        ],
+        "examples": [
+          "Thomas Edison fu l'inventore della lampadina",
+          "Mendeleev fu l'inventore del Sistema periodico degli elementi"
+        ]
+      }
+    ],
+    "pronunciation": "/invenˈtore/"
+  },
+  {
+    "id": "it:chiudere",
+    "headword": "chiudere",
+    "language": "it",
+    "meanings": [
+      {
+        "partOfSpeech": "verb",
+        "definitions": [
+          "porre in aderenza le parti distinte o aperte di una cosa in modo da impedire il passaggio o l'utilizzo",
+          "ostruire un'entrata",
+          "porre fine a qualcosa",
+          "completare e confermare un contratto di vendita ed acquisto",
+          "definizione mancante; se vuoi, aggiungila tu"
+        ],
+        "examples": [
+          "chiudere la riunione"
+        ]
+      },
+      {
+        "partOfSpeech": "verb",
+        "definitions": [
+          "concludere un'attività"
+        ]
+      }
+    ],
+    "pronunciation": "/ˈkjudere/"
+  },
+  {
+    "id": "it:vicino",
+    "headword": "vicino",
+    "language": "it",
+    "meanings": [
+      {
+        "partOfSpeech": "adj",
+        "definitions": [
+          "che è poco distante da un luogo o da un avvenimento",
+          "una o più persone frequentate, quindi parenti e/o amici e conoscenti",
+          "esprime cordoglio"
+        ],
+        "examples": [
+          "la pasticceria vicina sta facendo parecchio guadagno",
+          "il palazzo vicino alla palestra è stato appena ristrutturato",
+          "i cugini a lui vicini gli sono affezionati"
+        ]
+      },
+      {
+        "partOfSpeech": "adv",
+        "definitions": [
+          "a breve distanza",
+          "con comprensione delle difficoltà di persone a lui/lei legate, strette; esprime il sostegno dato a qualcuno oppure anche un supporto morale"
+        ],
+        "examples": [
+          "il pallone è là, è andato vicino alla porta",
+          "io le sono vicino infatti sicuramente farà molto bene",
+          "in quel momento mi è stato vicino"
+        ]
+      },
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "colui, colei o coloro che abitano accanto"
+        ],
+        "examples": [
+          "la nostra vicina è forte e molto simpatica"
+        ]
+      }
+    ],
+    "pronunciation": "/viˈt͡ʃino/"
+  },
+  {
+    "id": "it:misantropo",
+    "headword": "misantropo",
+    "language": "it",
+    "meanings": [
+      {
+        "partOfSpeech": "adj",
+        "definitions": [
+          "che soffre di misantropia",
+          "colui che odia l'intera umanità"
+        ]
+      },
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "colui che soffre di misantropia",
+          "persona scontrosa e scarsamente socievole; chi, provando avversione per qualsiasi consorzio umano, conduce una vita solitaria, senza nessun contatto con gli altri"
+        ]
+      }
+    ],
+    "pronunciation": "/miˈzantropo/"
+  },
+  {
+    "id": "it:misantropia",
+    "headword": "misantropia",
+    "language": "it",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "desiderio morboso di isolarsi dai propri simili, causato da forte avversione, odio o sfiducia nei loro riguardi",
+          "scarsa capacità o interesse a prendere parte alla vita sociale attiva, accompagnata da un forte desiderio di solitudine"
+        ]
+      }
+    ],
+    "pronunciation": "/mizantroˈpia/"
+  },
+  {
+    "id": "it:vitalizio",
+    "headword": "vitalizio",
+    "language": "it",
+    "meanings": [
+      {
+        "partOfSpeech": "adj",
+        "definitions": [
+          "che dura per tutta la vita"
+        ],
+        "examples": [
+          "carica vitalizia",
+          "rendita vitalizia"
+        ]
+      },
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "contratto che rende un individuo beneficiario di una rendita per tutta la vita",
+          "reddito e/o pensione per gli onorevoli della repubblica d'Italia"
+        ],
+        "examples": [
+          "il vitalizio è stabilito anche secondo la carica o l'incarico"
+        ]
+      }
+    ],
+    "pronunciation": "/vitaˈlittsjo/"
+  },
+  {
+    "id": "it:hacker",
+    "headword": "hacker",
+    "language": "it",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "esperto di sistemi informatici e sicurezza informatica, in grado di accedere a reti di computer e renderle adatte alle esigenze sia proprie che del pubblico",
+          "pirata informatico (definizione fondamentalmente errata, spesso usata dalla stampa non specializzata. Il corrispettivo corretto sarebbe cracker)",
+          "chi conosce in dettaglio le caratteristiche tecniche di un sistema informatico, al punto da poterle migliorare con accorgimenti inediti"
+        ],
+        "examples": [
+          "attacco informatico",
+          "molti sono divenuti hacker quasi senza accorgersene, invero facendo evolvere anche la tecnologia informatica esponenzialmente"
+        ]
+      }
+    ],
+    "pronunciation": "/ˈaker/"
+  },
+  {
+    "id": "it:glottoteta",
+    "headword": "glottoteta",
+    "language": "it",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "chi pratica attività glossopoietica cioè chi sviluppa lingue artificiali siano esse artistiche come il klingon, a vocazione ausiliaria come l'esperanto o logiche come il lojban"
+        ]
+      }
+    ],
+    "pronunciation": "/ɡlottoˈtɛta/"
+  },
+  {
+    "id": "it:groppone",
+    "headword": "groppone",
+    "language": "it",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "groppa, schiena o dorso di animale. Usato scherzosamente per indicare le spalle o il dorso di una persona"
+        ]
+      }
+    ],
+    "pronunciation": "/gropˈpone/"
+  },
+  {
+    "id": "it:parlare",
+    "headword": "parlare",
+    "language": "it",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "maniera di comunicare a voce ciò che si pensa",
+          "esprimere uno o più significati grazie all'uso della parola",
+          "dialettica verbale, in monologo oppure con dialogo"
+        ],
+        "examples": [
+          "è un bel parlare, ma dobbiamo fare i conti con la realtà",
+          "parlando con loro ho dimostrato la mia vicinanza",
+          "malgrado alcune difficoltà, parlare in famiglia è necessario per elevarsi"
+        ]
+      },
+      {
+        "partOfSpeech": "verb",
+        "definitions": [
+          "pronunciare parole esprimendo i propri pensieri"
+        ]
+      }
+    ],
+    "pronunciation": "/parlaːre/"
+  },
+  {
+    "id": "it:lunedì",
+    "headword": "lunedì",
+    "language": "it",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "primo giorno della settimana; segue la domenica e precede il martedì"
+        ]
+      }
+    ],
+    "pronunciation": "/luneˈdi*/"
+  },
+  {
+    "id": "it:martedì",
+    "headword": "martedì",
+    "language": "it",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "secondo giorno della settimana; segue il lunedì e precede il mercoledì"
+        ]
+      }
+    ],
+    "pronunciation": "/marteˈdi/"
+  },
+  {
+    "id": "it:mercoledì",
+    "headword": "mercoledì",
+    "language": "it",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "terzo giorno della settimana; segue il martedì e precede il giovedì"
+        ]
+      }
+    ],
+    "pronunciation": "/mɛrkoleˈdi*/"
+  },
+  {
+    "id": "it:giovedì",
+    "headword": "giovedì",
+    "language": "it",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "nei calendari occidentali quarto giorno della settimana, segue mercoledì e precede venerdì"
+        ]
+      }
+    ],
+    "pronunciation": "/dʒoveˌdi pˈprɔssimo/"
+  },
+  {
+    "id": "it:venerdì",
+    "headword": "venerdì",
+    "language": "it",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "quinto giorno della settimana che segue il giovedì e precede il sabato"
+        ]
+      }
+    ],
+    "pronunciation": "/venerˈdi/"
+  },
+  {
+    "id": "it:sabato",
+    "headword": "sabato",
+    "language": "it",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "sesto giorno della settimana; segue venerdì e precede domenica; anticamente giorno dedicato a Saturno"
+        ],
+        "examples": [
+          "Il sabato del villaggio è una poesia scritta da Giacomo Leopardi"
+        ]
+      }
+    ],
+    "pronunciation": "/ˈsabato/"
+  },
+  {
+    "id": "it:domenica",
+    "headword": "domenica",
+    "language": "it",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "settimo giorno della settimana; segue il sabato e precede il lunedì; presso i popoli di civiltà cristiana è festivo"
+        ]
+      }
+    ],
+    "pronunciation": "/doˈmenika/"
+  },
+  {
+    "id": "it:gennaio",
+    "headword": "gennaio",
+    "language": "it",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "nel calendario primo mese dell'anno che dura trentun giorni",
+          "età avanzata, inoltrata"
+        ],
+        "examples": [
+          "il 18 gennaio 1871 Berlino fu proclamata capitale della Germania",
+          "il 15 gennaio 2001 nacque Wikipedia"
+        ]
+      }
+    ],
+    "pronunciation": "/d͡ʒenˈnajo/"
+  },
+  {
+    "id": "it:febbraio",
+    "headword": "febbraio",
+    "language": "it",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "secondo mese dell'anno (dapprima nel calendario giuliano e poi quello gregoriano) che segue gennaio e precede marzo e che si contraddistingue perché è il più breve ( 28 giorni, o 29 se l'anno è bisestile) di tutti gli altri"
+        ],
+        "examples": [
+          "il 19 febbraio 1473 nacque Copernico"
+        ]
+      }
+    ],
+    "pronunciation": "/febˈbrajo/"
+  },
+  {
+    "id": "it:marzo",
+    "headword": "marzo",
+    "language": "it",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "il terzo mese dell'anno nel calendario giuliano e in quello gregoriano; segue febbraio e precede aprile; consta di 31 giorni",
+          "il primo mese nel calendario romano"
+        ],
+        "examples": [
+          "il venticinque marzo è la data considerata l'inizio del viaggio ultraterreno di Dante Alighieri",
+          "Giulio Cesare fu ucciso durante le idi di marzo"
+        ]
+      }
+    ],
+    "pronunciation": "/ˈmartso/"
+  },
+  {
+    "id": "it:aprile",
+    "headword": "aprile",
+    "language": "it",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "il quarto mese dell'anno nel calendario giuliano e gregoriano. Segue marzo e precede maggio. Consta di 30 giorni",
+          "giovinezza"
+        ],
+        "examples": [
+          "Il Palazzo del Reichstag è ritornato ad essere dal 19 aprile 1999 la sede del Parlamento tedesco",
+          "il 4 aprile 1850 nacque Los Angeles",
+          "il 6 aprile 1520 morì Raffaello"
+        ]
+      }
+    ],
+    "pronunciation": "/aˈprile/"
+  },
+  {
+    "id": "it:maggio",
+    "headword": "maggio",
+    "language": "it",
+    "meanings": [
+      {
+        "partOfSpeech": "adj",
+        "definitions": [
+          "maggiore"
+        ]
+      },
+      {
+        "partOfSpeech": "adv",
+        "definitions": [
+          "maggiormente"
+        ]
+      },
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "quinto mese dell'anno nel calendario gregoriano. Segue aprile e precede giugno. Consta di 31 giorni",
+          "può indicare il ramo fiorito che il primo giorno di maggio gli uomini innamorati posavano sulla porta della donna amata per dimostrare il loro amore",
+          "ramo o albero fiorito che veniva portato in processione dai giovani nelle feste di primavera e che veniva poi piantato nella piazza del villaggio",
+          "nella ricorrenza del calendimaggio era la canzonetta o composizione poetica popolare che i giovani declamavano per la loro amata",
+          "nella festa del primo maggio era una rappresentazione popolare derivata da leggende medievali sacre o eroiche, che aveva come accompagnamento canti e ritornelli di violini",
+          "identifica il nome di diverse piante che hanno la fioritura in maggio o comunque in primavera"
+        ],
+        "examples": [
+          "nelle elezion i politiche del maggio 1921 i fascisti portarono in Parlamento trentacinque deputati",
+          "il 23 maggio 1949 nasce la Repubblica federale tedesca",
+          "il 10 maggio 1994 Nelson Mandela fu eletto presidente del Sudafrica, ponendo fine all'apartheid"
+        ]
+      }
+    ],
+    "pronunciation": "/ˈmadd͡ʒo/"
+  },
+  {
+    "id": "it:giugno",
+    "headword": "giugno",
+    "language": "it",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "sesto mese dell'anno nel calendario giuliano e gregoriano, (in quest'ultimo segue maggio e precede luglio) lungo trenta giorni"
+        ]
+      }
+    ],
+    "pronunciation": "/ˈd͡ʒuɲɲo/"
+  },
+  {
+    "id": "it:luglio",
+    "headword": "luglio",
+    "language": "it",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "settimo mese dell'anno nel calendario gregoriano. Segue giugno e precede agosto. Consta di 31 giorni"
+        ],
+        "examples": [
+          "il 29 luglio 1900 fu assassinato re Umberto"
+        ]
+      }
+    ],
+    "pronunciation": "/ˈluʎʎo/"
+  },
+  {
+    "id": "it:agosto",
+    "headword": "agosto",
+    "language": "it",
+    "meanings": [
+      {
+        "partOfSpeech": "adj",
+        "definitions": [
+          "augusto, imperiale"
+        ]
+      },
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "l'ottavo mese dell'anno nel calendario giuliano e gregoriano composto da 31 giorni e collocato tra luglio e settembre"
+        ]
+      }
+    ],
+    "pronunciation": "/aˈɡosto/"
+  },
+  {
+    "id": "it:settembre",
+    "headword": "settembre",
+    "language": "it",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "nono mese (di trenta giorni) dell'anno nel calendario giuliano e gregoriano"
+        ],
+        "examples": [
+          "Il 14 settembre del 2015, l’antenna gravitazionale LIGO ha rivelato per la prima volta in maniera diretta il passaggio di un’onda gravitazionale, generata dalla collisione tra due buchi neri avvenuta a quasi un miliardo e mezzo di anni-luce dalla Terra"
+        ]
+      }
+    ],
+    "pronunciation": "/setˈtɛmbre/"
+  },
+  {
+    "id": "it:ottobre",
+    "headword": "ottobre",
+    "language": "it",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "nel calendario gregoriano decimo mese tra settembre e novembre composto da 31 giorni"
+        ],
+        "examples": [
+          "il 20 ottobre 1577 viene consacrato il duomo di Milano",
+          "il 6 ottobre 1924 nasceva la radio in Italia",
+          "nell'ottobre 1623 veniva pubblicato il Il Saggiatore, secondo dei quattro testi fondamentali di Galileo Galilei; gli altri furono: il Siderus nuncius, il Dialogo sopra i due massimi sistemi del mondo e i Discorsi e dimostrazioni matematiche intorno a due nuove scienze"
+        ]
+      }
+    ],
+    "pronunciation": "/otˈtobre/"
+  },
+  {
+    "id": "it:novembre",
+    "headword": "novembre",
+    "language": "it",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "undicesimo mese nel calendario gregoriano; segue ottobre e precede dicembre e consta di 30 giorni"
+        ],
+        "examples": [
+          "la prima edizione dell'origine delle specie fu pubblicata a Londra il 24 novembre 1859",
+          "nel novembre del 1920 i fascisti presero d'assalto il municipio di Bologna nel giorno dell'insediamento della nuova giunta di sinistra"
+        ]
+      }
+    ],
+    "pronunciation": "/noˈvɛmbre/"
+  },
+  {
+    "id": "it:dicembre",
+    "headword": "dicembre",
+    "language": "it",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "nel calendario gregoriano dodicesimo ed ultimo mese (diviso in 31 giorni) dell'anno; segue novembre e precede gennaio dell'anno seguente"
+        ],
+        "examples": [
+          "il 26 dicembre 1883 la Scala diede inizio alla stagione per la prima volta illuminata dall'elettricità",
+          "il 26 dicembre 1991 si sciolse ufficialmente l'Unione Sovietica, ponendo fine alla guerra fredda"
+        ]
+      }
+    ],
+    "pronunciation": "/diˈt͡ʃɛmbre/"
+  },
+  {
+    "id": "it:arancione",
+    "headword": "arancione",
+    "language": "it",
+    "meanings": [
+      {
+        "partOfSpeech": "adj",
+        "definitions": [
+          "di uno dei colori dello spettro che l'uomo riesce a vedere. Si trova tra il rosso e il giallo ed ha una lunghezza d'onda di circa 620-585 nanometri"
+        ]
+      },
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "colore dell'arancia"
+        ]
+      },
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "definizione mancante; se vuoi, aggiungila tu"
+        ]
+      }
+    ],
+    "pronunciation": "/aranˈt͡ʃone/"
+  },
+  {
+    "id": "it:azzurro",
+    "headword": "azzurro",
+    "language": "it",
+    "meanings": [
+      {
+        "partOfSpeech": "adj",
+        "definitions": [
+          "di colore azzurro;"
+        ],
+        "examples": [
+          "le onde azzurre del mare",
+          "occhi azzurri"
+        ]
+      },
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "colore tra il celeste e il turchino",
+          "uno dei colori base",
+          "l' azzurro è uno smalto araldico di colore blu. Nella rappresentazione monocromatica è simbolizzato da linee parallele orizzontali",
+          "il cielo sereno",
+          "sostanza, organica o inorganica, colorata in azzurro usato per dipingere o per colorare inchiostri da stampa",
+          "sostanza, organica o inorganica, colorante in azzurro usato per tingere lacche o fibre tessili.",
+          "denominazione usata durante la rivoluzione francese per indicare gli appartenenti alle truppe repubblicane (che avevano divise azzurre) in opposizione ai bianchi realisti ed estesa generalmente ai repubblicani",
+          "atleta che partecipa o ha partecipato a competizioni internazionali italiane ( indossando la maglia azzurra )",
+          "nelle cronache sportive, i giocatori del Napoli",
+          "lapislazzuli"
+        ],
+        "examples": [
+          "c'era un cielo azzurro",
+          "l' azzurro dello sfondo",
+          "un grigio che tende all' azzurro"
+        ]
+      }
+    ],
+    "pronunciation": "/ad.ˈd͡zur.ro/"
+  },
+  {
+    "id": "it:bianco",
+    "headword": "bianco",
+    "language": "it",
+    "meanings": [
+      {
+        "partOfSpeech": "adj",
+        "definitions": [
+          "del colore che è il risultato dell'addizione dei sette colori dell'iride, visto come il più lucente, il più nitido, il più chiaro",
+          "che è chiaro",
+          "di associazione cattolica",
+          "(di) cellula del sangue che partecipa al funzionamento del sistema immunitario"
+        ]
+      },
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "colore chiarissimo",
+          "smalto araldico che si incontra raramente e riferito per lo più ad agnelli, cavalli e cigni; di norma è sostituito dal metallo argento",
+          "talvolta con riferimento a razzismo, supremazia razziale e/o privilegi di classe, con pelle di colore bianco, quindi non nero o di colore né mulatto"
+        ]
+      }
+    ],
+    "pronunciation": "/ˈbjaŋko/"
+  },
+  {
+    "id": "it:blu",
+    "headword": "blu",
+    "language": "it",
+    "meanings": [
+      {
+        "partOfSpeech": "adj",
+        "definitions": [
+          "del colore del cielo e del mare profondo"
+        ]
+      },
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "il colore del cielo e del mare profondo",
+          "sostanza colorante blu",
+          "nome generico per formaggi (es. gorgonzola, roquefort, stilton) a striature blu, che devono questa colorazione alla germinazione di funghi aggiunti sotto forma di spore alla cagliata durante la lavorazione"
+        ]
+      }
+    ],
+    "pronunciation": "/ˈblu/"
+  },
+  {
+    "id": "it:giallo",
+    "headword": "giallo",
+    "language": "it",
+    "meanings": [
+      {
+        "partOfSpeech": "adj",
+        "definitions": [
+          "di colore intermedio tra il verde e l'arancione",
+          "appartenente al genere letterario detto giallo"
+        ]
+      },
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "colore percepito dall'occhio umano con una lunghezza d'onda fra i 565 e i 590 nanometri",
+          "denominazione non corretta per lo smalto araldico oro; il colore giallo si incontra molto raramente e, per lo più, nelle rappresentazioni al naturale di una figura",
+          "novella, film poliziesco"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "it:grigio",
+    "headword": "grigio",
+    "language": "it",
+    "meanings": [
+      {
+        "partOfSpeech": "adj",
+        "definitions": [
+          "di colore intermedio tra il bianco e il nero",
+          "incerto, scialbo, monotono",
+          "riferito all'intelligenza"
+        ],
+        "examples": [
+          "il colore grigio con le sue varie tonalità",
+          "un grigio",
+          "ha poca materia grigia"
+        ]
+      },
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "il colore grigio con le sue varie tonalità",
+          "appellativo di diverse materie principalmente biologiche utilizzate come pigmenti"
+        ],
+        "examples": [
+          "il grigio era il suo colore preferito"
+        ]
+      }
+    ],
+    "pronunciation": "/ˈɡrid͡ʒo/"
+  },
+  {
+    "id": "it:marrone",
+    "headword": "marrone",
+    "language": "it",
+    "meanings": [
+      {
+        "partOfSpeech": "adj",
+        "definitions": [
+          "di colore castano"
+        ],
+        "examples": [
+          "Luigi ha una camicia marrone"
+        ]
+      },
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "castagno della più pregiata varietà, che fa i frutti più grossi e saporiti e ciascuno in un sol riccio: si moltiplica per innesto (castanea vesca)",
+          "castagna del marrone",
+          "colore del marrone, castagna, avana, lionato (in italiano, il colore \"marrone\" è invariabile in numero e di conseguenza la forma \"marroni\" benché usata è da considerare impropria).",
+          "cavallo da tiro che si accoppiava ad un puledro, bestia che guida il branco",
+          "testicolo"
+        ]
+      }
+    ],
+    "pronunciation": "/marˈrone/"
+  },
+  {
+    "id": "it:nero",
+    "headword": "nero",
+    "language": "it",
+    "meanings": [
+      {
+        "partOfSpeech": "adj",
+        "definitions": [
+          "scuro, spesso per correlazione qualitativa",
+          "di un colore che non riflette la luce cui l'occhio è sensibile, così da apparire scurissimo",
+          "di un corpo capace di assorbire totalmente la radiazione a di qualsiasi frequenza",
+          "angoscioso, luttuoso, disperato",
+          "molto arrabbiato",
+          "simpatizzante e/o militante dell'ideale fascista"
+        ],
+        "examples": [
+          "caffè nero",
+          "vino nero",
+          "un gatto nero"
+        ]
+      },
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "il colore nero",
+          "persona con colore della pelle (molto) scuro",
+          "fascista",
+          "il nero è uno smalto araldico di colore nero. Nella rappresentazione monocromatica è simbolizzato da linee parallele verticali ed orizzontali incrociate"
+        ]
+      }
+    ],
+    "pronunciation": "/ˈnero/"
+  },
+  {
+    "id": "it:rosa",
+    "headword": "rosa",
+    "language": "it",
+    "meanings": [
+      {
+        "partOfSpeech": "adj",
+        "definitions": [
+          "di colore simile al rosso ma più chiaro e meno saturato",
+          "tipico delle donne"
+        ]
+      },
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "pianta della famiglia delle rosacee",
+          "il fiore della suddetta pianta",
+          "elenco di giocatori di una squadra",
+          "figura araldica convenzionale costituita da cinque petali attorno a un bottone centrale, finemente ripiegati nel lembo superiore e framezzati dalle punte di foglioline; si possono trovare anche rose formate da un numero diverso di petali ma in tal caso il numero va blasonato"
+        ],
+        "examples": [
+          "l'acqua di rose ha un profumo molto delicato e dolce"
+        ]
+      },
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "colore simile al rosso ma più chiaro e meno saturato"
+        ]
+      }
+    ],
+    "pronunciation": "/ˈrɔza/"
+  },
+  {
+    "id": "it:rosso",
+    "headword": "rosso",
+    "language": "it",
+    "meanings": [
+      {
+        "partOfSpeech": "adj",
+        "definitions": [
+          "di colore simile a quello dei papaveri, dei pomodori maturi e delle ciliegie",
+          "colorito in viso",
+          "di occhi arrossati per il pianto",
+          "cucinato col pomodoro",
+          "di colore tradizionalmente usato come simbolo della classe operaia dai partiti e movimenti di sinistra",
+          "(di) cellula del sangue senza nucleo, col compito di trasportare ossigeno nelle cellule"
+        ]
+      },
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "colore simile a quello dei papaveri, dei pomodori maturi e delle ciliegie",
+          "sostanza pigmentante",
+          "composto chimico di tale colore",
+          "militante o simpatizzante di partiti o movimenti di sinistra",
+          "tuorlo dell'uovo",
+          "persona dai capelli rossi",
+          "la luce rossa del semaforo",
+          "smalto araldico di colore rosso intenso. Nella rappresentazione monocromatica è simbolizzato da linee parallele verticali"
+        ]
+      }
+    ],
+    "pronunciation": "/ˈrosso/"
+  },
+  {
+    "id": "it:turchese",
+    "headword": "turchese",
+    "language": "it",
+    "meanings": [
+      {
+        "partOfSpeech": "adj",
+        "definitions": [
+          "di azzurro pallido"
+        ]
+      },
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "f pietra preziosa dal colore tra verde e celeste, contenente fosfato idrato di alluminio",
+          "m che si ottiene mescolando il verde e il celeste"
+        ]
+      }
+    ],
+    "pronunciation": "/turˈkeze/"
+  },
+  {
+    "id": "it:verde",
+    "headword": "verde",
+    "language": "it",
+    "meanings": [
+      {
+        "partOfSpeech": "adj",
+        "definitions": [
+          "di colore intermedio tra l'azzurro ed il giallo caratteristico dell'erba e delle foglie nel periodo vegetativo dell'erba e della maggior parte delle foglie",
+          "riferito a emozioni o sentimenti, intenso, forte",
+          "di cibo, che per effetto di verdure o di aromi, spec. prezzemolo o basilico, assume una colorazione verde",
+          "inerente al partito ed alla dottrina che si propone di salvaguardare l'ambiente"
+        ],
+        "examples": [
+          "la certificazione verde attesta l'avvenuta somministrazione di almeno una dose di vaccino",
+          "il \"fondo regionale Aree verdi\" riguarda anche i parchi nazionali"
+        ]
+      },
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "colore dell’erba",
+          "sinonimo per ambientalista, ecologista"
+        ],
+        "examples": [
+          "il dipinto traboccava di bellissimi verdi"
+        ]
+      },
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "la parte verde di taluni vegetali",
+          "zona coperta di vegetazione",
+          "il segnale cromatico dei semafori per procedere",
+          "verde ( approfondimento)"
+        ],
+        "examples": [
+          "taglia via un po' di verde da quegli alberi!",
+          "abbiamo passato il pomeriggio nel verde",
+          "attraversiamo, che c'è il verde"
+        ]
+      }
+    ],
+    "pronunciation": "/ˈverde/"
+  },
+  {
+    "id": "it:viola",
+    "headword": "viola",
+    "language": "it",
+    "meanings": [
+      {
+        "partOfSpeech": "adj",
+        "definitions": [
+          "di colore violaceo"
+        ]
+      },
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "colore secondario dato dall'unione di rosso e blu",
+          "il nome dato per indicare la squadra di calcio della ACF Fiorentina"
+        ],
+        "examples": [
+          "i viola hanno conquistato il titolo"
+        ]
+      },
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "pianta erbacea nota anche come mammola",
+          "strumento musicale della famiglia degli archi"
+        ]
+      }
+    ],
+    "pronunciation": "/viˈɔ.la/"
+  },
+  {
+    "id": "it:lilla",
+    "headword": "lilla",
+    "language": "it",
+    "meanings": [
+      {
+        "partOfSpeech": "adj",
+        "definitions": [
+          "tonalità di colore tra il rosa ed il viola, rintracciabile principalmente in diverse specie della pianta di lillà",
+          "che è di tale colore"
+        ],
+        "examples": [
+          "oggi metto i pantaloni lilla"
+        ]
+      },
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "tonalità di colore tra il rosa ed il viola, rintracciabile principalmente in diverse specie della pianta di lillà",
+          "utilizzato talvolta per indicare sia la pianta che il fiore di lillà"
+        ]
+      }
+    ],
+    "pronunciation": "/ˈlilla/"
+  },
+  {
+    "id": "it:rosso vino",
+    "headword": "rosso vino",
+    "language": "it",
+    "meanings": [
+      {
+        "partOfSpeech": "phrase",
+        "definitions": [
+          "rosso molto scuro, profondo e intenso, con evidenti sfumature scure e nere"
+        ]
+      }
+    ],
+    "pronunciation": "/ˈrosso ˈvino/"
+  },
+  {
+    "id": "it:terra",
+    "headword": "terra",
+    "language": "it",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "il luogo in cui si svolge la vita dell'uomo, in contrapposizione al cielo",
+          "agglomerato di particelle silicee, argillose, scistose e simili, di natura prevalentemente minerale, che si trova sul suolo",
+          "la parte asciutta del globo, contrapposto al mare; terraferma",
+          "estensione di territorio con particolare riferimento a campi coltivati",
+          "terreno coltivabile, possedimento rurale",
+          "paese, luogo di nascita",
+          "conduttore elettrico al quale si attribuisce il potenziale zero",
+          "trigono che comprende i segni Toro, Vergine, Capricorno.",
+          "figura araldica convenzionale che rappresenta il pianeta come un globo attraversato dall'equatore",
+          "insieme di risorse naturali che contribuiscono a tutti i processi di produzione"
+        ],
+        "examples": [
+          "vivere su questa terra",
+          "...aveva le mani sporche di terra...",
+          "la nave è giunta a terra"
+        ]
+      }
+    ],
+    "pronunciation": "/ˈtɛrra/"
+  },
+  {
+    "id": "it:brahmanico",
+    "headword": "brahmanico",
+    "language": "it",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "riferito al brahmano o al brahmanesimo"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "it:ceco",
+    "headword": "ceco",
+    "language": "it",
+    "meanings": [
+      {
+        "partOfSpeech": "adj",
+        "definitions": [
+          "relativo al popolo dei Cechi",
+          "relativo alla Repubblica Ceca",
+          "variante di cieco come termine di anatomia"
+        ],
+        "examples": [
+          "Václav Havel fu un scrittore e uomo politico ceco"
+        ]
+      },
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "abitante o nativo della Repubblica Ceca"
+        ],
+        "examples": [
+          "Václav Havel era ceco"
+        ]
+      },
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "lingua slava occidentale parlata principalmente nella Repubblica Ceca"
+        ]
+      }
+    ],
+    "pronunciation": "/ˈt͡ʃɛ.ko/"
+  },
+  {
+    "id": "it:coreano",
+    "headword": "coreano",
+    "language": "it",
+    "meanings": [
+      {
+        "partOfSpeech": "adj",
+        "definitions": [
+          "proveniente dalla Corea oppure relazionato con essa"
+        ]
+      },
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "abitante o nativo della Corea"
+        ]
+      },
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "lingua agglutinante parlata in Corea"
+        ]
+      }
+    ],
+    "pronunciation": "/koreˈano/"
+  },
+  {
+    "id": "it:inglese",
+    "headword": "inglese",
+    "language": "it",
+    "meanings": [
+      {
+        "partOfSpeech": "adj",
+        "definitions": [
+          "relativo all'Inghilterra o alla lingua parlata nei paesi anglosassoni"
+        ],
+        "examples": [
+          "Winston Churchill è stato un grande politico inglese"
+        ]
+      },
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "abitante dell'Inghilterra o, talvolta, della Gran Bretagna"
+        ]
+      },
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "lingua germanica occidentale parlata in Regno Unito, Irlanda, Stati Uniti, Canada, Australia e Nuova Zelanda; è la lingua franca contemporanea"
+        ],
+        "examples": [
+          "Lucia parla molto bene l'inglese"
+        ]
+      }
+    ],
+    "pronunciation": "/inˈɡlese/"
+  },
+  {
+    "id": "it:russo",
+    "headword": "russo",
+    "language": "it",
+    "meanings": [
+      {
+        "partOfSpeech": "adj",
+        "definitions": [
+          "della Russia"
+        ]
+      },
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "nativo o abitante della Russia"
+        ]
+      },
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "lingua indoeuropea del ceppo slavo orientale, parlata in Russia e paesi circostanti"
+        ]
+      }
+    ],
+    "pronunciation": "/ˈrusso/"
+  },
+  {
+    "id": "it:slovacco",
+    "headword": "slovacco",
+    "language": "it",
+    "meanings": [
+      {
+        "partOfSpeech": "adj",
+        "definitions": [
+          "relativo alla Slovacchia"
+        ]
+      },
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "colui che è nato o vive in Slovacchia"
+        ]
+      },
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "lingua slava occidentale parlata in Slovacchia"
+        ]
+      }
+    ],
+    "pronunciation": "/zloˈvakko/"
+  },
+  {
+    "id": "it:sloveno",
+    "headword": "sloveno",
+    "language": "it",
+    "meanings": [
+      {
+        "partOfSpeech": "adj",
+        "definitions": [
+          "che riguarda la Slovenia"
+        ]
+      },
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "lingua slava meridionale parlata in Slovenia"
+        ]
+      },
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "individuo che è nato o vive in Slovenia"
+        ],
+        "examples": [
+          "Tadej Pogačar è sloveno",
+          "Melania Trump è slovena"
+        ]
+      }
+    ],
+    "pronunciation": "/zloˈvɛno/"
+  },
+  {
+    "id": "it:tedesco",
+    "headword": "tedesco",
+    "language": "it",
+    "meanings": [
+      {
+        "partOfSpeech": "adj",
+        "definitions": [
+          "che riguarda la Germania",
+          "relativo alla lingua tedesca"
+        ],
+        "examples": [
+          "sulle autostrade tedesche non c'è alcun limite di velocità, e solo autobus e camion devono pagare il pedaggio",
+          "blitz è un lemma tedesco"
+        ]
+      },
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "lingua germanica occidentale parlata principalmente in Germania, Liechtenstein, nei cantoni tedeschi della Svizzera, Austria e in regioni limitrofe come l'Alto Adige; esistono minoranze consistenti di parlanti in Namibia e in varie zone dell'America"
+        ],
+        "examples": [
+          "seguiamo un corso di tedesco",
+          "in Svizzera si parlano tedesco, francese, italiano e romancio"
+        ]
+      },
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "abitante o nativo della Germania",
+          "puntuale, preciso, meticoloso, fissato con la scienza e la tecnologia"
+        ],
+        "examples": [
+          "il mio vicino è un tedesco",
+          "Piero è un tedesco: è sempre puntuale"
+        ]
+      }
+    ],
+    "pronunciation": "/teˈdesko/"
+  },
+  {
+    "id": "it:croato",
+    "headword": "croato",
+    "language": "it",
+    "meanings": [
+      {
+        "partOfSpeech": "adj",
+        "definitions": [
+          "relativo alla Croazia"
+        ]
+      },
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "abitante della Croazia o chi è nato lì"
+        ]
+      },
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "lingua slava meridionale, parlata soprattutto in Croazia"
+        ]
+      }
+    ],
+    "pronunciation": "/kroˈato/"
+  },
+  {
+    "id": "it:cane",
+    "headword": "cane",
+    "language": "it",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "animale domestico usato per la caccia, difesa, compagnia, soccorso, pet therapy ed altre attività; la sua classificazione scientifica è Canis lupus familiaris ( tassonomia)",
+          "pensioni per cani: luoghi con \"alloggi\" adibiti alla tutela per gli stessi o più \"semplicemente\" per accudirli, per esempio nel caso in cui i proprietari o padroni debbano assentarsi per vacanze, lavoro, ecc",
+          "nome di diverse specie appartenenti alla famiglia dei Canidi",
+          "genere appartenente alla famiglia dei Canidi, del quale fanno parte anche altri animali (come il lupo, lo sciacallo ed il coyote)",
+          "in abbinamento a una mansione o mestiere, è metafora allusiva di imperizia o scarsa professionalità",
+          "persona intrattabile",
+          "persona vile, crudele",
+          "Cane maggiore, Cane da caccia e Cane minore, 3 delle 88 costellazioni moderne",
+          "componente delle pistole e altre armi da fuoco. Nelle pistole antiche portava agganciata la pietra focaia e la muoveva provocando la scintilla, mentre in quelle moderne è un martelletto che va a impattare sulla cartuccia, innescando così la detonazione",
+          "indica solitamente un lavoro fatto male",
+          "(con accezione negativa) nessuno",
+          "con valore rafforzativo viene utilizzato con funzione di aggettivo invariabile",
+          "arnese utilizzato nella cerchiatura delle botti per tenere fermi i cerchi",
+          "strumento con forma di piastra dentata, fissato in un foro della ganascia non fissa, in modo da tenere fermo il pezzo in lavorazione",
+          "nottolino, tipo di arresto utilizzato in diversi meccanismi",
+          "curva del cane: vedi curva d'inseguimento",
+          "figura araldica convenzionale che si presenta nelle forme distinte di levriere (o veltro), mastino e bracco",
+          "cane marino: figura avente muso di pesce e corpo di cane, coda squamosa, utilizzato a volte come cimiero"
+        ],
+        "examples": [
+          "quel cane era pronto per difendere il proprio padrone, anche a proprio rischio",
+          "è un grave segno d'inciviltà quando alcuni padroni di cani non tolgono i loro escrementi nelle vie delle città",
+          "chi è quel cane di dentista?"
+        ]
+      }
+    ],
+    "pronunciation": "/ˈkaːne/"
+  },
+  {
+    "id": "it:cavallo",
+    "headword": "cavallo",
+    "language": "it",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "mammifero quadrupede equino erbivoro, la sua classificazione scientifica è Equus caballus ( tassonomia)",
+          "unità di misura usata per esprimere la potenza di un motore",
+          "parte dei pantaloni costituita dalla giuntura delle due gambe",
+          "pezzo degli scacchi che può muoversi di tre caselle ( due da lato, e l'altra da un altro lato) descrivendo una L, anche saltando altri pezzi posti sulla traiettoria seguita",
+          "una delle figure che rappresenta un cavallo",
+          "nel gioco della roulette si identificano due numeri affiancati sul quale si scommette contemporaneamente",
+          "attrezzo utilizzato per compiere esercizi, composto da una parte superiore imbottita sorretta da quattro gambe",
+          "strumento di tortura utilizzato nell'antichità, che consisteva in un cuneo sul quale veniva fatto sedere il prigioniero",
+          "indica un soldato a cavallo",
+          "moneta di rame raffigurante sul retro un cavallo",
+          "legno rossiccio piuttosto resistente, usato per le costruzioni",
+          "persona che distribuisce la droga per conto di uno spacciatore",
+          "persona molto capace di arrangiarsi",
+          "(cavallo marino) raffigurazione di un cavallo che dalla pancia ventre in giù diventa pesce"
+        ],
+        "examples": [
+          "sto imparando ad andare a cavallo",
+          "Il pastore, tutto fiero: \"Ah beh, Donato è proprio un bel cavallo...\"",
+          "quell'auto ha cento cavalli"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "it:coniglio",
+    "headword": "coniglio",
+    "language": "it",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "mammifero appartenente ai Lagomorfi con grosse orecchie e coda a batuffolo, appartenente alla famiglia dei Leporidi",
+          "figura araldica per la quale si usa frequentemente il colore bianco, suo colore naturale, e non il suo equivalente araldico argento",
+          "timido",
+          "vile"
+        ],
+        "examples": [
+          "la sua classificazione scientifica è Oryctolagus cuniculus ( tassonomia)"
+        ]
+      }
+    ],
+    "pronunciation": "/koˈniʎʎo/"
+  },
+  {
+    "id": "it:elefante",
+    "headword": "elefante",
+    "language": "it",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "mammifero terrestre, il più grande fra tutti gli animali che vivono sulla terraferma, dotato di proboscide, lunghe zanne e grandi orecchie; la sua classificazione scientifica è Elephantidae ( tassonomia)"
+        ]
+      }
+    ],
+    "pronunciation": "/eleˈfante/"
+  },
+  {
+    "id": "it:gallo",
+    "headword": "gallo",
+    "language": "it",
+    "meanings": [
+      {
+        "partOfSpeech": "adj",
+        "definitions": [
+          "della Gallia",
+          "variante, di gallico",
+          "relativo ai Galli",
+          "francese"
+        ]
+      },
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "uccello, maschio della gallina; la sua classificazione scientifica è Gallus gallus ( tassonomia)",
+          "persona vanitosa che ama mettersi in mostra, convinta di essere migliore degli altri; sbruffone;",
+          "persona del popolo dei Galli;",
+          "antica lingua celtica parlata in Francia e nella pianura Padana;"
+        ]
+      }
+    ],
+    "pronunciation": "/ˈɡal.lo/"
+  },
+  {
+    "id": "it:gatto",
+    "headword": "gatto",
+    "language": "it",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "piccolo mammifero domestico dell'ordine dei Carnivori, della famiglia dei Felidi, dal corpo agile, con capo tondeggiante, unghie retrattili e pelame di vario colore; la sua classificazione scientifica è Felis silvestris catus ( tassonomia)",
+          "macchina da assedio usata nel medioevo",
+          "figura araldica convenzionale che rappresenta di norma l'animale passante e con la testa di fronte, nella posizione simile a quella del leopardo"
+        ],
+        "examples": [
+          "quell'atleta è un gatto"
+        ]
+      }
+    ],
+    "pronunciation": "/ˈɡatto/"
+  },
+  {
+    "id": "it:leone",
+    "headword": "leone",
+    "language": "it",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "grande mammifero carnivoro appartenente alla famiglia dei Felidi, con dimensioni variabili da 170 a 250 cm e peso variabile da 150 a 225 kg, con pelliccia di colore variabile tra il giallo, il rossiccio e l'ocra. La criniera (che lo distingue dalla femmina della specie, la leonessa) varia invece dal biondo al marrone scuro, ed il ciuffo al termine della coda è nero, la sua classificazione scientifica è Panthera leo ( tassonomia)",
+          "individuo pieno di coraggio e forza",
+          "leone d'America: il puma",
+          "leone marino: nome comune di alcune specie di mammiferi appartenenti alla famiglia degli Otaridi",
+          "leone marsupiale: genere di marsupiali oramai estinti",
+          "leone araldico: figura araldica naturale o chimerica, molto frequente su stemmi, blasoni e bandiere",
+          "moneta coniata durante il pontificato di Leone X",
+          "leone d'oro: moneta coniata durante il regno di Filippo VI di Valois re di Francia, raffigurante il re seduto sul trono con un leone disteso ai suoi piedi",
+          "leone di Fiandra: moneta d'oro del 14° secolo coniata dai conti di Fiandra",
+          "moneta ufficiale della Sierra Leone",
+          "leone di San Marco: simbolo dell'evangelista San Marco, e di conseguenza della Repubblica Veneta, che insieme ai simboli delle repubbliche marinare di Pisa, Genova e Amalfi va a formare lo stemma posto al centro della bandiera della marina mercantile. Il leone di San Marco è presente anche nello stemma militare, raffigurato con la spada e con un libro chiuso",
+          "simbolo del tetramorfo e di San Giovanni Battista",
+          "persona nata quando il Sole si trova nel segno zodiacale del Leone, indicativamente tra il 23 luglio e il 23 agosto"
+        ],
+        "examples": [
+          "oggi i leoni saranno favoriti",
+          "mia figlia è leone"
+        ]
+      }
+    ],
+    "pronunciation": "/le.ˈo.ne/"
+  },
+  {
+    "id": "it:lepre",
+    "headword": "lepre",
+    "language": "it",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "animale selvatico dell'ordine dei Lagomorfi, caratterizzato da lunghe orecchie, la sua classificazione scientifica è Lepus ( tassonomia)",
+          "la carne di suddetto animale",
+          "persona veloce",
+          "labiopalatoschisi congenita nell'uomo",
+          "atleta che nelle gare di corsa ha il compito di tenere alta l'andatura del gruppo per favorirne un altro che si prefigge di vincere la gara o di abbassare un record"
+        ]
+      }
+    ],
+    "pronunciation": "/ˈlɛpre/"
+  },
+  {
+    "id": "it:maiale",
+    "headword": "maiale",
+    "language": "it",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "suino domestico",
+          "carne di maiale",
+          "uomo dalle abitudini o attitudini poco igieniche"
+        ]
+      }
+    ],
+    "pronunciation": "/maˈjale/"
+  },
+  {
+    "id": "it:pappagallo",
+    "headword": "pappagallo",
+    "language": "it",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "uccello appartenente alla famiglia dei Psittacidi",
+          "persona che ripete meccanicamente imitando le parole e i gesti altrui",
+          "persona che corteggia le donne in strada dando fastidio, importunandole, molestandole",
+          "recipiente ricurvo usato dai malati per orinare senza alzarsi dal letto",
+          "pinza dall'apertura regolabile usata specialmente in idraulica dalla forma ricordante il becco dell'uccello",
+          "ripetitore a nastro magnetico o altri supporti che, composto un determinato numero telefonico, ripete informazioni preregistrate"
+        ],
+        "examples": [
+          "la sua classificazione scientifica è Psittacidae ( tassonomia)"
+        ]
+      }
+    ],
+    "pronunciation": "/pappaˈɡallo/"
+  },
+  {
+    "id": "it:pesce",
+    "headword": "pesce",
+    "language": "it",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "animale vertebrato che vive sott'acqua, con il corpo ricoperto di squame, dotato di pinne e coda",
+          "animale acquatico appartenente alla superclasse dei Pesci, con circolazione sanguigna a sangue freddo e respirazione che avviene attraverso le branchie",
+          "sing la carne dell'animale cruda o cotta",
+          "utilizzato per indicare buona salute, silenzio, attitudine al nuoto",
+          "simbolo del Salvatore nel linguaggio dei primi cristiani, derivato dalla parola greca ichthús, \"pesce\", che indica la sigla \"iesûs christòs theû huiòs soter\", ossia \"Gesù Cristo, figlio di Dio, Salvatore\"",
+          "chi è un credulone",
+          "persona nata sotto il segno zodiacale dei Pesci",
+          "errore di composizione dove parte del testo viene omesso",
+          "parte di carne coincidente con un muscolo",
+          "in toscano: bicipite",
+          "pene",
+          "figura araldica che comprende, oltre ai pesci veri e propri, anche le balene e i delfini"
+        ]
+      }
+    ],
+    "pronunciation": "/ˈpeʃʃe/"
+  },
+  {
+    "id": "it:serpente",
+    "headword": "serpente",
+    "language": "it",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "rettile squamato appartenente al sottordine Serpentes (od Ophidia); la sua classificazione scientifica è Serpentes ( tassonomia)",
+          "rettile sia velenoso che \"innocuo\" dal corpo lungo ricoperto di squame di colorazioni diverse, senza zampe e con dimensioni che possono arrivare a diversi metri",
+          "pelle lavorata del suddetto animale, utilizzata per la realizzazione di borse, scarpe ed altri capi di abbigliamento",
+          "persona della quale non ci si può fidare e malevola",
+          "figura simbolica presente in molte religioni con diversi significati, tra i quali quello di divinità, eternità, fecondità",
+          "Satana",
+          "mostro presente in diverse leggende raccontate da pescatori",
+          "serpente di mare: notizia gonfiata dai giornali ma senza alcun fondamento, creata ad hoc per attirare l'attenzione del pubblico",
+          "figura araldica che si può presentare sia con andamento sinuoso e ondeggiante sia in forma di circolo chiuso quando si morde la code (uroboro); nell'araldica napoleonica i senatori portano un quartier franco (d'azzurro i conti e di rosso i baroni) caricato da un serpente d'argento che circonda uno specchio d'oro; varianti ne sono la biscia e la guivre/vuivre",
+          "nella bibbia viene presentato come animale menzognero e quindi biasimato"
+        ],
+        "examples": [
+          "sebbene qualche volta appaia indifferente, il serpente tende a sfidare persino gli esseri umani quasi senza esitare"
+        ]
+      }
+    ],
+    "pronunciation": "/serˈpɛnte/"
+  },
+  {
+    "id": "it:tigre",
+    "headword": "tigre",
+    "language": "it",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "grande felino con la pelliccia arancione e bianca a strisce nere, la sua classificazione scientifica è Panthera tigris ( tassonomia)"
+        ]
+      }
+    ],
+    "pronunciation": "/ˈtiɡre/"
+  },
+  {
+    "id": "it:zebra",
+    "headword": "zebra",
+    "language": "it",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "mammifero africano dal corpo a strisce bianche e nere, simile ad un cavallo"
+        ]
+      }
+    ],
+    "pronunciation": "/ˈdzɛbra/"
+  },
+  {
+    "id": "it:elettronegatività",
+    "headword": "elettronegatività",
+    "language": "it",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "misura della capacità di un atomo di attrarre elettroni quando prende parte ad un legame covalente"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "it:omozigote",
+    "headword": "omozigote",
+    "language": "it",
+    "meanings": [
+      {
+        "partOfSpeech": "adj",
+        "definitions": [
+          "di individuo o cellula che, per un determinato carattere mendeliano, possiede una coppia di alleli identici, siano essi dominanti, recessivi, o facenti parte di una serie di alleli multipli: per es., un uomo albino che abbia ricevuto da entrambi i genitori l'allele a per l'albinismo. La discendenza di individui omozigoti per lo stesso carattere incrociati fra loro o autofecondati costituisce una linea pura."
+        ]
+      }
+    ],
+    "pronunciation": "/,ɔmoddziˈgɔte/"
+  },
+  {
+    "id": "it:onnivoro",
+    "headword": "onnivoro",
+    "language": "it",
+    "meanings": [
+      {
+        "partOfSpeech": "adj",
+        "definitions": [
+          "che si nutre di sostanze sia animali che vegetali"
+        ],
+        "examples": [
+          "l'uomo è l'essere vivente onnivoro per antonomasia"
+        ]
+      },
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "chi mangia di tutto"
+        ]
+      }
+    ],
+    "pronunciation": "/onˈnivoro/"
+  },
+  {
+    "id": "it:arancio",
+    "headword": "arancio",
+    "language": "it",
+    "meanings": [
+      {
+        "partOfSpeech": "adj",
+        "definitions": [
+          "di colore arancione"
+        ]
+      },
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "albero della famiglia delle Rutacee che produce le arance, sempreverde simile al limone, ma il picciuolo delle foglie è alato, cioè slargato, i fiori sono bianchi, il frutto è sferico, ombelicato in cima, di colore più carico; la sua classificazione scientifica è Citrus aurantium ( tassonomia)",
+          "frutto dell'arancio",
+          "arancione"
+        ]
+      }
+    ],
+    "pronunciation": "/aˈrant͡ʃo/"
+  },
+  {
+    "id": "it:indaco",
+    "headword": "indaco",
+    "language": "it",
+    "meanings": [
+      {
+        "partOfSpeech": "adj",
+        "definitions": [
+          "di colore fortemente azzurro"
+        ]
+      },
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "colore similviola, ottenuto mischiando il ciano (55%) e il magenta (45%)",
+          "sostanza colorante naturale di origine vegetale scoperta in Asia 4.000 anni fa, oggi ottenuta prevalemtemente da sintesi chimica",
+          "pianta arbustiva appartenente al genere Indigofera, dai cui fiori dal colore violaceo si ottiene l'omonimo colorante; la sua classificazione scientifica è Indigofera tinctoria ( tassonomia)"
+        ]
+      }
+    ],
+    "pronunciation": "/ˈindako/"
+  },
+  {
+    "id": "it:moro",
+    "headword": "moro",
+    "language": "it",
+    "meanings": [
+      {
+        "partOfSpeech": "adj",
+        "definitions": [
+          "della Mauritania"
+        ]
+      },
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "con i capelli scuri, contrario di biondo",
+          "originariamente abitante della Mauritania, poi passato a indicare i musulmani berberi"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "it:violetto",
+    "headword": "violetto",
+    "language": "it",
+    "meanings": [
+      {
+        "partOfSpeech": "adj",
+        "definitions": [
+          "di colore simile al viola"
+        ]
+      },
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "viola rossastro"
+        ]
+      }
+    ],
+    "pronunciation": "/vjoˈletto/"
+  },
+  {
+    "id": "it:granchio",
+    "headword": "granchio",
+    "language": "it",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "animale acquatico appartenente ai crostacei dotato di chele e guscio a forma di trapezio",
+          "figura araldica convenzionale che abitualmente mostra il crostaceo di colore nero, visto dall'alto e posto in palo con la testa verso il capo dello scudo (montante)",
+          "posizione sessuale caratteristica nella specie umana, dove la femmina si pone sopra il maschio supino, ma col torace rivolto all'indietro"
+        ]
+      }
+    ],
+    "pronunciation": "/ˈɡraŋkjo/"
+  },
+  {
+    "id": "it:calamaro",
+    "headword": "calamaro",
+    "language": "it",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "mollusco dal corpo allungato con 2 pinne posteriori e 10 tentacoli muniti di ventose; la sua classificazione scientifica è Loligo vulgaris ( tassonomia)"
+        ]
+      }
+    ],
+    "pronunciation": "/kalaˈmaro/"
+  },
+  {
+    "id": "it:mucca",
+    "headword": "mucca",
+    "language": "it",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "vacca da latte"
+        ],
+        "examples": [
+          "quella mucca era così bella da sembrare quasi un cartone animato"
+        ]
+      }
+    ],
+    "pronunciation": "/ˈmuk.ka/"
+  },
+  {
+    "id": "it:pecora",
+    "headword": "pecora",
+    "language": "it",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "mammifero domestico ruminante, appartenente all'ordine degli Artiodattili, con corpo tozzo, mantello soffice da cui si ricava la lana, viene allevato anche per il latte e la carne;la sua classificazione scientifica è Ovis aries ( tassonomia)",
+          "carne macellata e/o cucinata di suddetto animale",
+          "animale mansueto, docile",
+          "persona stupida che emula gli altri componenti del gruppo ed è priva di volontà, iniziativa, autonomia",
+          "individuo guidato da un’autorità ecclesiastica, per analogia con la figura della pecora e del pastore",
+          "figura araldica convenzionale che rappresenta, di norma, l'animale passante e pascente"
+        ],
+        "examples": [
+          "la pecora è un ruminante",
+          "la pecora è un bovide",
+          "Il tuo cagnolino è una pecora!"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "it:polpo",
+    "headword": "polpo",
+    "language": "it",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "mollusco marino della classe dei Cefalopodi con corpo a forma di sacco e lunghi tentacoli forniti di ventose, ricercato per la bontà delle carni; la sua classificazione scientifica è Octopus vulgaris ( tassonomia)"
+        ]
+      }
+    ],
+    "pronunciation": "/ˈpolpo/"
+  },
+  {
+    "id": "it:ratto",
+    "headword": "ratto",
+    "language": "it",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "rapimento",
+          "roditore simile al topo, ma più grande; la sua classificazione scientifica è Rattus ( tassonomia)"
+        ],
+        "examples": [
+          "il Ratto delle sabine"
+        ]
+      }
+    ],
+    "pronunciation": "/ˈratto/"
+  },
+  {
+    "id": "it:scimmia",
+    "headword": "scimmia",
+    "language": "it",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "mammifero quadrumane di aspetto simile a quello dell'essere umano",
+          "persona che imita comportamenti e azioni degli altri"
+        ]
+      }
+    ],
+    "pronunciation": "/ˈʃim.mja/"
+  },
+  {
+    "id": "it:uccello",
+    "headword": "uccello",
+    "language": "it",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "nome comune della classe Uccelli dei Vertebrati. In genere sono coperti di piume, camminano sui due arti posteriori e hanno due ali, che nella maggior parte dei casi consentono il volo",
+          "pene"
+        ]
+      }
+    ],
+    "pronunciation": "/utˈt͡ʃɛllo/"
+  },
+  {
+    "id": "it:corrente continua",
+    "headword": "corrente continua",
+    "language": "it",
+    "meanings": [
+      {
+        "partOfSpeech": "phrase",
+        "definitions": [
+          "flusso di corrente elettrica contraddistinto da una direzione costante nel tempo"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "it:corrente alternata",
+    "headword": "corrente alternata",
+    "language": "it",
+    "meanings": [
+      {
+        "partOfSpeech": "phrase",
+        "definitions": [
+          "flusso di corrente elettrica contraddistinto da una direzione variabile nel tempo"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "it:arancio giallastro",
+    "headword": "arancio giallastro",
+    "language": "it",
+    "meanings": [
+      {
+        "partOfSpeech": "phrase",
+        "definitions": [
+          "arancio giallastro, colore RAL – codice RAL: RAL 2000"
+        ]
+      }
+    ],
+    "pronunciation": "/aˈrant͡ʃo d͡ʒalˈlastro/"
+  },
+  {
+    "id": "it:oggi",
+    "headword": "oggi",
+    "language": "it",
+    "meanings": [
+      {
+        "partOfSpeech": "adv",
+        "definitions": [
+          "in questo giorno",
+          "in senso più generico, al momento presente, nell'epoca attuale",
+          "in quest'epoca",
+          "nel pomeriggio"
+        ],
+        "examples": [
+          "oggi è il 1/11/2026",
+          "oggi più che mai è necessario mobilitarsi per cambiare il nostro sistema",
+          "verrai a pranzo oggi?"
+        ]
+      },
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "giorno corrente",
+          "epoca attuale"
+        ],
+        "examples": [
+          "l'oggi ci pone domande a cui credo potremo rispondere solamente in un lontano futuro",
+          "c'è chi vive solo per l'oggi e chi pensa ad un futuro, chi lascia scorrere il tempo e chi gli prepara una direzione futura"
+        ]
+      }
+    ],
+    "pronunciation": "/ˈɔdd͡ʒi/"
+  },
+  {
+    "id": "it:turco",
+    "headword": "turco",
+    "language": "it",
+    "meanings": [
+      {
+        "partOfSpeech": "adj",
+        "definitions": [
+          "relativo alla Turchia"
+        ]
+      },
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "abitante oppure nato in Turchia"
+        ]
+      },
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "lingua agglutinante parlata in Turchia"
+        ]
+      }
+    ],
+    "pronunciation": "/ˈturko/"
+  },
+  {
+    "id": "it:omocodia",
+    "headword": "omocodia",
+    "language": "it",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "s. f. - L'uguaglianza di due codici assegnati a differenti persone oppure oggetti. Usato spec. nel caso del codice fiscale."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "it:omofonia",
+    "headword": "omofonia",
+    "language": "it",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "l'uguaglianza della pronuncia di due parole che si scrivono in modo differente. A differenza di altre lingue come il francese, in italiano l'omofonia tra parole singole è piuttosto rara: tra i pochissimi casi noti, a (preposizione) / ha, cielo / celo (dal verbo celare), cieco / ceco. Più facile trovare omofonia tra gruppi di parole, come l'aura / Laura"
+        ]
+      }
+    ],
+    "pronunciation": "/omofoˈnia/"
+  },
+  {
+    "id": "it:omografia",
+    "headword": "omografia",
+    "language": "it",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "uguaglianza della forma scritta di due parole di origine diversa"
+        ],
+        "examples": [
+          "tasso è un lemma inerente all'omografia perché ha svariati significati: finanziario, botanico, zoologico",
+          "non sempre c'è corrispondenza tra omografia e omofonia: pesca (frutto, oppure l'azione del pescare) si scrive nello stesso modo ma si pronuncia in modo diverso"
+        ]
+      }
+    ],
+    "pronunciation": "/omoɡraˈfia/"
+  },
+  {
+    "id": "it:maltese",
+    "headword": "maltese",
+    "language": "it",
+    "meanings": [
+      {
+        "partOfSpeech": "adj",
+        "definitions": [
+          "relativo a Malta",
+          "originario o abitante di Malta",
+          "soldo della moneta utilizzata a Malta nel '700"
+        ]
+      },
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "lingua di Malta"
+        ]
+      },
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "originario o abitante di Malta",
+          "soldo della moneta utilizzata a Malta nel '700",
+          "razza di cani di taglia piccola con pelo bianco lungo"
+        ]
+      }
+    ],
+    "pronunciation": "/malˈtese/"
+  },
+  {
+    "id": "it:persiano",
+    "headword": "persiano",
+    "language": "it",
+    "meanings": [
+      {
+        "partOfSpeech": "adj",
+        "definitions": [
+          "relativo alla Persia",
+          "proveniente da o nativo della Persia"
+        ],
+        "examples": [
+          "L'organizzazione statale persiana era fortemente centralizzata.",
+          "Un tappeto persiano"
+        ]
+      },
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "lingua parlata in Iran oggi e nel passato"
+        ]
+      },
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "abitante della Persia antica o moderna",
+          "gatto domestico dal pelo lungo",
+          "pelliccia di pecora karakul"
+        ]
+      }
+    ],
+    "pronunciation": "/perˈsjano/"
+  },
+  {
+    "id": "it:settenario",
+    "headword": "settenario",
+    "language": "it",
+    "meanings": [
+      {
+        "partOfSpeech": "adj",
+        "definitions": [
+          "costituito da uno o più settenari"
+        ]
+      },
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "verso in cui l'accento principale cade sulla sesta sillaba. Se l'ultima parola è tronca, piana, sdrucciola o bisdrucciola, ha rispettivamente 6, 7, 8, 9 sillabe."
+        ]
+      }
+    ],
+    "pronunciation": "/setteˈnarjo/"
+  },
+  {
+    "id": "it:ottonario",
+    "headword": "ottonario",
+    "language": "it",
+    "meanings": [
+      {
+        "partOfSpeech": "adj",
+        "definitions": [
+          "costituito da uno o più ottonari"
+        ]
+      },
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "verso in cui l'accento principale cade sulla settima sillaba. Se l'ultima parola è tronca, piana, sdrucciola o bisdrucciola, ha rispettivamente 7, 8, 9, 10 sillabe."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "it:novenario",
+    "headword": "novenario",
+    "language": "it",
+    "meanings": [
+      {
+        "partOfSpeech": "adj",
+        "definitions": [
+          "costituito da uno o più novenari"
+        ]
+      },
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "verso in cui l'accento principale cade sull'ottava sillaba. Se l'ultima parola è tronca, piana, sdrucciola o bisdrucciola, ha rispettivamente 8, 9, 10, 11 sillabe"
+        ]
+      }
+    ],
+    "pronunciation": "/noveˈnarjo/"
+  },
+  {
+    "id": "it:decasillabo",
+    "headword": "decasillabo",
+    "language": "it",
+    "meanings": [
+      {
+        "partOfSpeech": "adj",
+        "definitions": [
+          "costituito da uno o più decasillabi"
+        ]
+      },
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "verso in cui l'accento principale cade sulla nona sillaba. Se l'ultima parola è tronca, piana, sdrucciola o bisdrucciola, ha rispettivamente 9, 10, 11, 12 sillabe."
+        ]
+      }
+    ],
+    "pronunciation": "/dekaˈsillabo/"
+  }
+]

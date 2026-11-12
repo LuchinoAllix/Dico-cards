@@ -1,0 +1,3200 @@
+[
+  {
+    "id": "en:dictionary",
+    "headword": "dictionary",
+    "language": "en",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "A reference work listing words or names from one or more languages, usually ordered alphabetically, explaining each term's meanings or senses, often also containing information on its etymology, pronunciation, usage, semantic relations, translations, as well as other relevant information.",
+          "A synchronic dictionary of a standardised language held to only contain words that are properly part of the language.",
+          "A reference work on a particular subject or activity in which the entries are arranged alphabetically; an alphabetical encyclopedia.",
+          "The collection of words used or understood by a particular individual.",
+          "Someone or something regarded as a repository or compendium of information.",
+          "An associative array; a data structure where each value is referenced by a particular key, analogous to words and definitions in a dictionary (noun sense 1)."
+        ],
+        "examples": [
+          "If you want to know the meaning of a word, look it up in the dictionary.",
+          "But what other kind(s) of syntactic information should be included in Lexical Entries? Traditional dictionaries such as Hornby's (1974) Oxford Advanced Learner's Dictionary of Current English include not only categorial information in their entries, but also information about the range of Complements which a given item permits (this information is represented by the use of a number/letter code).",
+          "Look it up in the dictionary, and what do you find?"
+        ]
+      },
+      {
+        "partOfSpeech": "verb",
+        "definitions": [
+          "To look up in a dictionary.",
+          "To add to a dictionary.",
+          "To compile a dictionary."
+        ],
+        "examples": [
+          "By a reference to the following dictionaried abbreviations, the simplicity and harmony of each sentence will be manifestly apparent; although it does not embrace everything, and could not, as it would be far too voluminous for general use.",
+          "Should I use a word that a lot of people use but isn't in the dictionary? Uncle Phil would rather get a root canal than say he was scrapbooking, because the word isn't dictionaried.",
+          "They [dictionary-makers] may have had their romance at home—may have been crossed in love, and thence driven to dictionarying; may have been involved in domestic tragedies—who can say?"
+        ]
+      }
+    ],
+    "pronunciation": "/ˈdɪk.ʃə.nə.ɹi/"
+  },
+  {
+    "id": "en:free",
+    "headword": "free",
+    "language": "en",
+    "meanings": [
+      {
+        "partOfSpeech": "adj",
+        "definitions": [
+          "Unconstrained.",
+          "Not imprisoned or enslaved.",
+          "Generous; liberal.",
+          "Clear of offence or crime; guiltless; innocent.",
+          "Without obligations.",
+          "To be enjoyed by anyone freely.",
+          "Upholding individual rights.",
+          "With no or only freedom-preserving limitations on distribution or modification.",
+          "Intended for release, and omitting debugging diagnostics, as opposed to a checked version.",
+          "Obtainable without any payment.",
+          "Complimentary.",
+          "Left adjoint to a forgetful functor G; such that any map f:X→G(A) induces a universal map ̄f:F(X)→A.",
+          "Belonging to the image of some free functor.",
+          "Having a set of generators which satisfy no non-trivial relations; equivalently, being the group of reduced words on a set of generators.",
+          "Having a linearly independent set of generators (called a basis).",
+          "Unconstrained by quantifiers.",
+          "Unconstrained of identifiers, not bound.",
+          "(of a morpheme) That can be used by itself, unattached to another morpheme.",
+          "Unobstructed, without blockages.",
+          "Unattached or uncombined.",
+          "Not currently in use; not taken; unoccupied.",
+          "Not attached; loose.",
+          "Of a rocket or missile: not under the control of a guidance system after being launched.",
+          "Without; not containing (what is specified); exempt; clear; liberated.",
+          "Ready; eager; acting without spurring or whipping; spirited.",
+          "Invested with a particular freedom or franchise; enjoying certain immunities or privileges; admitted to special rights; followed by of.",
+          "Certain or honourable; the opposite of base.",
+          "Privileged or individual; proprietary.",
+          "Having oversteer."
+        ],
+        "examples": [
+          "He was given free rein to do whatever he wanted.",
+          "Quickly, spirit! / Thou shalt ere long be free.",
+          "There was some laughter, and Roddle was left free to expand his ideas on the periodic visits of cowboys to the town. “Mason Rickets, he had ten big punkins a-sittin' in front of his store, an' them fellers from the Upside-down-F ranch shot 'em up […].”"
+        ]
+      },
+      {
+        "partOfSpeech": "adv",
+        "definitions": [
+          "Without needing to pay.",
+          "Freely; willingly."
+        ],
+        "examples": [
+          "I got this bike free.",
+          "Above all, the 48-page timetables of the new service, which have been distributed free at every station in the scheme, are a model to the rest of B.R. For the first time on British Railways, so far as we are aware, a substantial timetable has been produced, not only without a single footnote but also devoid of all wearisome asterisks, stars, letter suffixes and other hieroglyphics.",
+          "I as free forgive you / As I would be forgiven."
+        ]
+      },
+      {
+        "partOfSpeech": "verb",
+        "definitions": [
+          "To make free; set at liberty; release.",
+          "To rid of something that confines or oppresses.",
+          "To relinquish (previously allocated memory) to the system."
+        ],
+        "examples": [
+          "Pro.[…]Spirit, fine ſpirit, Ile free thee / Within two dayes for this.",
+          "Liberia was founded in 1822 by the American Colonization Society whose goal was to resettle freed slaves in Africa.",
+          "Then I walked about, till I found on the further side, a great river of sweet water, running with a strong current; whereupon I called to mind the boat-raft I had made aforetime and said to myself, \"Needs must I make another; haply I may free me from this strait. If I escape, I have my desire and I vow to Allah Almighty to forswear travel; and if I perish I shall be at peace and shall rest from toil and moil.\""
+        ]
+      },
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "A free transfer.",
+          "The usual means of restarting play after a foul is committed, where the non-offending team restarts from where the foul was committed."
+        ],
+        "examples": [
+          "Hargreaves, who left Manchester United on a free during the summer, drilled a 22-yard beauty to open the scoring."
+        ]
+      }
+    ],
+    "pronunciation": "/fɹiː/"
+  },
+  {
+    "id": "en:thesaurus",
+    "headword": "thesaurus",
+    "language": "en",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "A publication that provides synonyms (and sometimes antonyms and other semantic relations) for the words of a given language.",
+          "A dictionary or encyclopedia.",
+          "A hierarchy of subject headings: canonical titles of themes and topics, the titles serving as search keys."
+        ],
+        "examples": [
+          "\"Roget\" is the leading brand name for a print English thesaurus that lists words under general concepts rather than just close synonyms.",
+          "As reference books go, the thesaurus has had a somewhat checkered history, in fact, and has probably occasioned as much bad writing as good."
+        ]
+      }
+    ],
+    "pronunciation": "/θɪˈsɔːɹəs/"
+  },
+  {
+    "id": "en:encyclopedia",
+    "headword": "encyclopedia",
+    "language": "en",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "A comprehensive reference work (often spanning several printed volumes) with articles (usually arranged in alphabetical order, or sometimes arranged by category) on a range of subjects, sometimes general, sometimes limited to a particular field.",
+          "Similarly comprehensive works in other formats.",
+          "The circle of arts and sciences (see Etymology); a comprehensive summary of knowledge, or of a branch thereof."
+        ],
+        "examples": [
+          "I only use the library for the encyclopedia, as we’ve got most other books here.",
+          "My old encyclopedia has been gathering dust on the shelf for the past decade.",
+          "The Encyclopedia which we are presenting to the public is, as its title declares, the work of a society of men of letters. Were we not of their number, we might venture to affirm that they are all favorably known or worthy of being so."
+        ]
+      }
+    ],
+    "pronunciation": "/ɪnˌsaɪkləˈpiːdi.ə/"
+  },
+  {
+    "id": "en:portmanteau",
+    "headword": "portmanteau",
+    "language": "en",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "A large travelling case usually made of leather, and opening into two equal sections.",
+          "A word formed by putting two words together and thereby their meaning.",
+          "A portmanteau film.",
+          "A schoolbag.",
+          "A hook on which to hang clothing."
+        ],
+        "examples": [
+          "A Rover tooke him unprepared, / Search't his Port-mantua, bound him faſter, / And ſent him naked to his Maſter: […]",
+          "Rodolphus therefore finding such an earnest Invitation, embrac'd it with thanks, and with his Servant and Portmanteau, went to Don Juan's; where they first found good Stabling for their Horses, and afterwards as good Provision for themselves.",
+          "He brought down with him to our haunted house a little cask of salt beef; for, he is always convinced that all salt beef not of his own pickling, is mere carrion, and invariably, when he goes to London, packs a piece in his portmanteau."
+        ]
+      },
+      {
+        "partOfSpeech": "adj",
+        "definitions": [
+          "Made by combining two (or more) words, stories, etc., in the manner of a linguistic portmanteau."
+        ],
+        "examples": [
+          "The overall narrator of this portmanteau story - for Dickens co-wrote it with five collaborators on his weekly periodical, All the Year Round - expresses deep, rational scepticism about the whole business of haunting."
+        ]
+      },
+      {
+        "partOfSpeech": "verb",
+        "definitions": [
+          "To create a portmanteau word."
+        ]
+      }
+    ],
+    "pronunciation": "/pɔːtˈmæn.təʊ/"
+  },
+  {
+    "id": "en:encyclopaedia",
+    "headword": "encyclopaedia",
+    "language": "en",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "Commonwealth standard spelling of encyclopedia."
+        ]
+      }
+    ],
+    "pronunciation": "/ɪnˌsaɪ.kləˈpi(ː).di.ə/"
+  },
+  {
+    "id": "en:cat",
+    "headword": "cat",
+    "language": "en",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "A mammal of the family Felidae.",
+          "A carnivorous, four-legged, generally furry domesticated species (Felis catus) of feline animal, commonly kept as a house pet.",
+          "The flesh of this animal eaten as food.",
+          "Any similar, chiefly non-domesticated, carnivorous mammal of the family Felidae, which includes bobcats, caracals, cheetahs, cougars, leopards, lions, lynxes, tigers, and other such species.",
+          "Chiefly with a descriptive word: an animal not of the family Felidae which resembles a domestic feline (etymology 1, noun sense 1.1.1).",
+          "An angry or spiteful person, especially a woman.",
+          "An ordinary person, especially a man; a fellow, a guy.",
+          "Synonym of itinerant worker.",
+          "A jazz musician; also, an enthusiast of jazz music.",
+          "Synonym of prostitute.",
+          "A double tripod for holding a plate, etc., with six feet, of which three rest on the ground in whatever position it is placed.",
+          "The game of trap ball; also (countable), the trap in that game.",
+          "The pointed piece of wood that is struck in the game of tipcat.",
+          "A strong tackle used to hoist an anchor to the cathead of a ship.",
+          "Now only in catboat: a sturdy merchant sailing vessel.",
+          "A wheeled shelter, used in the Middle Ages to protect assailants approaching besieged enemy defences; a cathouse.",
+          "A vagina or vulva."
+        ],
+        "examples": [
+          "Mammals need two genes to make the taste receptor for sugar. Studies in various cats (tigers, cheetahs and domestic cats) showed that one of these genes has mutated and no longer works.",
+          "At twilight in the summer there is never anybody to fear—man, woman, or cat—in the chambers and at that hour the mice come out. They do not eat parchment or foolscap or red tape, but they eat the luncheon crumbs.",
+          "A major genetic survey of nearly 1,000 feral and domestic cats has revealed that every breed of household cat alive today originates from just five lineages which lived alongside ancient settlers in the Fertile Crescent, an area stretching from the eastern Mediterranean to the Persian Gulf."
+        ]
+      },
+      {
+        "partOfSpeech": "verb",
+        "definitions": [
+          "To hoist (an anchor) by its ring so that it hangs at the cathead.",
+          "To flog with a cat-o'-nine-tails.",
+          "To vomit.",
+          "To go wandering at night.",
+          "To gossip in a catty manner."
+        ],
+        "examples": [
+          "The anchors were catted at the bows of the yacht […]",
+          "‘He's going to cat, Maxim,’ said the Pussum warningly. The suave young Russian rose and took Halliday by the arm, leading him away.",
+          "\"He doesn't realize that I know,\" Lord Callan said, \"but it's been pretty obvious that most of his catting about London's darker alleys has been a search for his origins."
+        ]
+      },
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "A program and command in Unix that reads one or more files and directs their content to the standard output."
+        ]
+      },
+      {
+        "partOfSpeech": "verb",
+        "definitions": [
+          "To apply the `cat` command to (one or more files).",
+          "To dump large amounts of data on (an unprepared target), usually with no intention of browsing it carefully."
+        ]
+      },
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "A street name of the drug methcathinone.",
+          "Any of a variety of earth-moving machines. (from their manufacturer Caterpillar Inc.)",
+          "A ground vehicle which uses caterpillar tracks, especially tractors, trucks, minibuses, and snow groomers."
+        ]
+      },
+      {
+        "partOfSpeech": "adj",
+        "definitions": [
+          "Catastrophic; terrible, disastrous."
+        ],
+        "examples": [
+          "The weather was cat, so they returned home early."
+        ]
+      }
+    ],
+    "pronunciation": "/ˈkæt/"
+  },
+  {
+    "id": "en:gratis",
+    "headword": "gratis",
+    "language": "en",
+    "meanings": [
+      {
+        "partOfSpeech": "adj",
+        "definitions": [
+          "Free: without charge."
+        ],
+        "examples": [
+          "Really syncophant^([sic]) stuff, but it may help. It's gratis in any case.",
+          "The gratis soft drink mixers on the counter, the free jukebox in the lounge – loaded with classic 45s – the shelves piled high with books to borrow and read, and the vintage 1960s pie-warmer is the very spirit of the Laurieston and the Clancy family."
+        ]
+      },
+      {
+        "partOfSpeech": "adv",
+        "definitions": [
+          "In a free way: without charge."
+        ],
+        "examples": [
+          "I know not how they sold themselves: but thou, like a kind fellow, gavest thyself away gratis; and I thank thee for thee.",
+          "Reaſon, you roague, reaſon: thinkſt thou Ile endanger my soule, gratis?"
+        ]
+      }
+    ],
+    "pronunciation": "/ˈɡɹɑː.tɪs/"
+  },
+  {
+    "id": "en:word",
+    "headword": "word",
+    "language": "en",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "The smallest unit of language that has a particular meaning and can be expressed by itself; the smallest discrete, meaningful unit of language. (contrast morpheme.)",
+          "The smallest discrete unit of spoken language with a particular meaning, composed of one or more phonemes and one or more morphemes.",
+          "The smallest discrete unit of written language with a particular meaning, composed of one or more letters or symbols and one or more morphemes.",
+          "A discrete, meaningful unit of language approved by an authority or native speaker (compare non-word).",
+          "A sign used in a sign language.",
+          "A sequence of letters, characters, or sounds, considered as a discrete entity, though it does not necessarily belong to a language or have a meaning.",
+          "A unit of text equivalent to five characters and one space.",
+          "A fixed-size group of bits handled as a unit by a machine and which can be stored in or retrieved from a typical register (so that it has the same size as such a register).",
+          "With regards to Intel or Intel-compatible hardware and/or in the context of Windows programming, a group of exactly 16 bits regardless of the actual processor capabilities; a fossilized unit referring to the small word size of historical CPUs.",
+          "A finite string that is not a command or operator.",
+          "A group element, expressed as a product of group elements.",
+          "The fact or act of speaking, as opposed to taking action. .",
+          "Something that someone said; a comment, utterance; speech.",
+          "A watchword or rallying cry, a verbal signal (even when consisting of multiple words).",
+          "A proverb or motto.",
+          "News; tidings.",
+          "An order; a request or instruction; an expression of will.",
+          "A promise; an oath or guarantee.",
+          "A brief discussion or conversation.",
+          "A minor reprimand.",
+          "See words.",
+          "Communication from God; the message of the Christian gospel; the Bible, Scripture.",
+          "Logos, Christ."
+        ],
+        "examples": [
+          "But every word, whether written or spoken, which urges the woman to antagonism against the man, every word which is written or spoken to try and make of her a hybrid, self-contained opponent of men, makes a rift in the lute to which the world looks for its sweetest music.",
+          "The word, whether written or spoken, does not look like or sound like its meaning — it does not resemble its signified. We only connect the two because we have learnt the code — language. Without such knowledge, 'Maggie' would just be a meaningless pattern of shapes or sounds.",
+          "Brian and Abby signed the word clothing, in which the thumbs brush down the chest as though something is hanging there. They both spoke the word clothing. Brian then signed the word for change, […]"
+        ]
+      },
+      {
+        "partOfSpeech": "verb",
+        "definitions": [
+          "To say or write (something) using particular words; to phrase (something).",
+          "To flatter with words, to cajole.",
+          "To ply or overpower with words.",
+          "To conjure with a word.",
+          "To speak, to use words; to converse, to discourse."
+        ],
+        "examples": [
+          "strongly worded letter",
+          "I’m not sure how to word this letter to the council.",
+          "He words me, girls, he words me, that I should not / be noble to myself."
+        ]
+      },
+      {
+        "partOfSpeech": "intj",
+        "definitions": [
+          "Truth, indeed, that is the truth! The shortened form of the statement \"My word is my bond.\"",
+          "An abbreviated form of word up; a statement of the acknowledgment of fact with a hint of nonchalant approval."
+        ],
+        "examples": [
+          "\"Yo, that movie was epic!\" / \"Word?\" (\"You speak the truth?\") / \"Word.\" (\"I speak the truth.\")",
+          "\"[…] Know what I'm sayin'?\" / \"Word!\" the other man strongly agreed. \"Let's do this — \"",
+          "\"[…] Not bad at all, man. Worth da wait, dawg. Word.\" / \"You liked it?\" I asked dumbly, stoned still, and feeling victorious. / \"Yeah, man,\" said Oral B. \"Word up. […]\""
+        ]
+      }
+    ],
+    "pronunciation": "/wɜːd/"
+  },
+  {
+    "id": "en:livre",
+    "headword": "livre",
+    "language": "en",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "A unit of currency formerly used in France, divided into 20 sols or sous.",
+          "A lira",
+          "An ancient French unit of weight, equal to about 1 avoirdupois pound."
+        ],
+        "examples": [
+          "At Paris the lad had laid out a livre in a little cage for the starling, and as he had little to do better the five months his master staid there, he taught it, in his mother’s tongue, the four simple words—(and no more)—to which I own’d myself so much its debtor.",
+          "They like to see them awarded comfortable pensions. Is it 700,000 livres a year to the Polignac family?",
+          "He never, it should be noted, totally renounced his inheritance: a critic of the court round, he benefited to the tune of a cool two million livres a year from royal largesse […]."
+        ]
+      }
+    ],
+    "pronunciation": "/ˈliːvɹə/"
+  },
+  {
+    "id": "en:book",
+    "headword": "book",
+    "language": "en",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "A collection of sheets of paper bound together to hinge at one edge, containing printed or written material, pictures, etc.",
+          "A long work fit for publication, typically prose, such as a novel or textbook, and typically published as such a bound collection of sheets, but now sometimes electronically as an e-book.",
+          "A major division of a long work.",
+          "A record of betting (from the use of a notebook to record what each person has bet).",
+          "A bookmaker (a person who takes bets on sporting events and similar); bookie; turf accountant.",
+          "A convenient collection, in a form resembling a book, of small paper items for individual use.",
+          "The script of a musical or opera.",
+          "Records of the accounts of a business.",
+          "A book award, a recognition for receiving the highest grade in a class (traditionally an actual book, but recently more likely a letter or certificate acknowledging the achievement).",
+          "Six tricks taken by one side.",
+          "Four of a kind.",
+          "A document, held by the referee, of the incidents that happened in a game.",
+          "A list of all players who have been booked (received a warning) in a game.",
+          "The list of mares that a stallion will breed in a given season.",
+          "A list of the races that a jockey is scheduled to ride in.",
+          "The twenty-sixth Lenormand card.",
+          "Any source of instruction.",
+          "The accumulated body of knowledge passed down among black pimps.",
+          "A portfolio of one's previous work in the industry.",
+          "The sum of chess knowledge in the opening or endgame.",
+          "A package of silk."
+        ],
+        "examples": [
+          "Knowing I lou'd my bookes, he furniſhd me / From mine owne Library, with volumes, that / I prize aboue my Dukedome.",
+          "I repeat: it suffices that a book be possible for it to exist. Only the impossible is excluded. For example: no book can be a ladder, although no doubt there are books which discuss and negate and demonstrate this possibility and others whose structure corresponds to that of a ladder.",
+          "I can be anything.\nTake a look!\nIt's in a book:\nA reading rainbow."
+        ]
+      },
+      {
+        "partOfSpeech": "verb",
+        "definitions": [
+          "To reserve (something) for future use.",
+          "To write down, to register or record in a book or as in a book.",
+          "To add a name to the list of people who are participating in something.",
+          "To record the name and other details of a suspected offender and the offence for later judicial action.",
+          "To issue a caution to, usually a yellow card, or a red card if a yellow card has already been issued.",
+          "To travel very fast.",
+          "To record bets as bookmaker.",
+          "To receive the highest grade in a class.",
+          "To move or leave, often hurriedly and abruptly."
+        ],
+        "examples": [
+          "I want to book a hotel room for tomorrow night.",
+          "I can book tickets for the concert next week.",
+          "I haven't booked, so I don't have a clue as to whether the service will be busy or not. Supposedly, reservations are compulsory, but I want to find out what would happen if you just turn up."
+        ]
+      }
+    ],
+    "pronunciation": "/bʊk/"
+  },
+  {
+    "id": "en:pound",
+    "headword": "pound",
+    "language": "en",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "A unit of weight in various measurement systems.",
+          "Various non-English units of measure.",
+          "Various non-English units of measure.",
+          "A unit of mass equal to 16 avoirdupois ounces (= 453.592 g). Today this value is the most common meaning of \"pound\" as a unit of weight.",
+          "A unit of mass equal to 12 troy ounces (≈ 373.242 g). Today, this is a common unit of mass when measuring precious metals, and is little used elsewhere.",
+          "Various non-English units of measure.",
+          "The base unit of sterling, the currency used in the United Kingdom and some of its dependencies. It is divided into 100 pence.",
+          "Any of various units of currency used in Egypt, Lebanon, Sudan, and Syria, and formerly in the Republic of Ireland, Cyprus, Nigeria, Israel, and South Africa.",
+          "Any of various units of currency formerly used in the United States.",
+          "Various non-English units of currency not officially called pounds.",
+          "The symbol #."
+        ],
+        "examples": [
+          "B-2 bombers are the only plane capable of carrying the Massive Ordinance Penetrator, which experts have highlighted as the only type of bomb potentially capable of destroying Iran’s underground Fordow nuclear facility. Each B-2 bomber is able to carry two of these “bunker buster” bombs, which weigh an impressive 30,000 pounds each.",
+          "Research shows that retaining even one or two pounds after giving birth can make problems more likely in a subsequent pregnancy, experts said, with women who have several children facing a \"slippery slope\" if they continue to gain weight each time.",
+          "\"Only a hundred and ninety-three pound,\" said Mr. Tulliver. \"You've brought less o' late; but young fellows like to have their own way with their money. Though I didn't do as I liked before I was of age.\" He spoke with rather timid discontent."
+        ]
+      },
+      {
+        "partOfSpeech": "verb",
+        "definitions": [
+          "To wager a pound on."
+        ],
+        "examples": [
+          "‘Good-bye, my dear!' said Sleary. 'You'll make your fortun, I hope, and none of our poor folkth will ever trouble you, I'll pound it.’",
+          "“He's done,” said the Moocher brutally. “He didn't hear nuffin, I'll pound it.”"
+        ]
+      },
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "A place for the detention of stray or wandering animals.",
+          "The people who work for the pound.",
+          "A place for the detention of automobiles that have been illegally parked, abandoned, etc.",
+          "A section of a canal between two adjacent locks.",
+          "A kind of fishing net, having a large enclosure with a narrow entrance into which fish are directed by wings spreading outward.",
+          "A division inside a fishing stage where cod is cured in salt brine."
+        ],
+        "examples": [
+          "Mr. Sarnoff also sent to the pound one of the best-known dogs in the world. Nipper, the black-and-white terrier usually depicted peering with head cocked into the horn of a Victrola, listening for “His Master's Voice,” was de-emphasized as a corporate symbol.",
+          "(Police officer to a dog owner) \"He'd better stay calm or I'll have the pound come and get him.\"",
+          "Inspector Douglas Todd: Where did you get a truckload of cigarettes from anyway? / Detective Axel Foley: From the Dearborn Hijacking. / Todd: The Dearborn Hijacking? That bust went down weeks ago. That load's supposed to be in the damn pound!"
+        ]
+      },
+      {
+        "partOfSpeech": "verb",
+        "definitions": [
+          "To confine in, or as in, a pound; to impound."
+        ],
+        "examples": [
+          "When I short haue shorne my sowce face\n& swigg’d my horny barrell,\nIn an oaken Inne I pound my skin\nas a suite of guilt apparrell",
+          "And he who were pleasantly disposed, could not well avoid to liken it to the exploit of that gallant man, who thought to pound up the crows by shutting his park gate."
+        ]
+      },
+      {
+        "partOfSpeech": "verb",
+        "definitions": [
+          "To strike hard, usually repeatedly.",
+          "To crush to pieces; to pulverize.",
+          "To eat or drink very quickly.",
+          "To pitch consistently to a certain location.",
+          "To beat strongly or throb.",
+          "To penetrate sexually, with vigour.",
+          "To advance heavily with measured steps.",
+          "To make a jarring noise, as when running."
+        ],
+        "examples": [
+          "She had Lord James' collar in one big fist and she pounded the table with the other and talked a blue streak. Nobody could make out plain what she said, for she was mainly jabbering Swede lingo, but there was English enough, of a kind, to give us some idee.",
+          "[...] and on the Saturday heavy seas pounded the W.R. on its exposed coastal stretch between Dawlish and Teignmouth, loosening the ballast and forcing trains to proceed with extreme caution.",
+          "I pounded on a farmhouse / Lookin' for a place to stay / I was mighty, mighty tired / I had come a long, long way"
+        ]
+      },
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "A hard blow."
+        ]
+      }
+    ],
+    "pronunciation": "/ˈpaʊ̯nd/"
+  },
+  {
+    "id": "en:rain cats and dogs",
+    "headword": "rain cats and dogs",
+    "language": "en",
+    "meanings": [
+      {
+        "partOfSpeech": "verb",
+        "definitions": [
+          "To rain very heavily."
+        ],
+        "examples": [
+          "[\"]Those weather-gaws aren't out for nothing. It'll rain cats and dogs to-morrow.\" Marigold wondered what weather-gaws were—and then forgot in thinking how interesting it would be in it really rained cats and dogs. Little silk-eared kittens everywhere by the basketful—loads of darling pudgy puppies."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "en:pond",
+    "headword": "pond",
+    "language": "en",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "An inland body of standing water, either natural or man-made, that is smaller than a lake.",
+          "An inland body of standing water of any size that is fed by springs rather than by a river."
+        ],
+        "examples": [
+          "But when the moon rose and the breeze awakened, and the sedges stirred, and the cat's-paws raced across the moonlit ponds, and the far surf off Wonder Head intoned the hymn of the four winds, the trinity, earth and sky and water, became one thunderous symphony—a harmony of sound and colour silvered to a monochrome by the moon."
+        ]
+      },
+      {
+        "partOfSpeech": "verb",
+        "definitions": [
+          "To block the flow of water so that it can escape only through evaporation or seepage; to dam.",
+          "To make into a pond; to collect, as water, in a pond by damming.",
+          "To form a pond; to pool."
+        ],
+        "examples": [
+          "The rate of fall of the surface of water ponded over the soil within the ring gives a measure of the infiltration rate for the particular enclosed area."
+        ]
+      },
+      {
+        "partOfSpeech": "verb",
+        "definitions": [
+          "To ponder."
+        ],
+        "examples": [
+          "Pleaseth you, pond your suppliant's plaint."
+        ]
+      }
+    ],
+    "pronunciation": "/pɒnd/"
+  },
+  {
+    "id": "en:nonsense",
+    "headword": "nonsense",
+    "language": "en",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "Letters or words, in writing or speech, that have no meaning or pattern or seem to have no meaning.",
+          "An untrue statement.",
+          "That which is silly, illogical and lacks any meaning, reason or value; that which does not make sense.",
+          "Something foolish.",
+          "A type of poetry that contains strange or surreal ideas, as, for example, that written by Edward Lear.",
+          "A damaged DNA sequence whose products are not biologically active, that is, that does nothing."
+        ],
+        "examples": [
+          "After my father had a stroke, every time he tried to talk, it sounded like nonsense.",
+          "You have seen it for yourselves in the play by Aristophanes, where Socrates goes whirling round, proclaiming that he is walking on air, and uttering a great deal of other nonsense about things of which I know nothing whatsoever.",
+          "While at the hospital, David kept screaming and yelling nonsense, stating Vladimir Putin bailed him out of jail and is a god."
+        ]
+      },
+      {
+        "partOfSpeech": "verb",
+        "definitions": [
+          "To make nonsense of;",
+          "To attempt to dismiss as nonsense; to ignore or belittle the significance of something; to render unimportant or puny.",
+          "To joke around, to waste time"
+        ],
+        "examples": [
+          "At the Haymarket all this is nonsensed by an endeavor to steer between Mr. Stanley Weyman's rights as author of the story and the prescriptive right of the leading actor to fight popularly and heroically against heavy odds.",
+          "\"They haven't nonsensed these workouts. They've taken them and used them very well. I didn't know how they'd respond, but they've responded.\"",
+          "Very commanding: very much 'end of this nonsensing'. Mister Fared spread his hands and shook his thin head imperceptibly, as if to say he understood."
+        ]
+      },
+      {
+        "partOfSpeech": "adj",
+        "definitions": [
+          "Nonsensical.",
+          "Resulting from the substitution of a nucleotide in a sense codon, causing it to become a stop codon (not coding for an amino-acid)."
+        ]
+      },
+      {
+        "partOfSpeech": "intj",
+        "definitions": [
+          "An emphatic rejection of something one has just heard and does not believe or agree with."
+        ],
+        "examples": [
+          "The operators present this as a passenger benefit by claiming it provides early notice. Nonsense! This just means that passengers can't find any information about the train they thought they were catching. It simply disappears."
+        ]
+      }
+    ],
+    "pronunciation": "/ˈnɒn.səns/"
+  },
+  {
+    "id": "en:pie",
+    "headword": "pie",
+    "language": "en",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "A type of pastry that consists of an outer crust and a filling. (Savory pies are more popular in the UK and sweet pies are more popular in the US, so \"pie\" without qualification has different connotations in these dialects.)",
+          "Any of various other, non-pastry dishes that maintain the general concept of a shell with a filling.",
+          "A pizza.",
+          "A paper plate covered in cream, shaving foam or custard that is thrown or rubbed in someone’s face for comical purposes, to raise money for charity, or as a form of political protest; a custard pie; a cream pie.",
+          "The whole of a wealth or resource, to be divided in parts.",
+          "An especially badly bowled ball.",
+          "A pie chart.",
+          "Something very easy; a piece of cake.",
+          "The vulva.",
+          "A kilogram of drugs, especially cocaine."
+        ],
+        "examples": [
+          "The family had steak and kidney pie for dinner and cherry pie for dessert.",
+          "SATURNINUS: Go fetch them hither to us presently.\nTITUS: Why, there they are, both baked in that pie,\nWhereof their mother daintily hath fed,\nEating the flesh that she herself hath bred.",
+          "Shepherd's pie is made of mince covered with mashed potato."
+        ]
+      },
+      {
+        "partOfSpeech": "verb",
+        "definitions": [
+          "To hit in the face with a pie, either for comic effect or as a means of protest (see also pieing).",
+          "To go around (a corner) in a guarded manner.",
+          "To ignore (someone)."
+        ],
+        "examples": [
+          "I'd like to see someone pie the chairman of the board.",
+          "Some of my friends drop everyone out as soon as they get a girlfriend, and they alienate people. Or they stop going out to the gym and doing things they love because they're all about the other person. When you do that you're sacrificing yourself and you will be left with nothing if you split up. You'll have to start again and get back in contact with all your mates you've pied off. Shame.",
+          "just my luck been put in a presentation group at uni with a guy I pied on tinder last week HAHA gud"
+        ]
+      },
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "Magpie."
+        ],
+        "examples": [
+          "Joe looked as if he thought this talk was like the chattering of a pie."
+        ]
+      },
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "A former low-denomination coin of northern India."
+        ],
+        "examples": [
+          "I gave him all the money in my possession, Rs.9.8.5. – nine rupees, eight annas, and five pie – for I always keep small change as bakshish when I am in camp."
+        ]
+      },
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "A traditional Spanish unit of length, equivalent to about 27.9 cm."
+        ]
+      }
+    ],
+    "pronunciation": "/paɪ/"
+  },
+  {
+    "id": "en:A",
+    "headword": "A",
+    "language": "en",
+    "meanings": [
+      {
+        "partOfSpeech": "num",
+        "definitions": [
+          "The first numeral symbol of the English alphabet, called a and written in the Latin script."
+        ],
+        "examples": [
+          "Item A is \"foods\", item B is \"drinks\"."
+        ]
+      },
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "Ace. (including in card games)",
+          "Acre.",
+          "Adult; as used in film rating.",
+          "Ammeter.",
+          "Angstrom.",
+          "Answer.",
+          "An assist.",
+          "Arsehole.",
+          "Atom."
+        ],
+        "examples": [
+          "A-bomb"
+        ]
+      },
+      {
+        "partOfSpeech": "adj",
+        "definitions": [
+          "Atom; atomic.",
+          "Asexual."
+        ],
+        "examples": [
+          "A S A S Generations. - A, asexual, produces S, sexual, from fertilized ovum of which A again arises.",
+          "Suppose that there are S sexual and A asexual species in some taxon, with S + A = N.",
+          "A, asexual; S, sexual stages; A > S, A < S and A / S represent the relative abundance of transcription between these two stages […]"
+        ]
+      }
+    ],
+    "pronunciation": "/eɪ/"
+  },
+  {
+    "id": "en:crow",
+    "headword": "crow",
+    "language": "en",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "A bird, usually black, of the genus Corvus, having a strong conical beak, with projecting bristles; it has a harsh, croaking call.",
+          "Any of various dark-coloured nymphalid butterflies of the genus Euploea.",
+          "A bar of iron with a beak, crook or claw; a bar of iron used as a lever; a crowbar.",
+          "Someone who keeps watch while their associates commit a crime; a lookout.",
+          "A gangplank (corvus) used by the Ancient Roman navy to board enemy ships.",
+          "The mesentery of an animal.",
+          "An ill-tempered and obstinate woman, or one who otherwise has features resembling the bird; a harpy.",
+          "A black person.",
+          "The emblem of an eagle, a sign of military rank."
+        ],
+        "examples": [
+          "Gaslark in his splendour on the golden stairs saying adieu to those three captains and their matchless armament foredoomed to dogs and crows on Salapanta Hills.",
+          "He approached the humble tomb in which Antonia reposed. He had provided himself with an iron crow and a pick-axe: but this precaution was unnecessary.",
+          "Watt might have broken the door down, with an axe, or a crow, or a small charge of explosive, but this might have aroused Erskine's suspicions, and Watt did not want that."
+        ]
+      },
+      {
+        "partOfSpeech": "adj",
+        "definitions": [
+          "Dark black, the color of a crow; crow-black."
+        ],
+        "examples": [
+          "\"Though her crow hair is lovely and wavy, she loathes it and craves yellow locks. Since she saw Hugh, she's given me no peace.” Sheffield's square , good-looking face shaped a grimace.",
+          "[…] only her crow hair could be seen. Her appearance could not be seen as she anxiously called out, \"Mother ...\" The setting sun cast a dim yellow light on the interior of the house. The woman lay on her back and looked up at the beams overhead[…]"
+        ]
+      },
+      {
+        "partOfSpeech": "verb",
+        "definitions": [
+          "To use a crowbar, wedge, or other implement to attempt to open a surface by leveraging force on the opposite end of the tool to pry off the connection between the two surfaces."
+        ],
+        "examples": [
+          "If you wanna get inside, you're gonna have to crow open that door."
+        ]
+      },
+      {
+        "partOfSpeech": "verb",
+        "definitions": [
+          "To make the shrill sound characteristic of a rooster; to make a sound in this manner, either in gaiety, joy, pleasure, or defiance.",
+          "To shout in exultation or defiance; to brag.",
+          "To test the reed of a double reed instrument by placing the reed alone in the mouth and blowing it."
+        ],
+        "examples": [
+          "Yet once me thought it [the ghost of Hamlet's father] was about to ſpeake, / And lifted vp his head to motion, / Like as he would ſpeake, but euen the / The morning cocke crew lowd, and in all haſte / It ſhrunke in haſte away, and vaniſhed / Our ſight.",
+          "This is the Cock that crowed in the Morn[.]",
+          "'You are that Psyche' Cyril said again / 'The mother of the sweetest little maid, / That ever crow'd for kisses.'"
+        ]
+      },
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "The cry or call of a rooster or a cockerel, especially as heard at sunrise."
+        ]
+      }
+    ],
+    "pronunciation": "/kɹəʊ/"
+  },
+  {
+    "id": "en:raven",
+    "headword": "raven",
+    "language": "en",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "Any of several, generally large, species of birds in the genus Corvus with lustrous black plumage; especially the common raven (Corvus corax).",
+          "A jet-black, often glossy, colour, like that of the plumage of a raven (etymology 1, noun sense 1).",
+          "Usually preceded by a descriptive word: a bird from a genus other than Corvus that resembles the raven (etymology 1, noun sense 1), especially in having black plumage; also, an imaginary black bird.",
+          "A flag bearing a raven (etymology 1, noun sense 1), formerly used by some Viking leaders",
+          "preceded by the: Viking military power.",
+          "A person, especially a man, with black hair.",
+          "A person who brings bad news or makes pessimistic predictions."
+        ],
+        "examples": [
+          "Some ſay that Rauens foſter forlorne children, / The vvhilſt their ovvne birds famiſh in their neſts: / Oh be to me though thy hard hart ſay no, / Nothing ſo kinde but ſomething pittifull.",
+          "Thus like the ſad preſaging Rauen that tolls / The ſick mans paſſeport in her hollovv beake, / And in the ſhadovv of the ſilent night / Doth ſhake contagion from her ſable vvings; / Vex'd and tormented runnes poore Barabas / VVith fatall curſes tovvards theſe Chriſtians.",
+          "[T]he Danes bare in their Enſigne a Raven vvrought (by report) in needle-vvorke, by the daughters of Lothbroke that is, Leather-breech, […]"
+        ]
+      },
+      {
+        "partOfSpeech": "adj",
+        "definitions": [
+          "Of the jet-black and often glossy colour of the plumage of a raven (etymology 1, noun sense 1)."
+        ],
+        "examples": [
+          "Near-synonyms: ebony, onyx",
+          "raven curls    raven darkness",
+          "She was a tall, sophisticated, raven-haired beauty."
+        ]
+      },
+      {
+        "partOfSpeech": "verb",
+        "definitions": [
+          "Sometimes followed by away or from: to obtain or seize (something, especially property) by force or violence; to plunder.",
+          "Sometimes followed by down, up, or (obsolete) in: to eat (something, such as food or prey) greedily; to devour, to wolf down.",
+          "To absorb or take in (something, such as information) greedily; also, to approach or pounce on (someone) like prey.",
+          "Followed by about, after, or for: to go after or seek for something, especially booty or spoils; to maraud, to plunder; also (generally), to move about wildly and cause damage; to rampage.",
+          "To eat greedily; also, followed by on or upon: of an animal: to prey on.",
+          "Sometimes followed by about or on: to move about searching for food or prey ravenously.",
+          "Sometimes followed by after or for: to have a ravenous appetite or craving for food or prey.",
+          "Originally followed by with: to experience great hunger; to be ravenous.",
+          "To take and exploit or make use of greedily.",
+          "Sometimes followed by after or for: to have a strong craving or desire for, or to do, something; to crave, to desire, to yearn."
+        ],
+        "examples": [
+          "[They] aſſaulted by night a certen aũciẽt [auncient] gentleman at home in his owne houſe, which had done thē [them] no diſpleaſure, and being a ſlepe in his bed at their cõming [comming], whan he had hardly eſcaped awaye half naked, rauening and diſtroying his goodes, they ſpoyled his wyfe and chyldren of all theyr apparell, and threatening them ofte with death, left thẽ [them] ſtarck naked, in ſo muche that one of the Nobilitie comming thither by chaunce, couered the woman with his owne garment.",
+          "Her princes in the middes thereof are like vvolues, rauening yͤ pray [prey] to ſhed blood, and to ſhed blood, and to deſtroye ſoules for their ovvne couetous lucre.",
+          "[C]ertaine young men vvhom they call Giamoglans, vvith others that ſtood round about them, ſnatcht it [the food] haſtily vp as their fees, and like greedie Harpies rauened it dovvne in a moment."
+        ]
+      }
+    ],
+    "pronunciation": "/ˈɹeɪvn̩/"
+  },
+  {
+    "id": "en:elephant",
+    "headword": "elephant",
+    "language": "en",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "A large mammal of the family Elephantidae in the order Proboscidea, having a trunk, and native to Africa and Asia.",
+          "Anything huge and ponderous.",
+          "Synonym of elephant paper.",
+          "used when counting to add length, so that each count takes about one second",
+          "Ivory.",
+          "A xiangqi piece that is moved two points diagonally, may not jump over intervening pieces and may not cross the river."
+        ],
+        "examples": [
+          "[A] puiſſant olyphant being brought to the place, the grehound ſeming to reioice at the greatnes of the beaſt, rouſed him, and after two or three queſtynges, he lept to the great Olyphante, and after a longe fight ouerthrew hym and kylled hym. So I doubt not but that ſome men […] whiche beeyng ones called to aucthoritee, ioygned with libertee, will inforce theim ſelfes to make theyr miniſtracions noble and excellent.",
+          "Let's play hide and seek. I'll count. One elephant, two elephant, three elephant...",
+          "He sent rich gifts of elephant and gold."
+        ]
+      }
+    ],
+    "pronunciation": "/ˈɛlɪfənt/"
+  },
+  {
+    "id": "en:brown",
+    "headword": "brown",
+    "language": "en",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "A colour like that of chocolate or coffee.",
+          "One of the colour balls used in snooker, with a value of 4 points.",
+          "Black tar heroin.",
+          "A copper coin.",
+          "A brown horse or other animal.",
+          "A person of mostly Latin American (or Latino), Middle Eastern/North African, South Asian, and sometimes Southeast Asian, Pacific Islander, or rarely Native American descent; a brown-skinned person; someone of mulatto, or biracial appearance.",
+          "Any of various nymphalid butterflies of subfamily Satyrinae (formerly the family Satyridae), such as those of the genera Heteronympha and Melanitis.",
+          "A brown trout (Salmo trutta).",
+          "A mass of birds or animals that may be indiscriminately fired at.",
+          "A brown dye or pigment.",
+          "A pen, pencil, crayon, etc., made of brown pigment."
+        ],
+        "examples": [
+          "The browns and greens in this painting give it a nice woodsy feel.",
+          "He wore brown jeans for his birthday.",
+          "“To save a journey up the town, / A razor lent here for a brown: / But if you think the price too high, / I beg you won’t the razor try.”"
+        ]
+      },
+      {
+        "partOfSpeech": "adj",
+        "definitions": [
+          "Having a brown color/colour.",
+          "Gloomy.",
+          "Latino/Latin American",
+          "of color.",
+          "South Asian or sometimes Middle Eastern or North African",
+          "Southeast Asian, Pacific Islander, or sometimes Native American",
+          "Not green (environmentally irresponsible); anti-green (against environmental protection)."
+        ],
+        "examples": [
+          "But none of those brown dwarfs were speeding along on a trajectory that would carry them out of the galaxy like “runaway” hypervelocity stars observed by astronomers in the last two decades.",
+          "Reminds me of the time they asked me and a group of other Latino, predominantly Mexican, friends for our passports when we tried to go to their [expletive] party a little over a year ago.[…]\nThe saddest part is that I don’t think they understand why it’s insulting to ask a brown person for a passport.",
+          "By Saad’s accounting – and this is not dissimilar from the white nationalist “great replacement theory” – western societies are bringing about their own destruction by admitting immigrants from poorer, browner and more Muslim countries."
+        ]
+      },
+      {
+        "partOfSpeech": "verb",
+        "definitions": [
+          "To become brown.",
+          "Synonym of poop (“to defecate”).",
+          "To cook something until it becomes brown.",
+          "To tan.",
+          "To make brown or dusky.",
+          "To give a bright brown colour to, as to gun barrels, by forming a thin coating of oxide on their surface.",
+          "To turn progressively more Hispanic or Latino, in the context of the population of a geographic region."
+        ],
+        "examples": [
+          "Fry the onions until they brown.",
+          "The chicken was browning nicely, the skin beginning to crisp and take on the toasty tones of oiled wood.",
+          "Don't microwave your milk too long\nIt browns and bubbles over"
+        ]
+      }
+    ],
+    "pronunciation": "/bɹaʊ̯n/"
+  },
+  {
+    "id": "en:floccinaucinihilipilification",
+    "headword": "floccinaucinihilipilification",
+    "language": "en",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "The act or habit of describing or regarding something as unimportant, of having no value or being worthless."
+        ],
+        "examples": [
+          "I loved him for nothing so much as his flocci-nauci-nihili-pili-fication of money.",
+          "There is a systematic flocci-nauci-nihili-pilification of all other aspects of existence that angers me.",
+          "Let me toss an oxymoronic morsel onto the stage of discussion right at this point—to use one of Jackie Gleason’s phrases, “how sweet it is” that, at last, we seem at last to be getting away from the splendiferous floccinaucinihilipilifications, in which we have engaged during these last several days."
+        ]
+      }
+    ],
+    "pronunciation": "/ˌflɒksɪˌnɔːsɪˌnɪhɪlɪˌpɪlɪfɪˈkeɪʃn/"
+  },
+  {
+    "id": "en:month",
+    "headword": "month",
+    "language": "en",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "A period into which a year is divided, historically based on the phases of the moon.",
+          "A period of 30 days, 31 days, or some alternation thereof.",
+          "A woman's period; menstrual discharge."
+        ],
+        "examples": [
+          "July is my favourite month.",
+          "Economics is a messy discipline: too fluid to be a science, too rigorous to be an art. Perhaps it is fitting that economists’ most-used metric, gross domestic product (GDP), is a tangle too. GDP measures the total value of output in an economic territory. Its apparent simplicity explains why it is scrutinised down to tenths of a percentage point every month.",
+          "Holonyms: bimester < trimester < quadrimester < semester < year < gigasecond < century < kiloannum, kiloyear, millennium < terasecond < mega-annum, megayear < petasecond < giga-annum, gigayear < exasecond < zettasecond < yottasecond < ronnasecond < quettasecond"
+        ]
+      }
+    ],
+    "pronunciation": "/mʌnθ/"
+  },
+  {
+    "id": "en:march",
+    "headword": "march",
+    "language": "en",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "A formal, rhythmic way of walking, used especially by soldiers, by bands, and in ceremonies.",
+          "A journey so walked.",
+          "A political rally or parade.",
+          "Any song in the genre of music written for marching (see Wikipedia's article on this type of music)",
+          "Steady forward movement or progression.",
+          "The feat of taking all the tricks of a hand."
+        ],
+        "examples": [
+          "Mr. Nelson covered the Selma-to-Montgomery freedom marches, including Bloody Sunday, on March 7, 1965, when 600 marchers were attacked with billy clubs and tear gas.",
+          "the march of time"
+        ]
+      },
+      {
+        "partOfSpeech": "verb",
+        "definitions": [
+          "To walk with long, regular strides, as a soldier does.",
+          "To cause someone to walk somewhere.",
+          "To go to war; to make military advances.",
+          "To make steady progress."
+        ],
+        "examples": [
+          "The column marching in double file, the instructor commands: […]",
+          "The old man heaved himself from the chair, seized Jessamy by her pinafore frill and marched her to the house.",
+          "The armies drawing constantly nearer to each other, the king advised with his council, whether he should march against the Britons, or sall upon the count of Gharolois."
+        ]
+      },
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "A border region, especially one originally set up to defend a boundary.",
+          "A region at a frontier governed by a marquess."
+        ],
+        "examples": [
+          "Juan's companion was a Romagnole, / But bred within the March of old Ancona[…]."
+        ]
+      },
+      {
+        "partOfSpeech": "verb",
+        "definitions": [
+          "To have common borders or frontiers"
+        ]
+      },
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "Smallage."
+        ]
+      }
+    ],
+    "pronunciation": "/mɑːtʃ/"
+  },
+  {
+    "id": "en:may",
+    "headword": "may",
+    "language": "en",
+    "meanings": [
+      {
+        "partOfSpeech": "verb",
+        "definitions": [
+          "To be strong; to have power (over).",
+          "To be able; can.",
+          "To be able to go.",
+          "To have permission to, be allowed. Used in granting permission and in questions to make polite requests.",
+          "Expressing a present possibility; possibly.",
+          "Expressing a disjunctive or contrastive relation between indicative statements.",
+          "Expressing a wish (with present subjunctive effect).",
+          "Used in modesty, courtesy, or concession, or to soften a question or remark."
+        ],
+        "examples": [
+          "But many times[…]we give way to passions we may resist and will not.",
+          "O weary night, O long and tedious night,\n Abate thy houres, shine comforts from the East,\n That I may backe to Athens by day-light […].",
+          "you may smoke outside"
+        ]
+      },
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "The hawthorn bush or its blossoms."
+        ],
+        "examples": [
+          "The fire from Lindfield was coming down the grassy hillside to the right between the hedges of may."
+        ]
+      },
+      {
+        "partOfSpeech": "verb",
+        "definitions": [
+          "To gather may, or flowers in general.",
+          "To celebrate May Day."
+        ],
+        "examples": [
+          "Soo it befelle in the moneth of May / quene Gueneuer called vnto her knyȝtes of the table round / and she gafe them warnynge that erly vpon the morowe she wold ryde on mayeng in to woodes & feldes besyde westmynstre.\n\"So it befell in the month of May, Queen Guenever called unto her knights of the Table Round; and she gave them warning that early upon the morrow she would ride a-Maying into woods and fields beside Westminster.\"",
+          "In valleys green and still / Where lovers wander maying"
+        ]
+      },
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "A maiden."
+        ]
+      }
+    ],
+    "pronunciation": "/meɪ/"
+  },
+  {
+    "id": "en:august",
+    "headword": "august",
+    "language": "en",
+    "meanings": [
+      {
+        "partOfSpeech": "adj",
+        "definitions": [
+          "Awe-inspiring, majestic, noble, venerable.",
+          "Of noble birth."
+        ],
+        "examples": [
+          "an august patron of the arts",
+          "In the book of Pſalms there are many things ſaid of David, which ſeem capable of a much auguſter ſenſe than can be pretended to be anſwered by any thing that befel himſelf.",
+          "[W]e shall not, I think, be able to find language which can convey in few words more fully the idea we should always have impressed on our minds of the august character of our Lord, than the expression, \"the word of life.\""
+        ]
+      },
+      {
+        "partOfSpeech": "verb",
+        "definitions": [
+          "To make ripe; ripen.",
+          "To bring to realization."
+        ],
+        "examples": [
+          "By divine science and cœlestial art / He for the cause of the dear nations toiled, / And augusted man's heavenly hopes that so, / […] / he might, by awful rites / […] / Adhæsion with Divinity achieve."
+        ]
+      }
+    ],
+    "pronunciation": "/ɔːˈɡʌst/"
+  },
+  {
+    "id": "en:October",
+    "headword": "October",
+    "language": "en",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "A type of ale traditionally brewed in October."
+        ],
+        "examples": [
+          "Sir, if I vvas vvorthy to adviſe you, I vvou'd have a Bottle of good October by me. Shall I ſet a Cup of old Stingo at your Elbovv?",
+          "[T]he gate of a large chateau, of a most noble and venerable appearance […] induced them to alight and view the apartments, contrary to their first intention of drinking a glass of his October at the door.",
+          "Sir George, borne along in his chair, peered up at this well-known window--well-known, since in the Oxford of 1767 a man's rooms were furnished if he had tables and chairs, store of beef and October, an apple-pie and Common Room port—and seeing the casement brilliantly lighted, smiled a trifle contemptuously."
+        ]
+      },
+      {
+        "partOfSpeech": "verb",
+        "definitions": [
+          "In the early Soviet Union, to give (a child) a name tinged with Soviet revolutionary thought, as opposed to religious christening."
+        ]
+      }
+    ],
+    "pronunciation": "/ɒkˈtəʊ.bə/"
+  },
+  {
+    "id": "en:multiculturalism",
+    "headword": "multiculturalism",
+    "language": "en",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "The characteristics of an organization, society, city etc. which has many different ethnic or national cultures mingling freely; political or social policies which support or encourage such coexistence.",
+          "The cultural Marxism conspiracy theory."
+        ],
+        "examples": [
+          "Near-synonym: polyculturalism (several or many)",
+          "The truth is that diversity, a kind of multiculturalism if we want to call it that, is the norm in any society.",
+          "Something had to replace the threat of communism, and at last a workable substitute is at hand. \"Multiculturalism,\" as the new menace is known, has been denounced in the media recently as the new McCarthyism, the new fundamentalism, even the new totalitarianism – take your choice."
+        ]
+      }
+    ],
+    "pronunciation": "/ˌmʌltɪˈkʌltʃəɹəˌlɪz(ə)m/"
+  },
+  {
+    "id": "en:current events",
+    "headword": "current events",
+    "language": "en",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "Current affairs; those events and issues of interest currently found in the news."
+        ],
+        "examples": [
+          "The teacher asked the students to write a report on current events.",
+          "I like to stay informed about current events by reading the newspaper daily.",
+          "He often brings up current events in conversation to spark debate."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "en:day",
+    "headword": "day",
+    "language": "en",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "The time when the Sun is above the horizon and it lights the sky.",
+          "A period of time equal or almost equal to a full day-night cycle, being 24 hours long.",
+          "The time taken for the Sun to seem to be in the same place in the sky twice; a solar day.",
+          "The time taken for the Earth to make a full rotation about its axis with respect to the fixed stars; a sidereal day or stellar day.",
+          "A 24-hour period beginning at 6am or sunrise.",
+          "A period of time between two set times which mark the beginning and the end of day in a calendar, such as from midnight to the following midnight or (Judaism) from nightfall to the following nightfall.",
+          "The rotational period of a planet.",
+          "The part of a day period which one spends at one’s job, school, etc.",
+          "An observance lasting for a day, such as an annual holiday.",
+          "A day set aside for a specified activity.",
+          "A specified time or period; time, considered with reference to the existence or prominence of a person or thing; age; time; era.",
+          "A period of contention of a day or less."
+        ],
+        "examples": [
+          "day and night;  I work at night and sleep during the day.",
+          "The day was cool and snappy for August, and the Rise all green with a lavish nature. Now we plunged into a deep shade with the boughs lacing each other overhead, and crossed dainty, rustic bridges over the cold trout-streams,[…].",
+          "Holonyms: week < megasecond < fortnight < month < year < gigasecond < century < kiloannum, kiloyear, millennium < terasecond < mega-annum, megayear < petasecond < giga-annum, gigayear < exasecond < zettasecond < yottasecond < ronnasecond < quettasecond"
+        ]
+      },
+      {
+        "partOfSpeech": "verb",
+        "definitions": [
+          "To spend a day (in a place)."
+        ],
+        "examples": [
+          "I nighted and dayed in Damascus town[.]"
+        ]
+      }
+    ],
+    "pronunciation": "/deɪ̯/"
+  },
+  {
+    "id": "en:Monday",
+    "headword": "Monday",
+    "language": "en",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "The second day of the week in many religious traditions, and the first day of the week in systems using the ISO 8601 norm. It follows Sunday and precedes Tuesday."
+        ],
+        "examples": [
+          "Mr. Whymper, a solicitor living in Willingdon, […] would visit the farm every Monday morning to receive his instructions.",
+          "An LMPD Board Notice of Hearing states part of Cosgrove’s hearings took place in November. The second half of his hearing is set to begin Monday and end Wednesday."
+        ]
+      },
+      {
+        "partOfSpeech": "adv",
+        "definitions": [
+          "On Monday."
+        ],
+        "examples": [
+          "We've worked out the schedule for Easter week: we'll be shopping Monday."
+        ]
+      }
+    ],
+    "pronunciation": "/ˈmʌn.deɪ/"
+  },
+  {
+    "id": "en:Tuesday",
+    "headword": "Tuesday",
+    "language": "en",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "The third day of the week in many religious traditions, and the second day of the week in systems that use the ISO 8601 norm; it follows Monday and precedes Wednesday."
+        ],
+        "examples": [
+          "An anti-Mao force has occupied many rural districts around Tengchung in west Yunnan and is directing peasants there to revolt against Mao Tse-tung, intelligence sources here reported Tuesday.",
+          "Alaska DOT crews returned to Igiugig on Tuesday to repair the lights, which are now back in service, Dapcevich said."
+        ]
+      },
+      {
+        "partOfSpeech": "adv",
+        "definitions": [
+          "On Tuesday."
+        ]
+      }
+    ],
+    "pronunciation": "/ˈtjuːz.deɪ/"
+  },
+  {
+    "id": "en:Wednesday",
+    "headword": "Wednesday",
+    "language": "en",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "The fourth day of the week in many religious traditions, and the third day of the week in systems using the ISO 8601 norm; it follows Tuesday and precedes Thursday."
+        ],
+        "examples": [
+          "US District Judge James Boasberg ruled Wednesday that “probable cause exists” to hold Trump administration officials in criminal contempt for violating his orders in mid-March halting the use of the Alien Enemies Act to deport alleged Venezuelan gang members."
+        ]
+      },
+      {
+        "partOfSpeech": "adv",
+        "definitions": [
+          "On Wednesday."
+        ]
+      }
+    ],
+    "pronunciation": "/ˈwɛnz.deɪ/"
+  },
+  {
+    "id": "en:Thursday",
+    "headword": "Thursday",
+    "language": "en",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "The fifth day of the week in many religious traditions, and the fourth day of the week in systems using the ISO 8601 norm; it follows Wednesday and precedes Friday."
+        ],
+        "examples": [
+          "Cap[ulet]. […] If vve ſhould reuell much, therefore vve vvill haue / Some halfe a dozen frends and make no more adoe. / But vvhat ſay you to Thurſday. / Par[is]. My Lorde I vviſhe that Thurſday vvere to morrovv.",
+          "But for satisfaction pure and deep, for balance in pleasure and comfort, Thursday canʼt be beat.",
+          "Justice Elena Kagan on Thursday defended the code of conduct the Supreme Court created last year, but conceded there needs to be a way to enforce the rules for it to be more effective."
+        ]
+      },
+      {
+        "partOfSpeech": "adv",
+        "definitions": [
+          "On Thursday."
+        ]
+      }
+    ],
+    "pronunciation": "/ˈθɜːz.deɪ/"
+  },
+  {
+    "id": "en:Friday",
+    "headword": "Friday",
+    "language": "en",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "The sixth day of the week in many religious traditions, and the fifth day of the week in systems using the ISO 8601 norm; the Muslim Sabbath; it follows Thursday and precedes Saturday.",
+          "The last workday in a work schedule that is not Monday through Friday."
+        ],
+        "examples": [
+          "For a micromoon and Friday the 13th full moon to occur together is extraordinarily rare. The last time it happened was in 1832 and it won't happen again for more than 500 years according to Tony Rice, a meteorologist and engineer at NASA.",
+          "Their mindset is the grindset, and they love the grind. I used to have a sales manager who didn't think this way. On Fridays, he'd always say, “Happy Friday.” A lot of people feel that way, but I never liked that phrase because it[…]",
+          "Tomorrow's Thursday, but I have Friday and Saturday off, so really it's my Friday."
+        ]
+      },
+      {
+        "partOfSpeech": "adv",
+        "definitions": [
+          "On Friday."
+        ]
+      }
+    ],
+    "pronunciation": "/ˈfɹaɪ.deɪ/"
+  },
+  {
+    "id": "en:Saturday",
+    "headword": "Saturday",
+    "language": "en",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "The seventh day of the week in many religious traditions, and the sixth day of the week in systems using the ISO 8601 norm; the Jewish Sabbath; it follows Friday and precedes Sunday."
+        ],
+        "examples": [
+          "The Beijing-based firm — one of four funds created by the Chinese government in 1999 to process the bad loans of state-owned banks — announced Saturday that it would send a group of 50 experts to the province to help it “prevent and defuse risks” and “bail out” the real estate industry.",
+          "Saturday’s tariffs are unlikely to be Trump’s last. The president said himself said in the Oval Office that additional tariffs could come by mid-February on chips, pharmaceuticals, steel, aluminum, copper, oil and gas imports – along with tariffs on the European Union – all threats that few would discount given his willingness to follow through on the North American and China tariffs on Saturday."
+        ]
+      },
+      {
+        "partOfSpeech": "adv",
+        "definitions": [
+          "On Saturday."
+        ]
+      },
+      {
+        "partOfSpeech": "verb",
+        "definitions": [
+          "To spend Saturday (at a place or doing an activity)."
+        ],
+        "examples": [
+          "Mr. Angus Hibbard, of New York, Fridayed and Saturdayed in Chicago, for the show and banquet."
+        ]
+      }
+    ],
+    "pronunciation": "/ˈsæt.ə.deɪ/"
+  },
+  {
+    "id": "en:Sunday",
+    "headword": "Sunday",
+    "language": "en",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "The first day of the week in many religious traditions, and the seventh day of the week in systems using the ISO 8601 standard; the Christian Sabbath; it follows Saturday and precedes Monday.",
+          "A newspaper published on Sunday.",
+          "A comic strip published in a Sunday newspaper.",
+          "Describes someone who does something occasionally or casually, and therefore without skill.",
+          "Describes something particularly fine and elegant, particularly something that could be worn to or used at church."
+        ],
+        "examples": [
+          "Every day is like Sunday / Every day is silent and grey",
+          "And after missing a simple header in the first half, the Manchester United striker ensured England topped Group D to set up a quarter-final meeting with Italy in Kiev on Sunday.",
+          "But on that Sunday it was filled with Episcopalians from around the country who had traveled to South Bend to attend his campaign launch."
+        ]
+      },
+      {
+        "partOfSpeech": "verb",
+        "definitions": [
+          "To spend Sunday (at a certain place, with a certain person or people, etc.)."
+        ],
+        "examples": [
+          "I waded through accounts of new calves and colts, new fences and barns, who “Sundayed” with his brother, etc., and soon had a list of all the cases in that part of the country.",
+          "The dogs and I were Sundaying on the garden lawn.",
+          "2016, Brian Finnegan, “Your Sunday Best,” in totallydublin.ie,\nWhen we’re Sundaying in the city, I like nothing better than to roll out of bed and head straight for Noshington on the corner of South Circular Road and Washington Street, for one of their hugely satisfying weekend brunch options."
+        ]
+      },
+      {
+        "partOfSpeech": "adv",
+        "definitions": [
+          "On Sunday."
+        ]
+      }
+    ],
+    "pronunciation": "/ˈsʌn.deɪ/"
+  },
+  {
+    "id": "en:lexicography",
+    "headword": "lexicography",
+    "language": "en",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "The art or craft of compiling, writing, and editing dictionaries.",
+          "The scholarly discipline of analysing and describing the semantic, syntagmatic and paradigmatic relationships within the lexicon (vocabulary) of a language and developing theories of dictionary components and structures linking the data in dictionaries.",
+          "A dictionary, a lexicon, a wordbook."
+        ],
+        "examples": [
+          "[T]here are ſeveral Species of Writing, in which a proper Degree of Hebetude is abſolutely neceſſary, as well as in other profeſſions; such as Lexicography, Index-making, and the like; [...]",
+          "And ſuch is the fate of hapleſs lexicography, that not only darkneſs, but light, impedes and diſtreſſes it; things may be not only too little, but too much known, to be happily illuſtrated.",
+          "Let me warn you, therefore, against that fallacious lexicography which forms new words, that undergoing the examination of political slander or intemperate zeal, are considered as having a known acception.—What is the word?—A word that should be discarded, when it is sought to affix to it another meaning than that which it bears in the cases where it is used."
+        ]
+      }
+    ],
+    "pronunciation": "/ˌlɛksɪˈkɒɡɹəfi/"
+  },
+  {
+    "id": "en:antonym",
+    "headword": "antonym",
+    "language": "en",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "A word which has the opposite (averted or inverted) meaning of another word.",
+          "A word that describes one end of a scale, while its opposite describes the other end, such as large versus small; a gradable antonym."
+        ],
+        "examples": [
+          "“Rich” is an antonym of “poor”; “full” is an antonym of “empty”.",
+          "All four lines of the pattern are required to establish that hot and cold are antonyms.\nThe water is hot entails The water is not cold.\nThe water is cold entails The water is not hot.\nThe water is not hot does not entail The water is cold.\nThe water is not cold does not entail The water is hot.",
+          "\"The word 'boom' always makes me uneasy because the antonym of it is bust,\" said Patrick Jankowski, vice president of research at the Greater Houston Partnership. \"Houston is not in a boom -- it is on a new path.\""
+        ]
+      }
+    ],
+    "pronunciation": "/ˈæn.təˌnɪm/"
+  },
+  {
+    "id": "en:connotation",
+    "headword": "connotation",
+    "language": "en",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "A meaning of a word or phrase that is (subjectively) suggested or implied (implicit), as contrasted with a denotation, which is the explicit and objective meaning. A characteristic of words or phrases, or of the contexts that words and phrases are used in.",
+          "The attribute or aggregate of attributes connoted by a term, as contrasted with a denotation."
+        ],
+        "examples": [
+          "Near-synonyms: intension, intent",
+          "The word \"advisedly\" has a connotation of \"wisely\", although it denotes merely \"intentionally\" and \"deliberately.\"",
+          "The word \"happy\" has a positive connotation, while \"sad\" has a negative connotation."
+        ]
+      }
+    ],
+    "pronunciation": "/ˌkɒnəˈteɪʃən/"
+  },
+  {
+    "id": "en:denotation",
+    "headword": "denotation",
+    "language": "en",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "The act of denoting, or something (such as a symbol) that denotes",
+          "The primary, surface, literal, or explicit meaning of a signifier such as a word, phrase, or symbol; that which a word denotes, as contrasted with its connotation; the aggregate or set of objects of which a word may be predicated.",
+          "The intension and extension of a word",
+          "Something signified or referred to; a particular meaning of a symbol",
+          "Any mathematical object which describes the meanings of expressions from the languages, formalized in the theory of denotational semantics",
+          "A first level of analysis: what the audience can visually see on a page. Denotation often refers to something literal, and avoids being a metaphor."
+        ],
+        "examples": [
+          "The denotations of the two expressions \"the morning star\" and \"the evening star\" are the same (i.e. both expressions denote the planet Venus), but their connotations are different.",
+          "Regarding denotation, the terms were generally used to refer to a wide range of language contact varieties and features."
+        ]
+      }
+    ],
+    "pronunciation": "/ˌdiː.noʊˈteɪ.ʃən/"
+  },
+  {
+    "id": "en:synonym",
+    "headword": "synonym",
+    "language": "en",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "A term (word or phrase) which is synonymous with others.",
+          "The subset of those names other than the one to be used according to the rules.",
+          "Any name that has been applied to a taxon other than the one to be used, including those not allowed by the rules such as misspellings or nomina nuda.",
+          "An alternative (often shorter) name defined for an object in a database."
+        ],
+        "examples": [
+          "Near-synonyms: near-synonym, parasynonym, plesionym",
+          "“Happy” is a synonym of “glad”.",
+          "The proportion of English words that have an exact synonym is small."
+        ]
+      },
+      {
+        "partOfSpeech": "verb",
+        "definitions": [
+          "To make synonymous."
+        ],
+        "examples": [
+          "The fair fame of this good Knight has suffered greatly from the levity of his critics, and still more from the chattering of nugators, blatterones, sermocinators, and other superficial dignitaries; insomuch that his very name is synonymed with that of a liar.",
+          "[…] if that properly belongs to the Saltatorii section, which Fabricius seems to believe by his synonyming it with his C. Viminalis […]"
+        ]
+      }
+    ],
+    "pronunciation": "/ˈsɪn.əˌnɪm/"
+  },
+  {
+    "id": "en:dialect",
+    "headword": "dialect",
+    "language": "en",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "A lect (often a regional or minority language) as part of a group or family of languages, especially if they are viewed as a single language, or if contrasted with a standardized idiom that is considered the 'true' form of the language (for example, Bavarian as contrasted with Standard German).",
+          "A variety of a language that is characteristic of a particular area, community, or social group, differing from other varieties of the same language in relatively minor ways as regards grammar, phonology, and lexicon.",
+          "Language that is perceived as substandard or wrong.",
+          "A language existing only in an oral or non-standardized form, especially a language spoken in a developing country or an isolated region.",
+          "A variant of a non-standardized programming language.",
+          "A variant form of the vocalizations of a bird species restricted to a certain area or population."
+        ],
+        "examples": [
+          "The question could be put: 'Is there anything inherent in a dialect which gives it a negative stigma or is it that the status of the majority of the speakers is transferred to the dialect?' — something that occurs in many regions in different countries.",
+          "Comparative wordlists of two dialects of Yoruba with Igala.",
+          "Bloomfield, for example, noted that “local dialects are spoken by the peasants and the poorest people of the towns” (1933: 50) though he also thought that the lower middle class spoke 'sub-standard' speech."
+        ]
+      }
+    ],
+    "pronunciation": "/ˈdaɪ.əˌlɛkt/"
+  },
+  {
+    "id": "en:hyponym",
+    "headword": "hyponym",
+    "language": "en",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "A more specific term; a subordinate grouping word or phrase; a term designating a subclass of another more general class described by the given word."
+        ],
+        "examples": [
+          "The words “dog”, “cat”, and “horse” are hyponyms of “animal” because dogs, cats, and horses are types of animal.",
+          "Woman itself has as other hyponyms, sculptress and waitress, but is itself a hyponym of adult."
+        ]
+      }
+    ],
+    "pronunciation": "/ˈhaɪpəʊ.nɪm/"
+  },
+  {
+    "id": "en:semantics",
+    "headword": "semantics",
+    "language": "en",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "A branch of linguistics studying the meaning of words.",
+          "The study of the relationship between words and their meanings.",
+          "The meaning or set of meanings of a linguistic element, such as a word, morpheme or utterance.",
+          "The meanings of individual words, as opposed to the overall meaning of a passage.",
+          "The meaning of computer language constructs, in contrast to their form or syntax.",
+          "Pettiness or triviality."
+        ],
+        "examples": [
+          "Holonym: linguistics",
+          "Meronyms: semasiology, onomasiology",
+          "lexical semantics"
+        ]
+      }
+    ],
+    "pronunciation": "/sɪˈmæntɪks/"
+  },
+  {
+    "id": "en:false friend",
+    "headword": "false friend",
+    "language": "en",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "A word in a language that bears a deceptive resemblance to a word in another language but in fact has a different meaning.",
+          "Used other than figuratively or idiomatically: see false, friend."
+        ],
+        "examples": [
+          "A word and its false friend may well be etymologically related: in such cases semantic shifts have made them drift apart."
+        ]
+      }
+    ],
+    "pronunciation": "/ˌfɒls ˈfɹɛnd/"
+  },
+  {
+    "id": "en:noun",
+    "headword": "noun",
+    "language": "en",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "A word that functions as the name of a specific object or set of objects, such as person, animal, place, word, thing, phenomenon, substance, quality, or idea: one of the basic parts of speech in many languages, including English.",
+          "Either a word that can be used to refer to a person, animal, place, thing, phenomenon, substance, quality or idea, or a word that modifies or describes a previous word or its referent; a substantive or adjective, sometimes also including other parts of speech such as numeral or pronoun.",
+          "An object within a user interface to which a certain action or transformation (i.e., verb) is applied."
+        ],
+        "examples": [
+          "Records have been broken, races have been dedicated, dreams have been dreamed, starts have been falsed and nouns have been verbed.",
+          "Communication is a kind of beauty, he said – and “beauty manifests itself from the noun itself, without strawberries on the cake.”",
+          "Q. What is a Noun? A. The Name of a Thing. Q. How many Sorts of Nouns are there? [...] A. A Noun Substantive, and a Noun Adjective."
+        ]
+      },
+      {
+        "partOfSpeech": "verb",
+        "definitions": [
+          "To convert a word to a noun."
+        ],
+        "examples": [
+          "What is not clear is how the nouning of verbs supports Simon's assumed correspondence between mechanical designing and intentional human responses. Is it the very nouning of verbs which indicates that the above correspondence exists?",
+          "For example, that females are different from but equal to males is oxymoronic by virtue of the nouned status of female and male as kinds of persons.",
+          "However, too much nouning makes you sound bureaucratic, immature, and verbally challenged. Top executives convert far fewer nouns into verbs than do workers at lower levels."
+        ]
+      }
+    ],
+    "pronunciation": "/naʊn/"
+  },
+  {
+    "id": "en:hour",
+    "headword": "hour",
+    "language": "en",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "A unit of time of one twenty-fourth of a day (sixty minutes).",
+          "A season, moment, or time.",
+          "The time.",
+          "Used after a two-digit hour and a two-digit minute to indicate time.",
+          "The amount of labor demanded by an employer in terms of time.",
+          "The set times of prayer, the canonical hours, the offices or services prescribed for these, or a book containing them.",
+          "A distance that can be traveled in one hour."
+        ],
+        "examples": [
+          "Holonyms: day < week < megasecond < fortnight < month < year < gigasecond < century < kiloannum, kiloyear, millennium < terasecond < mega-annum, megayear < petasecond < giga-annum, gigayear < exasecond < zettasecond < yottasecond < ronnasecond < quettasecond",
+          "Meronyms: quectosecond < rontosecond < yoctosecond < zeptosecond < attosecond < femtosecond < picosecond < nanosecond < microsecond < millisecond < centisecond < decisecond < second < decasecond < minute < hectosecond < kilosecond",
+          "Near-synonym: microcentury (humorous approximation)"
+        ]
+      }
+    ],
+    "pronunciation": "/aʊə/"
+  },
+  {
+    "id": "en:alphabetical",
+    "headword": "alphabetical",
+    "language": "en",
+    "meanings": [
+      {
+        "partOfSpeech": "adj",
+        "definitions": [
+          "Pertaining to, furnished with, or expressed by letters of the alphabet.",
+          "According to the sequence of the letters of the alphabet.",
+          "literal"
+        ],
+        "examples": [
+          "Paul, who talks about what the magical papyri do, has in his first letter to the Corinthians described basic aspects of alphabetical language.",
+          "All names were placed into an alphabetical list.",
+          "But if an alphabeticall servility must be still urged, it may so fall out,"
+        ]
+      }
+    ],
+    "pronunciation": "/ˌæl.fəˈbɛt.ɪ.kəl/"
+  },
+  {
+    "id": "en:freedom of speech",
+    "headword": "freedom of speech",
+    "language": "en",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "The right of citizens to speak, or otherwise communicate, without fear of harm or prosecution.",
+          "Used other than figuratively or idiomatically: see freedom, speech."
+        ],
+        "examples": [
+          "S. Iohn the Baptiste, who died for the lyke liberty and fredome of speache, as S. Quillian, and S. Lamberte did.",
+          "That the Freedome of Speech and Debates or Proceedings in Parlyament ought not to be impeached or questioned in any Court or Place out of Parlyament.",
+          "All Miniſters, therefore, who were Oppreſſors, or intended to be Oppreſſors, have been loud in their Complaints againſt Freedom of Speech, and the Licence of the Preſs; and always reſtrained, or endeavored to reſtrain both, in conſequence of this, they have browbeaten Writers, and puniſhed them violently, and againſt Law, and burnt their Works; by all which, they ſhewed how much Truth alarmed them, and how much they were at Enmity with Truth."
+        ]
+      }
+    ],
+    "pronunciation": "/ˈfɹiː.dəm əv ˌspiːt͡ʃ/"
+  },
+  {
+    "id": "en:minute",
+    "headword": "minute",
+    "language": "en",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "A unit of time which is one sixtieth of an hour (sixty seconds).",
+          "A short but unspecified time period.",
+          "A unit of angle equal to one-sixtieth of a degree.",
+          "A (usually formal) written record of a meeting or a part of a meeting.",
+          "A unit of purchase on a telephone or other similar network, especially a cell phone network, roughly equivalent in gross form to sixty seconds' use of the network.",
+          "A point in time; a moment.",
+          "A nautical or a geographic mile.",
+          "An old coin, a half farthing.",
+          "A very small part of anything, or anything very small; a jot; a whit.",
+          "A fixed part of a module.",
+          "A while or a long unspecified period of time.",
+          "The distance that can be traveled in a minute."
+        ],
+        "examples": [
+          "Holonyms: hectosecond < kilosecond < hour < day < week < megasecond < fortnight < month < year < gigasecond < century < kiloannum, kiloyear, millennium < terasecond < mega-annum, megayear < petasecond < giga-annum, gigayear < exasecond < zettasecond < yottasecond < ronnasecond < quettasecond",
+          "Meronyms: quectosecond < rontosecond < yoctosecond < zeptosecond < attosecond < femtosecond < picosecond < nanosecond < microsecond < millisecond < centisecond < decisecond < second < decasecond",
+          "You have twenty minutes to complete the test."
+        ]
+      },
+      {
+        "partOfSpeech": "verb",
+        "definitions": [
+          "Of an event, to write in a memo or the minutes of a meeting.",
+          "To set down a short sketch or note of; to jot down; to make a minute or a brief summary of."
+        ],
+        "examples": [
+          "I’ll minute this evening’s meeting.",
+          "I dare say there was a vast amount of minuting, memoranduming, and despatch-boxing, on this mighty subject.",
+          "On 17 November 1949 Jay minuted Cripps, arguing that trade liberalization on inessentials was socially regressive."
+        ]
+      },
+      {
+        "partOfSpeech": "adj",
+        "definitions": [
+          "Very small.",
+          "Very careful and exact, giving small details."
+        ],
+        "examples": [
+          "They found only minute quantities of chemical residue on his clothing.",
+          "The lawyer gave the witness a minute examination.",
+          "The single-imaging optic of the mammalian eye offers some distinct visual advantages. Such lenses can take in photons from a wide range of angles, increasing light sensitivity. They also have high spatial resolution, resolving incoming images in minute detail."
+        ]
+      }
+    ],
+    "pronunciation": "/ˈmɪnɪt/"
+  },
+  {
+    "id": "en:barter",
+    "headword": "barter",
+    "language": "en",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "An exchange of goods or services without the use of money.",
+          "The goods or services used in such an exchange."
+        ],
+        "examples": [
+          "We had no money so we had to live by barter.",
+          "Speculations in trade are not confined to the counter or to the counting-house. Lady Anne's fair hair and white teeth were as much objects of barter as any of the shawls or ribbons displayed in Bond Street. They were to be had in exchange for a suit of diamonds and an opera-box.",
+          "The man used his watch as barter to pay for his tab."
+        ]
+      },
+      {
+        "partOfSpeech": "verb",
+        "definitions": [
+          "To exchange goods or services without involving money."
+        ],
+        "examples": [
+          "She bartered a bonsai for one of the rare books in my library.",
+          "You may be able to barter for some of the items you need at the local market."
+        ]
+      }
+    ],
+    "pronunciation": "/ˈbɑː.(ɹ)tə(ɹ)/"
+  },
+  {
+    "id": "en:etymology",
+    "headword": "etymology",
+    "language": "en",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "The scientific study of the origin and evolution of a word's semantic meaning across time, including its constituent morphemes and phonemes.",
+          "The entire catalogue of meanings that a word, morpheme, or sign has carried throughout its history.",
+          "An account of the origin and historical development of a word as presented in a dictionary or the like.",
+          "The direct origin of a name, as in who someone was named after."
+        ],
+        "examples": [
+          "Holonyms: historical linguistics < linguistics",
+          "Although written the same, the words lead (the metal) and lead (the verb) have totally different etymologies.",
+          "The etymology of the term Japlish is disputed and contentiously so."
+        ]
+      }
+    ],
+    "pronunciation": "/ˌɛtɪˈmɒləd͡ʒi/"
+  },
+  {
+    "id": "en:swap",
+    "headword": "swap",
+    "language": "en",
+    "meanings": [
+      {
+        "partOfSpeech": "verb",
+        "definitions": [
+          "To exchange or give (something) in an non-normal exchange (for something else).",
+          "To hit, to strike.",
+          "To beat the air, or ply the wings, with a sweeping motion or noise; to flap.",
+          "To descend or fall; to rush hastily or violently."
+        ],
+        "examples": [
+          "In an effort to provide more permanent accommodations, employers may offer employees the opportunity either to swap jobs with a colleague or to transfer to a new position.",
+          "Chief watched these goings-on without pleasure, and waved them off in disgust when the smarmiest of the two suggested he might wish to swap that elk's tooth for this jug of fine rye whiskey.",
+          "The Shah wanted to swap oil for more arms."
+        ]
+      },
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "An exchange of two comparable things.",
+          "A financial derivative in which two parties agree to exchange one stream of non-normal cashflow against another stream.",
+          "Space available in a swap file for use as auxiliary memory.",
+          "A social meal at a restaurant between two university societies, usually involving drinking and banter; commonly associated with fining and pennying; equivalent to a crewdate at Oxford University."
+        ],
+        "examples": [
+          "I e’en changed it, as occasion served, with the skippers o’ Dutch luggers and French vessels, for gin and brandy[…] a gude swap too, between what cheereth the soul of man and that which dingeth it clean out of his body",
+          "Flores' nephews were each sentenced to 18 years' imprisonment in 2017 for conspiring to import cocaine, but they were released in 2022 by the Biden Administration as part of a prisoner swap with Venezuela.",
+          "How much swap do you need?"
+        ]
+      },
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "A blow; a stroke."
+        ]
+      }
+    ],
+    "pronunciation": "/ˈswɒp/"
+  },
+  {
+    "id": "en:swop",
+    "headword": "swop",
+    "language": "en",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "A fusion of swing and hip-hop dance styles."
+        ]
+      }
+    ],
+    "pronunciation": "/swɑp/"
+  },
+  {
+    "id": "en:polysemic",
+    "headword": "polysemic",
+    "language": "en",
+    "meanings": [
+      {
+        "partOfSpeech": "adj",
+        "definitions": [
+          "Having a number of senses (meanings) or understandings."
+        ],
+        "examples": [
+          "As a series of polysemic and paradoxical sketches, Jackass does not lend itself to one particular theoretical analysis."
+        ]
+      }
+    ],
+    "pronunciation": "/pəˈlɪs.ɪ.mɪk/"
+  },
+  {
+    "id": "en:trade",
+    "headword": "trade",
+    "language": "en",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "The buying and selling of goods and services on a market.",
+          "A particular instance of buying or selling, or a series of related transactions executed as a single investment.",
+          "An idea or strategy for an investment on a market.",
+          "An instance of bartering items in exchange for one another.",
+          "Those who perform a particular kind of skilled work.",
+          "Those engaged in an industry or group of related industries.",
+          "The skilled practice of a practical occupation.",
+          "An occupation in the secondary sector, as opposed to an agricultural, professional or military one.",
+          "The business given to a commercial establishment by its customers.",
+          "Steady winds blowing from east to west above and below the equator.",
+          "A publication intended for participants in an industry or related group of industries.",
+          "A masculine man available for casual sex with men, often for pay. (Compare rough trade.)",
+          "Instruments of any occupation.",
+          "Refuse or rubbish from a mine.",
+          "A track or trail; a way; a path; passage.",
+          "A course; a custom; a practice; an occupation."
+        ],
+        "examples": [
+          "I did no trades with them once the rumors started.",
+          "\"Sell America\" is the latest trade on Wall Street.",
+          "EXCHANGE — A trade or swap of no material profit to either side."
+        ]
+      },
+      {
+        "partOfSpeech": "verb",
+        "definitions": [
+          "To engage in trade.",
+          "To be traded at a certain price or under certain conditions.",
+          "To give (something) in exchange (for).",
+          "To mutually exchange (something) (with).",
+          "To use or exploit a particular aspect, such as a name, reputation, or image, to gain advantage or benefit.",
+          "To give someone a plant and receive a different one in return.",
+          "To do business; offer for sale as for one's livelihood.",
+          "To have dealings; to be concerned or associated (with).",
+          "To recommend and get recommendations."
+        ],
+        "examples": [
+          "This company trades (in) precious metal.",
+          "He withdrew money to his bank account after several years of trading stocks on E-Trade.",
+          "[…]a free port, where Nations warring with one another resorted with their Goods, and traded as in a neutral Country."
+        ]
+      },
+      {
+        "partOfSpeech": "adj",
+        "definitions": [
+          "Of a product, produced for sale in the ordinary bulk retail trade and hence of only the most basic quality."
+        ],
+        "examples": [
+          "\"It is monstrous - grotesque.\" \"But what made him draw such an animal?\" \"Trade gin, I should think.\""
+        ]
+      }
+    ],
+    "pronunciation": "/tɹeɪd/"
+  },
+  {
+    "id": "en:quid pro quo",
+    "headword": "quid pro quo",
+    "language": "en",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "Something which is understood as something else; an equivocation.",
+          "Substitution of one drug for another.",
+          "Something which is offered or asked for in exchange for something else.",
+          "A usually non-monetary exchange transaction, or series or process of exchange transactions.",
+          "An equal or fair transaction or series of process of exchange transactions; tit for tat.",
+          "Sexual harassment in which a person in a workplace implicitly or explicitly requires sexual favours in exchange for something."
+        ],
+        "examples": [
+          "The misunderstanding of the word or the quid pro quo is the unintentional pun, and is related to it exactly as folly is to wit.",
+          "“Is it simply a wild fantasy, or a mistake on the part of the old man — some impossible quid pro quo?”",
+          "His argument was formulated, not without reason, as a paradox, a quid pro quo of opposing concepts: form is declared to be content, thus its own opposite."
+        ]
+      }
+    ],
+    "pronunciation": "/ˌkwɪd.pɹəʊˈkwəʊ/"
+  },
+  {
+    "id": "en:verb",
+    "headword": "verb",
+    "language": "en",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "A word that indicates an action, event, or state of being.",
+          "Any word; a vocable.",
+          "An action as opposed to a trait or thing.",
+          "A named command that performs a specific operation on an object."
+        ],
+        "examples": [
+          "The word “speak” is an English verb.",
+          "In ſo moche that if any verbe be of the thyꝛde coniugation / I ſet out all his rotes and tenſes[…]",
+          "a Verb of the Singular"
+        ]
+      },
+      {
+        "partOfSpeech": "verb",
+        "definitions": [
+          "To use any word that is or was not a verb (especially a noun) as if it were a verb.",
+          "Used as a placeholder for any verb."
+        ],
+        "examples": [
+          "Haig, in congressional hearings before his confirmatory, paradoxed his auditioners by abnormalling his responds so that verbs were nouned, nouns verbed and adjectives adverbised. He techniqued a new way to vocabulary his thoughts so as to informationally uncertain anybody listening about what he had actually implicationed... .",
+          "I like to verb words.... I take nouns and adjectives and use them as verbs. Remember when \"access\" was a thing? Now it's something you DO. It got verbed. Verbing weirds language.",
+          "Nouns should never be verbed."
+        ]
+      },
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "Reverb."
+        ]
+      }
+    ],
+    "pronunciation": "/vɜːb/"
+  },
+  {
+    "id": "en:adjective",
+    "headword": "adjective",
+    "language": "en",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "A word that modifies a noun or noun phrase or describes a noun’s referent.",
+          "A dependent; an accessory."
+        ],
+        "examples": [
+          "The words “big” and “heavy” are English adjectives.",
+          "\"They'll have to invent new adjectives when I come back. You wait!\"",
+          "\"We have fallen into the culture of adjectives and adverbs, and we have forgotten the strength of nouns,\" he said."
+        ]
+      },
+      {
+        "partOfSpeech": "adj",
+        "definitions": [
+          "Adjectival; pertaining to or functioning as an adjective.",
+          "Applying to methods of enforcement and rules of procedure.",
+          "Needing the use of a mordant to be made fast to that which is being dyed.",
+          "Incapable of independent function."
+        ],
+        "examples": [
+          "The whole English law, substantive and adjective.",
+          "In fact, God is of not so much importance in Himself, but as the end towards which man tends. That irreverent person who said that Browning uses “God” as a pigment made an accurate criticism of his theology. In Browning, God is adjective to man."
+        ]
+      },
+      {
+        "partOfSpeech": "verb",
+        "definitions": [
+          "To make an adjective of; to form or convert into an adjective.",
+          "To characterize with an adjective; to describe by using an adjective."
+        ],
+        "examples": [
+          "Language has as much occasion to adjective the distinct signification of the verb, and to adjective also the mood, as it has to adjective time. It has […] adjectived all three.",
+          "In English, instead of adjectiving our own substantives, we have borrowed, in immense numbers, adjectived signs from other languages[…]",
+          "For quotations using this term, see Citations:adjective."
+        ]
+      }
+    ],
+    "pronunciation": "/ˈæd͡ʒ.ɪk.tɪv/"
+  },
+  {
+    "id": "en:craft",
+    "headword": "craft",
+    "language": "en",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "Strength; power; might; force .",
+          "Ability, skillfulness, especially skill in making plans and carrying them into execution; dexterity in managing affairs, adroitness, practical cunning; ingenuity in constructing, dexterity .",
+          "Cunning, art, skill, or dexterity applied to bad purposes; artifice; guile; subtlety; shrewdness as demonstrated by being skilled in deception .",
+          "Occult art, magic .",
+          "A work or product of art .",
+          "Handmade items, especially domestic or decorative objects; handicrafts .",
+          "A device, a means; a magical device, spell or enchantment .",
+          "Learning of the schools, scholarship; a branch of learning or knowledge, a science, especially one of the ‘seven liberal arts’ of the medieval universities .",
+          "Skill, skilfulness, art, especially the skill needed for a particular profession .",
+          "A branch of skilled work or trade, especially one requiring manual dexterity or artistic skill, but sometimes applied equally to any business, calling or profession; the skilled practice of a practical occupation .",
+          "A trade or profession as embodied in its practitioners collectively; the members of a trade or handicraft as a body; an association of these; a trade's union, guild, or ‘company’ .",
+          "A vehicle designed for navigation in or on water or air or through outer space .",
+          "Boats, especially of smaller size than ships. Historically primarily applied to vessels engaged in loading or unloading of other vessels, as lighters, hoys, and barges.",
+          "Those vessels attendant on a fleet, such as cutters, schooners, and gunboats, generally commanded by lieutenants.",
+          "A woman.",
+          "Implements used in catching fish, such as net, line, or hook. Modern use primarily in whaling, as in harpoons, hand-lances, etc. ."
+        ],
+        "examples": [
+          "By the craft of nature.",
+          "The Cyclôpes were Brontês, Steropês, and Argês,—formidable persons, equally distinguished for strength and for manual craft […]",
+          "England should have had enough against a very ordinary Russia to complete the job but Rooney's removal robbed them of his craft and guidance and now increases the pressure on Thursday's meeting with Wales in Lens."
+        ]
+      },
+      {
+        "partOfSpeech": "verb",
+        "definitions": [
+          "To make by hand and with much skill.",
+          "To construct, develop something (like a skilled craftsman).",
+          "To combine multiple items to form a new item, such as armour or medicine."
+        ],
+        "examples": [
+          "state crafting; the process of crafting global policing"
+        ]
+      }
+    ],
+    "pronunciation": "/ˈkɹɑːft/"
+  },
+  {
+    "id": "en:adjectival",
+    "headword": "adjectival",
+    "language": "en",
+    "meanings": [
+      {
+        "partOfSpeech": "adj",
+        "definitions": [
+          "Of or relating to or functioning as an adjective.",
+          "Of or relating to procedure, especially to technicalities thereof."
+        ],
+        "examples": [
+          "adjectival syntax",
+          "adjectival noun",
+          "As we can have the adjectival forms bright, brighter, brightest, so we can have the adverbial forms brightly, brightlier, brightliest, but degree is alike inconceivable in the adjective ‘round,’ and the A. ‘here.’"
+        ]
+      },
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "An adjectival phrase or clause."
+        ],
+        "examples": [
+          "Within this line of reasoning, then, Tagalog is classified as a language in which adjectivals are essentially neutral between a nouny and a verby interpretation."
+        ]
+      }
+    ],
+    "pronunciation": "/ˌæ.dʒɛkˈtaɪ.vəl/"
+  },
+  {
+    "id": "en:substantive",
+    "headword": "substantive",
+    "language": "en",
+    "meanings": [
+      {
+        "partOfSpeech": "adj",
+        "definitions": [
+          "Of the essence or essential element of a thing.",
+          "Constituting the substance of content rather than its style, and thus always nontrivial.",
+          "Having substance; enduring; solid; firm; substantial.",
+          "Applying to essential legal principles and rules of right.",
+          "Not needing the use of a mordant to be made fast to that which is being dyed.",
+          "Depending on itself; independent.",
+          "Of or pertaining to a substantive.",
+          "Actually and legally held, as distinct from an acting, temporary or honorary rank or appointment."
+        ],
+        "examples": [
+          "substantive information",
+          "In one sense the first debate achieved the worst of all worlds: it managed to be technical, even dull, without being substantive or especially honest.",
+          "Substantive editing is never trivial, whereas some aspects of copyediting are trivial."
+        ]
+      },
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "Part of a text that carries the meaning, such as words and their ordering."
+        ]
+      },
+      {
+        "partOfSpeech": "verb",
+        "definitions": [
+          "To make a word belonging to another part of speech into a substantive (that is, a noun) or use it as a noun."
+        ]
+      }
+    ],
+    "pronunciation": "/ˈsʌbstəntɪv/"
+  },
+  {
+    "id": "en:trade wind",
+    "headword": "trade wind",
+    "language": "en",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "A steady wind that blows from east to west above and below the equator."
+        ],
+        "examples": [
+          "They rode the trade winds going west.",
+          "During the summer months, from November to April, the trade wind is less steady over large parts of the ocean."
+        ]
+      }
+    ],
+    "pronunciation": "/ˈtɹeɪd ˈwɪnd/"
+  },
+  {
+    "id": "en:patronage",
+    "headword": "patronage",
+    "language": "en",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "The act of providing approval and support; backing; championship.",
+          "Customers collectively; clientele; business.",
+          "The act or state of being a customer of some business.",
+          "A communication that indicates lack of respect by patronizing the recipient; condescension; disdain.",
+          "Granting favours or giving contracts or making appointments to office in return for political support.",
+          "Guardianship, as of a saint; tutelary care.",
+          "The right of nomination to political office.",
+          "The right of presentation to church or ecclesiastical benefice; advowson.",
+          "Patronising speech or behaviour."
+        ],
+        "examples": [
+          "His vigorous patronage of the conservatives got him in trouble with progressives.",
+          "The restaurant had an upper-class patronage.",
+          "The improved service to and from Taunton is fully justified by the passenger patronage to and from this town, which is a railhead for a large surrounding area."
+        ]
+      },
+      {
+        "partOfSpeech": "verb",
+        "definitions": [
+          "To support by being a patron of.",
+          "To be a regular customer or client of; to patronize"
+        ],
+        "examples": [
+          "Mingdi continued the policy of his father who had patronaged Confucian learning.",
+          "Table 5.4 reveals the role of criminal gangs’ patron under each crime category. From this, we can understand that 74 percent of the mercenaries are patronaged and supported by the politicians either of the ruling or opposition party.",
+          "To summarize: a person with a party political background is thus defined as ‘a person that has served in (a) […] and/or (b) a non-elective position inside the party administration of patronaged position in another organisation, i.e. the political functionary’."
+        ]
+      }
+    ],
+    "pronunciation": "/ˈpeɪtɹənɪd͡ʒ/"
+  },
+  {
+    "id": "en:deal",
+    "headword": "deal",
+    "language": "en",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "A division, a portion, a share, a part, a piece.",
+          "An indefinite quantity or amount; a lot (now usually qualified by great or good)."
+        ],
+        "examples": [
+          "We gave three deals of grain in tribute to the king.",
+          "There is a vast deal of difference in memories, as well as in every thing else, and therefore you should make allowance for your cousin, and pity her deficiency.",
+          "There is a deal of obscurity concerning the identity of the species thus multitudinously baptized."
+        ]
+      },
+      {
+        "partOfSpeech": "verb",
+        "definitions": [
+          "To distribute among a number of recipients, to give out as one’s portion or share.",
+          "To administer or give out, as in small portions.",
+          "To take action with regard to someone or something.",
+          "To distribute cards to the players in a game.",
+          "deliver damage, a blow, strike or cut. To inflict.",
+          "To pitch.",
+          "To have dealings or business.",
+          "To conduct oneself, to behave.",
+          "To take action; to act.",
+          "To trade professionally (followed by in).",
+          "To sell, especially to sell illicit drugs.",
+          "To be concerned with.",
+          "To handle, to manage, to cope."
+        ],
+        "examples": [
+          "The fighting is over; now we deal out the spoils of victory.",
+          "Rome deals out her blessings and her gold.",
+          "\"Away, proud woman!\" said the Lady; \"who ever knew so well as thou to deal the deepest wounds under the pretence of kindness and courtesy?\""
+        ]
+      },
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "An act of dealing or sharing out.",
+          "The distribution of cards to players; a player's turn for this.",
+          "A particular instance of trading (buying or selling; exchanging; bartering); a transaction.",
+          "A transaction offered which is financially beneficial; a bargain.",
+          "An agreement between parties; an arrangement.",
+          "A situation, occasion, or event.",
+          "A thing, an unspecified or unidentified object.",
+          "A personality trait, especially a negative one, and the underlying cause of it."
+        ],
+        "examples": [
+          "I didn’t have a good deal all evening.",
+          "I believe it's your deal.",
+          "We need to finalise the deal with Henderson by midnight."
+        ]
+      },
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "Wood that is easy to saw (from conifers such as pine or fir).",
+          "A plank of softwood (fir or pine board).",
+          "A wooden board or plank, usually between 12 or 14 feet in length, traded as a commodity in shipbuilding."
+        ],
+        "examples": [
+          "1722, Daniel Defoe, A Journal of the Plague Year, London: E. Nutt et al., p. 86,\nSome Houses were […] entirely lock’d up, the Doors padlockt, the Windows and Doors having Deal Boards nail’d over them,",
+          "A brisk fire burned in the grate, there were three comfortable chairs, and a deal table with a water carafe, a bucket of coals, and a few other amenities.",
+          "It shall not be lawful for any person to land any timber, planks or board, deals, staves, tar, pitch, turpentine, rozin or other the commodities aforesaid, on any part of the present quays within the city of Bristol, from any vessel coming into the said port..."
+        ]
+      },
+      {
+        "partOfSpeech": "adj",
+        "definitions": [
+          "Made of deal."
+        ],
+        "examples": [
+          "A plain deal table",
+          "Deal table in the middle, plain chairs all round the walls, on one end a large shining map, marked with all the colours of a rainbow.",
+          "She glanced round the kitchen. It was small and curious to her, with its glittering kissing-bunch, its evergreens behind the pictures, its wooden chairs and little deal table."
+        ]
+      }
+    ],
+    "pronunciation": "/ˈdiːl/"
+  },
+  {
+    "id": "en:merchandise",
+    "headword": "merchandise",
+    "language": "en",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "Goods which are or were offered or intended for sale.",
+          "Commercial goods connected (branded) with an entity such as a team, band, company, charity, work of fiction, festival, or meme. (Commonly shortened to merch.)",
+          "A commodity offered for sale; an article of commerce; a kind of merchandise.",
+          "The act or business of trading; trade; traffic."
+        ],
+        "examples": [
+          "Good business depends on having good merchandise.",
+          "So, if a Sonne that is by his Father ſent about Merchandize, doe ſinfully miſcarry vpon the Sea; the imputation of his vvickedneſſe, by your rule, ſhould be impoſed vpon his Father that ſent him: […]",
+          "The custom of giving away merchandise for advertising purposes is greatly on the increase in this country. More goods are now distributed in one year as advertising novelties and as premiums than in a decade 10 or 15 years ago."
+        ]
+      },
+      {
+        "partOfSpeech": "verb",
+        "definitions": [
+          "To engage in trade; to carry on commerce.",
+          "To engage in in-store promotion of the sale of goods, as by display and arrangement of goods.",
+          "To engage in the trade of.",
+          "To engage in in-store promotion of the sale of.",
+          "To promote as if for sale."
+        ],
+        "examples": [
+          "He started his career merchandising in a small clothing store chain.",
+          "He got hired to merchandise some new sporting goods lines.",
+          "The record companies don't get as good a return on merchandising artists under contract."
+        ]
+      }
+    ],
+    "pronunciation": "/ˈmɜː.t͡ʃənˌdaɪs/"
+  },
+  {
+    "id": "en:wares",
+    "headword": "wares",
+    "language": "en",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "Goods or services that are for sale."
+        ],
+        "examples": [
+          "The square was filled with booths, with vendors offering their wares.",
+          "I call on the Minister to ensure good regulation is applied to moneylenders and so-called independent money advisers, many of whom are former bankers peddling their wares"
+        ]
+      }
+    ],
+    "pronunciation": "/wɛəz/"
+  },
+  {
+    "id": "en:product",
+    "headword": "product",
+    "language": "en",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "Anything that is produced; a result.",
+          "The amount of an artifact that has been created by someone or some process.",
+          "A consequence of someone's efforts or of a particular set of circumstances.",
+          "A chemical substance formed as a result of a chemical reaction.",
+          "A quantity obtained by multiplication of two or more numbers.",
+          "Any operation or a result thereof which generalises multiplication of numbers, like the multiplicative operation in a ring, product of types or a categorical product.",
+          "Any tangible or intangible good or service that is a result of a process and that is intended for delivery to a customer or end user.",
+          "A commodity offered for sale.",
+          "Illegal drugs, especially cocaine, when viewed as a commodity."
+        ],
+        "examples": [
+          "The product of last month's quality standards committee is quite good, even though the process was flawed.",
+          "To whom thus Michael: These are the product / Of those ill-mated marriages thou sawest;",
+          "These institutions are the products of enthusiasm; they are the instruments of wisdom."
+        ]
+      },
+      {
+        "partOfSpeech": "verb",
+        "definitions": [
+          "To produce."
+        ],
+        "examples": [
+          "The probate of a Testament is the producting and insinuating of it before the Ecclesiastical Judge […]"
+        ]
+      }
+    ],
+    "pronunciation": "/ˈpɹɒd.əkt/"
+  },
+  {
+    "id": "en:apples and pears",
+    "headword": "apples and pears",
+    "language": "en",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "stairs"
+        ],
+        "examples": [
+          "Get up them apples and pears and into Uncle Ned!"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "en:eagle",
+    "headword": "eagle",
+    "language": "en",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "Any of several large carnivorous and carrion-eating birds in the family Accipitridae, having a powerful hooked bill and keen vision.",
+          "A gold coin with a face value of ten dollars, formerly used in the United States.",
+          "A 13th-century coin minted in Europe and circulated in England as a debased sterling silver penny, outlawed under Edward I of England.",
+          "A score of two under par for a hole."
+        ],
+        "examples": [
+          "I, I go my own way\nI swim against the stream\nForever I will fight the pοwers that be\nThe eagle flies alone",
+          "I got an eagle in the third hole."
+        ]
+      },
+      {
+        "partOfSpeech": "verb",
+        "definitions": [
+          "To score an eagle."
+        ]
+      }
+    ],
+    "pronunciation": "/ˈiːɡəl/"
+  },
+  {
+    "id": "en:sesquipedalianism",
+    "headword": "sesquipedalianism",
+    "language": "en",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "The practice of using long, sometimes obscure, words in speech or writing.",
+          "A very long word."
+        ],
+        "examples": [
+          "His voice here is a marvelous juxtaposition of cool elegance, unaffected hipness, unabashed sesquipedalianism (\"the rich bouquet of exuded sebaceousness\") and swell conversational slang (...)"
+        ]
+      }
+    ],
+    "pronunciation": "/sɛz.kwɪ.pəˈdɛl.i.ən.ɪsm̩/"
+  },
+  {
+    "id": "en:pneumonoultramicroscopicsilicovolcanoconiosis",
+    "headword": "pneumonoultramicroscopicsilicovolcanoconiosis",
+    "language": "en",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "A disease of the lungs, allegedly caused by inhaling microscopic silicate particles originating from the eruption of a volcano."
+        ],
+        "examples": [
+          "Call it miner's asthma, silicosis, pneumonoultramicroscopicsilicovolcanoconiosis, coal workers' pneumoconiosis, or black lung—they are all dust diseases with the same symptoms.",
+          "I say that it must be the silica dust\nThat we breathed through our mouths and our noses\nThat brought pneumonoultramicroscopicsilicovolcanoconiosis.",
+          "It's either pneumonoultramicroscopicsilicovolcanoconiosis, or a bad cough."
+        ]
+      }
+    ],
+    "pronunciation": "/ˌnjuːmə.nəʊ.ʌl.tɹə.maɪ.kɹəʊˌskɒ.pɪkˌsɪ.lɪ.kəʊ.vɒl.keɪ.nəʊ.kəʊ.niˈəʊ.sɪs/"
+  },
+  {
+    "id": "en:antidisestablishmentarianism",
+    "headword": "antidisestablishmentarianism",
+    "language": "en",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "A political philosophy opposed to the separation of a religious group (church) and a government (state), especially the belief held by those in 19th-century England opposed to separating the Anglican church from the civil government, or the separation of church and state."
+        ],
+        "examples": [
+          "Jed Rubenfeld, who actually may not have been recycling a Boerne Court- rejected argument into a law review article,⁴⁵⁰ reasoned that RFRA indeed lacked constitutionality, but because of First Amendment antidisestablishmentarianism, and not the reasons offered by the Court.⁴⁵¹",
+          "The establishmentarianism of Hatch's alliance-building strategy undermined by the disestablishmentarianism of Wiglesworth's treachery triggers an antidisestablishmentarianism in Hawk — but the negation of Wiglesworth's 'dis' coupled with the counter-negation of Hawk's 'anti' does not simply generate a synthetic affirmation of Hatch's 'establishmentarianism'. Instead, Hawk's antidisestablishmentarianism, like a cancerous wart on the end of the nose, is perched at the fuzzy border separating ontology from oncology, malignity from malignancy.",
+          "As we said yesterday, the case for antidisestablishmentarianism has never been more threadbare."
+        ]
+      }
+    ],
+    "pronunciation": "/ˌæntiˌdɪsɪˌstæblɪʃmənˈtɛəɹi.əˌnɪz(ə)m/"
+  },
+  {
+    "id": "en:head",
+    "headword": "head",
+    "language": "en",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "The part of the body of an animal or human which contains the brain, mouth, and main sense organs.",
+          "Mental or emotional aptitude or skill.",
+          "Mind; one's own thoughts.",
+          "A headache; especially one resulting from intoxication.",
+          "A headdress; a covering for the head.",
+          "An individual person.",
+          "A single animal; measure word for livestock and game.",
+          "The population of game.",
+          "The antlers of a deer.",
+          "The topmost, foremost, or leading part.",
+          "The end of a rectangular table furthest from the entrance; traditionally considered a seat of honor.",
+          "The end of a pool table opposite the end where the balls have been racked.",
+          "The end of a hammer, axe, golf club, or similar implement used for striking other objects.",
+          "The end of a nail, screw, bolt, or similar fastener which is opposite the point; usually blunt and relatively wide.",
+          "The larger-diameter end of an unused rivet, properly the factory head or ambiguously the shop head, as opposed to the bucktail which is passed through the items to be fastened and then upset into an appropriate shape, generally pancake-shaped for a solid rivet or doughnut-shaped for a blind rivet, called the field head or ambiguously the shop head.",
+          "Either, or in plural both, ends of a used rivet, the factory head and the field head.",
+          "The sharp end of an arrow, spear, or pointer.",
+          "The top part of a lacrosse stick that holds the ball.",
+          "A drum head, the membrane which is hit to produce sound.",
+          "A machine element which reads or writes electromagnetic signals to or from a storage medium.",
+          "The part of a disk drive responsible for reading and writing data.",
+          "The cylinder head, a platform above the cylinders in an internal combustion engine, containing the valves and spark plugs.",
+          "A milling head, a part of a milling machine that houses the spindle.",
+          "The foam that forms on top of beer or other carbonated beverages.",
+          "The end cap of a cylindrically-shaped pressure vessel.",
+          "The end cap of a cask or other barrel.",
+          "The uppermost part of a valley.",
+          "Deposits near the top of a geological succession.",
+          "Synonym of tidal bore.",
+          "The end of an abscess where pus collects.",
+          "The headstock of a guitar.",
+          "The top edge of a sail.",
+          "The bow of a vessel.",
+          "A headland.",
+          "A title or heading in a book or other document.",
+          "A leader or expert.",
+          "The place of honor or command; the most important or foremost position; the front.",
+          "A headteacher.",
+          "A person with an extensive knowledge of hip hop.",
+          "An old head.",
+          "The source of a river; the end of a lake where a river flows into it.",
+          "A clump of seeds, leaves or flowers; a capitulum.",
+          "An ear of wheat, barley, or other small cereal.",
+          "The leafy top part of a tree.",
+          "The rounded part of a bone fitting into a depression in another bone to form a ball-and-socket joint.",
+          "The toilet of a ship.",
+          "Tiles laid at the eaves of a house.",
+          "The principal melody or theme of a piece.",
+          "A morpheme that determines the category of a compound or the word that determines the syntactic type of the phrase of which it is a member.",
+          "The first fraction of a distillation run, having a low boiling point.",
+          "Headway; progress.",
+          "Topic; subject.",
+          "Denouement; crisis.",
+          "A buildup of fluid pressure, often quantified as pressure head.",
+          "The difference in elevation between two points in a column of fluid, and the resulting pressure of the fluid at the lower point.",
+          "More generally, energy in a mass of fluid divided by its weight.",
+          "Fellatio or cunnilingus; oral sex.",
+          "The glans penis.",
+          "A heavy or habitual user of illicit drugs.",
+          "Power; armed force."
+        ],
+        "examples": [
+          "Be careful when you pet that dog on the head; it may bite.",
+          "Afore we got to the shanty Colonel Applegate stuck his head out of the door. His temper had been getting raggeder all the time, and the sousing he got when he fell overboard had just about ripped what was left of it to ravellings.",
+          "The company is looking for people with good heads for business."
+        ]
+      },
+      {
+        "partOfSpeech": "adj",
+        "definitions": [
+          "Of, relating to, or intended for the head."
+        ]
+      },
+      {
+        "partOfSpeech": "verb",
+        "definitions": [
+          "To be in command of. (See also head up.)",
+          "To come at the beginning or front of; to commence.",
+          "To strike with the head",
+          "To move in a specified direction.",
+          "To remove the head from (a fish).",
+          "To originate; to spring; to have its course, as a river.",
+          "To form a head.",
+          "To form a head (on or to); to fit or furnish (something) with a head.",
+          "To cut off the top of; to lop off.",
+          "To behead; to decapitate.",
+          "To go in front of.",
+          "To get in the front of, so as to hinder or stop; to oppose.",
+          "To check or restrain.",
+          "To set on the head."
+        ],
+        "examples": [
+          "Who heads the board of trustees?",
+          "to head an army, an expedition, or a riot",
+          "A group of clowns headed the procession."
+        ]
+      },
+      {
+        "partOfSpeech": "adj",
+        "definitions": [
+          "Foremost in rank or importance.",
+          "Placed at the top or the front.",
+          "Coming from in front."
+        ],
+        "examples": [
+          "the head cook",
+          "At the far end of the houses the head gardener stood waiting for his mistress, and he gave her strips of bass to tie up her nosegay. This she did slowly and laboriously, with knuckly old fingers that shook.",
+          "head sea"
+        ]
+      }
+    ],
+    "pronunciation": "/hɛd/"
+  },
+  {
+    "id": "en:pumpkin",
+    "headword": "pumpkin",
+    "language": "en",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "A domesticated plant, in species Cucurbita pepo, similar in growth pattern, foliage, flower, and fruit to the squash or melon.",
+          "The round yellow or orange fruit of this plant.",
+          "The typical color of the ripe fruit of the pumpkin plant.",
+          "Any of a number of cultivars from the genus Cucurbita; known in the US as winter squash.",
+          "A term of endearment for someone small and cute.",
+          "The housing for a differential, built into an axle of a vehicle; the housing and its contents."
+        ],
+        "examples": [
+          "Nevertheless, the comprehensive comparative analysis of pumpkin viromes across various geographic regions by NGS remains deficient.",
+          "There were pumpkins in Mombi’s corn-fields, lying golden red among the rows of green stalks; and these had been planted and carefully tended that the four-horned cow might eat of them in the winter time.",
+          "You must be daddy’s little pumpkin."
+        ]
+      }
+    ],
+    "pronunciation": "/ˈpʌmpkɪn/"
+  },
+  {
+    "id": "en:name",
+    "headword": "name",
+    "language": "en",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "Any nounal word or phrase which indicates a particular person, place, class, or thing.",
+          "A reputation.",
+          "An abusive or insulting epithet.",
+          "A person (or legal person).",
+          "Those of a certain name; a race; a family.",
+          "An authority; a behalf.",
+          "An identifier, generally a unique string of characters.",
+          "An investor in Lloyd's of London bearing unlimited liability."
+        ],
+        "examples": [
+          "I've never liked the name my parents gave me so I changed it at the age of twenty.",
+          "What's your name?\n Puddintane. Ask me again and I'll tell you the same.",
+          "That which we call a rose\n By any other name would smell as sweet."
+        ]
+      },
+      {
+        "partOfSpeech": "verb",
+        "definitions": [
+          "To give a name to.",
+          "To mention, specify.",
+          "To identify as relevant or important",
+          "To publicly implicate by name.",
+          "To disclose the name of.",
+          "To designate for a role.",
+          "To initiate a process to temporarily remove a member of parliament who is breaking the rules of conduct."
+        ],
+        "examples": [
+          "One visitor named Hou Yugang said he was not too concerned about climate change and Baishui’s melting.",
+          "I will name the fellow 'Jack Pumpkinhead!'",
+          "A chap named Eleazir Kendrick and I had chummed in together the summer afore and built a fish-weir and shanty at Setuckit Point, down Orham way. For a spell we done pretty well."
+        ]
+      },
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "Any of several types of true yam (Dioscorea) used in Caribbean Spanish cooking."
+        ]
+      }
+    ],
+    "pronunciation": "/neɪm/"
+  },
+  {
+    "id": "en:portmanteau word",
+    "headword": "portmanteau word",
+    "language": "en",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "A word which combines the meaning of two words (or, rarely, more than two words), formed by combining the words, usually, but not always, by adjoining the first part of one word and the last part of the other, the adjoining parts often having a common vowel."
+        ],
+        "examples": [
+          "Well, ‘slithy’ means ‘lithe and slimy.’ ‘Lithe’ is the same as ‘active.’ You see it’s like a portmanteau⸺there are two meanings packed up into one word.",
+          "He found the blend \"tomax\" in \"a collection of gratulatory verses presented by the President and Fellows of Harvard College 1 to the new King, George III,\" dated 1761. A note by the owner of the volume explains the word as a combination of tomahawk and axe: \"It is a portmanteau word, which must have been as clear to the average reader in England of 1761 — as clear to George III himself - as brillig and slithy would have been to us, had not Humpty Dumpty kindly explained them.\"",
+          "1. Portmanteau Words and Allomorphy - This paper is primarily concerned with the theoretical implications of what have been called portmanteau words (Hockett, 1947)"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "en:f",
+    "headword": "f",
+    "language": "en",
+    "meanings": [
+      {
+        "partOfSpeech": "num",
+        "definitions": [
+          "The sixth numeral symbol of the English alphabet, called ef and written in the Latin script."
+        ]
+      },
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "Folio, paper and book size (10\"-12.5\" x 15\"-20\")"
+        ]
+      }
+    ],
+    "pronunciation": "/ɛf/"
+  },
+  {
+    "id": "en:fa",
+    "headword": "fa",
+    "language": "en",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "A syllable used in solfège to represent the fourth diatonic (or sixth chromatic) note of a major scale.",
+          "Sometimes syllable for both the tonic and the fourth."
+        ],
+        "examples": [
+          "And now Mrs. Waters (for we muſt confeſs ſhe was in the ſame Bed) being, I ſuppoſe, awakened from her Sleep, and ſeeing two Men fighting in her Bed-chamber, began to ſcream in the moſt violent Manner, crying out Murder! Robbery! and more frequently Rape! which laſt, ſome, perhaps, may wonder ſhe ſhould mention, who do not conſider that theſe Words of Exclamation are uſed by Ladies in a Fright, as Fa, la, la, ra, da, &c. are in Muſic, only as the Vehicles of Sound, and without any fixed Ideas."
+        ]
+      }
+    ],
+    "pronunciation": "/fɑ/"
+  },
+  {
+    "id": "en:fabaceous",
+    "headword": "fabaceous",
+    "language": "en",
+    "meanings": [
+      {
+        "partOfSpeech": "adj",
+        "definitions": [
+          "Having the nature of a bean; like a bean."
+        ],
+        "examples": [
+          "The fabaceous plants rank second only to the grasses in value as ministrants to the economy of animal life, for they produce food for man and beast in vast abundance, and generally speaking, the aliments derived from this family are of the highest character in point of nourishing power, all of them contributing largely to the nourishment, not only of the muscular and bony framework, but in a peculiar degree also to the nervous system, owing to their richness in nitrogen and salts of phosphorus. In a majority of cases the fabaceous or leguminous plants have pinnated leaves, that is to say, each separate leaf consists of a series of symmetrical divisions united by a common stem."
+        ]
+      },
+      {
+        "partOfSpeech": "adj",
+        "definitions": [
+          "Belonging to, or characteristic of, the taxonomic family Fabaceae."
+        ]
+      }
+    ],
+    "pronunciation": "/fəˈbeɪʃəs/"
+  },
+  {
+    "id": "en:fabella",
+    "headword": "fabella",
+    "language": "en",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "One of the small sesamoid bones situated behind the condyles of the femur, in some mammals."
+        ]
+      }
+    ],
+    "pronunciation": "/fəˈbɛlə/"
+  },
+  {
+    "id": "en:Fabian",
+    "headword": "Fabian",
+    "language": "en",
+    "meanings": [
+      {
+        "partOfSpeech": "adj",
+        "definitions": [
+          "Pertaining to or reminiscent of Roman general Fabius Maximus, whose tactics against Hannibal during the Second Punic War famously consisted of delaying or avoiding combat, focusing instead on weakening the enemy by cutting off supply lines.",
+          "Advocating that social reforms be reached through a series of gradual and moderate stages rather than sudden revolution; specifically, relating to the Fabian Society, a British socialist society advocating reformist socialism.",
+          "Cautious; dilatory; avoiding a decisive contest."
+        ],
+        "examples": [
+          "Hood complained behind his commander's back to Richmond of Johnston's Fabian strategy.",
+          "“This is how I know you've never had an adult relationship. If I say no, then I will be required to say yes to something else in the future, and the stakes in the future might be higher.” “Then say yes.” “If I give in, then I'm no longer the alpha in my house. Before you know it, she'll have me wearing jeans and reading fiction!” “Yeah, well, yes and no are kind of your only two choices.” “For most men, sure. But there is a third option. The Fabian strategy.” “I know this. If an apple and a feather fall at the same time--” “The Fabian strategy derives its name from the Roman general Quintus Fabius Maximus. He ran away, Lemon. Rather than engage in battle, he would retreat and retreat until the enemy grew fatigued and eventually made a mistake. Although I abhor it as a military strategy, it is the basis for all of my, uh, personal relationships.” “So Avery is your enemy. That sounds healthy.” “You're in no position to judge.”"
+        ]
+      },
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "A Fabian socialist, a gradualist socialist; a member of the Fabian Society."
+        ]
+      }
+    ],
+    "pronunciation": "/ˈfeɪ.biː.ən/"
+  },
+  {
+    "id": "en:fable",
+    "headword": "fable",
+    "language": "en",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "A fictitious narrative intended to enforce some useful truth or precept, usually with animals, etc. as characters; an apologue. Prototypically, Aesop's Fables.",
+          "Any story told to excite wonder; common talk; the theme of talk.",
+          "Fiction; untruth; falsehood.",
+          "The plot, story, or connected series of events forming the subject of an epic or dramatic poem."
+        ],
+        "examples": [
+          "But refuſe prophane and olde wiues fables, and exerciſe thy ſelfe rather vnto godlineſſe.",
+          "[…]we grew / The fable of the city where we dwelt.",
+          "I say it would look like a fable to report that this gentleman gives away all which is the overplus of a great fortune by secret methods to other men."
+        ]
+      },
+      {
+        "partOfSpeech": "verb",
+        "definitions": [
+          "To compose fables; hence, to write or speak fiction; to write or utter what is not true.",
+          "To make up; to devise, and speak of, as true or real; to tell of falsely; to recount in the form of a fable."
+        ],
+        "examples": [
+          "He Fables not, I heare the enemie: / Out ſome light Horſemen, and peruſe their Wings.",
+          "Vain now the Tales which fab’ling Poets tell, / That wav’ring Conqueſt ſtill deſires to rove; / In Marlbrô’s Camp the Goddeſs knows to dwell: / Long as the Hero’s Life remains her Love.",
+          "1852, Matthew Arnold, Empedocles on Etna, Act II, in Empedocles on Etna and Other Poems, London: B. Fellowes, p. 50,\nHe fables, yet speaks truth."
+        ]
+      }
+    ],
+    "pronunciation": "/ˈfeɪbəl/"
+  },
+  {
+    "id": "en:aam",
+    "headword": "aam",
+    "language": "en",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "A Dutch and German measure of liquids, used in England for Rhine wine, varying in different cities, being in Amsterdam about 41 wine gallons, in Antwerp 36½, and in Hamburg 38¼."
+        ]
+      }
+    ],
+    "pronunciation": "/ɑːm/"
+  },
+  {
+    "id": "en:aardvark",
+    "headword": "aardvark",
+    "language": "en",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "The nocturnal, insectivorous, burrowing mammal Orycteropus afer, of the order Tubulidentata and somewhat resembling a pig. Common in some parts of sub-Saharan Africa."
+        ],
+        "examples": [
+          "The aardvark burrows in the ground and feeds mostly on termites, which it catches with its long, slimy tongue.",
+          "If ‘aardvark lover’ has that syntactic structure, then it determinately means “lover of aardvarks."
+        ]
+      }
+    ],
+    "pronunciation": "/ˈɑːd.vɑːk/"
+  },
+  {
+    "id": "en:aardwolf",
+    "headword": "aardwolf",
+    "language": "en",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "A nocturnal, insectivorous mammal (Proteles cristatus), having yellowish fur with vertical black stripes, and a long mane down the midline of the neck and back; it is related to and resembles the hyena, and is native to eastern and southern Africa."
+        ],
+        "examples": [
+          "[page 79] The Committee of Science and Correspondence, having taken into consideration the request of the Council, that they should prepare a Report upon the Animals most desirable to be introduced into this country for the purposes of utility or exhibition, beg leave to submit a List of such Animals arranged under the heads of the respective countries of which they are natives. […] [page 86] Cape of Good Hope. […] Aard Wolf (Proteles).",
+          "The size of the aard-wolf is about that of a full-grown fox, which it further resembles in its pointed muzzle; but it stands higher upon its legs, its ears are considerably larger and more naked, and its tail shorter and not so bushy. […] In its habits and manners the aard-wolf resembles the fox: like that animal it is nocturnal, and constructs a subterraneous burrow, at the bottom of which it lies concealed during the day-time and only ventures abroad on the approach of night to search for food and satisfy the other calls of nature.",
+          "There is a very pretty little hyæna to be found up in these localities, called by the natives \"aard-wolf,\" and by the colonists \"strand wolf;\" it is about the size of a jackal, possesses a bright fawn-coloured coat, handsomely marked with black lines."
+        ]
+      }
+    ],
+    "pronunciation": "/ˈɑːdwʊlf/"
+  },
+  {
+    "id": "en:Aaronic",
+    "headword": "Aaronic",
+    "language": "en",
+    "meanings": [
+      {
+        "partOfSpeech": "adj",
+        "definitions": [
+          "Pertaining to Aaron (elder brother of Moses).",
+          "Pertaining to or characteristic of a high priest; priestly.",
+          "Of or pertaining to the lower order of priests."
+        ]
+      }
+    ],
+    "pronunciation": "/æɹˈɒn.ɪk/"
+  },
+  {
+    "id": "en:Aaron's rod",
+    "headword": "Aaron's rod",
+    "language": "en",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "Verbascum thapsus, the great mullein, common mullein, or hag-taper.",
+          "Goldenrod, the Solidago genus of North American plants with yellow flowers.",
+          "Hylotelephium telephium (syn. Sedum telephium; orpine, livelong, or live-forever).",
+          "A rod-shaped molding decorated with an entwined snake, and sometimes leaves, vines, or scrolls.",
+          "A rod with one serpent twined around it, as used by Aaron (differing from the caduceus of Mercury, which has two serpents).",
+          "The penis."
+        ]
+      }
+    ],
+    "pronunciation": "/ˈɛəɹ.ənz ɹɒd/"
+  },
+  {
+    "id": "en:ab",
+    "headword": "ab",
+    "language": "en",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "An abscess caused by injecting an illegal drug, usually heroin."
+        ]
+      },
+      {
+        "partOfSpeech": "verb",
+        "definitions": [
+          "To abseil."
+        ],
+        "examples": [
+          "I had a climbing rope in my pack, set up an abseil with it, and abbed down to him."
+        ]
+      },
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "The early stages of; the beginning process; the start."
+        ]
+      }
+    ],
+    "pronunciation": "/æb/"
+  },
+  {
+    "id": "en:abaca",
+    "headword": "abaca",
+    "language": "en",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "Musa textilis, a species of banana tree native to the Philippines grown for its textile, rope- and papermaking fibre.",
+          "The fiber of this plant, used in rope, fibers, and cloth."
+        ]
+      }
+    ],
+    "pronunciation": "/ˈæb.əˌkɑː/"
+  },
+  {
+    "id": "en:abacinate",
+    "headword": "abacinate",
+    "language": "en",
+    "meanings": [
+      {
+        "partOfSpeech": "verb",
+        "definitions": [
+          "To blind by holding a red-hot metal rod or plate before the eyes"
+        ],
+        "examples": [
+          "\"You young scapegrace,\" said Dandolo, \"I will myself abacinate you — in the Venetian way.\" \"How's that?\" \"Blind your eyes with the glare, not of hot irons, but of new ducats. Count your pile.\"",
+          "Their straining eyes abacinated by the cup of terror, their throats stopped, their powers dead within them, they hung breathless, motionless.",
+          "Abacinate, eyes that bleed, praying for the end of your wide awake nightmare."
+        ]
+      }
+    ],
+    "pronunciation": "/əbˈæsɪneɪt/"
+  },
+  {
+    "id": "en:abacination",
+    "headword": "abacination",
+    "language": "en",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "The act of abacinating, of blinding with the light from hot metal"
+        ],
+        "examples": [
+          "That blind general lost his sight by the process of abacination.",
+          "Her warmth and radiance had blinded him, a self-inflicted abacination.",
+          "I, who had seen so many brandings and abacinations, and had even used the iron myself (among the billion things I recall perfectly is the flesh of Morwenna's cheeks blistering), could scarcely force myself to go and look at him."
+        ]
+      }
+    ],
+    "pronunciation": "/əˌbæsɪˈneɪʃən/"
+  },
+  {
+    "id": "en:abaciscus",
+    "headword": "abaciscus",
+    "language": "en",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "One of the tiles or squares of a tessellated pavement; an abaculus."
+        ]
+      }
+    ],
+    "pronunciation": "/ˌæb.əˈsɪs.kəs/"
+  },
+  {
+    "id": "en:abacist",
+    "headword": "abacist",
+    "language": "en",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "One who uses an abacus in casting accounts; a calculator."
+        ]
+      }
+    ],
+    "pronunciation": "/ˈæb.ə.sɪst/"
+  },
+  {
+    "id": "en:aback",
+    "headword": "aback",
+    "language": "en",
+    "meanings": [
+      {
+        "partOfSpeech": "adv",
+        "definitions": [
+          "Towards the back or rear; backwards.",
+          "In the rear; a distance behind.",
+          "By surprise; startled; dumbfounded. (see usage)",
+          "Backward against the mast; said of the sails when pressed by the wind from the \"wrong\" (forward) side, or of a ship when its sails are set that way."
+        ],
+        "examples": [
+          "The mild, though licentious reign, of Louis the Sixteenth, threw France far aback, in her ambitious career; but it gave birth to that revolution, wherein, her warlike propensities and territorial resources were unfolded with tenfold efficacy.",
+          "Then stopped, and bounded aback, and away as if in fear, / That I saw her no more; then I wondered though sitting close anear / Was a she-wolf great and grisly.",
+          "hoyed aback o' the fire"
+        ]
+      },
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "An inscribed stone square."
+        ],
+        "examples": [
+          "In the Centre, or midst of the Pegm, there was an Aback, or Square, wherein this Elogy was written."
+        ]
+      }
+    ],
+    "pronunciation": "/əˈbæk/"
+  },
+  {
+    "id": "en:abactinal",
+    "headword": "abactinal",
+    "language": "en",
+    "meanings": [
+      {
+        "partOfSpeech": "adj",
+        "definitions": [
+          "Pertaining to the surface or end opposite to the mouth in a radiate animal.",
+          "Pertaining specifically to the echinoderm body, that part not bearing tube feet, in which appears the madreporite."
+        ],
+        "examples": [
+          "The so-called mouth is always placed at one end of these poles, and from it radiate the most prominent organs, in consequence of which I have called this side of the body the oral or actinal area, and the opposite side the aboral or abactinal area.",
+          "This new species has very peculiar abactinal spines that form a hooked crown and can be compared with the robust, coarse abactinal spines of H. compacta, H. leviuscula, H. skorikovi."
+        ]
+      }
+    ],
+    "pronunciation": "/æˈbæk.tə.nl̩/"
+  },
+  {
+    "id": "en:abaction",
+    "headword": "abaction",
+    "language": "en",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "Carrying away by force, especially of animals.",
+          "Stealing cattle on a large scale."
+        ],
+        "examples": [
+          "For quotations using this term, see Citations:abaction."
+        ]
+      }
+    ],
+    "pronunciation": "/æˈbækʃən/"
+  },
+  {
+    "id": "en:abactor",
+    "headword": "abactor",
+    "language": "en",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "One who steals and drives away cattle or beasts by herds or droves; a cattle rustler."
+        ],
+        "examples": [
+          "[…] not only from straying, but, as in time of warr, from invaders and abactors […]",
+          "But yesterday, / it was her husband / Who’d lost his life in the fight / As he beat the abactors back, / Who tried to seize their cattle."
+        ]
+      }
+    ],
+    "pronunciation": "/ˈæˌbæk.tɚ/"
+  },
+  {
+    "id": "en:abaculus",
+    "headword": "abaculus",
+    "language": "en",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          "A small tile of glass, marble, or other substance, of various colors, used in making ornamental patterns in mosaic pavements; abaciscus."
+        ]
+      }
+    ],
+    "pronunciation": "/əˈbæk.jə.ləs/"
+  }
+]

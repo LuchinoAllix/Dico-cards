@@ -3,24 +3,28 @@ import { FlatList, Pressable, StyleSheet, Text, TextInput, View } from "react-na
 import { useRouter } from "expo-router";
 import { searchWords } from "../../db/search";
 import type { DictionaryEntry } from "../../types/dictionary";
+import LanguagePicker from "../../components/LanguagePicker";
+import { useLanguageStore } from "../../state/language";
 
 export default function DictionaryScreen() {
   const router = useRouter();
   const [query, setQuery] = useState("");
   const [results, setResults] = useState<DictionaryEntry[]>([]);
+  const language = useLanguageStore((s) => s.language);
 
   useEffect(() => {
     let cancelled = false;
-    searchWords(query).then((found) => {
+    searchWords(language, query).then((found) => {
       if (!cancelled) setResults(found);
     });
     return () => {
       cancelled = true;
     };
-  }, [query]);
+  }, [query, language]);
 
   return (
     <View style={styles.container}>
+      <LanguagePicker />
       <TextInput
         style={styles.input}
         value={query}
