@@ -72,4 +72,31 @@ async function migrate(db: SQLite.SQLiteDatabase) {
         `);
       });
     }
+
+  if (version < 4) {
+  // Rebuilding a table needs foreign keys OFF. Otherwise dropping `collections`
+  // would cascade and delete every row of collection_words.
+  // (This pragma is ignored inside a transaction, so it goes before it.)
+  await db.execAsync("PRAGMA foreign_keys = OFF;");
+  try {
+    await db.withTransactionAsync(async () => {
+      await db.execAsync(`
+        CREATE TABLE collections_new (
+          id INTEGER PRIMARY KEY AUTOINCREMENT,
+          name TEXT NOT NULL,
+          language TEXT NOT NULL,
+          created_at INTEGER NOT NULL,
+          UNIQUE (language, name)
+        );
+        INSERT INTO collections_new (id, name, language, created_at)
+          SELECT id, name, 'fr', created_at FROM collections;
+        DROP TABLE collections;
+        ALTER TABLE collections_new RENAME TO collections;
+        PRAGMA user_version = 4;
+      `);
+    });
+  } finally {
+    await db.execAsync("PRAGMA foreign_keys = ON;");
+  }
+}
 }

@@ -9,6 +9,8 @@ import { getSessionSize } from "../../db/settings";
 import { getMode } from "../../quiz/modes";
 import type { SavedWord } from "../../db/saved";
 import type { DictionaryEntry } from "../../types/dictionary";
+import { useLanguageStore } from "../../state/language";
+
 
 function parseSource(param: string): QuizSource {
   if (param === "recent") return { kind: "recent" };
@@ -37,13 +39,15 @@ export default function StudyScreen() {
   const [busy, setBusy] = useState(false);
   const [intervals, setIntervals] = useState<Record<Grade, string> | null>(null);
 
+  const language = useLanguageStore((s) => s.language);
+
   const current = queue?.[0];
 
   // 1. Load the words that are due, once.
   useEffect(() => {
     let cancelled = false;
     getSessionSize()
-      .then((size) => getDueWords(parseSource(source), quizMode.id, size))
+      .then((size) => getDueWords(parseSource(source), quizMode.id, language, size))
       .then((words) => {
         if (cancelled) return;
         setQueue(words);
@@ -52,7 +56,7 @@ export default function StudyScreen() {
     return () => {
       cancelled = true;
     };
-  }, [source, quizMode.id]);
+  }, [source, quizMode.id, language]);
 
   // 2. Each time the current word changes, load its dictionary entry.
   useEffect(() => {

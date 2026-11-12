@@ -8,6 +8,8 @@ import {
   renameCollection,
   type Collection,
 } from "../../db/collections";
+import { useLanguageStore } from "../../state/language";
+import LanguagePicker from "../../components/LanguagePicker";
 
 interface Row {
   id: string;
@@ -25,10 +27,12 @@ export default function SavedScreen() {
   const [collections, setCollections] = useState<Collection[]>([]);
   const [name, setName] = useState("");
   const [editingId, setEditingId] = useState<number | null>(null);
+  const language = useLanguageStore((s) => s.language);
 
+  // reload depends on the language, so the list refreshes when it changes
   const reload = useCallback(async () => {
-    setCollections(await getCollections());
-  }, []);
+    setCollections(await getCollections(language));
+  }, [language]);
 
   useFocusEffect(
     useCallback(() => {
@@ -38,7 +42,7 @@ export default function SavedScreen() {
 
   async function submit() {
     try {
-      if (editingId === null) await createCollection(name);
+      if (editingId === null) await createCollection(name, language);
       else await renameCollection(editingId, name);
       setName("");
       setEditingId(null);
@@ -83,6 +87,7 @@ export default function SavedScreen() {
 
   return (
     <View style={styles.container}>
+      <LanguagePicker />
       <View style={styles.inputRow}>
         <TextInput
           style={styles.input}

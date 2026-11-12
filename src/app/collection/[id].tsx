@@ -4,10 +4,14 @@ import { Stack, useFocusEffect, useLocalSearchParams, useRouter } from "expo-rou
 import { getRecentWords, getSavedWords, type SavedWord } from "../../db/saved";
 import { getCollection, getWordsInCollection } from "../../db/collections";
 import { getRecentDays } from "../../db/settings";
+import { useLanguageStore } from "../../state/language";
 
-async function load(id: string): Promise<{ title: string; words: SavedWord[] }> {
-  if (id === "recent") return { title: "Recent", words: await getRecentWords(await getRecentDays()) };
-  if (id === "all") return { title: "All saved words", words: await getSavedWords() };
+
+async function load(id: string, language: string) {
+  if (id === "recent") {
+    return { title: "Recent", words: await getRecentWords(await getRecentDays(), language) };
+  }
+  if (id === "all") return { title: "All saved words", words: await getSavedWords(language) };
   const collectionId = Number(id);
   const collection = await getCollection(collectionId);
   return {
@@ -21,11 +25,12 @@ export default function WordListScreen() {
   const router = useRouter();
   const [title, setTitle] = useState("");
   const [words, setWords] = useState<SavedWord[]>([]);
+  const language = useLanguageStore((s) => s.language);
 
   useFocusEffect(
     useCallback(() => {
       let cancelled = false;
-      load(id).then((result) => {
+      load(id, language).then((result) => {
         if (cancelled) return;
         setTitle(result.title);
         setWords(result.words);
@@ -33,7 +38,7 @@ export default function WordListScreen() {
       return () => {
         cancelled = true;
       };
-    }, [id])
+    }, [id, language])
   );
 
   return (

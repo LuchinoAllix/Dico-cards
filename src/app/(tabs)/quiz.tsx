@@ -5,6 +5,9 @@ import { getCollections } from "../../db/collections";
 import { getDueWords, type QuizSource } from "../../db/quiz";
 import { MODES, getMode } from "../../quiz/modes";
 import type { QuizModeId } from "../../quiz/types";
+import { useLanguageStore } from "../../state/language";
+import LanguagePicker from "../../components/LanguagePicker";
+
 
 interface SourceRow {
   key: string;
@@ -13,9 +16,8 @@ interface SourceRow {
   due: number;
 }
 
-async function loadRows(mode: QuizModeId): Promise<SourceRow[]> {
-  const collections = await getCollections();
-
+async function loadRows(mode: QuizModeId, language: string): Promise<SourceRow[]> {
+  const collections = await getCollections(language);
   const defs = [
     { key: "recent", title: "Recent", source: { kind: "recent" } as QuizSource },
     { key: "all", title: "All saved words", source: { kind: "all" } as QuizSource },
@@ -27,7 +29,7 @@ async function loadRows(mode: QuizModeId): Promise<SourceRow[]> {
   ];
 
   return Promise.all(
-    defs.map(async (d) => ({ ...d, due: (await getDueWords(d.source, mode, 1000)).length }))
+    defs.map(async (d) => ({ ...d, due: (await getDueWords(d.source, mode, language, 1000)).length }))
   );
 }
 
@@ -35,22 +37,24 @@ export default function QuizScreen() {
   const router = useRouter();
   const [mode, setMode] = useState<QuizModeId>("flashcard");
   const [rows, setRows] = useState<SourceRow[]>([]);
+  const language = useLanguageStore((s) => s.language);
 
   // Re-runs when the tab is shown and when the mode changes.
   useFocusEffect(
     useCallback(() => {
       let cancelled = false;
-      loadRows(mode).then((result) => {
+      loadRows(mode, language).then((result) => {
         if (!cancelled) setRows(result);
       });
       return () => {
         cancelled = true;
       };
-    }, [mode])
+    }, [mode, language])
   );
 
   return (
     <View style={styles.container}>
+      <LanguagePicker />
       <Text style={styles.intro}>Mode</Text>
       <View style={styles.modeRow}>
         {MODES.map((m) => (

@@ -17,6 +17,7 @@ const ORDER = "ORDER BY cs.due_at IS NULL, cs.due_at, w.saved_at";
 export async function getDueWords(
   source: QuizSource,
   mode: QuizModeId,
+  language: string,
   limit = 20
 ): Promise<SavedWord[]> {
   const db = await getUserDb();
@@ -34,13 +35,13 @@ export async function getDueWords(
   } else if (source.kind === "recent") {
     const since = now - (await getRecentDays()) * 24 * 60 * 60 * 1000;
     rows = await db.getAllAsync<SavedWordRow>(
-      `SELECT w.* ${FROM} WHERE w.saved_at >= ? AND ${DUE} ${ORDER} LIMIT ?`,
-      [mode, since, now, limit]
+      `SELECT w.* ${FROM} WHERE w.language = ? AND w.saved_at >= ? AND ${DUE} ${ORDER} LIMIT ?`,
+      [mode, language, since, now, limit]
     );
   } else {
     rows = await db.getAllAsync<SavedWordRow>(
-      `SELECT w.* ${FROM} WHERE ${DUE} ${ORDER} LIMIT ?`,
-      [mode, now, limit]
+      `SELECT w.* ${FROM} WHERE w.language = ? AND ${DUE} ${ORDER} LIMIT ?`,
+      [mode, language, now, limit]
     );
   }
   return rows.map(toSavedWord);

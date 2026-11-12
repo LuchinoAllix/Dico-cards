@@ -44,20 +44,21 @@ export function toSavedWord(row: SavedWordRow): SavedWord {
   return { id: row.id, language: row.language, headword: row.headword, savedAt: row.saved_at };
 }
 
-export async function getSavedWords(): Promise<SavedWord[]> {
+export async function getSavedWords(language: string): Promise<SavedWord[]> {
   const db = await getUserDb();
   const rows = await db.getAllAsync<SavedWordRow>(
-    "SELECT * FROM saved_words ORDER BY saved_at DESC"
+    "SELECT * FROM saved_words WHERE language = ? ORDER BY saved_at DESC",
+    [language]
   );
   return rows.map(toSavedWord);
 }
 
-export async function getRecentWords(days: number): Promise<SavedWord[]> {
+export async function getRecentWords(days: number, language: string): Promise<SavedWord[]> {
   const db = await getUserDb();
   const since = Date.now() - days * 24 * 60 * 60 * 1000;
   const rows = await db.getAllAsync<SavedWordRow>(
-    "SELECT * FROM saved_words WHERE saved_at >= ? ORDER BY saved_at DESC",
-    [since]
+    "SELECT * FROM saved_words WHERE language = ? AND saved_at >= ? ORDER BY saved_at DESC",
+    [language, since]
   );
   return rows.map(toSavedWord);
 }

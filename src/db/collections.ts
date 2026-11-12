@@ -19,18 +19,6 @@ const toCollection = (r: CollectionRow): Collection => ({
   createdAt: r.created_at,
 });
 
-// Returns the new collection's id. Throws if the name is empty or already used.
-export async function createCollection(name: string): Promise<number> {
-  const clean = name.trim();
-  if (!clean) throw new Error("Empty name");
-  const db = await getUserDb();
-  const result = await db.runAsync(
-    "INSERT INTO collections (name, created_at) VALUES (?, ?)",
-    [clean, Date.now()]
-  );
-  return result.lastInsertRowId;
-}
-
 export async function renameCollection(id: number, name: string): Promise<void> {
   const clean = name.trim();
   if (!clean) throw new Error("Empty name");
@@ -43,10 +31,22 @@ export async function deleteCollection(id: number): Promise<void> {
   await db.runAsync("DELETE FROM collections WHERE id = ?", [id]);
 }
 
-export async function getCollections(): Promise<Collection[]> {
+export async function createCollection(name: string, language: string): Promise<number> {
+  const clean = name.trim();
+  if (!clean) throw new Error("Empty name");
+  const db = await getUserDb();
+  const result = await db.runAsync(
+    "INSERT INTO collections (name, language, created_at) VALUES (?, ?, ?)",
+    [clean, language, Date.now()]
+  );
+  return result.lastInsertRowId;
+}
+
+export async function getCollections(language: string): Promise<Collection[]> {
   const db = await getUserDb();
   const rows = await db.getAllAsync<CollectionRow>(
-    "SELECT * FROM collections ORDER BY name COLLATE NOCASE"
+    "SELECT * FROM collections WHERE language = ? ORDER BY name COLLATE NOCASE",
+    [language]
   );
   return rows.map(toCollection);
 }

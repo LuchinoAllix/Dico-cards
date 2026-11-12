@@ -53,15 +53,18 @@ export default function WordScreen() {
     setSaved(!saved);
   }
 
-  async function refreshPicker(wordId: string) {
-    const [all, memberOf] = await Promise.all([getCollections(), getCollectionIdsForWord(wordId)]);
+  async function refreshPicker(word: DictionaryEntry) {
+    const [all, memberOf] = await Promise.all([
+      getCollections(word.language),
+      getCollectionIdsForWord(word.id),
+    ]);
     setCollections(all);
     setMemberIds(new Set(memberOf));
   }
 
   async function openPicker() {
     if (!entry) return;
-    await refreshPicker(entry.id);
+    await refreshPicker(entry);
     setPickerOpen(true);
   }
 
@@ -69,16 +72,16 @@ export default function WordScreen() {
     if (!entry) return;
     if (memberIds.has(collectionId)) await removeFromCollection(collectionId, entry.id);
     else await addToCollection(collectionId, entry.id);
-    await refreshPicker(entry.id);
+    await refreshPicker(entry);
   }
 
   async function handleCreate() {
     if (!entry) return;
     try {
-      const newId = await createCollection(newName);
+      const newId = await createCollection(newName, entry.language);
       await addToCollection(newId, entry.id);
       setNewName("");
-      await refreshPicker(entry.id);
+      await refreshPicker(entry);
     } catch {
       Alert.alert("Can't create", "The name is empty or already used.");
     }
