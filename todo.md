@@ -7,4 +7,4 @@
 - add italian dict
 - home page setup
 - readme and organise the repo
-- more quiz modes (multiple choice, typed,reverse flashcards, fill in the blanks (for examples))
+- more quiz modes (multiple choice, typed, fill in the blanks (for examples))
