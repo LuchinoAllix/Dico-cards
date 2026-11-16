@@ -11,7 +11,12 @@ async function load(id: string, language: string) {
   if (id === "recent") {
     return { title: "Recent", words: await getRecentWords(await getRecentDays(), language) };
   }
-  if (id === "all") return { title: "All saved words", words: await getSavedWords(language) };
+  if (id === "all"){
+    return { title: "All saved words", words: await getSavedWords(language) };
+  }
+  if (id === "recent-all") {
+    return { title: "Recent (all languages)", words: await getRecentWords(await getRecentDays()) };
+  }
   const collectionId = Number(id);
   const collection = await getCollection(collectionId);
   return {
@@ -53,7 +58,8 @@ export default function WordListScreen() {
             style={styles.row}
             onPress={() => router.push(`/word/${encodeURIComponent(item.id)}`)}
           >
-            <Text style={styles.headword}>{item.headword}</Text>
+           <Text style={styles.headword}>{item.headword}</Text>
+           <Text style={styles.lang}>{item.language.toUpperCase()}</Text>
           </Pressable>
         )}
         ListEmptyComponent={<Text style={styles.hint}>No words here yet.</Text>}
@@ -63,7 +69,15 @@ export default function WordListScreen() {
 }
 
 const styles = StyleSheet.create({
-  row: { paddingVertical: 14, borderBottomWidth: StyleSheet.hairlineWidth, borderColor: "#ccc" },
+  row: {
+  flexDirection: "row",
+  justifyContent: "space-between",
+  alignItems: "center",
+  paddingVertical: 14,
+  borderBottomWidth: StyleSheet.hairlineWidth,
+  borderColor: "#ccc",
+},
+lang: { fontSize: 12, fontWeight: "600", color: "#888" },
   headword: { fontSize: 18 },
   hint: { textAlign: "center", color: "#888", marginTop: 24 },
 });

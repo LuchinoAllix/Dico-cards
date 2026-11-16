@@ -1,5 +1,5 @@
-import { DICTIONARIES } from "./dictionaries";
 import type { DictionaryEntry } from "../types/dictionary";
+import { DICTIONARIES } from "./dictionaries";
 
 interface LoadedDictionary {
   byId: Map<string, DictionaryEntry>;
@@ -51,4 +51,24 @@ export async function searchWords(
 export async function getEntry(id: string): Promise<DictionaryEntry | undefined> {
   const language = id.slice(0, id.indexOf(":"));
   return getDictionary(language).byId.get(id);
+}
+
+// A simple string hash: the same text always gives the same number.
+function hash(text: string): number {
+  let h = 5381;
+  for (let i = 0; i < text.length; i++) {
+    h = (h * 33 + text.charCodeAt(i)) % 4294967296;
+  }
+  return h;
+}
+
+// Same word all day, a different one tomorrow.
+export async function getWordOfTheDay(
+  language: string,
+  date = new Date()
+): Promise<DictionaryEntry | undefined> {
+  const { index } = getDictionary(language);
+  if (index.length === 0) return undefined;
+  const key = `${language}-${date.getFullYear()}-${date.getMonth() + 1}-${date.getDate()}`;
+  return index[hash(key) % index.length].entry;
 }

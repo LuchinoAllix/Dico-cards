@@ -53,12 +53,17 @@ export async function getSavedWords(language: string): Promise<SavedWord[]> {
   return rows.map(toSavedWord);
 }
 
-export async function getRecentWords(days: number, language: string): Promise<SavedWord[]> {
+export async function getRecentWords(days: number, language?: string): Promise<SavedWord[]> {
   const db = await getUserDb();
   const since = Date.now() - days * 24 * 60 * 60 * 1000;
-  const rows = await db.getAllAsync<SavedWordRow>(
-    "SELECT * FROM saved_words WHERE language = ? AND saved_at >= ? ORDER BY saved_at DESC",
-    [language, since]
-  );
+  const rows = language
+    ? await db.getAllAsync<SavedWordRow>(
+        "SELECT * FROM saved_words WHERE language = ? AND saved_at >= ? ORDER BY saved_at DESC",
+        [language, since]
+      )
+    : await db.getAllAsync<SavedWordRow>(
+        "SELECT * FROM saved_words WHERE saved_at >= ? ORDER BY saved_at DESC",
+        [since]
+      );
   return rows.map(toSavedWord);
 }
