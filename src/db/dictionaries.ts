@@ -1,17 +1,22 @@
-import type { DictionaryEntry } from "../types/dictionary";
-
 export interface DictionaryInfo {
   code: string; // same code as the --lang option and the id prefix
   label: string;
-  load: () => DictionaryEntry[];
+  dbName: string; // file name on the phone
+  asset: number; // what require() returns for a bundled file
+  version: number; // bump this when you rebuild the .db
 }
 
-// Metro needs the file path written literally inside require(), so each file
-// is listed by hand. The JSON is only read when load() is first called.
+// Comment out the languages you haven't built yet: Metro fails if a file is missing.
 export const DICTIONARIES: DictionaryInfo[] = [
-  { code: "fr", label: "Français", load: () => require("../data/words.fr.json") },
-  { code: "en", label: "English", load: () => require("../data/words.en.json") },
-  { code: "it", label: "Italiano", load: () => require("../data/words.it.json") },
+  {
+    code: "fr",
+    label: "Français",
+    dbName: "dictionary-fr.db",
+    asset: require("../../assets/dictionaries/fr.db"),
+    version: 2,
+  },
+  // { code: "en", label: "English", dbName: "dictionary-en.db", asset: require("../../assets/dictionaries/en.db"), version: 1 },
+  // { code: "it", label: "Italiano", dbName: "dictionary-it.db", asset: require("../../assets/dictionaries/it.db"), version: 1 },
 ];
 
 export const DEFAULT_LANGUAGE = "fr";
