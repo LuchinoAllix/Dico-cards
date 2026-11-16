@@ -13,10 +13,19 @@ export const DICTIONARIES: DictionaryInfo[] = [
     label: "Français",
     dbName: "dictionary-fr.db",
     asset: require("../../assets/dictionaries/fr.db"),
-    version: 2,
+    version: 2
   },
-  // { code: "en", label: "English", dbName: "dictionary-en.db", asset: require("../../assets/dictionaries/en.db"), version: 1 },
-  // { code: "it", label: "Italiano", dbName: "dictionary-it.db", asset: require("../../assets/dictionaries/it.db"), version: 1 },
+  { code: "en", 
+    label: "English", 
+    dbName: "dictionary-en.db", 
+    asset: require("../../assets/dictionaries/en.db"), 
+    version: 2 
+  },
+  { code: "it", 
+    label: "Italiano", 
+    dbName: "dictionary-it.db", 
+    asset: require("../../assets/dictionaries/it.db"), 
+    version: 2 }
 ];
 
 export const DEFAULT_LANGUAGE = "fr";
