@@ -1,5 +1,5 @@
-import { useCallback, useState } from "react";
-import { Pressable, ScrollView, StyleSheet, Text, View } from "react-native";
+import { useCallback, useState, useEffect } from "react";
+import { Pressable, ScrollView, StyleSheet, Text, View, AppState } from "react-native";
 import { useFocusEffect, useRouter } from "expo-router";
 import { FontAwesome } from "@expo/vector-icons";
 import { DICTIONARIES } from "../../db/dictionaries";
@@ -29,6 +29,13 @@ export default function HomeScreen() {
   const router = useRouter();
   const [words, setWords] = useState<DailyWord[]>([]);
 
+  useEffect(() => {
+    const subscription = AppState.addEventListener("change", (state) => {
+      if (state === "active") loadDailyWords().then(setWords);
+    });
+    return () => subscription.remove();
+  }, []);
+
   // Re-runs each time the tab is shown: picks up a new day and saves made elsewhere.
   useFocusEffect(
     useCallback(() => {
@@ -41,6 +48,7 @@ export default function HomeScreen() {
       };
     }, [])
   );
+
 
   async function toggleSaved(word: DailyWord) {
     if (word.saved) await unsaveWord(word.entry.id);

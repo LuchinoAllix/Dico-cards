@@ -57,13 +57,18 @@ export async function getEntry(id: string): Promise<DictionaryEntry | undefined>
   return row ? toEntry(row, language) : undefined;
 }
 
-// A simple string hash: the same text always gives the same number.
 function hash(text: string): number {
   let h = 5381;
   for (let i = 0; i < text.length; i++) {
     h = (h * 33 + text.charCodeAt(i)) % 4294967296;
   }
-  return h;
+  // Final mixing, so that similar texts give very different numbers.
+  h ^= h >>> 16;
+  h = Math.imul(h, 0x45d9f3b);
+  h ^= h >>> 16;
+  h = Math.imul(h, 0x45d9f3b);
+  h ^= h >>> 16;
+  return h >>> 0;
 }
 
 // Same word all day, a different one tomorrow.
