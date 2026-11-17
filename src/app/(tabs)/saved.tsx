@@ -6,21 +6,20 @@ import {
   deleteCollection,
   getCollections,
   renameCollection,
+  getCollectionCounts,
   type Collection,
 } from "../../db/collections";
 import { useLanguageStore } from "../../state/language";
 import LanguagePicker from "../../components/LanguagePicker";
+import { countRecentWords, countSavedWords } from "../../db/saved";
+import { getRecentDays } from "../../db/settings";
 
 interface Row {
   id: string;
   title: string;
   collection?: Collection; // only set for real collections
+  count: number;
 }
-
-const VIRTUAL_ROWS: Row[] = [
-  { id: "recent", title: "Recent" },
-  { id: "all", title: "All saved words" },
-];
 
 export default function SavedScreen() {
   const router = useRouter();
@@ -28,10 +27,22 @@ export default function SavedScreen() {
   const [name, setName] = useState("");
   const [editingId, setEditingId] = useState<number | null>(null);
   const language = useLanguageStore((s) => s.language);
+  const [counts, setCounts] = useState({
+    recent: 0,
+    all: 0,
+    byCollection: {} as Record<number, number>,
+  });
 
   // reload depends on the language, so the list refreshes when it changes
   const reload = useCallback(async () => {
-    setCollections(await getCollections(language));
+    const [list, all, recent, byCollection] = await Promise.all([
+      getCollections(language),
+      countSavedWords(language),
+      getRecentDays().then((days) => countRecentWords(days, language)),
+      getCollectionCounts(),
+    ]);
+    setCollections(list);
+    setCounts({ all, recent, byCollection });
   }, [language]);
 
   useFocusEffect(
@@ -81,8 +92,14 @@ export default function SavedScreen() {
   }
 
   const rows: Row[] = [
-    ...VIRTUAL_ROWS,
-    ...collections.map((c) => ({ id: String(c.id), title: c.name, collection: c })),
+    { id: "recent", title: "Recent", count: counts.recent },
+    { id: "all", title: "All saved words", count: counts.all },
+    ...collections.map((c) => ({
+      id: String(c.id),
+      title: c.name,
+      collection: c,
+      count: counts.byCollection[c.id] ?? 0,
+    })),
   ];
 
   return (
@@ -121,6 +138,9 @@ export default function SavedScreen() {
             onLongPress={item.collection ? () => showActions(item.collection!) : undefined}
           >
             <Text style={styles.title}>{item.title}</Text>
+            <Text style={styles.count}>
+              {item.count} {item.count === 1 ? "word" : "words"}
+            </Text>
           </Pressable>
         )}
       />
@@ -135,6 +155,14 @@ const styles = StyleSheet.create({
   button: { backgroundColor: "#2563eb", paddingHorizontal: 14, paddingVertical: 11, borderRadius: 8 },
   buttonText: { color: "white", fontWeight: "600" },
   cancel: { color: "#666" },
-  row: { paddingVertical: 16, borderBottomWidth: StyleSheet.hairlineWidth, borderColor: "#ccc" },
+  row: {
+    flexDirection: "row",
+    justifyContent: "space-between",
+    alignItems: "center",
+    paddingVertical: 16,
+    borderBottomWidth: StyleSheet.hairlineWidth,
+    borderColor: "#ccc",
+  },
+  count: { fontSize: 15, color: "#2563eb" },
   title: { fontSize: 18, fontWeight: "600" },
 });

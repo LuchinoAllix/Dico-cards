@@ -67,3 +67,22 @@ export async function getRecentWords(days: number, language?: string): Promise<S
       );
   return rows.map(toSavedWord);
 }
+
+export async function countSavedWords(language: string): Promise<number> {
+  const db = await getUserDb();
+  const row = await db.getFirstAsync<{ n: number }>(
+    "SELECT COUNT(*) AS n FROM saved_words WHERE language = ?",
+    [language]
+  );
+  return row?.n ?? 0;
+}
+
+export async function countRecentWords(days: number, language: string): Promise<number> {
+  const db = await getUserDb();
+  const since = Date.now() - days * 24 * 60 * 60 * 1000;
+  const row = await db.getFirstAsync<{ n: number }>(
+    "SELECT COUNT(*) AS n FROM saved_words WHERE language = ? AND saved_at >= ?",
+    [language, since]
+  );
+  return row?.n ?? 0;
+}

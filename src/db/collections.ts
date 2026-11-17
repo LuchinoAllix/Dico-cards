@@ -93,3 +93,11 @@ export async function getWordsInCollection(collectionId: number): Promise<SavedW
   );
   return rows.map(toSavedWord);
 }
+
+export async function getCollectionCounts(): Promise<Record<number, number>> {
+  const db = await getUserDb();
+  const rows = await db.getAllAsync<{ collection_id: number; n: number }>(
+    "SELECT collection_id, COUNT(*) AS n FROM collection_words GROUP BY collection_id"
+  );
+  return Object.fromEntries(rows.map((r) => [r.collection_id, r.n]));
+}
