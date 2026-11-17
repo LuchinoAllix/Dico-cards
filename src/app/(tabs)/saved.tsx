@@ -94,6 +94,7 @@ export default function SavedScreen() {
           value={name}
           onChangeText={setName}
           placeholder={editingId === null ? "New collection..." : "New name..."}
+          placeholderTextColor="#888"
         />
         <Pressable style={styles.button} onPress={submit}>
           <Text style={styles.buttonText}>{editingId === null ? "Add" : "Rename"}</Text>
@@ -130,7 +131,7 @@ export default function SavedScreen() {
 const styles = StyleSheet.create({
   container: { flex: 1, padding: 16 },
   inputRow: { flexDirection: "row", alignItems: "center", gap: 8, marginBottom: 12 },
-  input: { flex: 1, borderWidth: 1, borderColor: "#ccc", borderRadius: 8, padding: 10, fontSize: 16 },
+  input: { flex: 1, borderWidth: 1, borderColor: "#ccc", borderRadius: 8, padding: 10, fontSize: 16, color: "#111" },
   button: { backgroundColor: "#2563eb", paddingHorizontal: 14, paddingVertical: 11, borderRadius: 8 },
   buttonText: { color: "white", fontWeight: "600" },
   cancel: { color: "#666" },

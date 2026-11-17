@@ -33,6 +33,7 @@ export default function DictionaryScreen() {
         autoCapitalize="none"
         autoCorrect={false}
         clearButtonMode="while-editing"
+        placeholderTextColor="#888"
       />
 
       <FlatList
@@ -69,6 +70,7 @@ const styles = StyleSheet.create({
     padding: 12,
     fontSize: 16,
     marginBottom: 12,
+    color: "#111",
   },
   row: { paddingVertical: 12, borderBottomWidth: StyleSheet.hairlineWidth, borderColor: "#ccc" },
   headword: { fontSize: 18, fontWeight: "600" },

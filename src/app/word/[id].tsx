@@ -167,6 +167,7 @@ export default function WordScreen() {
                 value={newName}
                 onChangeText={setNewName}
                 placeholder="New collection..."
+                placeholderTextColor="#888"
               />
               <Pressable style={styles.saveButton} onPress={handleCreate}>
                 <Text style={styles.saveText}>Add</Text>
@@ -211,7 +212,7 @@ const styles = StyleSheet.create({
   checkRow: { flexDirection: "row", alignItems: "center", gap: 12, paddingVertical: 10 },
   checkLabel: { fontSize: 16 },
   newRow: { flexDirection: "row", gap: 8, marginTop: 12, alignItems: "center" },
-  newInput: { flex: 1, borderWidth: 1, borderColor: "#ccc", borderRadius: 8, padding: 10, fontSize: 16 },
+  newInput: { flex: 1, borderWidth: 1, borderColor: "#ccc", borderRadius: 8, padding: 10, fontSize: 16, color: "#111" },
   doneButton: { alignItems: "center", paddingVertical: 14 },
   doneText: { fontSize: 16, fontWeight: "600" },
 });
