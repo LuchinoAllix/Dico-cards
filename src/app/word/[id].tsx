@@ -132,15 +132,13 @@ export default function WordScreen() {
       </ScrollView>
 
       <Modal
-        visible={pickerOpen}
-        animationType="slide"
-        transparent
-        onRequestClose={() => setPickerOpen(false)}
-      >
-        <KeyboardAvoidingView
-          style={styles.backdrop}
-          behavior={Platform.OS === "ios" ? "padding" : undefined}
+          visible={pickerOpen}
+          animationType="slide"
+          transparent
+          statusBarTranslucent
+          onRequestClose={() => setPickerOpen(false)}
         >
+          <KeyboardAvoidingView style={styles.backdrop} behavior="padding">
           <View style={styles.sheet}>
             <Text style={styles.modalTitle}>Add to collection</Text>
 
