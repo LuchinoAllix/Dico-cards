@@ -141,19 +141,19 @@ The active language is kept in a small Zustand store (`src/state/language.ts`) a
 
 ```
 Dico-cards/
-├── app/                      # Screens (Expo Router: one file = one route)
-│   ├── _layout.tsx           # Root: fonts, splash, navigation theme, Stack
-│   ├── settings.tsx          # Settings screen
-│   ├── (tabs)/               # Bottom tab bar
-│   │   ├── _layout.tsx       # Tab definitions and icons
-│   │   ├── index.tsx         # Home: word of the day, recent words
-│   │   ├── dictionary.tsx    # Search with suggestions
-│   │   ├── saved.tsx         # Recent, all words, collections, with counts
-│   │   └── quiz.tsx          # Choose a mode and a source
-│   ├── word/[id].tsx         # Word detail, save, add to collection
-│   ├── collection/[id].tsx   # List of words (recent, all, or a collection)
-│   └── study/[source].tsx    # A study session
 ├── src/
+│   ├── app/                      # Screens (Expo Router: one file = one route)
+│   │   ├── _layout.tsx           # Root: fonts, splash, navigation theme, Stack
+│   │   ├── settings.tsx          # Settings screen
+│   │   ├── (tabs)/               # Bottom tab bar
+│   │   │   ├── _layout.tsx       # Tab definitions and icons
+│   │   │   ├── index.tsx         # Home: word of the day, recent words
+│   │   │   ├── dictionary.tsx    # Search with suggestions
+│   │   │   ├── saved.tsx         # Recent, all words, collections, with counts
+│   │   │   └── quiz.tsx          # Choose a mode and a source
+│   │   ├── word/[id].tsx         # Word detail, save, add to collection
+│   │   ├── collection/[id].tsx   # List of words (recent, all, or a collection)
+│   │   └── study/[source].tsx    # A study session
 │   ├── components/
 │   │   ├── Text.tsx          # Themed Text and TextInput (color, font, size)
 │   │   ├── LanguagePicker.tsx

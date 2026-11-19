@@ -10,6 +10,7 @@
     "ios": {
       "icon": "./assets/expo.icon"
     },
+    "platforms": ["android", "ios"],
     "android": {
       "adaptiveIcon": {
         "backgroundColor": "#E6F4FE",
@@ -19,10 +20,6 @@
       },
       "predictiveBackGestureEnabled": false,
       "package": "com.luchino_allix.Dicocards"
-    },
-    "web": {
-      "output": "server",
-      "favicon": "./assets/images/favicon.png"
     },
     "plugins": [
       "expo-router",
