@@ -1,5 +1,8 @@
-import { StyleSheet, Text, View } from "react-native";
+import { StyleSheet, View } from "react-native";
 import type { CardProps } from "../../quiz/types";
+import { Text } from "../Text";
+import type { Colors } from "../../theme/colors";
+import { useThemedStyles } from "../../theme/useTheme";
 
 const MAX_MEANINGS = 3;
 const MAX_EXAMPLES = 2;
@@ -12,7 +15,8 @@ function maskWord(text: string, word: string): string {
 
 export default function ReverseCard({ entry, revealed }: CardProps) {
   const examples = entry.meanings.flatMap((m) => m.examples ?? []).slice(0, MAX_EXAMPLES);
-
+  const styles = useThemedStyles(makeStyles);
+  
   return (
     <>
       <Text style={styles.prompt}>Which word is it?</Text>
@@ -39,18 +43,14 @@ export default function ReverseCard({ entry, revealed }: CardProps) {
   );
 }
 
-const styles = StyleSheet.create({
-  prompt: { fontSize: 14, color: "#666", textAlign: "center", textTransform: "uppercase" },
-  meaning: { marginTop: 20 },
-  pos: { fontSize: 14, fontWeight: "600", color: "#2563eb", textTransform: "uppercase" },
-  definition: { fontSize: 20, marginTop: 6 },
-  answer: {
-    marginTop: 32,
-    paddingTop: 24,
-    borderTopWidth: StyleSheet.hairlineWidth,
-    borderColor: "#ccc",
-  },
-  headword: { fontSize: 34, fontWeight: "700", textAlign: "center" },
-  pron: { fontSize: 16, color: "#666", textAlign: "center", marginTop: 4 },
-  example: { fontSize: 15, fontStyle: "italic", color: "#555", marginTop: 10 },
-});
+const makeStyles = (c: Colors) =>
+  StyleSheet.create({
+    prompt: { fontSize: 14, color: c.textMuted, textAlign: "center", textTransform: "uppercase" },
+    meaning: { marginTop: 20 },
+    pos: { fontSize: 14, fontWeight: "600", color: c.primary, textTransform: "uppercase" },
+    definition: { fontSize: 20, marginTop: 6 },
+    answer: { marginTop: 32, paddingTop: 24, borderTopWidth: StyleSheet.hairlineWidth, borderColor: c.border },
+    headword: { fontSize: 34, fontWeight: "700", textAlign: "center" },
+    pron: { fontSize: 16, color: c.textMuted, textAlign: "center", marginTop: 4 },
+    example: { fontSize: 15, fontStyle: "italic", color: c.textMuted, marginTop: 10 },
+  });

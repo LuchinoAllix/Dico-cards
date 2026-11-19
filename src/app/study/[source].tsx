@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { Pressable, ScrollView, StyleSheet, Text, View } from "react-native";
+import { Pressable, ScrollView, StyleSheet, View } from "react-native";
 import { Stack, useLocalSearchParams, useRouter } from "expo-router";
 import { Rating } from "ts-fsrs";
 import { getEntry } from "../../db/search";
@@ -10,6 +10,9 @@ import { getMode } from "../../quiz/modes";
 import type { SavedWord } from "../../db/saved";
 import type { DictionaryEntry } from "../../types/dictionary";
 import { useLanguageStore } from "../../state/language";
+import { Text } from "../../components/Text";
+import type { Colors } from "../../theme/colors";
+import { useThemedStyles } from "../../theme/useTheme";
 
 
 function parseSource(param: string): QuizSource {
@@ -26,6 +29,7 @@ const GRADES: { label: string; grade: Grade; color: string }[] = [
 ];
 
 export default function StudyScreen() {
+  const styles = useThemedStyles(makeStyles);
   const { source, mode } = useLocalSearchParams<{ source: string; mode?: string }>();
   const router = useRouter();
   const quizMode = getMode(mode);
@@ -173,24 +177,19 @@ export default function StudyScreen() {
   );
 }
 
-const styles = StyleSheet.create({
-  container: { flex: 1 },
-  card: { padding: 24, paddingTop: 40 },
-  footer: { padding: 16 },
-  primaryButton: {
-    backgroundColor: "#2563eb",
-    paddingVertical: 16,
-    paddingHorizontal: 24,
-    borderRadius: 10,
-    alignItems: "center",
-  },
-  primaryText: { color: "white", fontSize: 17, fontWeight: "600" },
-  gradeRow: { flexDirection: "row", gap: 8 },
-  gradeButton: { flex: 1, paddingVertical: 14, borderRadius: 10, alignItems: "center" },
-  gradeText: { color: "white", fontWeight: "600", fontSize: 15 },
-  intervalText: { color: "rgba(255,255,255,0.85)", fontSize: 12, marginTop: 2 },
-  disabled: { opacity: 0.5 },
-  center: { flex: 1, justifyContent: "center", alignItems: "center", padding: 24, gap: 16 },
-  doneTitle: { fontSize: 26, fontWeight: "700" },
-  hint: { textAlign: "center", color: "#888", marginTop: 24 },
-});
+const makeStyles = (c: Colors) =>
+  StyleSheet.create({
+    container: { flex: 1 },
+    card: { padding: 24, paddingTop: 40 },
+    footer: { padding: 16 },
+    primaryButton: { backgroundColor: c.button, paddingVertical: 16, paddingHorizontal: 24, borderRadius: 10, alignItems: "center" },
+    primaryText: { color: c.onButton, fontSize: 17, fontWeight: "600" },
+    gradeRow: { flexDirection: "row", gap: 8 },
+    gradeButton: { flex: 1, paddingVertical: 14, borderRadius: 10, alignItems: "center" },
+    gradeText: { color: "white", fontWeight: "600", fontSize: 15 },
+    intervalText: { color: "rgba(255,255,255,0.85)", fontSize: 12, marginTop: 2 },
+    disabled: { opacity: 0.5 },
+    center: { flex: 1, justifyContent: "center", alignItems: "center", padding: 24, gap: 16 },
+    doneTitle: { fontSize: 26, fontWeight: "700" },
+    hint: { textAlign: "center", color: c.textFaint, marginTop: 24 },
+  });

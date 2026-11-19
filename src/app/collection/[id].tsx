@@ -1,10 +1,13 @@
 import { useCallback, useState } from "react";
-import { FlatList, Pressable, StyleSheet, Text } from "react-native";
+import { FlatList, Pressable, StyleSheet } from "react-native";
 import { Stack, useFocusEffect, useLocalSearchParams, useRouter } from "expo-router";
 import { getRecentWords, getSavedWords, type SavedWord } from "../../db/saved";
 import { getCollection, getWordsInCollection } from "../../db/collections";
 import { getRecentDays } from "../../db/settings";
 import { useLanguageStore } from "../../state/language";
+import { Text } from "../../components/Text";
+import type { Colors } from "../../theme/colors";
+import { useThemedStyles } from "../../theme/useTheme";
 
 
 async function load(id: string, language: string) {
@@ -26,6 +29,7 @@ async function load(id: string, language: string) {
 }
 
 export default function WordListScreen() {
+  const styles = useThemedStyles(makeStyles); 
   const { id } = useLocalSearchParams<{ id: string }>();
   const router = useRouter();
   const [title, setTitle] = useState("");
@@ -68,16 +72,13 @@ export default function WordListScreen() {
   );
 }
 
-const styles = StyleSheet.create({
-  row: {
-  flexDirection: "row",
-  justifyContent: "space-between",
-  alignItems: "center",
-  paddingVertical: 14,
-  borderBottomWidth: StyleSheet.hairlineWidth,
-  borderColor: "#ccc",
-},
-lang: { fontSize: 12, fontWeight: "600", color: "#888" },
-  headword: { fontSize: 18 },
-  hint: { textAlign: "center", color: "#888", marginTop: 24 },
-});
+const makeStyles = (c: Colors) =>
+  StyleSheet.create({
+    row: {
+      flexDirection: "row", justifyContent: "space-between", alignItems: "center",
+      paddingVertical: 14, borderBottomWidth: StyleSheet.hairlineWidth, borderColor: c.border,
+    },
+    headword: { fontSize: 18 },
+    hint: { textAlign: "center", color: c.textFaint, marginTop: 24 },
+    lang: { fontSize: 12, fontWeight: "600", color: c.textFaint },
+  });

@@ -4,11 +4,9 @@ import {
   FlatList,
   KeyboardAvoidingView,
   Modal,
-  Platform,
   Pressable,
   ScrollView,
   StyleSheet,
-  Text,
   TextInput,
   View,
 } from "react-native";
@@ -25,8 +23,13 @@ import {
   type Collection,
 } from "../../db/collections";
 import type { DictionaryEntry } from "../../types/dictionary";
+import { Text } from "../../components/Text";
+import type { Colors } from "../../theme/colors";
+import { useThemedStyles, useTheme } from "../../theme/useTheme";
 
 export default function WordScreen() {
+  const styles = useThemedStyles(makeStyles);
+  const { colors } = useTheme();
   const { id } = useLocalSearchParams<{ id: string }>();
   const [entry, setEntry] = useState<DictionaryEntry | undefined>();
   const [saved, setSaved] = useState(false);
@@ -151,7 +154,7 @@ export default function WordScreen() {
                   <FontAwesome
                     name={memberIds.has(item.id) ? "check-square-o" : "square-o"}
                     size={24}
-                    color="#2563eb"
+                    color={colors.primary}
                   />
                   <Text style={styles.checkLabel}>{item.name}</Text>
                 </Pressable>
@@ -182,35 +185,36 @@ export default function WordScreen() {
   );
 }
 
-const styles = StyleSheet.create({
-  container: { padding: 16 },
-  header: { flexDirection: "row", justifyContent: "space-between", alignItems: "center" },
-  headword: { fontSize: 28, fontWeight: "700" },
-  pron: { fontSize: 16, color: "#666", marginTop: 2 },
-  saveButton: { backgroundColor: "#2563eb", paddingHorizontal: 16, paddingVertical: 8, borderRadius: 8 },
-  savedButton: { backgroundColor: "#16a34a" },
-  saveText: { color: "white", fontWeight: "600" },
-  collectionButton: { marginTop: 12, alignSelf: "flex-start" },
-  collectionButtonText: { color: "#2563eb", fontSize: 16 },
-  meaning: { marginTop: 20 },
-  pos: { fontSize: 14, fontWeight: "600", color: "#2563eb", textTransform: "uppercase" },
-  definition: { fontSize: 16, marginTop: 6 },
-  example: { fontSize: 15, fontStyle: "italic", color: "#555", marginTop: 6 },
-  hint: { textAlign: "center", marginTop: 24, color: "#888" },
+const makeStyles = (c: Colors) =>
+  StyleSheet.create({
+    container: { padding: 16 },
+    header: { flexDirection: "row", justifyContent: "space-between", alignItems: "center" },
+    headword: { fontSize: 28, fontWeight: "700" },
+    pron: { fontSize: 16, color: c.textMuted, marginTop: 2 },
+    saveButton: { backgroundColor: c.button, paddingHorizontal: 16, paddingVertical: 8, borderRadius: 8 },
+    savedButton: { backgroundColor: c.success },
+    saveText: { color: c.onButton, fontWeight: "600" },
+    collectionButton: { marginTop: 12, alignSelf: "flex-start" },
+    collectionButtonText: { color: c.primary, fontSize: 16 },
+    meaning: { marginTop: 20 },
+    pos: { fontSize: 14, fontWeight: "600", color: c.primary, textTransform: "uppercase" },
+    definition: { fontSize: 16, marginTop: 6 },
+    example: { fontSize: 15, fontStyle: "italic", color: c.textMuted, marginTop: 6 },
+    hint: { textAlign: "center", marginTop: 24, color: c.textFaint },
 
-  backdrop: { flex: 1, justifyContent: "flex-end", backgroundColor: "rgba(0,0,0,0.4)" },
-  sheet: {
-    backgroundColor: "white",
-    padding: 16,
-    borderTopLeftRadius: 16,
-    borderTopRightRadius: 16,
-    maxHeight: "70%",
-  },
-  modalTitle: { fontSize: 18, fontWeight: "700", marginBottom: 8 },
-  checkRow: { flexDirection: "row", alignItems: "center", gap: 12, paddingVertical: 10 },
-  checkLabel: { fontSize: 16 },
-  newRow: { flexDirection: "row", gap: 8, marginTop: 12, alignItems: "center" },
-  newInput: { flex: 1, borderWidth: 1, borderColor: "#ccc", borderRadius: 8, padding: 10, fontSize: 16, color: "#111" },
-  doneButton: { alignItems: "center", paddingVertical: 14 },
-  doneText: { fontSize: 16, fontWeight: "600" },
-});
+    backdrop: { flex: 1, justifyContent: "flex-end", backgroundColor: c.backdrop },
+    sheet: {
+      backgroundColor: c.surface, padding: 16, borderTopLeftRadius: 16,
+      borderTopRightRadius: 16, maxHeight: "70%",
+    },
+    modalTitle: { fontSize: 18, fontWeight: "700", marginBottom: 8 },
+    checkRow: { flexDirection: "row", alignItems: "center", gap: 12, paddingVertical: 10 },
+    checkLabel: { fontSize: 16 },
+    newRow: { flexDirection: "row", gap: 8, marginTop: 12, alignItems: "center" },
+    newInput: {
+      flex: 1, borderWidth: 1, borderColor: c.border, backgroundColor: c.background,
+      color: c.text, borderRadius: 8, padding: 10, fontSize: 16,
+    },
+    doneButton: { alignItems: "center", paddingVertical: 14 },
+    doneText: { fontSize: 16, fontWeight: "600" },
+  });

@@ -1,5 +1,5 @@
 import { useCallback, useState } from "react";
-import { Alert, FlatList, Pressable, StyleSheet, Text, TextInput, View } from "react-native";
+import { Alert, FlatList, Pressable, StyleSheet, View } from "react-native";
 import { useFocusEffect, useRouter } from "expo-router";
 import {
   createCollection,
@@ -13,6 +13,9 @@ import { useLanguageStore } from "../../state/language";
 import LanguagePicker from "../../components/LanguagePicker";
 import { countRecentWords, countSavedWords } from "../../db/saved";
 import { getRecentDays } from "../../db/settings";
+import { Text, TextInput } from "../../components/Text";
+import type { Colors } from "../../theme/colors";
+import { useThemedStyles } from "../../theme/useTheme";
 
 interface Row {
   id: string;
@@ -22,6 +25,7 @@ interface Row {
 }
 
 export default function SavedScreen() {
+  const styles = useThemedStyles(makeStyles); 
   const router = useRouter();
   const [collections, setCollections] = useState<Collection[]>([]);
   const [name, setName] = useState("");
@@ -148,21 +152,21 @@ export default function SavedScreen() {
   );
 }
 
-const styles = StyleSheet.create({
-  container: { flex: 1, padding: 16 },
-  inputRow: { flexDirection: "row", alignItems: "center", gap: 8, marginBottom: 12 },
-  input: { flex: 1, borderWidth: 1, borderColor: "#ccc", borderRadius: 8, padding: 10, fontSize: 16, color: "#111" },
-  button: { backgroundColor: "#2563eb", paddingHorizontal: 14, paddingVertical: 11, borderRadius: 8 },
-  buttonText: { color: "white", fontWeight: "600" },
-  cancel: { color: "#666" },
-  row: {
-    flexDirection: "row",
-    justifyContent: "space-between",
-    alignItems: "center",
-    paddingVertical: 16,
-    borderBottomWidth: StyleSheet.hairlineWidth,
-    borderColor: "#ccc",
-  },
-  count: { fontSize: 15, color: "#2563eb" },
-  title: { fontSize: 18, fontWeight: "600" },
-});
+const makeStyles = (c: Colors) =>
+  StyleSheet.create({
+    container: { flex: 1, padding: 16 },
+    inputRow: { flexDirection: "row", alignItems: "center", gap: 8, marginBottom: 12 },
+    input: {
+      flex: 1, borderWidth: 1, borderColor: c.border, backgroundColor: c.surface, color: c.text,
+      borderRadius: 8, padding: 10, fontSize: 16,
+    },
+    button: { backgroundColor: c.button, paddingHorizontal: 14, paddingVertical: 11, borderRadius: 8 },
+    buttonText: { color: c.onButton, fontWeight: "600" },
+    cancel: { color: c.textMuted },
+    row: {
+      flexDirection: "row", justifyContent: "space-between", alignItems: "center",
+      paddingVertical: 16, borderBottomWidth: StyleSheet.hairlineWidth, borderColor: c.border,
+    },
+    title: { fontSize: 18, fontWeight: "600" },
+    count: { fontSize: 15, color: c.primary },
+  });

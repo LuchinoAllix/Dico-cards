@@ -1,12 +1,16 @@
 import { useEffect, useState } from "react";
-import { FlatList, Pressable, StyleSheet, Text, TextInput, View } from "react-native";
+import { FlatList, Pressable, StyleSheet, View } from "react-native";
 import { useRouter } from "expo-router";
 import { searchWords } from "../../db/search";
 import type { DictionaryEntry } from "../../types/dictionary";
 import LanguagePicker from "../../components/LanguagePicker";
 import { useLanguageStore } from "../../state/language";
+import { Text, TextInput } from "../../components/Text";
+import type { Colors } from "../../theme/colors";
+import { useThemedStyles } from "../../theme/useTheme";
 
 export default function DictionaryScreen() {
+  const styles = useThemedStyles(makeStyles);
   const router = useRouter();
   const [query, setQuery] = useState("");
   const [results, setResults] = useState<DictionaryEntry[]>([]);
@@ -61,19 +65,15 @@ export default function DictionaryScreen() {
   );
 }
 
-const styles = StyleSheet.create({
-  container: { flex: 1, padding: 16 },
-  input: {
-    borderWidth: 1,
-    borderColor: "#ccc",
-    borderRadius: 8,
-    padding: 12,
-    fontSize: 16,
-    marginBottom: 12,
-    color: "#111",
-  },
-  row: { paddingVertical: 12, borderBottomWidth: StyleSheet.hairlineWidth, borderColor: "#ccc" },
-  headword: { fontSize: 18, fontWeight: "600" },
-  preview: { fontSize: 14, color: "#666", marginTop: 2 },
-  hint: { textAlign: "center", color: "#888", marginTop: 24 },
-});
+const makeStyles = (c: Colors) =>
+  StyleSheet.create({
+    container: { flex: 1, padding: 16 },
+    input: {
+      borderWidth: 1, borderColor: c.border, backgroundColor: c.surface, color: c.text,
+      borderRadius: 8, padding: 12, fontSize: 16, marginBottom: 12,
+    },
+    row: { paddingVertical: 12, borderBottomWidth: StyleSheet.hairlineWidth, borderColor: c.border },
+    headword: { fontSize: 18, fontWeight: "600" },
+    preview: { fontSize: 14, color: c.textMuted, marginTop: 2 },
+    hint: { textAlign: "center", color: c.textFaint, marginTop: 24 },
+  });

@@ -1,7 +1,11 @@
-import { StyleSheet, Text, View } from "react-native";
+import { StyleSheet, View } from "react-native";
 import type { Meaning } from "../types/dictionary";
+import { Text } from "./Text";
+import type { Colors } from "../theme/colors";
+import { useThemedStyles } from "../theme/useTheme";
 
 export default function MeaningList({ meanings }: { meanings: Meaning[] }) {
+  const styles = useThemedStyles(makeStyles); 
   return (
     <>
       {meanings.map((meaning, i) => (
@@ -23,9 +27,10 @@ export default function MeaningList({ meanings }: { meanings: Meaning[] }) {
   );
 }
 
-const styles = StyleSheet.create({
-  meaning: { marginTop: 20 },
-  pos: { fontSize: 14, fontWeight: "600", color: "#2563eb", textTransform: "uppercase" },
-  definition: { fontSize: 16, marginTop: 6 },
-  example: { fontSize: 15, fontStyle: "italic", color: "#555", marginTop: 6 },
-});
+const makeStyles = (c: Colors) =>
+  StyleSheet.create({
+    meaning: { marginTop: 20 },
+    pos: { fontSize: 14, fontWeight: "600", color: c.primary, textTransform: "uppercase" },
+    definition: { fontSize: 16, marginTop: 6 },
+    example: { fontSize: 15, fontStyle: "italic", color: c.textMuted, marginTop: 6 },
+  });

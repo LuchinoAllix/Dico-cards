@@ -1,5 +1,5 @@
 import { useCallback, useState } from "react";
-import { FlatList, Pressable, StyleSheet, Text, View } from "react-native";
+import { FlatList, Pressable, StyleSheet, View } from "react-native";
 import { useFocusEffect, useRouter } from "expo-router";
 import { getCollections } from "../../db/collections";
 import { getDueWords, type QuizSource } from "../../db/quiz";
@@ -7,7 +7,9 @@ import { MODES, getMode } from "../../quiz/modes";
 import type { QuizModeId } from "../../quiz/types";
 import { useLanguageStore } from "../../state/language";
 import LanguagePicker from "../../components/LanguagePicker";
-
+import { Text } from "../../components/Text";
+import type { Colors } from "../../theme/colors";
+import { useThemedStyles } from "../../theme/useTheme";
 
 interface SourceRow {
   key: string;
@@ -34,6 +36,7 @@ async function loadRows(mode: QuizModeId, language: string): Promise<SourceRow[]
 }
 
 export default function QuizScreen() {
+  const styles = useThemedStyles(makeStyles);
   const router = useRouter();
   const [mode, setMode] = useState<QuizModeId>("flashcard");
   const [rows, setRows] = useState<SourceRow[]>([]);
@@ -92,32 +95,25 @@ export default function QuizScreen() {
   );
 }
 
-const styles = StyleSheet.create({
-  container: { flex: 1, padding: 16 },
-  intro: { fontSize: 14, color: "#666", textTransform: "uppercase", marginBottom: 8 },
-  modeRow: { flexDirection: "row", gap: 8 },
-  modeButton: {
-    flex: 1,
-    paddingVertical: 10,
-    borderRadius: 8,
-    borderWidth: 1,
-    borderColor: "#ccc",
-    alignItems: "center",
-  },
-  modeButtonActive: { backgroundColor: "#2563eb", borderColor: "#2563eb" },
-  modeText: { fontSize: 14, fontWeight: "600", color: "#333" },
-  modeTextActive: { color: "white" },
-  description: { fontSize: 14, color: "#666", marginTop: 8 },
-  row: {
-    flexDirection: "row",
-    justifyContent: "space-between",
-    alignItems: "center",
-    paddingVertical: 16,
-    borderBottomWidth: StyleSheet.hairlineWidth,
-    borderColor: "#ccc",
-  },
-  rowDisabled: { opacity: 0.4 },
-  title: { fontSize: 18, fontWeight: "600" },
-  count: { fontSize: 15, color: "#2563eb" },
-  hint: { textAlign: "center", color: "#888", marginTop: 24 },
-});
+const makeStyles = (c: Colors) =>
+  StyleSheet.create({
+    container: { flex: 1, padding: 16, backgroundColor: c.background},
+    intro: { fontSize: 14, color: c.textMuted, textTransform: "uppercase", marginBottom: 8 },
+    modeRow: { flexDirection: "row", gap: 8 },
+    modeButton: {
+      flex: 1, paddingVertical: 10, borderRadius: 8, borderWidth: 1,
+      borderColor: c.border, alignItems: "center",
+    },
+    modeButtonActive: { backgroundColor: c.button, borderColor: c.button },
+    modeText: { fontSize: 14, fontWeight: "600", color: c.text },
+    modeTextActive: { color: c.onButton },
+    description: { fontSize: 14, color: c.textMuted, marginTop: 8 },
+    row: {
+      flexDirection: "row", justifyContent: "space-between", alignItems: "center",
+      paddingVertical: 16, borderBottomWidth: StyleSheet.hairlineWidth, borderColor: c.border,
+    },
+    rowDisabled: { opacity: 0.4 },
+    title: { fontSize: 18, fontWeight: "600" },
+    count: { fontSize: 15, color: c.primary },
+    hint: { textAlign: "center", color: c.textFaint, marginTop: 24 },
+  });

@@ -1,10 +1,13 @@
-import { useCallback, useState, useEffect } from "react";
-import { Pressable, ScrollView, StyleSheet, Text, View, AppState } from "react-native";
-import { useFocusEffect, useRouter } from "expo-router";
 import { FontAwesome } from "@expo/vector-icons";
+import { useFocusEffect, useRouter } from "expo-router";
+import { useCallback, useEffect, useState } from "react";
+import { AppState, Pressable, ScrollView, StyleSheet, View } from "react-native";
+import { Text } from "../../components/Text";
 import { DICTIONARIES } from "../../db/dictionaries";
-import { getWordOfTheDay } from "../../db/search";
 import { isSaved, saveWord, unsaveWord } from "../../db/saved";
+import { getWordOfTheDay } from "../../db/search";
+import type { Colors } from "../../theme/colors";
+import { useTheme, useThemedStyles } from "../../theme/useTheme";
 import type { DictionaryEntry } from "../../types/dictionary";
 
 interface DailyWord {
@@ -26,6 +29,8 @@ async function loadDailyWords(): Promise<DailyWord[]> {
 }
 
 export default function HomeScreen() {
+  const styles = useThemedStyles(makeStyles);
+  const { colors } = useTheme();
   const router = useRouter();
   const [words, setWords] = useState<DailyWord[]>([]);
 
@@ -49,7 +54,6 @@ export default function HomeScreen() {
     }, [])
   );
 
-
   async function toggleSaved(word: DailyWord) {
     if (word.saved) await unsaveWord(word.entry.id);
     else await saveWord(word.entry);
@@ -59,10 +63,10 @@ export default function HomeScreen() {
   return (
     <ScrollView contentContainerStyle={styles.container}>
       <Pressable style={styles.recentButton} onPress={() => router.push("/collection/recent-all")}>
-        <FontAwesome name="clock-o" size={20} color="#2563eb" />
+        <FontAwesome name="clock-o" size={20} color={colors.primary} />
         <Text style={styles.recentText}>Recent words</Text>
         <Text style={styles.recentSub}>all languages</Text>
-        <FontAwesome name="angle-right" size={20} color="#999" />
+        <FontAwesome name="angle-right" size={20} color={colors.textFaint} />
       </Pressable>
 
       <Text style={styles.section}>Word of the day</Text>
@@ -101,45 +105,27 @@ export default function HomeScreen() {
   );
 }
 
-const styles = StyleSheet.create({
-  container: { padding: 16 },
-  recentButton: {
-    flexDirection: "row",
-    alignItems: "center",
-    gap: 10,
-    padding: 16,
-    borderRadius: 12,
-    borderWidth: 1,
-    borderColor: "#ccc",
-  },
-  recentText: { fontSize: 17, fontWeight: "600" },
-  recentSub: { flex: 1, fontSize: 13, color: "#888" },
-  section: {
-    fontSize: 14,
-    color: "#666",
-    textTransform: "uppercase",
-    marginTop: 24,
-    marginBottom: 8,
-  },
-  card: {
-    padding: 16,
-    borderRadius: 12,
-    borderWidth: 1,
-    borderColor: "#ccc",
-    marginBottom: 12,
-  },
-  cardHeader: { flexDirection: "row", justifyContent: "space-between", alignItems: "center" },
-  language: { fontSize: 13, fontWeight: "600", color: "#2563eb", textTransform: "uppercase" },
-  saveButton: {
-    backgroundColor: "#2563eb",
-    paddingHorizontal: 12,
-    paddingVertical: 6,
-    borderRadius: 8,
-  },
-  savedButton: { backgroundColor: "#16a34a" },
-  saveText: { color: "white", fontWeight: "600", fontSize: 13 },
-  headword: { fontSize: 26, fontWeight: "700", marginTop: 8 },
-  pron: { fontSize: 15, color: "#666", marginTop: 2 },
-  definition: { fontSize: 15, color: "#333", marginTop: 8 },
-  pos: { fontSize: 12, fontWeight: "600", color: "#2563eb", textTransform: "uppercase" },
-});
+const makeStyles = (c: Colors) =>
+  StyleSheet.create({
+    container: { padding: 16, backgroundColor: c.background},
+    recentButton: {
+      flexDirection: "row", alignItems: "center", gap: 10, padding: 16, borderRadius: 12,
+      borderWidth: 1, borderColor: c.border, backgroundColor: c.surface,
+    },
+    recentText: { fontSize: 17, fontWeight: "600" },
+    recentSub: { flex: 1, fontSize: 13, color: c.textFaint },
+    section: { fontSize: 14, color: c.textMuted, textTransform: "uppercase", marginTop: 24, marginBottom: 8 },
+    card: {
+      padding: 16, borderRadius: 12, borderWidth: 1, borderColor: c.border,
+      backgroundColor: c.surface, marginBottom: 12,
+    },
+    cardHeader: { flexDirection: "row", justifyContent: "space-between", alignItems: "center" },
+    language: { fontSize: 13, fontWeight: "600", color: c.primary, textTransform: "uppercase" },
+    saveButton: { backgroundColor: c.button, paddingHorizontal: 12, paddingVertical: 6, borderRadius: 8 },
+    savedButton: { backgroundColor: c.success },
+    saveText: { color: c.onButton, fontWeight: "600", fontSize: 13 },
+    headword: { fontSize: 26, fontWeight: "700", marginTop: 8 },
+    pron: { fontSize: 15, color: c.textMuted, marginTop: 2 },
+    definition: { fontSize: 15, color: c.text, marginTop: 8 },
+    pos: { fontSize: 12, fontWeight: "600", color: c.primary, textTransform: "uppercase" },
+  });
