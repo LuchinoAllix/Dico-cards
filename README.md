@@ -8,10 +8,11 @@ Look up a word, save it, organize saved words into collections, and quiz yoursel
 
 - **Offline dictionaries** for several languages (currently French, English and Italian), searchable as you type, with accent-insensitive prefix search.
 - **Word detail** with pronunciation (IPA), meanings grouped by part of speech, and examples.
-- **Saving and collections.** Save any word, and put it in as many collections as you like. A virtual "Recent" collection lists words saved in the last N days (configurable).
-- **Spaced-repetition quiz** using the FSRS algorithm, with two modes: *word → meaning* and *meaning → word*. Each mode keeps its own schedule.
-- **Word of the day** for each language on the home screen.
-- **Settings:** the "Recent" duration, target retention, and the number of words per study session.
+- **Saving and collections.** Save any word, and put it in as many collections as you like. A virtual "Recent" collection lists words saved in the last N days (configurable). The Saved tab shows how many words each list contains.
+- **Spaced-repetition quiz** using the FSRS algorithm, with two modes: *word → meaning* and *meaning → word*. Each mode keeps its own schedule, and the next interval is shown under each answer button.
+- **Home screen** with a word of the day for each language, and a shortcut to recent words from all languages.
+- **Appearance:** light, dark, or follow the phone; a choice of fonts (system, Inter, Lora, Atkinson Hyperlegible); and four text sizes.
+- **Settings:** theme, font, text size, the "Recent" duration, target retention, and the number of words per study session.
 
 ## Tech stack
 
@@ -20,8 +21,9 @@ Look up a word, save it, organize saved words into collections, and quiz yoursel
 | Framework | Expo (React Native) with TypeScript |
 | Navigation | Expo Router (file-based routing) |
 | Storage | `expo-sqlite` (dictionaries and user data), `expo-sqlite/kv-store` (settings) |
-| App state | Zustand (active language only) |
+| App state | Zustand (active language, appearance) |
 | Scheduling | `ts-fsrs` (FSRS spaced repetition) |
+| Fonts | `expo-font` with `@expo-google-fonts` packages |
 | Data pipeline | Node.js scripts (built-in `node:sqlite`) |
 | Builds | EAS Build |
 
@@ -62,7 +64,7 @@ A `meta` table stores the language, the build date and the entry count.
 
 **Search** is a range query on the indexed `key` column ("starts with"), so it stays fast on hundreds of thousands of entries. The typed text is normalized the same way as the keys, so `ecole` finds `école`.
 
-**The registry** (`src/db/dictionaries.ts`) lists the available dictionaries. Adding a language means adding one line there. Each entry has a `version`: when a dictionary is rebuilt, bumping its version makes the app replace the copy stored on the phone.
+**The registry** (`src/db/dictionaries.ts`) lists the available dictionaries. Adding a language means adding one line there. Each entry has a `version`: when a dictionary is rebuilt, bumping its version makes the app replace the copy stored on the phone. The copy is only marked as installed after the database has been opened and queried successfully, so a corrupted copy is retried at the next launch.
 
 ### User data
 
@@ -79,6 +81,7 @@ Rules built into the schema:
 - Un-saving a word removes it from every collection and deletes its schedules (`ON DELETE CASCADE`).
 - Deleting a collection never deletes its words.
 - "Recent" is **not** stored. It is a query: saved words whose date is within the last N days.
+- The word counts on the Saved tab are `COUNT` queries. The counts of all collections come from a single grouped query.
 
 **Migrations** use SQLite's `PRAGMA user_version`. Each schema change is a new `if (version < N)` block in `src/db/userDb.ts`, so existing users' data is upgraded instead of reset. Never edit a migration that has already shipped; add a new one.
 
@@ -89,9 +92,34 @@ Rules built into the schema:
 | 3 | `card_states`: one schedule per word and quiz mode |
 | 4 | collections become per-language |
 
+### Settings storage
+
+Preferences live in the key-value store that ships with `expo-sqlite`:
+
+| Key | Meaning | Default |
+|---|---|---|
+| `language` | active dictionary language | `fr` |
+| `theme` | `system`, `light` or `dark` | `system` |
+| `font` | `system`, `inter`, `lora` or `atkinson` | `system` |
+| `fontSize` | `small`, `default`, `large` or `xlarge` | `default` |
+| `recentDays` | how long a saved word counts as "Recent" | 7 |
+| `retention` | FSRS target retention | 0.9 |
+| `sessionSize` | words per study session | 20 |
+| `dictionaryVersion:<lang>` | installed version of each dictionary | – |
+
 ### Languages
 
 The active language is kept in a small Zustand store (`src/state/language.ts`) and saved in the settings store, so the app reopens in the language you left it in. Saved words, collections, Recent and the quiz are all filtered by the active language, so a study session never mixes languages. The only exception is the home screen's "Recent words" button, which lists recent words from all languages.
+
+### Appearance
+
+- **Colors have names, not values.** `src/theme/colors.ts` defines a light and a dark palette with the same names (`background`, `surface`, `text`, `textMuted`, `border`, `primary`...). Screens never contain a hex code, apart from the four fixed colors of the answer buttons in the study screen.
+- **Themed styles.** Each screen declares `const makeStyles = (c: Colors) => StyleSheet.create({...})` and calls `useThemedStyles(makeStyles)` inside the component. The styles are rebuilt when the theme changes.
+- **Theme choice.** `Appearance.setColorScheme` forces light or dark for the whole app (or hands control back to the phone), so native parts such as the keyboard and system dialogs follow too. This requires `"userInterfaceStyle": "automatic"` in `app.json`. The navigation (headers, tab bar) gets the same colors through a React Navigation theme in the root layout.
+- **Text wrappers.** `src/components/Text.tsx` exports `Text` and `TextInput`, which apply the theme's text color, the chosen font and the text size. **Always import them instead of the React Native versions.**
+- **Fonts.** Three font families are bundled and loaded at startup while the splash screen stays visible. Custom fonts have one file per weight, so the wrapper maps `fontWeight` and `fontStyle` to the right file, and cancels the synthetic weight Android would otherwise add.
+- **Text size.** A multiplier (0.9, 1, 1.15 or 1.3) applied to every font size by the wrapper. Icons, the tab bar and header titles do not scale. A `Text` nested inside another `Text` must set its own `fontSize`.
+- The appearance choices are stored in `src/state/appearance.ts`, read synchronously at startup so there is no flash of the wrong theme.
 
 ### Quiz and scheduling
 
@@ -104,28 +132,30 @@ The active language is kept in a small Zustand store (`src/state/language.ts`) a
 
 **Quiz modes are pluggable.** A mode is a small card component that receives `{ entry, revealed }` and draws the front and the back. The session screen is generic and handles the queue, the grading and the scheduling.
 
-### Word of the day
+### Home screen
 
-Computed, not stored: a hash of the language and the current date picks a row number, so the same word shows all day and changes at midnight.
+- **Word of the day** is computed, not stored: a hash of the language and the current date picks a row number, so the same word shows all day and changes at midnight. The hash is mixed well, so consecutive days give unrelated words. The cards are reloaded when the tab is shown and when the app returns from the background, so a new day is picked up.
+- **Recent words** opens the list of words saved in the last N days, from all languages, each marked with its language.
 
 ## Project structure
 
 ```
 Dico-cards/
 ├── app/                      # Screens (Expo Router: one file = one route)
-│   ├── _layout.tsx           # Root navigation (a Stack)
+│   ├── _layout.tsx           # Root: fonts, splash, navigation theme, Stack
 │   ├── settings.tsx          # Settings screen
 │   ├── (tabs)/               # Bottom tab bar
 │   │   ├── _layout.tsx       # Tab definitions and icons
 │   │   ├── index.tsx         # Home: word of the day, recent words
 │   │   ├── dictionary.tsx    # Search with suggestions
-│   │   ├── saved.tsx         # Recent, all words, collections
+│   │   ├── saved.tsx         # Recent, all words, collections, with counts
 │   │   └── quiz.tsx          # Choose a mode and a source
 │   ├── word/[id].tsx         # Word detail, save, add to collection
 │   ├── collection/[id].tsx   # List of words (recent, all, or a collection)
 │   └── study/[source].tsx    # A study session
 ├── src/
 │   ├── components/
+│   │   ├── Text.tsx          # Themed Text and TextInput (color, font, size)
 │   │   ├── LanguagePicker.tsx
 │   │   ├── MeaningList.tsx
 │   │   └── cards/            # One component per quiz mode
@@ -134,15 +164,21 @@ Dico-cards/
 │   │   ├── dictionaryDb.ts   # Copies and opens the dictionary databases
 │   │   ├── search.ts         # searchWords, getEntry, getWordOfTheDay
 │   │   ├── userDb.ts         # Opens user.db and runs migrations
-│   │   ├── saved.ts          # Saving words, recent words
-│   │   ├── collections.ts    # Collections
+│   │   ├── saved.ts          # Saving words, recent words, counts
+│   │   ├── collections.ts    # Collections and their counts
 │   │   ├── quiz.ts           # Which words are due
 │   │   ├── srs.ts            # FSRS scheduling
-│   │   └── settings.ts       # Persisted settings
+│   │   └── settings.ts       # Persisted study settings
 │   ├── quiz/
 │   │   ├── types.ts          # Mode ids and card props
 │   │   └── modes.ts          # Registry of quiz modes
-│   ├── state/language.ts     # Active language store
+│   ├── state/
+│   │   ├── language.ts       # Active language store
+│   │   └── appearance.ts     # Theme, font and text size store
+│   ├── theme/
+│   │   ├── colors.ts         # Light and dark palettes
+│   │   ├── fonts.ts          # Font families and text sizes
+│   │   └── useTheme.ts       # useTheme and useThemedStyles hooks
 │   └── types/dictionary.ts   # DictionaryEntry and Meaning types
 ├── scripts/                  # Data pipeline (run with Node, not part of the app)
 │   ├── build-dictionary.mjs      # JSONL → small JSON file (testing)
@@ -150,7 +186,8 @@ Dico-cards/
 ├── assets/dictionaries/      # Generated .db files (not in Git)
 ├── raw/                      # Downloaded source data (not in Git)
 ├── metro.config.js           # Lets the bundler accept .db files
-└── eas.json                  # Build profiles
+├── eas.json                  # Build profiles
+└── .easignore                # What EAS uploads (replaces .gitignore for builds)
 ```
 
 Folder names in parentheses, like `(tabs)`, group screens without changing the URL. Brackets, like `[id]`, mark a dynamic route.
@@ -189,7 +226,7 @@ Dictionary data comes from [kaikki.org](https://kaikki.org), which publishes Wik
    The result is written to `assets/dictionaries/fr.db`. The `--lang` code must match the one in the registry, because it becomes the prefix of every word id.
 
 What the script does:
-- streams the file line by line, so memory stays low;
+- streams the file line by line, in two passes, so memory stays low even on a multi-GB file;
 - skips inflected forms (plurals, conjugations), entries without a definition, proper names, prefixes, suffixes and symbols (the list is at the top of the script);
 - groups the entries of a word, so one headword has several meanings;
 - keeps the first pronunciation and up to 3 examples per meaning;
@@ -217,6 +254,13 @@ The language picker, the home screen's word of the day and every other screen pi
 
 The mode picker, the due counts, the scheduling and the session screen need no change. Modes that grade themselves (multiple choice, typed answer) will need a small extension: the card would report correct or wrong, and the session screen would hide the four rating buttons.
 
+## Writing a new screen
+
+- Import `Text` and `TextInput` from `src/components/Text`, not from `react-native`.
+- Put styles in `const makeStyles = (c: Colors) => StyleSheet.create({...})`, use only the names from `colors.ts`, and call `const styles = useThemedStyles(makeStyles)` as the first line of the component, before any early `return`.
+- For colors outside a style (an icon's `color` prop), use `const { colors } = useTheme()`.
+- Never run SQL in a screen: add a function to `src/db/`.
+
 ## Installing on a phone
 
 Build an Android APK with EAS and install it directly, without any store:
@@ -227,24 +271,27 @@ eas login
 eas build --platform android --profile preview
 ```
 
-The `preview` profile in `eas.json` must use `"buildType": "apk"`. EAS uploads the project and **skips what `.gitignore` excludes**, which would remove the dictionaries, so the project has a `.easignore` file that replaces it (and still excludes `raw/` and `node_modules/`).
-
-The installed app has its own storage, separate from Expo Go. Reinstalling a newer build over it keeps your data, but uninstalling deletes everything.
+- The `preview` profile in `eas.json` must use `"buildType": "apk"`.
+- EAS uploads the project and **skips what `.gitignore` excludes**, which would remove the dictionaries. The project therefore has a `.easignore` file that replaces it for builds, and still excludes `raw/` and `node_modules/`.
+- `app.json` needs a unique `android.package` and `"userInterfaceStyle": "automatic"`. The latter is a native setting, so changing it requires a new build.
+- The installed app has its own storage, separate from Expo Go. Reinstalling a newer build over it keeps your data, but uninstalling deletes everything.
 
 ## Development notes
 
 - Check types with `npx tsc --noEmit`. Expo Router generates typed routes, so after adding a screen, restart with `npx expo start --clear` so the new route is recognized.
 - Test on a real device or emulator. `expo-sqlite` is not reliable in the browser.
+- **A built app can behave differently from Expo Go**, especially for keyboard handling and native settings. The collection picker (a `Modal`) needs `behavior="padding"` on its `KeyboardAvoidingView` and `statusBarTranslucent` on Android, otherwise the keyboard hides the input in a built app. Check keyboard-related screens on a built APK.
 - Jest (`jest-expo`) is installed. The scheduling logic is the part most worth testing, since it doesn't need a database.
 
 ## Known limitations and roadmap
 
-- **No backup yet.** Saved words, collections and progress exist only on the device. Export/import of `user.db` data as JSON is planned.
+- **No backup yet.** Saved words, collections and progress exist only on the device. Export/import of the user data as JSON is planned.
 - **App size.** The dictionaries are bundled, so the app is as large as they are. For more languages, the dictionaries should be downloaded on demand from a hosted file.
 - **No sync between devices.** Syncing would need unique ids, update timestamps and deletion markers in the user data model before any server work.
+- **No About screen yet.** The credits below should also appear inside the app, since the dictionary license requires attribution.
 - **More quiz modes:** multiple choice, typed answer, fill in the blank.
 - **Stats and reminders:** a review log, streaks, and daily notifications.
-- Colors are hard-coded for a light theme. Dark mode needs a theming pass.
+- **Text size** scales text only, not icons, headers or the tab bar.
 
 ## Credits
 
@@ -258,9 +305,17 @@ The dictionary content comes from **Wiktionary**, the free dictionary of the Wik
 | English | English Wiktionary ([en.wiktionary.org](https://en.wiktionary.org)) via kaikki.org |
 | Italian | Italian Wiktionary ([it.wiktionary.org](https://it.wiktionary.org)) via kaikki.org |
 
-Wiktionary text is available under the **Creative Commons Attribution-ShareAlike 4.0 license** ([CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)). The dictionary databases in this project are derived from that content (filtered and restructured), so they stay under the same license, and the attribution must be kept wherever the dictionaries are distributed, including inside the app (an About screen is the usual place).
+Wiktionary text is available under the **Creative Commons Attribution-ShareAlike 4.0 license** ([CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)). The dictionary databases in this project are derived from that content (filtered and restructured), so they stay under the same license, and the attribution must be kept wherever the dictionaries are distributed, including inside the app.
 
 Wiktextract reference: Tatu Ylonen, *Wiktextract: Wiktionary as Machine-Readable Structured Data*, Proceedings of the 13th Conference on Language Resources and Evaluation (LREC), 2022.
+
+### Fonts
+
+Bundled through the [`@expo-google-fonts`](https://github.com/expo/google-fonts) packages, all under the SIL Open Font License 1.1:
+
+- **Inter**, by Rasmus Andersson
+- **Lora**, by Cyreal
+- **Atkinson Hyperlegible**, by the Braille Institute
 
 ### Libraries
 
