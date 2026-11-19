@@ -72,7 +72,7 @@ export default function HomeScreen() {
         <FontAwesome name="angle-right" size={20} color={colors.textFaint} />
       </Pressable>
 
-      <Text style={styles.section}>Word of the day</Text>
+      <Text style={styles.section}>Words of the day</Text>
 
       {words.map((w) => {
         const meaning = w.entry.meanings[0];

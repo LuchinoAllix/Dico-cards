@@ -8,29 +8,43 @@ import {
   type TextStyle,
 } from "react-native";
 import { useTheme } from "../theme/useTheme";
-import type { Colors } from "../theme/colors";
 import type { FontFamilies } from "../theme/fonts";
 
-function themed(style: StyleProp<TextStyle>, colors: Colors, font?: FontFamilies): StyleProp<TextStyle> {
-  const base: TextStyle = { color: colors.text };
-  if (!font) return [base, style];
+type Theme = ReturnType<typeof useTheme>;
 
-  // Custom fonts have one file per weight: pick the file, and cancel the synthetic weight.
-  const flat = StyleSheet.flatten(style) ?? {};
+// Custom fonts have one file per weight: pick the file, and cancel the synthetic weight.
+function fontOverrides(flat: TextStyle, font: FontFamilies): TextStyle {
   const bold = flat.fontWeight === "bold" || Number(flat.fontWeight) >= 600;
   const italic = flat.fontStyle === "italic";
-  const fontFamily = italic ? font.italic : bold ? font.bold : font.regular;
-  return [base, style, { fontFamily, fontWeight: "normal", fontStyle: "normal" }];
+  return {
+    fontFamily: italic ? font.italic : bold ? font.bold : font.regular,
+    fontWeight: "normal",
+    fontStyle: "normal",
+  };
+}
+
+function themed(style: StyleProp<TextStyle>, theme: Theme): StyleProp<TextStyle> {
+  const { colors, font, fontScale } = theme;
+  const flat = StyleSheet.flatten(style) ?? {};
+
+  const overrides: TextStyle = {
+    // 14 is React Native's default text size, used when a style doesn't set one.
+    fontSize: (flat.fontSize ?? 14) * fontScale,
+    ...(flat.lineHeight ? { lineHeight: flat.lineHeight * fontScale } : {}),
+    ...(font ? fontOverrides(flat, font) : {}),
+  };
+
+  return [{ color: colors.text }, style, overrides];
 }
 
 export function Text({ style, ...props }: TextProps) {
-  const { colors, font } = useTheme();
-  return <RNText {...props} style={themed(style, colors, font)} />;
+  const theme = useTheme();
+  return <RNText {...props} style={themed(style, theme)} />;
 }
 
 export function TextInput({ style, ...props }: TextInputProps) {
-  const { colors, font } = useTheme();
+  const theme = useTheme();
   return (
-    <RNTextInput placeholderTextColor={colors.textFaint} {...props} style={themed(style, colors, font)} />
+    <RNTextInput placeholderTextColor={theme.colors.textFaint} {...props} style={themed(style, theme)} />
   );
 }

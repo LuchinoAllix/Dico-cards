@@ -61,3 +61,16 @@ export const FONT_ASSETS = {
 export function getFamilies(id: FontId): FontFamilies | undefined {
   return FONT_OPTIONS.find((f) => f.id === id)?.families;
 }
+
+export type FontSizeId = "small" | "default" | "large" | "xlarge";
+
+export const FONT_SIZE_OPTIONS: { id: FontSizeId; label: string; scale: number }[] = [
+  { id: "small", label: "Small", scale: 0.9 },
+  { id: "default", label: "Default", scale: 1 },
+  { id: "large", label: "Large", scale: 1.15 },
+  { id: "xlarge", label: "Extra large", scale: 1.3 },
+];
+
+export function getFontScale(id: FontSizeId): number {
+  return FONT_SIZE_OPTIONS.find((o) => o.id === id)?.scale ?? 1;
+}

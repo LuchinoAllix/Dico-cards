@@ -2,15 +2,17 @@ import { useMemo } from "react";
 import { useColorScheme } from "react-native";
 import { useAppearanceStore } from "../state/appearance";
 import { darkColors, lightColors, type Colors } from "./colors";
-import { getFamilies } from "./fonts";
+import { getFamilies, getFontScale } from "./fonts";
 
 export function useTheme() {
   const scheme = useColorScheme() === "dark" ? "dark" : "light";
   const fontId = useAppearanceStore((s) => s.font);
+  const sizeId = useAppearanceStore((s) => s.fontSize);
   return {
     scheme,
     colors: scheme === "dark" ? darkColors : lightColors,
     font: getFamilies(fontId), // undefined = system font
+    fontScale: getFontScale(sizeId),
   };
 }
 

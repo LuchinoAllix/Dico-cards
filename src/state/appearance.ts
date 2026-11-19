@@ -1,14 +1,14 @@
 import { Appearance } from "react-native";
 import { create } from "zustand";
 import Storage from "expo-sqlite/kv-store";
-import { FONT_OPTIONS, type FontId } from "../theme/fonts";
+import { FONT_OPTIONS, FONT_SIZE_OPTIONS, type FontId, type FontSizeId } from "../theme/fonts";
 
 export type ThemePreference = "system" | "light" | "dark";
 const THEMES: ThemePreference[] = ["system", "light", "dark"];
 
 // null gives control back to the phone's setting.
 function applyTheme(pref: ThemePreference) {
-  Appearance.setColorScheme(pref === "system" ? "auto" : pref);
+  Appearance.setColorScheme(pref === "system" ? 'auto' : pref);
 }
 
 function initialTheme(): ThemePreference {
@@ -21,19 +21,27 @@ function initialFont(): FontId {
   return FONT_OPTIONS.find((f) => f.id === stored)?.id ?? "system";
 }
 
+function initialFontSize(): FontSizeId {
+  const stored = Storage.getItemSync("fontSize");
+  return FONT_SIZE_OPTIONS.find((o) => o.id === stored)?.id ?? "default";
+}
+
 const startTheme = initialTheme();
 applyTheme(startTheme); // runs once, when the app starts
 
 interface AppearanceState {
   theme: ThemePreference;
   font: FontId;
+  fontSize: FontSizeId;
   setTheme: (theme: ThemePreference) => void;
   setFont: (font: FontId) => void;
+  setFontSize: (size: FontSizeId) => void;
 }
 
 export const useAppearanceStore = create<AppearanceState>((set) => ({
   theme: startTheme,
   font: initialFont(),
+  fontSize: initialFontSize(),
   setTheme: (theme) => {
     Storage.setItemSync("theme", theme);
     applyTheme(theme);
@@ -42,5 +50,9 @@ export const useAppearanceStore = create<AppearanceState>((set) => ({
   setFont: (font) => {
     Storage.setItemSync("font", font);
     set({ font });
+  },
+  setFontSize: (fontSize) => {
+    Storage.setItemSync("fontSize", fontSize);
+    set({ fontSize });
   },
 }));

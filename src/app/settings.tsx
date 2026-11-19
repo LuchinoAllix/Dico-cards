@@ -16,7 +16,7 @@ import {
 } from "../db/settings";
 import { useAppearanceStore, type ThemePreference } from "../state/appearance";
 import type { Colors } from "../theme/colors";
-import { FONT_OPTIONS, type FontId } from "../theme/fonts";
+import { FONT_OPTIONS, FONT_SIZE_OPTIONS, type FontId, type FontSizeId } from "../theme/fonts";
 import { useTheme, useThemedStyles } from "../theme/useTheme";
 
 interface GroupProps<T extends string | number> {
@@ -70,6 +70,9 @@ export default function SettingsScreen() {
   const [retention, setRetentionState] = useState<number | null>(null);
   const [sessionSize, setSessionSizeState] = useState<number | null>(null);
 
+  const fontSize = useAppearanceStore((s) => s.fontSize);
+  const setFontSize = useAppearanceStore((s) => s.setFontSize);
+
   useEffect(() => {
     Promise.all([getRecentDays(), getRetention(), getSessionSize()]).then(([d, r, s]) => {
       setRecentDaysState(d);
@@ -90,15 +93,23 @@ export default function SettingsScreen() {
         onChange={setTheme}
       />
 
-      <View>
-        <OptionGroup<FontId>
-          title="Font"
-          options={FONT_OPTIONS.map((f) => f.id)}
-          value={font}
-          format={(id) => FONT_OPTIONS.find((f) => f.id === id)?.label ?? id}
-          onChange={setFont}
-        />
-      </View>
+      <OptionGroup<FontId>
+        title="Font"
+        options={FONT_OPTIONS.map((f) => f.id)}
+        value={font}
+        format={(id) => FONT_OPTIONS.find((f) => f.id === id)?.label ?? id}
+        onChange={setFont}
+      />
+
+      <OptionGroup<FontSizeId>
+        title="Text size"
+        options={FONT_SIZE_OPTIONS.map((o) => o.id)}
+        value={fontSize}
+        format={(id) => FONT_SIZE_OPTIONS.find((o) => o.id === id)?.label ?? id}
+        onChange={setFontSize}
+      />
+
+      <Text style={styles.preview}>"Preview text"</Text>
 
       <OptionGroup<number>
         title='Words count as "Recent" for'
