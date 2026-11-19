@@ -1,7 +1,7 @@
+import { FontAwesome } from "@expo/vector-icons";
+import { Stack } from "expo-router";
 import { useEffect, useState } from "react";
 import { Pressable, ScrollView, StyleSheet, View } from "react-native";
-import { Stack } from "expo-router";
-import { FontAwesome } from "@expo/vector-icons";
 import { Text } from "../components/Text";
 import {
   RECENT_DAYS_OPTIONS,
@@ -14,10 +14,10 @@ import {
   setRetention,
   setSessionSize,
 } from "../db/settings";
-import { FONT_OPTIONS, type FontId } from "../theme/fonts";
 import { useAppearanceStore, type ThemePreference } from "../state/appearance";
-import { useTheme, useThemedStyles } from "../theme/useTheme";
 import type { Colors } from "../theme/colors";
+import { FONT_OPTIONS, type FontId } from "../theme/fonts";
+import { useTheme, useThemedStyles } from "../theme/useTheme";
 
 interface GroupProps<T extends string | number> {
   title: string;
@@ -139,7 +139,7 @@ export default function SettingsScreen() {
 
 const makeStyles = (c: Colors) =>
   StyleSheet.create({
-    container: { padding: 16 },
+    container: { padding: 16, backgroundColor:c.background },
     group: { marginBottom: 28 },
     section: { fontSize: 14, color: c.textMuted, marginBottom: 4, textTransform: "uppercase" },
     note: { fontSize: 13, color: c.textFaint, marginBottom: 8 },

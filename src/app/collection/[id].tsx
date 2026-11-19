@@ -1,11 +1,11 @@
-import { useCallback, useState } from "react";
-import { FlatList, Pressable, StyleSheet } from "react-native";
 import { Stack, useFocusEffect, useLocalSearchParams, useRouter } from "expo-router";
-import { getRecentWords, getSavedWords, type SavedWord } from "../../db/saved";
+import { useCallback, useState } from "react";
+import { FlatList, Pressable, StyleSheet, View } from "react-native";
+import { Text } from "../../components/Text";
 import { getCollection, getWordsInCollection } from "../../db/collections";
+import { getRecentWords, getSavedWords, type SavedWord } from "../../db/saved";
 import { getRecentDays } from "../../db/settings";
 import { useLanguageStore } from "../../state/language";
-import { Text } from "../../components/Text";
 import type { Colors } from "../../theme/colors";
 import { useThemedStyles } from "../../theme/useTheme";
 
@@ -51,8 +51,10 @@ export default function WordListScreen() {
   );
 
   return (
-    <>
-      <Stack.Screen options={{ title }} />
+    <View style={styles.container}>
+      <Stack.Screen
+        options={{ title  }} 
+      />
       <FlatList
         data={words}
         keyExtractor={(item) => item.id}
@@ -68,12 +70,16 @@ export default function WordListScreen() {
         )}
         ListEmptyComponent={<Text style={styles.hint}>No words here yet.</Text>}
       />
-    </>
+    </View>
   );
 }
 
 const makeStyles = (c: Colors) =>
   StyleSheet.create({
+    container: {
+      flexGrow: 1,
+      padding: 16,
+      backgroundColor: c.background},
     row: {
       flexDirection: "row", justifyContent: "space-between", alignItems: "center",
       paddingVertical: 14, borderBottomWidth: StyleSheet.hairlineWidth, borderColor: c.border,

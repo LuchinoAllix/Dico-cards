@@ -1,18 +1,18 @@
+import { Stack, useLocalSearchParams, useRouter } from "expo-router";
 import { useEffect, useState } from "react";
 import { Pressable, ScrollView, StyleSheet, View } from "react-native";
-import { Stack, useLocalSearchParams, useRouter } from "expo-router";
 import { Rating } from "ts-fsrs";
-import { getEntry } from "../../db/search";
-import { getDueWords, type QuizSource } from "../../db/quiz";
-import { previewIntervals, reviewWord, type Grade } from "../../db/srs";
-import { getSessionSize } from "../../db/settings";
-import { getMode } from "../../quiz/modes";
-import type { SavedWord } from "../../db/saved";
-import type { DictionaryEntry } from "../../types/dictionary";
-import { useLanguageStore } from "../../state/language";
 import { Text } from "../../components/Text";
+import { getDueWords, type QuizSource } from "../../db/quiz";
+import type { SavedWord } from "../../db/saved";
+import { getEntry } from "../../db/search";
+import { getSessionSize } from "../../db/settings";
+import { previewIntervals, reviewWord, type Grade } from "../../db/srs";
+import { getMode } from "../../quiz/modes";
+import { useLanguageStore } from "../../state/language";
 import type { Colors } from "../../theme/colors";
 import { useThemedStyles } from "../../theme/useTheme";
+import type { DictionaryEntry } from "../../types/dictionary";
 
 
 function parseSource(param: string): QuizSource {
@@ -179,7 +179,7 @@ export default function StudyScreen() {
 
 const makeStyles = (c: Colors) =>
   StyleSheet.create({
-    container: { flex: 1 },
+    container: { flex: 1, backgroundColor:c.background},
     card: { padding: 24, paddingTop: 40 },
     footer: { padding: 16 },
     primaryButton: { backgroundColor: c.button, paddingVertical: 16, paddingHorizontal: 24, borderRadius: 10, alignItems: "center" },

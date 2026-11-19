@@ -61,7 +61,10 @@ export default function HomeScreen() {
   }
 
   return (
-    <ScrollView contentContainerStyle={styles.container}>
+    <ScrollView
+        style={styles.scrollView}
+        contentContainerStyle={styles.container}
+      >
       <Pressable style={styles.recentButton} onPress={() => router.push("/collection/recent-all")}>
         <FontAwesome name="clock-o" size={20} color={colors.primary} />
         <Text style={styles.recentText}>Recent words</Text>
@@ -107,7 +110,15 @@ export default function HomeScreen() {
 
 const makeStyles = (c: Colors) =>
   StyleSheet.create({
-    container: { padding: 16, backgroundColor: c.background},
+    scrollView: {
+      flex: 1,
+      backgroundColor: c.background,
+    },
+    container: {
+      flexGrow: 1,
+      padding: 16,
+      backgroundColor: c.background,
+    },
     recentButton: {
       flexDirection: "row", alignItems: "center", gap: 10, padding: 16, borderRadius: 12,
       borderWidth: 1, borderColor: c.border, backgroundColor: c.surface,

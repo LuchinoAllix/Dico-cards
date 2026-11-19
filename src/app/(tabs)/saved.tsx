@@ -1,21 +1,21 @@
+import { useFocusEffect, useRouter } from "expo-router";
 import { useCallback, useState } from "react";
 import { Alert, FlatList, Pressable, StyleSheet, View } from "react-native";
-import { useFocusEffect, useRouter } from "expo-router";
+import LanguagePicker from "../../components/LanguagePicker";
+import { Text, TextInput } from "../../components/Text";
 import {
   createCollection,
   deleteCollection,
+  getCollectionCounts,
   getCollections,
   renameCollection,
-  getCollectionCounts,
   type Collection,
 } from "../../db/collections";
-import { useLanguageStore } from "../../state/language";
-import LanguagePicker from "../../components/LanguagePicker";
 import { countRecentWords, countSavedWords } from "../../db/saved";
 import { getRecentDays } from "../../db/settings";
-import { Text, TextInput } from "../../components/Text";
+import { useLanguageStore } from "../../state/language";
 import type { Colors } from "../../theme/colors";
-import { useThemedStyles } from "../../theme/useTheme";
+import { useTheme, useThemedStyles } from "../../theme/useTheme";
 
 interface Row {
   id: string;
@@ -26,6 +26,7 @@ interface Row {
 
 export default function SavedScreen() {
   const styles = useThemedStyles(makeStyles); 
+  const { colors } = useTheme();
   const router = useRouter();
   const [collections, setCollections] = useState<Collection[]>([]);
   const [name, setName] = useState("");
@@ -115,7 +116,7 @@ export default function SavedScreen() {
           value={name}
           onChangeText={setName}
           placeholder={editingId === null ? "New collection..." : "New name..."}
-          placeholderTextColor="#888"
+          placeholderTextColor={colors.textFaint}
         />
         <Pressable style={styles.button} onPress={submit}>
           <Text style={styles.buttonText}>{editingId === null ? "Add" : "Rename"}</Text>
@@ -154,7 +155,7 @@ export default function SavedScreen() {
 
 const makeStyles = (c: Colors) =>
   StyleSheet.create({
-    container: { flex: 1, padding: 16 },
+    container: { flex: 1, padding: 16, backgroundColor: c.background },
     inputRow: { flexDirection: "row", alignItems: "center", gap: 8, marginBottom: 12 },
     input: {
       flex: 1, borderWidth: 1, borderColor: c.border, backgroundColor: c.surface, color: c.text,

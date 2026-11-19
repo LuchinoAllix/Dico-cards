@@ -1,16 +1,17 @@
+import { useRouter } from "expo-router";
 import { useEffect, useState } from "react";
 import { FlatList, Pressable, StyleSheet, View } from "react-native";
-import { useRouter } from "expo-router";
-import { searchWords } from "../../db/search";
-import type { DictionaryEntry } from "../../types/dictionary";
 import LanguagePicker from "../../components/LanguagePicker";
-import { useLanguageStore } from "../../state/language";
 import { Text, TextInput } from "../../components/Text";
+import { searchWords } from "../../db/search";
+import { useLanguageStore } from "../../state/language";
 import type { Colors } from "../../theme/colors";
-import { useThemedStyles } from "../../theme/useTheme";
+import { useThemedStyles, useTheme } from "../../theme/useTheme";
+import type { DictionaryEntry } from "../../types/dictionary";
 
 export default function DictionaryScreen() {
   const styles = useThemedStyles(makeStyles);
+  const { colors } = useTheme();
   const router = useRouter();
   const [query, setQuery] = useState("");
   const [results, setResults] = useState<DictionaryEntry[]>([]);
@@ -37,7 +38,7 @@ export default function DictionaryScreen() {
         autoCapitalize="none"
         autoCorrect={false}
         clearButtonMode="while-editing"
-        placeholderTextColor="#888"
+        placeholderTextColor={colors.textFaint}
       />
 
       <FlatList
@@ -67,7 +68,7 @@ export default function DictionaryScreen() {
 
 const makeStyles = (c: Colors) =>
   StyleSheet.create({
-    container: { flex: 1, padding: 16 },
+    container: { flex: 1, padding: 16, backgroundColor: c.background},
     input: {
       borderWidth: 1, borderColor: c.border, backgroundColor: c.surface, color: c.text,
       borderRadius: 8, padding: 12, fontSize: 16, marginBottom: 12,

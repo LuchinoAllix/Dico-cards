@@ -1,3 +1,5 @@
+import { FontAwesome } from "@expo/vector-icons";
+import { Stack, useLocalSearchParams } from "expo-router";
 import { useEffect, useState } from "react";
 import {
   Alert,
@@ -10,10 +12,7 @@ import {
   TextInput,
   View,
 } from "react-native";
-import { Stack, useLocalSearchParams } from "expo-router";
-import { FontAwesome } from "@expo/vector-icons";
-import { getEntry } from "../../db/search";
-import { isSaved, saveWord, unsaveWord } from "../../db/saved";
+import { Text } from "../../components/Text";
 import {
   addToCollection,
   createCollection,
@@ -22,10 +21,11 @@ import {
   removeFromCollection,
   type Collection,
 } from "../../db/collections";
-import type { DictionaryEntry } from "../../types/dictionary";
-import { Text } from "../../components/Text";
+import { isSaved, saveWord, unsaveWord } from "../../db/saved";
+import { getEntry } from "../../db/search";
 import type { Colors } from "../../theme/colors";
-import { useThemedStyles, useTheme } from "../../theme/useTheme";
+import { useTheme, useThemedStyles } from "../../theme/useTheme";
+import type { DictionaryEntry } from "../../types/dictionary";
 
 export default function WordScreen() {
   const styles = useThemedStyles(makeStyles);
@@ -96,8 +96,23 @@ export default function WordScreen() {
 
   return (
     <>
-      <ScrollView contentContainerStyle={styles.container}>
-        <Stack.Screen options={{ title: entry.headword }} />
+      <ScrollView
+        style={styles.scrollView}
+        contentContainerStyle={styles.container}
+      >
+        <Stack.Screen
+          options={{
+            title: entry.headword,
+            headerStyle: {
+              backgroundColor: colors.surface,
+            },
+            headerTintColor: colors.text,
+            headerTitleStyle: {
+              color: colors.text,
+            },
+            headerShadowVisible: false,
+          }}
+        />
 
         <View style={styles.header}>
           <View>
@@ -168,7 +183,7 @@ export default function WordScreen() {
                 value={newName}
                 onChangeText={setNewName}
                 placeholder="New collection..."
-                placeholderTextColor="#888"
+                placeholderTextColor={colors.textFaint}
               />
               <Pressable style={styles.saveButton} onPress={handleCreate}>
                 <Text style={styles.saveText}>Add</Text>
@@ -187,7 +202,8 @@ export default function WordScreen() {
 
 const makeStyles = (c: Colors) =>
   StyleSheet.create({
-    container: { padding: 16 },
+    scrollView: { flex: 1, backgroundColor: c.background },
+    container: { padding: 16, flexGrow: 1, backgroundColor: c.background },
     header: { flexDirection: "row", justifyContent: "space-between", alignItems: "center" },
     headword: { fontSize: 28, fontWeight: "700" },
     pron: { fontSize: 16, color: c.textMuted, marginTop: 2 },
